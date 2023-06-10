@@ -1,7 +1,7 @@
 # cyberjūtsu
 Cyberjūtsu is a new way to teach cybersecurity inspired from martial arts trainings.
 
-More information at http://cyberjutsu.education
+Register to http://cyberjutsu.education for bootcamps or stages.
 
 
 ## What is cyberjūtsu ?

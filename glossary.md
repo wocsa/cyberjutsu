@@ -36,9 +36,10 @@ Most of terms related to methods, way of work, mindset, rules are get from japan
 - <a name="tsune">Tsune</a> 常 (training habits)
   - <b>Continuous practice as a permanent ritual to make progress.</b> 
   Take time to learn techniques properly, improve your practice with partners, transform practice into habits.
-- <a name="shuhari">Shuhari</a> 守破離 (learn,disrupt,transcend)
-  - <b>Continuous practice as a permanent ritual to make progress.</b> 
-  Take time to learn techniques properly, improve your practice with partners, transform practice into habits [FR: Tsune a matter of habits](https://www.lionelfroidure.com/tsune-karate-habitude/) -- Lionel Froidure 
+- <a name="shuhari">Shuhari</a> 守破離 (apply,detach,transcend)
+  - shu (守) "obey" learning fundamentals, techniques, heuristics, proverbs
+  - ha (破) "detach", "digress" breaking with tradition—detachment from the illusions of self, to break with tradition - to find exceptions to traditional wisdom, to find new approaches.
+  - ri (離) transcend, become the way, there are no techniques or proverbs, all moves are natural, becoming one with spirit alone without clinging to forms;
 - <a name="shin-gi-tai">Shin Gi Tai</a> 心技体 (mind,technique,fitness)
   - Shin represents mind, heart and good spirit. Gi represents skill, knowledge and experience. Tai represents the body and physical effort. Those 3 elements must be trained together in order to reach [Maximum efficiency](#seiryoku-zen-yo)
 - <a name="tsukuri-kusushi-kake">Tsukuri Kuzushi Kake</a> 作り 崩し 懸け (construct/prepare, destroy/orient, exploit/execute)

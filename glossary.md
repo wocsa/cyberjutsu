@@ -45,7 +45,14 @@ Most of terms related to methods, way of work, mindset, rules are get from japan
   - Tsukuri means prepare or construct Kuzushi and Kake to reach your goal
   - Kuzushi means to destroy your opponent's posture to obtain the situation you expect
   - Kake means exploit Kuzushi to execute your technique to reach your goal.
-
+- <a name="mikiri">Mikiri</a> 見切る (perception)
+  - Evaluate opponent and identify opportunities and weaknesses. Observe moves and posture.
+- <a name="go-no-sen">Go No Sen</a> 後の先 (post-initiative)
+  - Combatant takes the initiative in a fight after the opponent has already started an attack.
+- <a name="sen-no-sen">Sen No Sen</a> 先の先 (initiative)
+  - Start action in defense the moment you have an inkling of the offensive of your opponent
+- <a name="sen-sen-no-sen">Sen sen no sen</a> 先先の先 (superior initiative)
+  - Superior initiative is given play in a delicate situation where one confronts an opponent who intends to attack and gains mastery over them by subtly guessing their mentality and forestalling their actions.
 
 ## Cyber terms
 - <a name="cyberdeck">Cyberdeck</a> (practitioner material)
@@ -68,6 +75,10 @@ Most of terms related to methods, way of work, mindset, rules are get from japan
 [Glossary of Judo Terms](https://www.judo-ch.jp/english/dictionary/terms/) -- Judo Channel
 
 [Judo Pedagogy](https://apaponxbole.weebly.com/pedagogy.html) -- The Story of Judo
+
+[Main Principles of Traditional Karate and technical applications](https://thetraditioncontinue.com/main-principles-of-traditional-karate-and-technical-applications/)
+
+[Sen (先) - Initiative](https://www.tomikiaikido.ie/go-no-sen-sen-no-sen)
 
 [FR: Lionel Froidure Blog](https://www.lionelfroidure.com) -- Lionel Froidure
 

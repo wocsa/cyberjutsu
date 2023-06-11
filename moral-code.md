@@ -22,12 +22,12 @@ Moral Code describe how practitioner (Saibā-jūtsu-ka) サイバー述家 behav
 
     Honor under the name
 
-## Humbleness (Kenkyo) 謙虚
+## Humility ([Kenkyo](https://interculturalwordsensei.org/kenkyo/)) 謙虚 
 
     “Ken” means “humble" or “humility”
     “Kyo” means “void", "empty"
 
-    Put your ego aside to get along with the others.
+    Put your ego aside to get along with the others. 
 
 ## Self-control (Shisei) 自制
 

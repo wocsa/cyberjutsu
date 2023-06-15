@@ -14,6 +14,12 @@ Most of terms related to methods, way of work, mindset, rules are get from japan
   - A Cyberjūtsu technique
 - <a name="dojo">Dojo</a> 道場 (Practice space)
   - Where Cyberjūtsu is practiced by Cyberjūtsuka
+- <a name="hadjime">Hadjime</a> はじめ (Beginning)
+  - Beginning of the activity
+- <a name="matte">Matte</a> 待て (Stop,Break)
+  - Stop, break of the activity
+- <a name="sore-made">Sore made</a> 其れ迄に (End) 
+  - End of the activity
 - <a name="ippon">Ippon</a> 一本 (Knockout)
   - Ippon is the highest score a fighter can achieve in a Japanese martial arts (judo, karate or jujitsu)
 - <a name="oasaekomi">Osae Komi</a> 押さえ()込み (Full control)
@@ -57,7 +63,7 @@ Most of terms related to methods, way of work, mindset, rules are get from japan
 
 ## Cyber terms
 - <a name="cyberdeck">Cyberdeck</a> (practitioner material)
-  - Cyberdeck contain the same hardware and software for all practitioner in order to ensure the progression of people instead of software or hardware. A cyberdeck is composed by a screen, a computer, a keyboard, a network connection.
+  - Cyberdeck contain the same hardware and software for all practitioner in order to ensure the progression of people instead of software or hardware. A cyberdeck is composed by a screen, a computer, a keyboard, a network connection. See [cyberdeck project](https://github.com/wocsa/cyberdeck)
 - <a name="port">Port</a> (network connection number)
   - a port is a network port opened on cyberdeck to accept incoming connections
 - <a name="cli">Command Line Interface</a> (cli)

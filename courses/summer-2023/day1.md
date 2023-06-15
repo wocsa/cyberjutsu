@@ -5,3 +5,7 @@ Introduction from WOCSA on [principle](../../principle.md).
 Morning Karate course with [Lionel Froidure]() about [Mikiri](../../glossary.md#mikiri) concept.
 
 ## Warmup
+
+## Uchikomi
+
+## 

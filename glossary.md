@@ -42,11 +42,11 @@ Most of terms related to methods, way of work, mindset, rules are get from japan
   - One to one sparring where partners attempt to resist and counter each other's techniques. 
   *The term is used in aikido, judo, and Brazilian jiu-jitsu dojos outside Japan. In Japan, this form of practice is called taninzu-gake (多人数掛け), which literally means multiple attackers. In karate the word kumite is usually used.* [wikipedia](https://en.wikipedia.org/wiki/Randori)
 - <a name="uchikomi">Uchikomi</a> 打ち込み (Repetition training) 
-  - Repeated practice with a partner
+  - Repeated [waza](#waza) practice with a partner
 - <a name="nagekomi">Nagekomi</a> 打ち込み (Repetition training) 
-  - Repeated practice with a partner
+  - Repeated [waza](#waza) practice with a partner including [kake](#tsukuri-kusushi-kake)
 - <a name="yakusoku-geiko">Yakusoku geiko</a> 約束稽古 (agreed-upon practice)
-  - executing and receiving predefined techniques to improve by numerous repitition through interaction with partner.
+  - Predefined sequence or rules to execute with a partner in a dynamic and continuous way.
 - <a name="seiryoku-zen-yo">Seiryoku zen yo</a> 精力最活用 (Maximum efficiency)
   - <b>Maximum efficiency with the minimum effort.</b> Use effective and relevant combination of will, technique and body adapted to the moment to get the maximum expected effect with the minimum of energy. 
 - <a name="jita-koei">Jita Kyôei</a> 自他共栄 (Mutual aid)

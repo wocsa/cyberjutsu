@@ -12,8 +12,20 @@ Most of terms related to methods, way of work, mindset, rules are get from japan
   - A Cyberjūtsu practitioner
 - <a name="waza">Waza</a> 技 (technique)
   - A Cyberjūtsu technique
+- <a name="uke">Uke</a> 受け (defender,receiver)
+  - The Cyberjūtsuka who receive of defend against the action
+- <a name="tori">Tori</a> 受け (attacker,proponent)
+  - The Cyberjūtsuka who initiate or attack.
+- <a name="uke-waza">Uke Waza</a> 受け技 (defense technique)
+  - Category of Cyberjūtsu techniques to defend
+- <a name="tori-waza">Tori Waza</a> 取り技 (attack technique)
+  - Category of Cyberjūtsu techniques to attack
+- <a name="yomi-waza">Yomi Waza</a> 読み技 (monitoring technique)
+  - Category of Cyberjūtsu technique to monitor activity
 - <a name="dojo">Dojo</a> 道場 (Practice space)
   - Where Cyberjūtsu is practiced by Cyberjūtsuka
+- <a name="rei">Rei</a> 礼 (welcome,respect)
+  - Welcome others with respect before or after practicing
 - <a name="hadjime">Hadjime</a> はじめ (Beginning)
   - Beginning of the activity
 - <a name="matte">Matte</a> 待て (Stop,Break)
@@ -30,6 +42,8 @@ Most of terms related to methods, way of work, mindset, rules are get from japan
   - One to one sparring where partners attempt to resist and counter each other's techniques. 
   *The term is used in aikido, judo, and Brazilian jiu-jitsu dojos outside Japan. In Japan, this form of practice is called taninzu-gake (多人数掛け), which literally means multiple attackers. In karate the word kumite is usually used.* [wikipedia](https://en.wikipedia.org/wiki/Randori)
 - <a name="uchikomi">Uchikomi</a> 打ち込み (Repetition training) 
+  - Repeated practice with a partner
+- <a name="nagekomi">Nagekomi</a> 打ち込み (Repetition training) 
   - Repeated practice with a partner
 - <a name="yakusoku-geiko">Yakusoku geiko</a> 約束稽古 (agreed-upon practice)
   - executing and receiving predefined techniques to improve by numerous repitition through interaction with partner.
@@ -60,6 +74,8 @@ Most of terms related to methods, way of work, mindset, rules are get from japan
   - Start action in defense the moment you have an inkling of the offensive of your opponent
 - <a name="sen-sen-no-sen">Sen sen no sen</a> 先先の先 (superior initiative)
   - Superior initiative is given play in a delicate situation where one confronts an opponent who intends to attack and gains mastery over them by subtly guessing their mentality and forestalling their actions.
+- <a name="mokuso">Mokusō</a> 黙想 (meditation,mind training)
+  - Introspect moment to train mind and fix knowledge from experience practiced earlier or projection
 
 ## Cyber terms
 - <a name="cyberdeck">Cyberdeck</a> (practitioner material)
@@ -94,6 +110,8 @@ Most of terms related to methods, way of work, mindset, rules are get from japan
 [FR: Itsutsu no kata -logie](https://corpsjapon.hypotheses.org/) -- Yves Cadot
 
 [FR: Seiryoku zenyo](https://www.judopourtous.com/PagesAnnexees/SeiryokuZenyo.htm) -- Yves Cadot
+
+[FR: Karate Do Terms](https://toulousekarate.clubeo.com/page/les-termes-utilises-en-japonais-en-karate-do.html)
 
 
 

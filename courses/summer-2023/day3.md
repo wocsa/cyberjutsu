@@ -18,7 +18,7 @@ Morning Jujitsu course with [Jean-Louis Mourlan](https://fr.linkedin.com/in/jean
 ### Typing
 * put your fingers on each zone of the keyboard
 * type all keys one by one zone by zone (all key for one finger then move to next) backward and forward
-* type as fast as possible command said by the teacher then read the first word on the prompted result (x10)## Uchikomi
+* type as fast as possible command said by the teacher then read the first word on the prompted result (x10)
 
 ## Uchikomi
 

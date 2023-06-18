@@ -25,6 +25,18 @@ Morning Karate course with [Lionel Froidure]() about [Mikiri](../../glossary.md#
 
 ## Uchikomi
 
+### network scan
+
+#### tori
+*tori* try to find open ports on cyberdeck of *uke*.
+```bash
+nmap -p$FIRST_PORT,$LAST_PORT $UKE_IP_ADRESS 
+```
+#### uke
+*uke* try to find when *tori* is performing scan and on what
+```bash
+tail -f /var/log/syslog
+```
 ## Nagekomi
 
 ## Yakusoku geiko

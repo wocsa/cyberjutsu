@@ -39,16 +39,6 @@ peekfd -8cnd $PID 0 1 2
    ss -tulpn
    ```
 
-   ```bash
-
-   ```
-
-
-   ```bash
-
-   ```
-
-
 4. processes
    1. list processes
 ```bash

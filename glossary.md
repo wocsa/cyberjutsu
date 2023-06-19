@@ -7,13 +7,13 @@ Most of terms related to methods, way of work, mindset, rules are get from japan
 ## Martial Arts Terms used in Cyberjūtsu
 
 - <a name="dojo">Dojo</a> 道場 (Practice space)
-  - Where Cyberjūtsu is practiced by Cyberjūtsuka
+  - Where Cyberjūtsu is practiced by Cyberjūtsuka through Cyberdeck (usually an isolated network)
 - <a name="cyberjutsuka">Cyberjutsuka</a> サイバー述家 (Practitioner)
   - A Cyberjūtsu practitioner
 - <a name="waza">Waza</a> 技 (technique)
   - A Cyberjūtsu technique
 - <a name="uke">Uke</a> 受け (defender,receiver)
-  - The Cyberjūtsuka who receive of defend against the action
+  - The Cyberjūtsuka who receive or defend against the action
 - <a name="tori">Tori</a> 受け (attacker,proponent)
   - The Cyberjūtsuka who initiate or attack.
 - <a name="uke-waza">Uke Waza</a> 受け技 (defense technique)

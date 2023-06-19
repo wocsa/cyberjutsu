@@ -13,11 +13,7 @@
    ```
 
 2. sessions (who is doing what)
-   1. who 
-   ```bash
-   who
-   ```
-
+   1. <a href="who">who</a> 
    ```bash
    w
    ```
@@ -116,8 +112,21 @@ tcpdump -ttttnnvvSX -c$NUMBER_OF_PACKETS_TO_READ src $SOURCE_IP_ADDRESS and dst 
 
 1. discovery
    1. network scan
+   ```bash
+   nmap $UKE_IP_ADRESS
+   ```
    2. 
 
 
 
 ## Uke Waza</a> 受け技 (defense technique)
+
+1. sessions
+   1. kill session
+   get tty with [who](yomi waza who) then
+   ```bash
+   pkill -9 -t $TTY
+   ```
+2. ports
+3. processes
+4. communications

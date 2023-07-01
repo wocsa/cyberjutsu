@@ -10,6 +10,8 @@ Most of terms related to methods, way of work, mindset, rules are get from japan
   - Where Cyberjūtsu is practiced by Cyberjūtsuka through Cyberdeck (usually an isolated network)
 - <a name="cyberjutsuka">Cyberjutsuka</a> サイバー述家 (Practitioner)
   - A Cyberjūtsu practitioner
+- <a name="sensei">Sensei</a> 先生 (instructor)
+  - Master of cyberjutsu. Instructor of the course.
 - <a name="waza">Waza</a> 技 (technique)
   - A Cyberjūtsu technique
 - <a name="uke">Uke</a> 受け (defender,receiver)
@@ -18,18 +20,22 @@ Most of terms related to methods, way of work, mindset, rules are get from japan
   - The Cyberjūtsuka who initiate or attack.
 - <a name="uke-waza">Uke Waza</a> 受け技 (defense technique)
   - Category of Cyberjūtsu techniques to defend
-- <a name="tori-waza">Tori Waza</a> 取り技 (attack technique)
+- <a name="kogeki-waza">Kōgeki Waza</a> 攻撃技 (attack technique)
   - Category of Cyberjūtsu techniques to attack
+- <a name="suki">Suki</a> 隙技 (weakness,opening)
+  - Opening or a Weakness in one's technique or posture
 - <a name="yomi-waza">Yomi Waza</a> 読み技 (monitoring technique)
   - Category of Cyberjūtsu technique to monitor activity
 - <a name="dojo">Dojo</a> 道場 (Practice space)
   - Where Cyberjūtsu is practiced by Cyberjūtsuka
 - <a name="rei">Rei</a> 礼 (welcome,respect)
-  - Welcome others with respect before or after practicing
+  - Welcome others with respect before or after practicing, in physically it's done with bow *Ritsu Rei* or by *Rei* word when communicating.
 - <a name="hadjime">Hadjime</a> はじめ (Beginning)
   - Beginning of the activity
 - <a name="matte">Matte</a> 待て (Stop,Break)
   - Stop, break of the activity
+- <a name="sono-mama">Sono mama</a> 其のまま (Freeze 
+  - Freeze the situation. No action. Hold the position.
 - <a name="sore-made">Sore made</a> 其れ迄に (End) 
   - End of the activity
 - <a name="ippon">Ippon</a> 一本 (Knockout)
@@ -112,6 +118,8 @@ Most of terms related to methods, way of work, mindset, rules are get from japan
 [FR: Seiryoku zenyo](https://www.judopourtous.com/PagesAnnexees/SeiryokuZenyo.htm) -- Yves Cadot
 
 [FR: Karate Do Terms](https://toulousekarate.clubeo.com/page/les-termes-utilises-en-japonais-en-karate-do.html)
+
+[Aikido Glossary](https://www.martialartsplanet.com/threads/japanese-terms-with-kanji.59429/)
 
 
 

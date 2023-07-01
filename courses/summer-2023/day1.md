@@ -70,7 +70,7 @@ Jun 23 13:03:30 cyberjutsu1 kernel: [ 3108.070333] INCOMING connection IN=wlan0 
 *Tori* try to scan ports one by one randomly and *Uke* try to guess the number. 
 After a while roles are exchanged.
 
-### Session Shoulder Surfing
+### Log Monitoring
 Tori and Uke split screen with two cli.
 ```bash
 screen
@@ -107,7 +107,35 @@ htop
 ```
 #### Tori
 
-*Tori* look at Yomi Waza Log to catch *Uke* ssh connection (from right side of the screen).
+*Tori* look at Yomi Waza Log Monitoring to catch *Uke* ssh connection (from right side of the screen).
+
+*Tori* list active sessions to identify TTY related to *Uke* ssh connection.
+```bash
+w
+```
+
+### Session Shoulder Surfing
+
+#### Uke
+
+*Uke* connect via ssh to *Tori* cyberdeck
+```bash
+ssh $TORI_USERNAME@$TORI_IP_ADDRESS
+```
+then run commands during *Tori* practice.
+
+examples:
+```bash
+ls
+pwd
+uptime
+uname
+netstat
+htop
+```
+#### Tori
+
+*Tori* look at Yomi Waza Log Monitoring to catch *Uke* ssh connection (from right side of the screen).
 
 *Tori* list active sessions to identify TTY related to *Uke* ssh connection.
 ```bash

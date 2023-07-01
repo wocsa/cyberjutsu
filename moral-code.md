@@ -16,7 +16,13 @@ Moral Code describe how practitioner (Saibā-jūtsu-ka) サイバー述家 behav
     誠 “Makato” means “truth” or “reality”
 
     To be in the reality and the truth of the moment.
+## Etiquette (Reigi) 礼儀
+    “Rei” means “ceremony” or “salute”
+    “Gi” means “rule", "affair”
 
+    Ceremony matter live it internaly and externaly. 
+    Rules that encourage good behavior during the practice with the others and for yourself.
+    It's a framework of rituals for the practice of cyberjutsu.
 ## Honor (Meiyo) 名誉
 
     “Mei” means “name” or “title”

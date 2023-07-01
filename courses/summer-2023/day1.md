@@ -156,9 +156,9 @@ peekfd -8cnd $PID 0 1 2
 *Tori* try to connect run the commands given by Sensei then disconnect without been observed by *Uke*
 After a while roles are exchanged.
 
-#### Process Termination [D3-PT](https://d3fend.mitre.org/technique/d3f:ProcessTermination/)
+### Process Termination [D3-PT](https://d3fend.mitre.org/technique/d3f:ProcessTermination/)
 
-##### Uke
+#### Uke
 
 *Uke* connect via ssh to *Tori* cyberdeck
 ```bash
@@ -175,7 +175,7 @@ uname
 netstat
 htop
 ```
-##### Tori
+#### Tori
 
 *Tori* look at Yomi Waza Log to catch *Uke* ssh connection (from right side of the screen).
 
@@ -195,7 +195,7 @@ kill -9 $PID
 
 ### Uchikomi (x10 by exercise by partner)
 
-## Yakusoku geiko
+### Yakusoku geiko
 *Tori* try to connect run the commands given by Sensei then disconnect without been disconnected by *Uke*
 After a while roles are exchanged.
 ## Randori

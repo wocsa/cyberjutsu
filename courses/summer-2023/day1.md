@@ -27,11 +27,11 @@ Morning Karate course with [Lionel Froidure]() about [Mikiri](../../glossary.md#
 
 ## Uchikomi (x10 by exercise by partner)
 
-### Tori Waza
+### Kōgeki Waza
 
-#### network scan
+#### Network Service Discovery [T1046](https://attack.mitre.org/techniques/T1046/)
 ##### uke
-uke provide his cyberdeck ip adress to tori
+uke provide his cyberdeck ip address to tori
 ```bash
 ip -color=auto addr # or ip a
 ```
@@ -43,7 +43,7 @@ nmap $UKE_IP_ADRESS
 tori identify service keywords en port numbers.
 ### Yomi Waza
 
-#### log exercise 1
+#### Connection Attempt Analysis [D3-CAA](https://d3fend.mitre.org/technique/d3f:ConnectionAttemptAnalysis)
 ##### tori
 *tori* try to find when *uke* is performing scan
 ```bash
@@ -63,7 +63,7 @@ un 23 13:03:30 cyberjutsu1 kernel: [ 3108.070285] INCOMING connection IN=wlan0 O
 Jun 23 13:03:30 cyberjutsu1 kernel: [ 3108.070333] INCOMING connection IN=wlan0 OUT= MAC=b8:27:eb:c5:65:83:b8:27:eb:d7:b4:0f:08:00 SRC=192.168.2.240 DST=192.168.2.145 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=17630 DF PROTO=TCP SPT=60518 DPT=6668 WINDOW=64240 RES=0x00 SYN URGP=0
 ```
 
-#### log exercise 2
+#### Session Shoulder Surfing
 
 ##### tori
 *tori* try to find when *uke* is performing scan
@@ -100,7 +100,7 @@ tail -f /var/log/syslog
 ```
 *Ctrl+a* then *Tab* to return to available cli.
 
-#### shoulder surfing
+#### Remote Terminal Session Detection [D3-RTSD](https://d3fend.mitre.org/technique/d3f:RemoteTerminalSessionDetection)
 
 ##### Uke
 
@@ -136,9 +136,48 @@ ps -fat
 ```bash
 peekfd -8cnd $PID 0 1 2
 ```
-
 ## Yakusoku geiko
-partners freely practice as tori and uke waza prepared above.
+*Tori* try to connect run the commands given by teacher then disconnect without been observer by *Uke*
+
+#### Process Termination [D3-PT](https://d3fend.mitre.org/technique/d3f:ProcessTermination/)
+
+##### Uke
+
+*Uke* connect via ssh to *Tori* cyberdeck
+```bash
+ssh $TORI_USERNAME@$TORI_IP_ADDRESS
+```
+then run commands during *Tori* practice.
+
+examples:
+```bash
+ls
+pwd
+uptime
+uname
+netstat
+htop
+```
+##### Tori
+
+*Tori* look at Yomi Waza Log to catch *Uke* ssh connection (from right side of the screen).
+
+*Tori* list active sessions to identify TTY related to *Uke* ssh connection.
+```bash
+w
+```
+*Tori* list processes to identify PID related to TTY with STAT value starting with ```Ss```.
+```bash
+ps -fat
+```
+
+*Tori* kill the processus by it reference identifier (PID), so the session, so disconnect *Uke* from his cyberdeck.
+```bash
+kill -9 $PID
+```
+
+## Randori
+Try to disconnect other from all their sessions (local and remote).
 
 ## Cooldown
 

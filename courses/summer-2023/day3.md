@@ -16,15 +16,31 @@ Morning Jujitsu course with [Jean-Louis Mourlan](https://fr.linkedin.com/in/jean
 * with partner tori move fingers, uke must follow with the eyes
 
 ### Typing
-* put your fingers on each zone of the keyboard
-* type all keys one by one zone by zone (all key for one finger then move to next) backward and forward
-* type as fast as possible command said by the teacher then read the first word on the prompted result (x10)
+* put your fingers on each zone of the keyboard [see picture here Chapter 1, Sub Chapter 1](https://www.wikihow.com/Type#Learning-to-Type)
+* type all alphabet letter one by one zone by zone from left to right (all key for one finger then move to next) backward and forward [see picture here Chapter 1, Sub Chapter 4](https://www.wikihow.com/Type#Learning-to-Type) (x10)
+* with above method type as fast as possible command said by the teacher then press enter read the first word on the prompted result (x10)
+  * w, ls, cd, ps, dir, clear, echo, history, env, who, fortune , find 
+  * ps -aux, ls -lai, cd .., dir /*, htop
 
-## Uchikomi
+## Tsukuri
 
-## Nagekomi
+### http
+### Tori
+Uke change ports numbers of services.
 
-## Yakusoku geiko
+1. edit config file for http
+```
+sudo nano /etc/apache2/ports.conf
+```
+2. add a line to listen new port
+```
+Listen $PORT_NUMBER
+```
+3. save the file with *ctrl+x* then press *y*
+4. edit website config file
+```
+sudo nano /etc/apache2/sites-enabled/001-cyberjutsu.conf
+```
 
 ## Randori
 

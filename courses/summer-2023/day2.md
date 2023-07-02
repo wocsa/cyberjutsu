@@ -52,7 +52,7 @@ Then connect to each services with known credentials.
 ```ftp $UKE_IP_ADDRESS $UKE_PORT```
 then enter login then password
 ##### http connection
-```curl -XGET http://$UKE_LOGIN:$UKE_PASSWORD@$UKE_IP_ADRESS:$UKE_PORT```
+```curl -XGET http://$UKE_LOGIN:$UKE_PASSWORD@$UKE_IP_ADRESS:$UKE_PORT | lynx -stdin```
 
 ##### Uke
 Uke use Yomi Waza Log Monitoring to identify Tori connections.
@@ -89,10 +89,10 @@ kill -9 $PID
 ## Go No Sen
 
 ### Uke
-Uke performs (ssh connection)[#ssh-connection]
+Uke performs connection (ssh or ftp)
 ### Tori
 1. Tori counter with (Process Termination)[day1.md#process-termination-d3-pt]
-2. Tori performs (ssh connection)[#ssh-connection]
+2. Tori performs connection (ssh or ftp)
 3. Tori performs (Process Termination)[day1.md#process-termination-d3-pt] on local session of *Uke*
 
 ### Uchikomi (x10 by exercise by partner)
@@ -100,14 +100,18 @@ Uke performs (ssh connection)[#ssh-connection]
 ## Sen No Sen
 
 ### Uke
-Uke performs (ssh connection)[#ssh-connection]
+Uke performs connection
 ### Tori
-1. Tori performs (ssh connection)[#ssh-connection]
+1. Tori performs connection at the same time as Uke
 2. Tori performs (Process Termination)[day1.md#process-termination-d3-pt] on local session of *Uke*
 
 ### Uchikomi (x10 by exercise by partner)
 
 ## Randori
+first that success to reboot cyberdeck of the other with the command
+```bash
+reboot
+```
 
 ## Cooldown
 

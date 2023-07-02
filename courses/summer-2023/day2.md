@@ -43,21 +43,48 @@ tail -f /var/log/syslog
 ### Kōgeki Waza
 
 #### Credential Stuffing (T1110.004)[https://attack.mitre.org/techniques/T1110/004/]
-### Tori
+##### Tori
 Tori perform (network service discovery)[./day1.md#network-service-discovery-t1046] on service discovered listed below.
 Then connect to each services with known credentials.
-#### ssh connection
+##### ssh connection
 ```ssh -p $UKE_PORT $UKE_LOGIN@$UKE_IP_ADDRESS```
-#### ftp connection
+##### ftp connection
 ```ftp $UKE_IP_ADDRESS $UKE_PORT```
 then enter login then password
-#### http connection
+##### http connection
 ```curl -XGET http://$UKE_LOGIN:$UKE_PASSWORD@$UKE_IP_ADRESS:$UKE_PORT```
 
-### Uke
+##### Uke
 Uke use Yomi Waza Log Monitoring to identify Tori connections.
 
-### Uchikomi (x10 by exercise by partner)
+##### Uchikomi (x10 by exercise by partner)
+
+### Uke Waza
+
+#### Process Termination [D3-PT](https://d3fend.mitre.org/technique/d3f:ProcessTermination/)
+
+##### Uke
+
+*Uke* connect via ssh or ftp or http
+
+then run commands during *Tori* practice.
+
+##### Tori
+
+*Tori* look at Yomi Waza Log to catch *Uke* connection (from right side of the screen).
+
+*Tori* list active sessions to identify process to *Uke* connection and try to kill related process.
+
+###### ssh
+For ssh see (Day 1 - Process Termination)[https://github.com/wocsa/cyberjutsu/blob/main/courses/summer-2023/day1.md#process-termination-d3-pt]
+###### ftp
+```bash
+pure-ftpwho
+kill -9 $PID
+```
+
+
+###### ssh
 
 ## Go No Sen
 

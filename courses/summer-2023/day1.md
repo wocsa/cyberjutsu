@@ -193,7 +193,7 @@ ps -fat
 kill -9 $PID
 ```
 
-### Uchikomi (x10 by exercise by partner)
+### Nagekomi (x10 by exercise by partner)
 
 ### Yakusoku geiko
 *Tori* try to connect run the commands given by Sensei then disconnect without been disconnected by *Uke*

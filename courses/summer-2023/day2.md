@@ -16,17 +16,69 @@ Morning Judo course with [Dr Yves Cadot](http://budo2008.nifs-k.ac.jp/en/guest/c
 * with partner tori move fingers, uke must follow with the eyes
 
 ### Typing
-* put your fingers on each zone of the keyboard
-* type all keys one by one zone by zone (all key for one finger then move to next) backward and forward
-* type as fast as possible command said by the teacher then read the first word on the prompted result (x10)
+* put your fingers on each zone of the keyboard [see picture here Chapter 1, Sub Chapter 1](https://www.wikihow.com/Type#Learning-to-Type)
+* type all alphabet letter one by one zone by zone from left to right (all key for one finger then move to next) backward and forward [see picture here Chapter 1, Sub Chapter 4](https://www.wikihow.com/Type#Learning-to-Type) (x10)
+* with above method type as fast as possible command said by the teacher then press enter read the first word on the prompted result (x10)
+  * w, ls, cd, ps, dir, clear, echo, history, env, who, fortune , find 
+  * ps -aux, ls -lai, cd .., dir /*, htop
 
-## Uchikomi
+## Yomi Waza
+### Log Monitoring
+Everyone split screen with two command line interface.
+```bash
+screen
+```
+Press return if paragraph is prompted.
+*Ctrl+a* then *Ctrl+|* #split screen in two part.
+*Ctrl+a* then *Tab* to switch to next part of the screen.
+*Ctrl+a* then *Ctrl+c* to create bash cli in black part of the screen.
 
+Launch Yomi Waza Log.
+```bash
+tail -f /var/log/syslog
+```
+*Ctrl+a* then *Tab* to return to available cli.
 
+## Sen
+### Kōgeki Waza
 
-## Nagekomi
+#### Credential Stuffing (T1110.004)[https://attack.mitre.org/techniques/T1110/004/]
+### Tori
+Tori perform (network service discovery)[./day1.md#network-service-discovery-t1046] on service discovered listed below.
+Then connect to each services with known credentials.
+#### ssh connection
+```ssh -p $UKE_PORT $UKE_LOGIN@$UKE_IP_ADDRESS```
+#### ftp connection
+```ftp $UKE_IP_ADDRESS $UKE_PORT```
+then enter login then password
+#### http connection
+```curl -XGET http://$UKE_LOGIN:$UKE_PASSWORD@$UKE_IP_ADRESS:$UKE_PORT```
 
-## Yakusoku geiko
+### Uke
+Uke use Yomi Waza Log Monitoring to identify Tori connections.
+
+### Uchikomi (x10 by exercise by partner)
+
+## Go No Sen
+
+### Uke
+Uke performs (ssh connection)[#ssh-connection]
+### Tori
+1. Tori counter with (Process Termination)[day1.md#process-termination-d3-pt]
+2. Tori performs (ssh connection)[#ssh-connection]
+3. Tori performs (Process Termination)[day1.md#process-termination-d3-pt] on local session of *Uke*
+
+### Uchikomi (x10 by exercise by partner)
+
+## Sen No Sen
+
+### Uke
+Uke performs (ssh connection)[#ssh-connection]
+### Tori
+1. Tori performs (ssh connection)[#ssh-connection]
+2. Tori performs (Process Termination)[day1.md#process-termination-d3-pt] on local session of *Uke*
+
+### Uchikomi (x10 by exercise by partner)
 
 ## Randori
 
@@ -49,3 +101,8 @@ Morning Judo course with [Dr Yves Cadot](http://budo2008.nifs-k.ac.jp/en/guest/c
   * pull up shoulders
   * join hands at the back on in front of your hips then extend left side of your neck then right
 ## Mokusō
+
+
+## References
+
+[FR: Sen no sen - tai no sen - go no sen - KARATE](https://www.youtube.com/watch?v=w1ov5XkDqBg)

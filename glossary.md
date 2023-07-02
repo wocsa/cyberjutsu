@@ -26,6 +26,8 @@ Most of terms related to methods, way of work, mindset, rules are get from japan
   - Opening or a Weakness in one's technique or posture
 - <a name="yomi-waza">Yomi Waza</a> 読み技 (monitoring technique)
   - Category of Cyberjūtsu technique to monitor activity
+- <a name="kumi-kata">Kumi Kata</a> 組む方 (to link, to put together, to grapple, to assemble)
+  - Kumi Kata exists only through cyberdecks. It represents the exchange between cyberjutsuka through the communication using their cyberdecks connected to each others.
 - <a name="dojo">Dojo</a> 道場 (Practice space)
   - Where Cyberjūtsu is practiced by Cyberjūtsuka
 - <a name="rei">Rei</a> 礼 (welcome,respect)

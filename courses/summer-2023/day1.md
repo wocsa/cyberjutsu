@@ -2,7 +2,7 @@
 
 ## Background
 Introduction from WOCSA on [principle](../../principle.md).
-Morning Karate course with [Lionel Froidure]() about [Mikiri](../../glossary.md#mikiri) concept.
+Morning Karate course with [Lionel Froidure](https://www.lionelfroidure.com/a-propos/) about [Mikiri](../../glossary.md#mikiri) concept.
 
 ## Warmup
 
@@ -169,11 +169,10 @@ then run commands during *Tori* practice.
 examples:
 ```bash
 ls
+dir
+ps
 pwd
-uptime
-uname
-netstat
-htop
+fortune
 ```
 #### Tori
 
@@ -193,13 +192,15 @@ ps -fat
 kill -9 $PID
 ```
 
+
 ### Nagekomi (x10 by exercise by partner)
+kill local session of the uke
 
 ### Yakusoku geiko
-*Tori* try to connect run the commands given by Sensei then disconnect without been disconnected by *Uke*
-After a while roles are exchanged.
+*Tori* try to connect and kill local session of the Uke
 ## Randori
 Try to disconnect partner from all his sessions (local and remote).
+Try to disconnect partner two times from your cyberdeck then kill local session of the partner on his cyberdeck.
 
 ## Cooldown
 

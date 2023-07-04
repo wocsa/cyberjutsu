@@ -55,7 +55,7 @@ tail -f /var/log/syslog
 #### uke
 *uke* try to find open ports on cyberdeck of *tori*.
 ```bash
-nmap $TORI_IP_ADRESS 
+nmap $TORI_IP_ADDRESS 
 ```
 
 #### tori
@@ -80,7 +80,7 @@ Press return if paragraph is prompted.
 *Ctrl+a* then *Tab* to switch to next part of the screen.
 *Ctrl+a* then *Ctrl+c* to create bash cli in black part of the screen.
 
-Launch Yomi Waza Log.
+Launch Yomi Waza Log Monitoring.
 ```bash
 tail -f /var/log/syslog
 ```
@@ -191,6 +191,14 @@ ps -fat
 ```bash
 kill -9 $PID
 ```
+
+### Uke
+Uke performs connection
+### Tori
+1. Tori performs connection at the same time as Uke
+2. Tori performs (Process Termination)[day1.md#process-termination-d3-pt] on local session of *Uke*
+
+### Uchikomi (x10 by exercise by partner)
 
 
 ### Nagekomi (x10 by exercise by partner)

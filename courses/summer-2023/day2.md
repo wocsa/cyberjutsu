@@ -51,13 +51,20 @@ Then connect to each services with known credentials.
 ##### ftp connection
 ```ftp $UKE_IP_ADDRESS $UKE_PORT```
 then enter login then password
-##### http connection
-```curl -XGET http://$UKE_LOGIN:$UKE_PASSWORD@$UKE_IP_ADRESS:$UKE_PORT | lynx -stdin```
-
+##### telnet connection
+```telnet $UKE_IP_ADDRESS $UKE_PORT```
+then enter login then password
 ##### Uke
 Uke use Yomi Waza Log Monitoring to identify Tori connections.
 
+##### pattern filtering
+```bash
+tail -f /var/log/syslog | grep -i $CATCH_STRING
+```
+
 ##### Uchikomi (x10 by exercise by partner)
+Tori perform one connection, Uke identify connection by Yomi Waza, Uke set pattern filtering, Tori run the same connection, Uke must see only messages (log) related to the connection.
+First IP, then port, then service name
 
 ### Uke Waza
 
@@ -82,31 +89,88 @@ For ssh see (Day 1 - Process Termination)[https://github.com/wocsa/cyberjutsu/bl
 pure-ftpwho
 kill -9 $PID
 ```
+###### telnet
+it is not possible to find telnet session related process with *w* command or *pure-ftpwho* command netstat can help to identify connection
+```bash
+netstat -tupc
+```
 
+#### Connections Attempt Analysis (D3-CAA)[https://d3fend.mitre.org/technique/d3f:ConnectionAttemptAnalysis/]
 
-###### ssh
+##### Uke
+Uke connect to one of 3 ports (ssh or telnet or ftp)
 
-## Go No Sen
+##### Tori
+Tori try to identify connection of Uke and related port on *Uke* cyberdeck.
 
-### Uke
-Uke performs connection (ssh or ftp)
-### Tori
-1. Tori counter with (Process Termination)[day1.md#process-termination-d3-pt]
-2. Tori performs connection (ssh or ftp)
-3. Tori performs (Process Termination)[day1.md#process-termination-d3-pt] on local session of *Uke*
+```bash
+netstat -tupc
+```
+### Uke Waza
+
+#### Connection Termination
+```bash
+tcpkill -9 port $UKE_PORT
+```
 
 ### Uchikomi (x10 by exercise by partner)
+Uke connect to a random service then tori perform connection termination.
 
-## Sen No Sen
+#### Fake service listening
+##### Tori
+```bash 
+sudo nc -k -l -p $PORT
+```
 
-### Uke
-Uke performs connection
-### Tori
-1. Tori performs connection at the same time as Uke
-2. Tori performs (Process Termination)[day1.md#process-termination-d3-pt] on local session of *Uke*
+##### Uke
+```bash
+nc $TORI_IP_ADDRESS $TORI_PORT
+```
 
 ### Uchikomi (x10 by exercise by partner)
+Uke choose a random port, tori find it and connect to it then send "hello".
+Tori must use (Network Service Discovery)[./day1.md#network-service-discovery-t1046]
 
+## Yomi Waza
+#### Read file content
+```bash
+cat $FILE_PATH
+```
+#### Write file content
+```bash
+echo "$CONTENT" > $FILE_PATH
+```
+#### Change default port
+
+##### telnet
+```bash
+cat /etc/services |grep -i telnet|sed 's/\(telnet\t\t\)23\/tcp/\12323/g'
+sed 's/\(telnet\t\t\)23\/tcp/\12323/g' /etc/services
+sudo systemctl restart inetd
+```
+
+##### ssh
+```bash
+cat /etc/ssh/ssh_config
+cat /etc/ssh/ssh_config| grep -i port
+cat /etc/ssh/ssh_config| grep -i port| sed 's/#   Port 22//g'
+cat /etc/ssh/ssh_config|grep -i port|sed 's/#\(   Port \)22/\12222/g'
+sed 's/#\(   Port \)22/\12222/g' /etc/ssh/ssh_config |grep -i port
+sed -i 's/#\(   Port \)22/\12222/g' /etc/ssh/ssh_config
+sudo systemctl restart ssh
+```
+
+
+##### Uchikomi (x10 by exercise by partner)
+
+##### bash history
+Ctrl+r search keyword 
+Ctrl+o past the command
+!! previous command
+!N the N command from the beginning
+!-N N command before last one
+
+##### Uchikomi (x10 by exercise by partner)
 ## Randori
 first that success to reboot cyberdeck of the other with the command
 ```bash

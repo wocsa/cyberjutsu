@@ -60,7 +60,11 @@ Uke use Yomi Waza Log Monitoring to identify Tori connections.
 ##### pattern filtering
 ```bash
 tail -f /var/log/syslog | grep -i $CATCH_STRING
+
+#example grep DTP=22 or grep $IP_ADDRESS
 ```
+
+circle ssh 2 rebound
 
 ##### Uchikomi (x10 by exercise by partner)
 Tori perform one connection, Uke identify connection by Yomi Waza, Uke set pattern filtering, Tori run the same connection, Uke must see only messages (log) related to the connection.
@@ -126,6 +130,13 @@ sudo nc -k -l -p $PORT
 ```bash
 nc $TORI_IP_ADDRESS $TORI_PORT
 ```
+
+
+#### tournament
+multi screen
+each winner take other winners 
+establish 3 remote sessions before kill the local session of the partner
+ip a 
 
 ### Uchikomi (x10 by exercise by partner)
 Uke choose a random port, tori find it and connect to it then send "hello".

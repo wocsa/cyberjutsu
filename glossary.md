@@ -16,8 +16,8 @@ Most of terms related to methods, way of work, mindset, rules are get from japan
   - A Cyberjūtsu technique
 - <a name="uke">Uke</a> 受け (defender,receiver)
   - The Cyberjūtsuka who receive or defend against the action
-- <a name="tori">Tori</a> 受け (attacker,proponent)
-  - The Cyberjūtsuka who initiate or attack.
+- <a name="tori">Tori</a> 取り (attacker,taker)
+  - The Cyberjūtsuka who lead or perform the objective.
 - <a name="uke-waza">Uke Waza</a> 受け技 (defense technique)
   - Category of Cyberjūtsu techniques to defend
 - <a name="kogeki-waza">Kōgeki Waza</a> 攻撃技 (attack technique)

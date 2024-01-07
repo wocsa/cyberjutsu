@@ -8,7 +8,7 @@ Most of terms related to methods, way of work, mindset, rules are get from japan
 
 - <a name="dojo">Dojo</a> 道場 (Practice space)
   - Where Cyberjūtsu is practiced by Cyberjūtsuka through Cyberdeck (usually an isolated network)
-- <a name="cyberjutsuka">Cyberjutsuka</a> サイバー述家 (Practitioner)
+- <a name="cyberjutsuka">Cyberjutsuka</a> サイバー術家 (Practitioner)
   - A Cyberjūtsu practitioner
 - <a name="sensei">Sensei</a> 先生 (instructor)
   - Master of cyberjutsu. Instructor of the course.

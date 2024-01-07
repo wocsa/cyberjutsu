@@ -1,4 +1,4 @@
-# Cyberjūtsu サイバー述
+# Cyberjūtsu サイバー術
 Cyberjūtsu is a new way to teach cybersecurity inspired from modern japanese martial arts way 武道 (Budō).
 
 Register to http://cyberjutsu.education for bootcamps or stages.

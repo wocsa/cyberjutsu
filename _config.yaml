@@ -52,7 +52,7 @@ round-avatar: false
 social-network-links:
   email: "contact@wocsa.org"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: @wocsa
+  facebook: wocsa
   github: wocsa
   twitter: @wocsa_asso
   youtube: "@WOCSA-rx2mn"

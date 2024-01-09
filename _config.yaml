@@ -76,6 +76,6 @@ email: contact@wocsa.org
 
 
 # Build settings
-theme: jekyll-theme-minima
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed

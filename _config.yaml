@@ -76,6 +76,16 @@ email: contact@wocsa.org
 
 
 # Build settings
-theme: jekyll-theme-midnight
+# theme: jekyll-theme-midnight
 plugins:
   - jekyll-feed
+
+defaults:
+  - scope:
+      path: "**/*.md"
+    values:
+      layout: "listing"
+  - scope:
+      path: ""
+    values:
+      layout: "page"

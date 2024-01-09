@@ -69,3 +69,13 @@ kramdown:
   hard_wrap         : false
   footnote_nr       : 1
   show_warnings     : false
+
+
+title: Cyberjūtsu
+email: contact@wocsa.org
+
+
+# Build settings
+theme: midnight
+plugins:
+  - jekyll-feed

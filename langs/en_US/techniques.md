@@ -1,27 +1,31 @@
-# Waza 技 (technique)
+# Yakusoku geiko
 
-## Yomi Waza 読み技 (monitoring technique)
+## *Tori* try to scan ports one by one randomly and *Uke* try to guess the number.
+After a while roles are exchanged.
 
-1. read the manual
-   1. get documentation about a command
+1. Log Monitoring
+   1. Tori and Uke split screen with two cli.
 ```bash
 man $COMMAND
 ```
 
 
-   1. know services name and their ports
+   1. Press return if paragraph is prompted. *Ctrl+a* then *Ctrl+|* #split screen in
+two part. *Ctrl+a* then *Tab* to switch to next part of the screen. *Ctrl+a*
+then *Ctrl+c* to create bash cli in black part of the screen.
 ```bash
 less /etc/services
 ```
 
-1. sessions (who is doing what)
-   1. <a href="who">who</a>
+1. Launch Yomi Waza Log Monitoring.
+   1. *Ctrl+a* then *Tab* to return to available cli.
 ```bash
 w
 ```
 
 
-   1. observe session
+   1. Remote Terminal Session Detection
+[D3-RTSD](https://d3fend.mitre.org/technique/d3f:RemoteTerminalSessionDetection)
 
 ```bash
 session=pts/0 #session to watch
@@ -29,8 +33,8 @@ ps -fat #find pts/0 Ss in the list and look at the PID column
 peekfd -8cnd $PID 0 1 2
 ```
 
-1. ports
-   1. what port is doing what
+1. Uke
+   1. *Uke* scan port to *Tori* cyberdeck to identify ssh port
 ```bash
 netstat -tulpn
 ```
@@ -39,14 +43,14 @@ netstat -tulpn
 ss -tulpn
 ```
 
-1. processes
-   1. list processes
+1. *Uke* connect via ssh to *Tori* cyberdeck
+   1. then run commands during *Tori* practice.
 
 ```bash
 ps -aux
 ```
 
-1. watch activity
+1. examples:
 
 ```bash
 top
@@ -56,16 +60,18 @@ top
 htop
 ```
 
-1. filter & search
-   1. browse
+1. Tori
+   1. *Tori* look at Yomi Waza Log Monitoring to catch *Uke* ssh connection (from
+right side of the screen).
 
-display content of a file
+*Tori* list active sessions to identify TTY related to *Uke* ssh connection.
 
 ```bash
 cat $FILENAME
 ```
 
-browse file content then press 'q' to quit use '/' to search keyword
+Process Termination
+[D3-PT](https://d3fend.mitre.org/technique/d3f:ProcessTermination/)
 
 ```bash
 more $FILE1
@@ -75,60 +81,64 @@ more $FILE1
 less $FILE1
 ```
 
-read each newline coming into the file then press 'q' to quit
+*Tori* look at Yomi Waza Log to catch *Uke* ssh connection (from right side of
+the screen).
 
 ```bash
 tail -f $FILE1
 ```
 
-1. filter
+1. *Tori* list processes to identify PID related to TTY with STAT value starting
+with `Ss`.
 
-catch lines in a file with a given keyword
+*Tori* kill the processes by their reference identifier (PID), so the session, so
+disconnect *Uke* from his cyberdeck.
 
 ```bash
 grep $FILENAME $KEYWORD
 ```
 
-1. pipe chain
+1. Uke performs connection
 
-chain two commands give the result of the first command to the second one.
+Tori performs connection at the same time as Uke
 
 ```bash
 $COMMAND1 | $COMMAND2
 ```
 
-1. events
-   1. logs
+1. Tori performs (Process Termination)[day1.md#process-termination-d3-pt] on
+local session of *Uke*
+   1. Nagekomi (x10 by exercise by partner)
 
 ```bash
 tail -f /var/log/syslog
 ```
 
-1. communications
-   1. firewall Logging
+1. kill the local session of the Uke
+   1. Fake service listening
 
-record in syslog new connection incoming
+*Tori* open a port to fake a service available for *Uke*
 
 ```bash
 iptables -A INPUT -p tcp -m state --state NEW -j LOG --log-prefix "INCOMING connection "
 ```
 
-record in syslog new connection outgoing
+*Uke* perform a connection with a fake client to the fake service of *Tori*
 
 ```bash
 iptables -A OUTPUT -p tcp -m state --state NEW -j LOG --log-prefix "OUTGOING connection "
 ```
 
-1. content listening
+1. Self-control (Shisei)
 
 ```bash
 tcpdump -ttttnnvvSX -c$NUMBER_OF_PACKETS_TO_READ src $SOURCE_IP_ADDRESS and dst port $DESTINATION_PORT
 ```
 
-## Tori Waza 取り技 (attack technique)
+## Mutual Aid (Gojo)
 
-1. discovery
-   1. network scan
+1. Perseverance (Nintai)
+   1. Integrity (Sessō)
 ```bash
 nmap $UKE_IP_ADRESS
 ```
@@ -136,14 +146,14 @@ nmap $UKE_IP_ADRESS
 
    1.
 
-## Uke Waza</a> 受け技 (defense technique)
+## Kindness (Kojo)
 
-1. sessions
-   1. kill session get tty with [who](yomi waza who) then
+1. Cyberjutsu short discovery course for http://thcon.party 2024
+   1. Greeting
 ```bash
 pkill -9 -t $TTY
 ```
 
-1. ports
-1. processes
-1. communications
+1. Uke
+1. *Uke* connect via ssh to *Tori* cyberdeck
+1. kill the local session of the Uke

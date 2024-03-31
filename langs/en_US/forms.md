@@ -1,1 +1,1 @@
-# Forms or Kata (形)
+# Tori performs a connection at the same time as Uke

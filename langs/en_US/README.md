@@ -1,32 +1,27 @@
-[English](/) | [French](/langs/fr_FR/) | [Japanese](/langs/ja_JP/)
+The cyberjutsuka before practicing with someone greet him with physical bow
+called Ritsu [Rei](./glossary.md#rei) or "Onegaishimasu" sentence
 
-# Cyberjūtsu サイバー術
+# Warmup
 
-Cyberjūtsu is a new way to teach cybersecurity inspired from modern japanese
-martial arts way 武道 (Budō).
+Eyes
 
-Register to http://cyberjutsu.education for bootcamps or stages.
+look at top right, bottom left, bottom right, top left (x5)
 
 <img align="left" width="30%" height="30%" src="./img/cyberjutsu_banner.jpeg"  style="vertical-align:middle;margin:0px 20px">
 
-## What is cyberjūtsu ?
+## draw a circle with your Eyes both sens (x5)
 
-Cyberjūtsu is a new way to teach cybersecurity inspired from modern japanese
-martial arts trainings (mostly judo, karate and jujitsu). It is an educational
-way which allows everyone (novice to expert) to practice together and improve
-themselves in cybersecurity through sparring. It follows budō 武道 (judo, jujitsu,
-karate...) principles and moral code similar to them. The goal is to reach
-"maximum-efficient use of body, mind and computer" in a "mutual benefit" of a
-human confrontation.
+draw an infinity sign with your eyes (∞) (x5)
 
-## Why do we apply martial arts to cybersecurity?
+## Hands
 
-Martial Arts known benefits:
+Roll your fingers one by one forward and backward both hands (x5)
 
-* Improve coordination between mind and movements.
-* Train to act in stressing situations.
-* Develop fast and accurate reflexes.
-* Learn to improvise in unfamiliar events.
-* Teach a code of conduct. Learn to respect others.
+* touch with thumb each of your fingers both hands foreward and backward (x2)
+* join same finger of each hand with the other, then dismiss couple one by one
+forward and backward (x2)
+* listen to Sensei number (1 to 5) and dismiss related fingers
+* Combined
+* with partner tori move fingers, uke must follow with the eyes
 
-There are plenty of other reasons.
+Yomi Waza

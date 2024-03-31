@@ -1,7 +1,6 @@
 # Code Moral Cyber (Saibā-dō) サイバー道
 
-Moral Code describe how practitioner (Saibā-jūtsu-ka) サイバー述家 behave and shape his
-inner state for practicing Cyberjūtsu (Saibā-jūtsu)サイバー述.
+Yomi Waza
 
 <img align="left" width="50%" src="./img/moral-code.jpeg"  style="vertical-align:middle;margin:0px 20px">
 
@@ -48,28 +47,28 @@ inner state for practicing Cyberjūtsu (Saibā-jūtsu)サイバー述.
     
     Control yourself, drive yourself to the moral code
 
-## Mutual Aid (Gojo) 互助
+## Entraide (Gojo) 互助
 
     “Go” means “mutual” or “reciprocal”
     “Jo” means “help”, "assist", "rescue"
     
     To progress in the way (do) 道 you must help each others in a partnership.
 
-## Perseverance (Nintai) 忍耐
+## Persévérance (Nintai) 忍耐
 
     “Nin” means “endure", “tolerate”
     “Tai” means “enduring” or "withstand"
     
     To progress in the way (do) 道  you must endure difficulties, tolerate efforts and resist to despair.
 
-## Integrity (Sessō) 節操
+## Intégrité (Sessō) 節操
 
     “Sechi” means “honor” or "melody"
     “So” means “fidelity” or "virginity"
     
     Remaining true to yourself.
 
-## Kindness (Kojo) 厚情
+## Gentillesse (Kojo) 厚情
 
     “Ko” means “kind”
     “Jo” means “emotion”, "feeling", "mercy", "sympathy"

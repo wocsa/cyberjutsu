@@ -1,102 +1,93 @@
-# Cyberjūtsu v1.0 Summer 2023 Day 3
+# Yomi Wazaログの監視を開始します。
 
-## Background
+## ログ監視
 
-Morning Jujitsu course with [Jean-Louis
-Mourlan](https://fr.linkedin.com/in/jean-louis-mourlan-30454986) about [Tsukuri
-Kuzushi Kake](../../glossary.md#tsukuri-kusushi-kake) concept.
+*Ctrl+a*、*Tab*を押して利用可能なCLIに戻ります。
 
-## Warmup
+## ウォームアップ
 
-### Eyes
+### 目
 
-* look at top right, bottom left, bottom right, top left (x5)
-* draw a circle with your Eyes both sens (x5)
-* draw an infinity sign with your eyes (∞) (x5)
+* 右上、左下、右下、左上を見る（5回）
+* 両目で円を描く（5回）
+* 目で∞印を描く（5回）
 
-### Hands
+### 手
 
-* Roll your fingers one by one foreward and backward both hands (x5)
-* touch with thumb each of your fingers both hands foreward and backward (x2)
-* join same finger of each hand with the other, then dismiss couple one by one
-foreward and ackward (x2)
-* listen to teacher number (1 to 5) and dismiss related fingers
+* 両手の指を前後に5回、1本ずつ回す
+* 両手の指毎に親指で触る（前後）（2回）
+* 同じ指同士をくっつけてから、前後に1つずつ離す（2回）
+* パラグラフを促された場合はEnterキーを押します。 * Ctrl+a *、* Ctrl+| *を押して画面を分割します。 * Ctrl+a *、* Tab *
+を押して画面の次の部分に切り替えます。 * Ctrl+a *、* Ctrl+c *を押して、画面の黒い部分でbash cliを作成します。
 
-### Combined
+### まとめ
 
-* with partner tori move fingers, uke must follow with the eyes
+* パートナーと一緒に、とり指を動かし、受けは目で追う
 
-### Typing
+### 読み技ログ監視を開始します。
 
-* put your fingers on each zone of the keyboard [see picture here Chapter 1, Sub
-Chapter 1](https://www.wikihow.com/Type#Learning-to-Type)
-* type all alphabet letter one by one zone by zone from left to right (all key
-for one finger then move to next) backward and forward [see picture here
-Chapter 1, Sub Chapter 4](https://www.wikihow.com/Type#Learning-to-Type) (x10)
-* with above method type as fast as possible command said by the teacher then
-press enter read the first word on the prompted result (x10)
-   * w, ls, cd, ps, dir, clear, echo, history, env, who, fortune , find
-   * ps -aux, ls -lai, cd .., dir /*, htop
+* 利用可能なcliに戻るには、* Ctrl+a *、* Tab *を押します。
+* リモートターミナルセッション検出（D3-RTSD）
+* *ウケ*は、*トリ*のサイバーデッキにsshポートを特定するためにポートをスキャンします
+   * *ウケ*は、sshを使って*トリ*のサイバーデッキに接続します
+   * その後、*トリ*の練習中にコマンドを実行します。
 
-## Tsukuri
+## リモート端末セッション検出
+[D3-RTSD](https://d3fend.mitre.org/technique/d3f:RemoteTerminalSessionDetection)
 
-### loop
+### *Uke*
 
-### http port change
+### *Uke*は*Tori*のサイバーデッキのsshポートを識別するためにポートをスキャンします
 
-### Tori
+### *とり*
 
-Uke change ports numbers of services.
+*Uke*は*Tori*のサイバーデッキにsshで接続します
 
-1. edit config file for http
+1. その後*Tori*の実践中にコマンドを実行します。
 
 ```
 sudo nano /etc/apache2/ports.conf
 ```
 
-1. add a line to listen new port
+1. 例：
 
 ```
 Listen $PORT_NUMBER
 ```
 
-1. save the file with *ctrl+x* then press *y*
-1. edit website config file
+1. *Tori*
+1. *Tori*は右側の画面で*Uke*のssh接続をYomi Wazaログで把握します。
 
 ```
 sudo nano /etc/apache2/sites-enabled/001-cyberjutsu.conf
 ```
 
-## Randori
+## 節操
 
-## Batoru Rowaiaru バトル・ロワイアル
+## *Tori*は*Tori*のssh接続に関連するTTYを特定するためにアクティブなセッションをリストアップします。
 
-## Cooldown
+## 2024年のhttp://thcon.party向けのサイバー述の簡易発見コース
 
-### Eyes
+### 目
 
-* blinking
-* hands on
+* 挨拶
+* 物理的なお辞儀であるリッツ（礼）または「お願いします」という文を使って、サイバー述家は他の人と共に練習する前に挨拶します。
 
-### Hands
+### 手
 
-* strech your fingers in and out of your hands
-* drop your hands and shake them
+* ウォームアップ
+* 目
 
-### body
+### 上右、下左、下右、上左を見ます（5回）
 
-* seated
-   * strech arms forward
-   * cross legs, put opposite hand on the leg, turn head on upper knee side, twist
-knee opposit to the head then invert
-   * move to the beginning of the chair, bend your back and put your hands on your
-hips then stretch
-* stand up
-   * stretch arms to the top
-   * cross arms to put hands on elbow, pull with the hand on top of the elbow to the
-opposit side (invert)
-   * pull up shoulders
-   * join hands at the back on in front of your hips then extend left side of your
-neck then right
+* 両目で円を描きます（5回）
+   * 目で∞の形を描きます（5回）
+   * ログの監視
+   * 両手を前後に指を一本ずつ転がします（5回）
+* 両手の指に親指を使って前後に触れます（2回）
+   * 両手の同じ指同士を結合し、前後に片方ずつ離します（2回）
+   * ToriとUkeは2つのCLIで画面を分割します。
+   * 組み合わせ
+   * パートナーと一緒に指を動かし、受け手は目で追いかけます
 
-## Mokusō
+## 読み技

@@ -1,122 +1,92 @@
-# Principle of Cyberjūtsu
+# 挨拶
 
-Cyberjūtsu is a Digital Martial Art designed for Sport and Educational Purpose in
-the Cyberspace.
+サイバージュツ家は、誰かと練習する前に、立礼あるいは「お願いします」という言葉を用いて挨拶をする
 
-[WOCSA](http://wocsa.org) started Cyberjūtsu project in 2020 as a new way to
-bring to people capability to protect themselves and live better in cyberspace.
+ウォームアップ
 
-Cyberjūtsu aims to become an educational method of digital growth, mental growth,
-and moral growth at the same time.
+目
 
-Cyberjūtsu is a way to train physical and mental discipline whose aim to educate
-everyone to have a better daily life with computer and internet. The fundamental
-principle of Cyberjūtsu, one that governs all the techniques of attack and
-defense, is that whatever the objective, it is best attained by the
-maximum-efficient use of mind and body for that purpose in cyberspace. To reach
-this maximum-efficient use we need to practice in a mutual aid. The same
-principle applied to our everyday activities leads to the highest and most
-rational digital life. Training in the techniques of Cyberjūtsu is not the only
-way to grasp this universal principle, but it is how we arrive at an
-understanding of it, and it is the means by which we attempt to make others
-understand it.
+上右、下左、下右、上左を見る（×5）
 
-The principle of maximum efficiency , whether applied to the art of attack and
-defense or to refining and perfecting daily digital life, demands above all that
-there be order and harmony among people. This can be realized only through
-mutual aid and concession. The result is mutual welfare and benefit.
+両目で円を描く（×5）
 
-The final aim of Cyberjūtsu practice is to to educate each of us for a better
-life in the cyberspace.
+目で∞を描く（×5）
 
-> At that time, <b>each man presented his art as a collection of techniques</b>.
-<b>None perceived the guiding principle behind</b> jujutsu. This led me to
-look for an underlying principle in jujutsu, one that applied when one hit an
-opponent as well as when one threw him. I discerned an <b>all-pervasive
-principle</b>: to <b>make the most efficient use of mental and physical
-energy</b>. With this principle in mind, I reviewed all the methods of attack
-and defense I had learned, retaining only those that were in accordance with
-this principle. Those not in accord I rejected, and in their place I substituted
-techniques in which the principle was correctly applied. Judo <b>is more than an
-art of attack and defense. It is a way of life.</b>
+> 手
 >
-> -- <cite>Chapter 1 Jujutsu Become Judo, Kodokan Judo Book, Jigoro Kano</cite>
+> 指を1本ずつ前後に転がす（両手、×5）
 
-## Japanese Martial Precepts embedded in Cyberjūtsu
+## 親指で自分の全ての指に触れる（両手、前後、×2）
 
-### From the Karate Shōtōkan nijū kun
+### 同じ指を一緒に組み、その後一つずつ離す（両手、前後、×2）
 
-> 技術より心術
+> 先生が数字（1から5）を言い、それに関連する指を離す
 >
-> Spirit first, technique second.
+> 結びつける
 >
-> -- <cite>Gichin Funakoshi</cite>
+> パートナーと一緒に、Toruが指を動かし、Ukeは目で追う必要がある
 
-> 先づ自己を知れ而して他を知れ
+> 読み技
 >
-> Know yourself first, and then others
+> 約束稽古
 >
-> -- <cite>Gichin Funakoshi</cite>
+> パートナーと一緒に、Toruが指を動かし、Ukeは目で追う必要がある
 
-> 敵に因って轉化せよ
+> Toruがランダムにポートをスキャンし、Ukeが数字を推測する。しばらくしたら、役割を交換する。
 >
-> Victory depends on your ability to distinguish vulnerable points from
-invulnerable ones
+> ログ監視
 >
-> -- <cite>Gichin Funakoshi</cite>
+> パートナーと一緒に、Toruが指を動かし、Ukeは目で追う必要がある
 
-> 戦は虚実の操縦如何に在り
+> ToruとUkeが2つのCLIの画面を分割する
 >
-> The battle is according to how you maneuver guarded, unguarded Move according
-to your opponent
+> 新しい段落が提示された場合はリターンキーを押す。*Ctrl+a*を押して*Ctrl+|*を押して画面を2つに分割する。*Ctrl+a*を押して*Tab*を押して
+次の画面に切り替える。*Ctrl+a*を押して*Ctrl+c*を押して黒い画面にBash CLIを作成する
 >
-> -- <cite>Gichin Funakoshi</cite>
+> パートナーと一緒に、Toruが指を動かし、Ukeは目で追う必要がある
 
-> 常に思念工夫せよ
+> 読み技ログ監視を起動する
 >
-> Always think and devise ways to live the precepts every day
+> *Ctrl+a*を押して*Tab*を押して利用可能なCLIに戻る
 >
-> -- <cite>Gichin Funakoshi</cite>
+> パートナーと一緒に、Toruが指を動かし、Ukeは目で追う必要がある
 
-> 道場のみの空手と思ふな
+> リモートターミナルセッション検知
 >
-> Do not think that karate training is only in the dojo
+> Uke
 >
-> -- <cite>Gichin Funakoshi</cite>
+> パートナーと一緒に、Toruが指を動かし、Ukeは目で追う必要がある
 
-### From Jūdō
+### UkeはToriのサイバーデッキをスキャンし、sshポートを特定する
 
-> Enter by the technique, progress to the principle.
+> Ukeはssh経由でToriのサイバーデッキに接続する
 >
-> -- <cite>Jigorō Kanō</cite>
+> そして、Toriの練習中にコマンドを実行する
 
-> It is not important to be better than someone else, but to be better than
-yesterday.
+> 例：
 >
-> -- <cite>Jigorō Kanō</cite>
+> そして、Toriの練習中にコマンドを実行する
 
-> Conduct kata and randori with your best effort.
+> Tori
 >
-> -- <cite>Jigorō Kanō</cite>
+> そして、Toriの練習中にコマンドを実行する
 
-> Do not forget that the objective of jūdō study is to improve every day, not to
-win or lose.
+> ToriはYomi Wazaログ監視を確認し、右側の画面でのUkeのssh接続を捉える
 >
-> -- <cite>Jigorō Kanō</cite>
+> そして、Toriの練習中にコマンドを実行する
 
-> Jūdō practice is not limited to the dōjō.
+> Toriはアクティブなセッションをリストして、Ukeのssh接続に関連するTTYを特定する
 >
-> -- <cite>Jigorō Kanō</cite>
+> そして、Toriの練習中にコマンドを実行する
 
-> It is necessary to consider others’ reactions to you in your self-reflection.
+> プロセス終了
 >
-> -- <cite>Jigorō Kanō</cite>
+> そして、Toriの練習中にコマンドを実行する
 
-### From Aïkido
+### ToriはYomi Wazaログを確認し、右側の画面でのUkeのssh接続を捉える
 
-## Sources
+## Toriはプロセスをリストして、`Ss`で始まるSTAT値に関連するPIDを特定する
 
-[Niju Kun](https://fska.com/?page_id=186) -- Funakoshi Shotokan Karate Association
+ToriはPIDを用いてプロセスを終了させ、そしてUkeをサイバーデッキから切断する
 
-[The Untold History of Modern Japan and Japanese Martial
-Arts](https://kanochronicles.com/author/lgatling77/) -- Lance Gatling
+Ukeが接続を行う

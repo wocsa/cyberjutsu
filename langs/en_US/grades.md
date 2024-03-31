@@ -1,1 +1,1 @@
-# Cyberjūtsu Grades (段位)
+# Cyberjutsu Grades (Dan'i)

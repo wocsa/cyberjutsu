@@ -1,136 +1,98 @@
-# Fight rules
+# Tori performs (Process Termination)[day1.md#process-termination-d3-pt] on the
+local session of *Uke*
 
-## Environment
+## Nagekomi (x10 by exercise by partner)
 
-### Place of the combat
+### Sincerity (Makato)
 
-The [Dojo](./glossary.md#dojo) is a closed network disconnected from other
-networks where only [cyberjutsuka](./glossary.md#cyberjutsuka) are connected
-through their [cyberdeck](./glossary.md#cyberdeck). It is recommended but not
-mandatory that practitioners are facing in the same physical room to ensure
-equal meanings and conditions. Arbiter must be able to control conditions and
-meaning of each [cyberjutsuka](./glossary.md#cyberjutsuka) to ensure equality in
-the practice.
+Etiquette (Reigi)
 
-### Arbiter
+### Honor (Meiyo)
 
-Arbiter is in charge to ensure safety and integrity of systems that are not
-engaged in the fight in and out of the dojo. Only cyberdeck of
-[cyberjutsuka](./glossary.md#cyberjutsuka) engaged in the fight can be attacked
-and impacted. Arbiter must ensure equality of chance, condition, meaning between
-[cyberjutsuka](./glossary.md#cyberjutsuka) engaged in the fight. Arbiter must
-ensure that [cyberjutsuka](./glossary.md#cyberjutsuka) allow sparring to fight
-properly.
+Humility (Kenkyo)
 
-## Etiquette
+## Self-control (Shisei)
 
-### General Greetings
+### Mutual Aid (Gojo)
 
-1. When entering in the space (physical or digital) of the dojo, the
-[cyberjutsuka](./glossary.md#cyberjutsuka) greet the space(s) by physical bow
-called Ritsu [Rei](./glossary.md#rei) or written [rei](./glossary.md#rei).
+1. Perseverance (Nintai)
 1. The cyberjutsuka before practicing with someone greet him with physical bow
-called Ritsu [Rei](./glossary.md#rei) or "Onegaishimasu" sentence
-1. The cyberjutsuka after practicing with someone gree him with physical bow
-called Ritsu [Rei](./glossary.md#rei) or "Domo arigato" sentence
+called Ritsu Rei or "Onegaishimasu" sentence
+1. Yakusoku geiko
 
-### Training etiquette
+### Integrity (Sessō)
 
-#### General training etiquette
+#### Kindness (Kojo)
 
-1. Cyberjutsuka listens to the Sensei and wait him to finish before interrupting
-or asking question
-1. Cyberjutsuka asks the Sensei to be away from the dojo, before leaving it
-during the training (even temporarily)
-1. Cyberjutsuka asks the Sensei to enter the dojo, during the training.
-1. Cyberjutsuka wait for the order of the Sensei to enter in the dojo or use the
-cyberdeck before entering in.
-1. Cyberjutsuka wait for the order of the Sensei to leave the dojo before leaving
-it or shutdown the cyberdeck.
-1. Cyberjutsuka execute orders from the Sensei.
+1. Cyberjūtsu short discovery course for http://thcon.party 2024
+1. Greeting
+1. The cyberjutsuka before practicing with someone greet him with physical bow
+called Ritsu Rei or "Onegaishimasu" sentence
+1. Warmup
+1. Eyes
+1. look at top right, bottom left, bottom right, top left (x5)
 
-#### Greeting before the training
+#### draw a circle with your Eyes both sens (x5)
 
-1. Everyone stand formally (arms close to the body, feet close, head straight)
-behind his cyberdeck facing the Sensei or if it's not physical everyone
-communicate "Onegaishimasu" to the Sensei
-1. When Sensei communicates "Otagai Ni [Rei](./glossary.md#rei)" to the audience,
-cyberjutsuka perform physical bow called Ritsu [Rei](./glossary.md#rei) or
-answer with [Rei](./glossary.md#rei) word together.
-1. When Sensei communicates "Sensei Ni [Rei](./glossary.md#rei)" to the audience,
-cyberjutsuka perform physical bow called Ritsu [Rei](./glossary.md#rei) or
-answer with [Rei](./glossary.md#rei) word together.
+1. draw an infinity sign with your eyes (∞) (x5)
+1. Hands
+1. Roll your fingers one by one foreward and backward both hands (x5)
 
-#### Greeting after the training
+#### touch with thumb each of your fingers both hands foreward and backward (x2)
 
-1. When Sensei communicates "[Sore made](./glossary.md#sore-made)" cyberjutsuka
-stand formally (arms close to the body, feet close, head straight) behind his
-cyberdeck facing the Sensei or if it's not physical everyone communicate "Domo
-arigato" to the Sensei.
-1. When Sensei communicates "[Mokuso](./glossary.md#mokuso)" cyberjutsuka close
-eyes and perform introspect moment to integrate experience and knowledge
-acquired during the training.
-1. When Sensei communicates "[Mokuso](./glossary.md#mokuso) yame" cyberjutsuka
-open eyes and prepare for [Rei](./gloassy.md#rei).
-1. When Sensei communicates "Sensei Ni [Rei](./glossary.md#rei)" to the audience,
-cyberjutsuka perform physical bow called Ritsu [Rei](./glossary.md#rei) or
-answer with [Rei](./glossary.md#rei) word together.
-1. When Sensei communicates "Otagai Ni [Rei](./glossary.md#rei)" to the audience,
-cyberjutsuka perform physical bow called Ritsu [Rei](./glossary.md#rei) or
-answer with [Rei](./glossary.md#rei) word together.
+1. join same finger of each hand with the other, then dismiss couple one by one
+foreward and ackward (x2)
+1. listen to Sensei number (1 to 5) and dismiss related fingers
+1. Combined
+1. Roll your fingers one by one foreward and backward both hands (x5)
+1. Hands
 
-## Sparring rules
+## with partner tori move fingers, uke must follow with the eyes
 
-### Etiquette
+### Self-control (Shisei)
 
-#### Before the sparring
+#### Yomi Waza
 
-1. Arbiter call first sparring by showing him with hand or giving his name or
-nickname, then the second one (same way)
-   1. first called partner will be called "aka"(赤) during the sparring
-   1. second called partner will be called "shiro" (白) during the sparring
+1. Yakusoku geiko
+   1. Tori try to scan ports one by one randomly and Uke try to guess the number.
+After a while roles are exchanged.
+   1. Log Monitoring
 1. Cyberjutsuka perform general geetings
    1. Cyberjutsuka connect to the dojo or switch on their cyberdeck together
-   1. Cyberjutsuka greeting the dojo
-   1. Cyberjutsuka greeting the arbiter
-      1. Cyberjutuska stand behind his cyberdeck facing the sparring partner
-1. Arbiter communicate [Rei](./glossary.md#rei) then partners bow facing each
-other or answer [Rei](./glossary.md#rei)
-1. Arbiter communicate [Hajime](./gloassry.md#hajime) then partners start to fight
+   1. Press return if paragraph is prompted. Ctrl+a then Ctrl+| #split screen in two
+part. Ctrl+a then Tab to switch to next part of the screen. Ctrl+a then
+Ctrl+c to create bash cli in black part of the screen.
+   1. Launch Yomi Waza Log Monitoring.
+      1. Ctrl+a then Tab to return to available cli.
+1. Remote Terminal Session Detection D3-RTSD
+1. Uke
 
-#### After the sparring
+#### Uke scan port to Tori cyberdeck to identify ssh port
 
-1. Arbiter communicate [Soremade](./gloassry.md#sore-made) for the end of the
-sparring then partners stop to fight (no more actions on the cyberdeck) then
-stand in formal way in front of each other
-1. Arbiter communicate the winner by raising hand in direction of the winner or
-communicate "aka" (赤) or "shiro"(白) "shōsha" (勝者)
-1. Arbiter communicate [Rei](./glossary.md#rei) and partners bow facing each
-other or answer [Rei](./glossary.md#rei)
-1. Cyberjutsuka [Rei](./glossary.md#rei) for the dojo a second time then leave
-the dojo (disconnect or shutdown the cyberdeck)
+1. Uke connect via ssh to Tori cyberdeck
+1. then run commands during Tori practice.
+1. examples:
+1. Tori
 
-#### During the sparring
+#### Tori look at Yomi Waza Log Monitoring to catch Uke ssh connection (from right
+side of the screen).
 
-1. When arbiter communicate "mate" partners stop actions and come back to
-beginning position (clear prompt no running commands/actions remaining)
-1. When arbiter communicate "sonomama" partners must keep the current situation
-without performing new actions.
-1. When arbiter communicate "hajime" partners resume the fight.
-1. Arbiter can provide penalties to the cyberjutsuka if rules are broken by
-communicating "shido" and showing the partner or giving his color.
-1. cyberjutsuka must permit the fight to be performed
-   1. cyberdeck must be ready for the sparring during all the fight
-      1. cyberdeck must have identical hardware, software and configuration at the
-beginning of the fight
-      1. services on cyberdeck must be available on ports and fully functional
-      1. credentials on cyberdeck (e.g:login/password) must be the one allowed only
-      1. cyberdeck must respect rules of the dojo (network rules in terms of
-addressing, communication standards,...)
-   1. partner can not be blocked during a period only one time block are allowed
-   1. cyberjutsuka can not perform action in the time that prevent partner to
-perform attacks
+1. Tori list active sessions to identify TTY related to Uke ssh connection.
+1. Process Termination D3-PT
+1. Tori look at Yomi Waza Log to catch Uke ssh connection (from right side of the
+screen).
+1. Tori list processes to identify PID related to TTY with STAT value starting
+with `Ss`.
+1. Tori kill the processus by it reference identifier (PID), so the session, so
+disconnect Uke from his cyberdeck.
+   1. Uke performs connection
+      1. Tori performs connection at the same time as Uke
+      1. Tori performs Process Termination on local session of Uke
+      1. Nagekomi (x10 by exercise by partner)
+      1. kill local session of the uke
+   1. Etiquette (Reigi)
+   1. Honor (Meiyo)
 1. cyberjutsuka must fight
    1. cyberjutsuka can not avoid intentionally the fight
-   1. cyberjutsuka can not have only defensive posture
-   1. cyberjutsuka can not perform only fake attacks as offensive actions
+   1. Self-control (Shisei)
+   1. Mutual Aid (Gojo)

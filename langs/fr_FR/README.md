@@ -1,32 +1,25 @@
-[English](/) | [French](/langs/fr_FR/) | [Japanese](/langs/ja_JP/)
+Surveillance des journaux
 
-# Cyberjūtsu サイバー術
+# Écran divisé Tori et Uke avec deux CLI.
 
-Cyberjūtsu is a new way to teach cybersecurity inspired from modern japanese
-martial arts way 武道 (Budō).
+Frappe
 
-Register to http://cyberjutsu.education for bootcamps or stages.
+Lancer la surveillance des journaux Yomi Waza.
 
 <img align="left" width="30%" height="30%" src="./img/cyberjutsu_banner.jpeg"  style="vertical-align:middle;margin:0px 20px">
 
-## What is cyberjūtsu ?
+## *Ctrl+a* puis *Tab* pour revenir au CLI disponible.
 
-Cyberjūtsu is a new way to teach cybersecurity inspired from modern japanese
-martial arts trainings (mostly judo, karate and jujitsu). It is an educational
-way which allows everyone (novice to expert) to practice together and improve
-themselves in cybersecurity through sparring. It follows budō 武道 (judo, jujitsu,
-karate...) principles and moral code similar to them. The goal is to reach
-"maximum-efficient use of body, mind and computer" in a "mutual benefit" of a
-human confrontation.
+w, ls, cd, ps, dir, clear, echo, history, env, who, fortune , find
 
-## Why do we apply martial arts to cybersecurity?
+## Uke
 
-Martial Arts known benefits:
+*Uke* scanner le port du cyberdeck de *Tori* pour identifier le port ssh
 
-* Improve coordination between mind and movements.
-* Train to act in stressing situations.
-* Develop fast and accurate reflexes.
-* Learn to improvise in unfamiliar events.
-* Teach a code of conduct. Learn to respect others.
+* *Uke* se connecter via ssh au cyberdeck de *Tori*
+* puis exécuter des commandes pendant la pratique de *Tori*.
+* exemples:
+* Tori
+* Uke effectue une connexion
 
-There are plenty of other reasons.
+Tori effectue une connexion en même temps que Uke

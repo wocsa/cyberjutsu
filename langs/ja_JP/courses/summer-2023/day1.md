@@ -1,139 +1,127 @@
-# Cyberjūtsu v1.0 Summer 2023 Day 1
+# プロセス終了[D3-PT](https://d3fend.mitre.org/technique/d3f:ProcessTermination/)
 
-## Background
+## ログ監視
 
-Introduction from WOCSA on [principle](../../principle.md). Morning Karate course
-with [Lionel Froidure](https://www.lionelfroidure.com/a-propos/) about
-[Mikiri](../../glossary.md#mikiri) concept.
+*Tori*は右側の画面で*Uke*のssh接続をYomi Wazaログで把握します。
 
-## Warmup
+## ウォームアップ
 
-### Eyes
+### 目
 
-* look at top right, bottom left, bottom right, top left (x5)
-* draw a circle with your Eyes both sens (x5)
-* draw an infinity sign with your eyes (∞) (x5)
+* 右上、左下、右下、左上を見る（5回）
+* 両目で円を描く（5回）
+* 目で∞印を描く（5回）
 
-### Hands
+### 手
 
-* Roll your fingers one by one foreward and backward both hands (x5)
-* touch with thumb each of your fingers both hands foreward and backward (x2)
-* join same finger of each hand with the other, then dismiss couple one by one
-foreward and ackward (x2)
-* listen to Sensei number (1 to 5) and dismiss related fingers
+* 両手の指を前後に5回、1本ずつ回す
+* 両手の指毎に親指で触る（前後）（2回）
+* 同じ指同士をくっつけてから、前後に1つずつ離す（2回）
+* 先生の数字（1から5）に関連した指を覚えて片手を離す
 
-### Combined
+### まとめ
 
-* with partner tori move fingers, uke must follow with the eyes
+* パートナーと一緒に、とり指を動かし、受けは目で追う
 
-### Typing
+### 読み技ログ監視を開始します。
 
-* put your fingers on each zone of the keyboard [see picture here Chapter 1, Sub
-Chapter 1](https://www.wikihow.com/Type#Learning-to-Type)
-* type all alphabet letter one by one zone by zone from left to right (all key
-for one finger then move to next) backward and forward [see picture here
-Chapter 1, Sub Chapter 4](https://www.wikihow.com/Type#Learning-to-Type) (x10)
-* with above method type as fast as possible command said by the Sensei then
-press enter read the first word on the prompted result (x10)
-   * w, ls, cd, ps, dir, clear, echo, history, env, who, fortune , find
-   * ps -aux, ls -lai, cd .., dir /*, htop
+* 利用可能なcliに戻るには、* Ctrl+a *、* Tab *を押します。
+* リモートターミナルセッション検出（D3-RTSD）
+* *Tori*はプロセスをリストアップして、`Ss`で始まるSTAT値に関連するPIDを特定します。
+   * *ウケ*は、sshを使って*トリ*のサイバーデッキに接続します
+   * その後、*トリ*の練習中にコマンドを実行します。
 
-## Kōgeki Waza
+## *トリ*はアクティブなセッションをリストし、*ウケ*のssh接続に関連するTTYを識別します。
 
-### Network Service Discovery [T1046](https://attack.mitre.org/techniques/T1046/)
+### *Tori*はそのPIDによってプロセスを終了させ、*Uke*をサイバーデッキから切断します。
 
-#### uke
+#### *Uke*が接続を実行します
 
-uke provide his cyberdeck ip address to tori
+*Tori*が*Uke*と同時に接続を実行します
 
 ```bash
 ip -color=auto addr # or ip a
 ```
 
-#### tori
+#### *Tori*は*Uke*のローカルセッションで[プロセスの終了](day1.md#process-termination-d3-pt)を実行します
 
-*tori* try to find open ports on cyberdeck of *uke*.
+勇気
 
 ```bash
 nmap $UKE_IP_ADRESS
 ```
 
-tori identify service keywords en port numbers.
+誠
 
-### Uchikomi (x10 by exercise by partner)
+### 互助
 
-## Yomi Waza
+## 読み技
 
-### Connection Attempt Analysis
-[D3-CAA](https://d3fend.mitre.org/technique/d3f:ConnectionAttemptAnalysis)
+### 礼儀
 
-#### tori
+#### *Tori*は*Uke*のローカルセッションで[プロセスの終了](day1.md#process-termination-d3-pt)を実行します
 
-*tori* try to find when *uke* is performing scan
+名誉
 
 ```bash
 tail -f /var/log/syslog
 ```
 
-#### uke
+#### *Uke*が接続を実行します
 
-*uke* try to find open ports on cyberdeck of *tori*.
+謙虚
 
 ```bash
 nmap $TORI_IP_ADDRESS
 ```
 
-#### tori
+#### *Tori*は*Uke*のローカルセッションで[プロセスの終了](day1.md#process-termination-d3-pt)を実行します
 
-*tori* try to find ip adress of *uke* in logs that are displayed on cyberdeck
-screen
+自制
 
 ```bash
 un 23 13:03:30 cyberjutsu1 kernel: [ 3108.070285] INCOMING connection IN=wlan0 OUT= MAC=b8:27:eb:c5:65:83:b8:27:eb:d7:b4:0f:08:00 SRC=192.168.2.240 DST=192.168.2.145 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=58603 DF PROTO=TCP SPT=54858 DPT=1131 WINDOW=64240 RES=0x00 SYN URGP=0 
 Jun 23 13:03:30 cyberjutsu1 kernel: [ 3108.070333] INCOMING connection IN=wlan0 OUT= MAC=b8:27:eb:c5:65:83:b8:27:eb:d7:b4:0f:08:00 SRC=192.168.2.240 DST=192.168.2.145 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=17630 DF PROTO=TCP SPT=60518 DPT=6668 WINDOW=64240 RES=0x00 SYN URGP=0
 ```
 
-### Uchikomi (x10 by exercise by partner)
+### 互助
 
-### Yakusoku geiko
+### 約束稽古
 
-*Tori* try to scan ports one by one randomly and *Uke* try to guess the number.
-After a while roles are exchanged.
+*とり*はランダムに1つずつポートをスキャンし、*受け*はその数字を当てる。しばらくしてから役割が交代する
 
-### Log Monitoring
+### ログ監視
 
-Tori and Uke split screen with two cli.
+トリとウケが2つのcli画面を分割する
 
 ```bash
 screen
 ```
 
-Press return if paragraph is prompted. *Ctrl+a* then *Ctrl+|* #split screen in
-two part. *Ctrl+a* then *Tab* to switch to next part of the screen. *Ctrl+a*
-then *Ctrl+c* to create bash cli in black part of the screen.
+パラグラフが提示されたらリターンキーを押してください。*Ctrl+a*、*Ctrl+|*を押して画面を2つに分割します。
 
-Launch Yomi Waza Log Monitoring.
+読み技ログ監視を開始してください。
 
 ```bash
 tail -f /var/log/syslog
 ```
 
-*Ctrl+a* then *Tab* to return to available cli.
+*Ctrl+a*、*Tab*を押して利用可能なcliに戻ります。
 
-### Remote Terminal Session Detection
-[D3-RTSD](https://d3fend.mitre.org/technique/d3f:RemoteTerminalSessionDetection)
+### リモートターミナルセッション検出
+（https://d3fend.mitre.org/technique/d3f:RemoteTerminalSessionDetection）
 
-#### Uke
+#### *受け*
 
-*Uke* connect via ssh to *Tori* cyberdeck
+*受け*はssh経由で*とり*のサイバーデッキに接続
 
 ```bash
 ssh $TORI_USERNAME@$TORI_IP_ADDRESS
 ```
 
-then run commands during *Tori* practice.
+その後、*とり*の練習中にコマンドを実行する
 
-examples:
+例：
 
 ```bash
 ls
@@ -144,30 +132,29 @@ netstat
 htop
 ```
 
-#### Tori
+#### *とり*
 
-*Tori* look at Yomi Waza Log Monitoring to catch *Uke* ssh connection (from right
-side of the screen).
+*とり*は右側の画面で*受け*のssh接続をキャッチするために読み技ログ監視を見る。
 
-*Tori* list active sessions to identify TTY related to *Uke* ssh connection.
+*とり*はアクティブなセッションをリストし、*受け*のssh接続に関連するTTYを識別します。
 
 ```bash
 w
 ```
 
-### Session Shoulder Surfing
+### 互助
 
-#### Uke
+#### *受け*
 
-*Uke* connect via ssh to *Tori* cyberdeck
+*受け*はssh経由で*とり*のサイバーデッキに接続
 
 ```bash
 ssh $TORI_USERNAME@$TORI_IP_ADDRESS
 ```
 
-then run commands during *Tori* practice.
+その後、*とり*の練習中にコマンドを実行する
 
-examples:
+例：
 
 ```bash
 ls
@@ -178,51 +165,47 @@ netstat
 htop
 ```
 
-#### Tori
+#### *とり*
 
-*Tori* look at Yomi Waza Log Monitoring to catch *Uke* ssh connection (from right
-side of the screen).
+*とり*は右側の画面で*受け*のssh接続をキャッチするために読み技ログ監視を見る。
 
-*Tori* list active sessions to identify TTY related to *Uke* ssh connection.
+*とり*はアクティブなセッションをリストし、*受け*のssh接続に関連するTTYを識別します。
 
 ```bash
 w
 ```
 
-*Tori* list processes to identify PID related to TTY with STAT value starting
-with `Ss`.
+*とり*はプロセスをリストし、STAT値が`Ss`で始まるTTYに関連するPIDを識別します。
 
 ```bash
 ps -fat
 ```
 
-*Tori* watch what *Uke* is doing in his own session using PID as reference.
+忍耐
 
 ```bash
 peekfd -8cnd $PID 0 1 2
 ```
 
-### Uchikomi (x10 by exercise by partner)
+### 互助
 
-### Yakusoku geiko
+### 約束稽古
 
-*Tori* try to connect run the commands given by Sensei then disconnect without
-been observed by *Uke* After a while roles are exchanged.
+節操
 
-### Process Termination
-[D3-PT](https://d3fend.mitre.org/technique/d3f:ProcessTermination/)
+### プロセスの終了（https://d3fend.mitre.org/technique/d3f:ProcessTermination/）
 
-#### Uke
+#### *受け*
 
-*Uke* connect via ssh to *Tori* cyberdeck
+*受け*はssh経由で*とり*のサイバーデッキに接続
 
 ```bash
 ssh $TORI_USERNAME@$TORI_IP_ADDRESS
 ```
 
-then run commands during *Tori* practice.
+その後、*とり*の練習中にコマンドを実行する
 
-examples:
+例：
 
 ```bash
 ls
@@ -232,83 +215,73 @@ pwd
 fortune
 ```
 
-#### Tori
+#### *とり*
 
-*Tori* look at Yomi Waza Log to catch *Uke* ssh connection (from right side of
-the screen).
+*とり*は右側の画面で*受け*のssh接続をキャッチするために読み技ログを見ます。
 
-*Tori* list active sessions to identify TTY related to *Uke* ssh connection.
+*とり*はアクティブなセッションをリストし、*受け*のssh接続に関連するTTYを識別します。
 
 ```bash
 w
 ```
 
-*Tori* list processes to identify PID related to TTY with STAT value starting
-with `Ss`.
+*とり*はプロセスをリストし、STAT値が`Ss`で始まるTTYに関連するPIDを識別します。
 
 ```bash
 ps -fat
 ```
 
-*Tori* kill the processus by it reference identifier (PID), so the session, so
-disconnect *Uke* from his cyberdeck.
+照会識別コード（PID）によりプロセスを終了し、それによりセッションを切断し、*受け*をサイバーデッキから切断します。
 
 ```bash
 kill -9 $PID
 ```
 
-### Uke
+### *受け*
 
-Uke performs connection
+受けの接続を実行します
 
-### Tori
+### *とり*
 
-1. Tori performs connection at the same time as Uke
-1. Tori performs (Process Termination)[day1.md#process-termination-d3-pt] on
-local session of *Uke*
+1. サイバー道
+1. 道徳規範は、サイバー述家がサイバー述を実践するためにどのようにふるまい、内面状態を整えるかを述べています。
 
-### Uchikomi (x10 by exercise by partner)
+### 互助
 
-### Nagekomi (x10 by exercise by partner)
+### 勇気
 
-kill local session of the uke
+誠
 
-### Yakusoku geiko
+### 約束稽古
 
-*Tori* try to connect and kill local session of the Uke
+厚情
 
-## Randori
+## 節操
 
-Try to disconnect partner from all his sessions (local and remote). Try to
-disconnect partner two times from your cyberdeck then kill local session of the
-partner on his cyberdeck.
+2024年のhttp://thcon.party向けのサイバー術短期発見コース
 
-## Cooldown
+## 2024年のhttp://thcon.party向けのサイバー述の簡易発見コース
 
-### Eyes
+### 目
 
-* blinking
-* hands on
+* 挨拶
+* 物理的なお辞儀であるリッツ（礼）または「お願いします」という文を使って、サイバー述家は他の人と共に練習する前に挨拶します。
 
-### Hands
+### 手
 
-* strech your fingers in and out of your hands
-* drop your hands and shake them
+* ウォームアップ
+* 目
 
-### body
+### 上右、下左、下右、上左を見ます（5回）
 
-* seated
-   * strech arms forward
-   * cross legs, put opposite hand on the leg, turn head on upper knee side, twist
-knee opposite to the head then invert
-   * move to the beginning of the chair, bend your back and put your hands on your
-hips then stretch
-* stand up
-   * stretch arms to the top
-   * cross arms to put hands on elbow, pull with the hand on top of the elbow to the
-opposite side (invert)
-   * pull up shoulders
-   * join hands at the back on in front of your hips then extend left side of your
-neck then right
+* 両目で円を描きます（5回）
+   * 目で∞の形を描きます（5回）
+   * 手
+   * 両手を前後に指を一本ずつ転がします（5回）
+* 両手の指に親指を使って前後に触れます（2回）
+   * 両手の同じ指同士を結合し、前後に片方ずつ離します（2回）
+   * 先生の数字（1から5）に従って関連する指を離します
+   * 組み合わせ
+   * パートナーと一緒に指を動かし、受け手は目で追いかけます
 
-## Mokusō
+## 読み技

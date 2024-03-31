@@ -1,9 +1,9 @@
-# Cyberjūtsu short discovery course for http://thcon.party 2024
+# Cyberjutsu short discovery course for 2024
 
 ## Greeting
 
 * The cyberjutsuka before practicing with someone greet him with physical bow
-called Ritsu [Rei](./glossary.md#rei) or "Onegaishimasu" sentence
+called Ritsu Rei or "Onegaishimasu" sentence
 
 ## Warmup
 
@@ -52,8 +52,7 @@ tail -f /var/log/syslog
 
 *Ctrl+a* then *Tab* to return to available cli.
 
-### Remote Terminal Session Detection
-[D3-RTSD](https://d3fend.mitre.org/technique/d3f:RemoteTerminalSessionDetection)
+### Remote Terminal Session Detection D3-RTSD
 
 #### Uke
 
@@ -93,8 +92,7 @@ side of the screen).
 w
 ```
 
-### Process Termination
-[D3-PT](https://d3fend.mitre.org/technique/d3f:ProcessTermination/)
+### Process Termination D3-PT
 
 #### Uke
 
@@ -147,19 +145,19 @@ Uke performs connection
 
 ### Tori
 
-1. Tori performs connection at the same time as Uke
-1. Tori performs (Process Termination)[day1.md#process-termination-d3-pt] on
-local session of *Uke*
+1. Cyber Moral Code (Saibā-dō)
+1. Moral Code describe how practitioner (Saibā-jūtsu-ka) behave and shape his
+inner state for practicing Cyberjūtsu (Saibā-jūtsu).
 
-### Nagekomi (x10 by exercise by partner)
+### Courage (Yuki)
 
-kill local session of the uke
+Sincerity (Makato)
 
-#### Fake service listening
+#### Etiquette (Reigi)
 
 ##### Tori
 
-*Tori* open a port to fake a service available for *Uke*
+Honor (Meiyo)
 
 ```bash
 sudo nc -k -l -p $PORT
@@ -173,57 +171,54 @@ sudo nc -k -l -p $PORT
 nmap -A $UKE_IP_ADRESS
 ```
 
-*Uke* perform a connection with a fake client to the fake service of *Tori*
+Humility (Kenkyo)
 
 ```bash
 nc $TORI_IP_ADDRESS $TORI_PORT
 ```
 
-*Uke* disconnect with CTRL+c
+Self-control (Shisei)
 
 ```bash
 nc $TORI_IP_ADDRESS $TORI_PORT
 ```
 
-### Uchikomi (x10 by exercise by partner)
+### Mutual Aid (Gojo)
 
-*Uke* open a port, *Tori* must find the port and connect on it.
+Perseverance (Nintai)
 
-## Randori
+## Integrity (Sessō)
 
-Try to disconnect partner from all his sessions (local and remote).
+Kindness (Kojo)
 
-## Cooldown
+## Cyberjūtsu short discovery course for http://thcon.party 2024
 
 ### Eyes
 
-* blinking
-* hands on
+* Greeting
+* The cyberjutsuka before practicing with someone greet him with physical bow
+called Ritsu Rei or "Onegaishimasu" sentence
 
 ### Hands
 
-* strech your fingers in and out of your hands
-* drop your hands and shake them
+* Warmup
+* Eyes
 
-### body
+### look at top right, bottom left, bottom right, top left (x5)
 
-* seated
-   * strech arms forward
-   * cross legs, put opposite hand on the leg, turn head on upper knee side, twist
-knee opposite to the head then invert
-   * move to the beginning of the chair, bend your back and put your hands on your
-hips then stretch
-* stand up
-   * stretch arms to the top
-   * cross arms to put hands on elbow, pull with the hand on top of the elbow to the
-opposite side (invert)
-   * pull up shoulders
-   * join hands at the back on in front of your hips then extend left side of your
-neck then right
+* draw a circle with your Eyes both sens (x5)
+   * draw an infinity sign with your eyes (∞) (x5)
+   * Hands
+   * Roll your fingers one by one foreward and backward both hands (x5)
+* touch with thumb each of your fingers both hands foreward and backward (x2)
+   * join same finger of each hand with the other, then dismiss couple one by one
+foreward and ackward (x2)
+   * listen to Sensei number (1 to 5) and dismiss related fingers
+   * Combined
+   * with partner tori move fingers, uke must follow with the eyes
 
-## Mokusō
+## Yomi Waza
 
 ## Greeting
 
-* The cyberjutsuka after practicing with someone gree him with physical bow
-called Ritsu [Rei](./glossary.md#rei) or "Domo arigato" sentence
+* Yakusoku geiko

@@ -1,1 +1,1 @@
-# Forms or Kata (形)
+# ToriはUkeと同時に接続を行う

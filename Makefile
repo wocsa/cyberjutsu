@@ -23,7 +23,7 @@ $(1): $$($(1)_OBJS) locale/$(DOMAIN).pot
 	find ./ -name "*.md"  ! -path "./tmp*" ! -path "./locale*" ! -path "./.git*" ! -path "./.vscode*" ! -path "./langs*" ! -path "./img*" -exec md2po {} -p locale/$(1)/LC_MESSAGES/$(DOMAIN).po -sqm --md-encoding $(ENCODING) --po-encoding $(ENCODING) -l $(1) \;
 	@test -d langs/$(1) || mkdir langs/$(1)
 	$(foreach var,$(DIRS),mkdir -p "langs/$(1)/$(var)";)
-	cd langs/$(1)/ && ln -s ../../img
+	cp -Rf img langs/$(1)/
 	find ./ -name "*.md"  ! -path "./tmp*" ! -path "./locale*" ! -path "./.git*" ! -path "./.vscode*" ! -path "./langs*" ! -path "./img*" -exec po2md {} -p ./locale/$(1)/LC_MESSAGES/$(DOMAIN).po --save "langs/$(1)/{}" \;
 	#find ./ -name "*.md"  ! -path "./tmp*" ! -path "./locale*" ! -path "./.git*" ! -path "./.vscode*" ! -path "./langs*" -exec md2po2md {} -o "locale/{lang}" -sqm --md-encoding $(ENCODING) --po-encoding $(ENCODING) -l $(1) \;
 endef

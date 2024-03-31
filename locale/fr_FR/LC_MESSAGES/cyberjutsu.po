@@ -2067,3 +2067,48 @@ msgstr ""
 msgid ""
 "chain two commands give the result of the first command to the second one."
 msgstr ""
+
+#: ./grades.md:block 10 (paragraph)
+msgid ""
+"Each grade in Cyberjūtsu represents a significant milestone in a "
+"practitioner's journey, reflecting both their technical proficiency and "
+"understanding of cyber ethics."
+msgstr ""
+"Chaque grade en Cyberjūtsu représente une étape importante dans le parcours "
+"d'un pratiquant, reflétant à la fois sa compétence technique et sa "
+"compréhension de l'éthique cyber."
+
+#: ./moral-code.md:block 10 (header)
+msgid "Respect (Sonkei) 尊敬"
+msgstr "Respect (Sonkei) 尊敬"
+
+#: ./moral-code.md:block 12 (header)
+msgid "Integrity (Seijitsu) 誠実"
+msgstr "Intégrité (Seijitsu) 誠実"
+
+#: ./moral-code.md:block 14 (header)
+msgid "Discipline (Kiritsu) 規律"
+msgstr "Discipline (Kiritsu) 規律"
+
+#: ./techniques.md:block 1 (header)
+msgid "Fundamental Cyber Techniques"
+msgstr "Techniques Cyber Fondamentales"
+
+#: ./techniques.md:block 2 (paragraph)
+msgid ""
+"Understanding and applying encryption is a cornerstone of cyber security."
+msgstr ""
+"Comprendre et appliquer le chiffrement est une pierre angulaire de la "
+"sécurité cybernétique."
+
+#: ./philosophies.md:block 1 (header)
+msgid "Cyberjūtsu Philosophies"
+msgstr "Philosophies du Cyberjūtsu"
+
+#: ./philosophies.md:block 2 (paragraph)
+msgid ""
+"The way of the cyber warrior is one of constant learning, ethical "
+"reflection, and respect for the digital realm."
+msgstr ""
+"La voie du guerrier cyber est celle de l'apprentissage constant, de la "
+"réflexion éthique et du respect du domaine numérique."

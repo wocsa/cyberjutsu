@@ -1,40 +1,44 @@
-# Cyberjūtsu short discovery course for http://thcon.party 2024
+# Cours de découverte courte de Cyberjūtsu pour http://thcon.party 2024
 
-## Greeting
+## French Translation of 'Greeting'
 
 * The cyberjutsuka before practicing with someone greet him with physical bow
 called Ritsu [Rei](./glossary.md#rei) or "Onegaishimasu" sentence
 
-## Warmup
+## French Translation of 'Warmup'
 
-### Eyes
+### French Translation of 'Eyes'
 
-* look at top right, bottom left, bottom right, top left (x5)
-* draw a circle with your Eyes both sens (x5)
-* draw an infinity sign with your eyes (∞) (x5)
+* French Translation of 'look at top right, bottom left, bottom right, top left
+(x5)'
+* French Translation of 'draw a circle with your Eyes both sens (x5)'
+* French Translation of 'draw an infinity sign with your eyes (∞) (x5)'
 
-### Hands
+### French Translation of 'Hands'
 
-* Roll your fingers one by one foreward and backward both hands (x5)
+* French Translation of 'Roll your fingers one by one foreward and backward both
+hands (x5)'
 * touch with thumb each of your fingers both hands foreward and backward (x2)
 * join same finger of each hand with the other, then dismiss couple one by one
 foreward and ackward (x2)
-* listen to Sensei number (1 to 5) and dismiss related fingers
+* French Translation of 'listen to Sensei number (1 to 5) and dismiss related
+fingers'
 
-### Combined
+### French Translation of 'Combined'
 
-* with partner tori move fingers, uke must follow with the eyes
+* French Translation of 'with partner tori move fingers, uke must follow with the
+eyes'
 
-## Yomi Waza
+## French Translation of 'Yomi Waza'
 
-### Yakusoku geiko
+### French Translation of 'Yakusoku geiko'
 
 *Tori* try to scan ports one by one randomly and *Uke* try to guess the number.
 After a while roles are exchanged.
 
-### Log Monitoring
+### French Translation of 'Log Monitoring'
 
-Tori and Uke split screen with two cli.
+French Translation of 'Tori and Uke split screen with two cli.'
 
 ```bash
 screen
@@ -44,34 +48,34 @@ Press return if paragraph is prompted. *Ctrl+a* then *Ctrl+|* #split screen in
 two part. *Ctrl+a* then *Tab* to switch to next part of the screen. *Ctrl+a*
 then *Ctrl+c* to create bash cli in black part of the screen.
 
-Launch Yomi Waza Log Monitoring.
+French Translation of 'Launch Yomi Waza Log Monitoring.'
 
 ```bash
 tail -f /var/log/syslog
 ```
 
-*Ctrl+a* then *Tab* to return to available cli.
+French Translation of '*Ctrl+a* then *Tab* to return to available cli.'
 
 ### Remote Terminal Session Detection
 [D3-RTSD](https://d3fend.mitre.org/technique/d3f:RemoteTerminalSessionDetection)
 
-#### Uke
+#### French Translation of 'Uke'
 
-*Uke* scan port to *Tori* cyberdeck to identify ssh port
+French Translation of '*Uke* scan port to *Tori* cyberdeck to identify ssh port'
 
 ```bash
 nmap -A $UKE_IP_ADRESS
 ```
 
-*Uke* connect via ssh to *Tori* cyberdeck
+French Translation of '*Uke* connect via ssh to *Tori* cyberdeck'
 
 ```bash
 ssh $TORI_USERNAME@$TORI_IP_ADDRESS
 ```
 
-then run commands during *Tori* practice.
+French Translation of 'then run commands during *Tori* practice.'
 
-examples:
+French Translation of 'examples:'
 
 ```bash
 ls
@@ -82,7 +86,7 @@ netstat
 htop
 ```
 
-#### Tori
+#### French Translation of 'Tori'
 
 *Tori* look at Yomi Waza Log Monitoring to catch *Uke* ssh connection (from right
 side of the screen).
@@ -96,17 +100,17 @@ w
 ### Process Termination
 [D3-PT](https://d3fend.mitre.org/technique/d3f:ProcessTermination/)
 
-#### Uke
+#### French Translation of 'Uke'
 
-*Uke* connect via ssh to *Tori* cyberdeck
+French Translation of '*Uke* connect via ssh to *Tori* cyberdeck'
 
 ```bash
 ssh $TORI_USERNAME@$TORI_IP_ADDRESS
 ```
 
-then run commands during *Tori* practice.
+French Translation of 'then run commands during *Tori* practice.'
 
-examples:
+French Translation of 'examples:'
 
 ```bash
 ls
@@ -116,7 +120,7 @@ pwd
 fortune
 ```
 
-#### Tori
+#### French Translation of 'Tori'
 
 *Tori* look at Yomi Waza Log to catch *Uke* ssh connection (from right side of
 the screen).
@@ -141,33 +145,33 @@ disconnect *Uke* from his cyberdeck.
 kill -9 $PID
 ```
 
-### Uke
+### French Translation of 'Uke'
 
-Uke performs connection
+French Translation of 'Uke performs connection'
 
-### Tori
+### French Translation of 'Tori'
 
-1. Tori performs connection at the same time as Uke
+1. French Translation of 'Tori performs connection at the same time as Uke'
 1. Tori performs (Process Termination)[day1.md#process-termination-d3-pt] on
 local session of *Uke*
 
-### Nagekomi (x10 by exercise by partner)
+### French Translation of 'Nagekomi (x10 by exercise by partner)'
 
-kill local session of the uke
+French Translation of 'kill local session of the uke'
 
-#### Fake service listening
+#### French Translation of 'Fake service listening'
 
-##### Tori
+##### French Translation of 'Tori'
 
-*Tori* open a port to fake a service available for *Uke*
+French Translation of '*Tori* open a port to fake a service available for *Uke*'
 
 ```bash
 sudo nc -k -l -p $PORT
 ```
 
-##### Uke
+##### French Translation of 'Uke'
 
-*Uke* scan port to *Tori* cyberdeck to identify ssh port
+French Translation of '*Uke* scan port to *Tori* cyberdeck to identify ssh port'
 
 ```bash
 nmap -A $UKE_IP_ADRESS
@@ -179,51 +183,53 @@ nmap -A $UKE_IP_ADRESS
 nc $TORI_IP_ADDRESS $TORI_PORT
 ```
 
-*Uke* disconnect with CTRL+c
+French Translation of '*Uke* disconnect with CTRL+c'
 
 ```bash
 nc $TORI_IP_ADDRESS $TORI_PORT
 ```
 
-### Uchikomi (x10 by exercise by partner)
+### French Translation of 'Uchikomi (x10 by exercise by partner)'
 
-*Uke* open a port, *Tori* must find the port and connect on it.
+French Translation of '*Uke* open a port, *Tori* must find the port and connect
+on it.'
 
-## Randori
+## French Translation of 'Randori'
 
-Try to disconnect partner from all his sessions (local and remote).
+French Translation of 'Try to disconnect partner from all his sessions (local and
+remote).'
 
-## Cooldown
+## French Translation of 'Cooldown'
 
-### Eyes
+### French Translation of 'Eyes'
 
-* blinking
-* hands on
+* French Translation of 'blinking'
+* French Translation of 'hands on'
 
-### Hands
+### French Translation of 'Hands'
 
-* strech your fingers in and out of your hands
-* drop your hands and shake them
+* French Translation of 'strech your fingers in and out of your hands'
+* French Translation of 'drop your hands and shake them'
 
-### body
+### French Translation of 'body'
 
-* seated
-   * strech arms forward
+* French Translation of 'seated'
+   * French Translation of 'strech arms forward'
    * cross legs, put opposite hand on the leg, turn head on upper knee side, twist
 knee opposite to the head then invert
    * move to the beginning of the chair, bend your back and put your hands on your
 hips then stretch
-* stand up
-   * stretch arms to the top
+* French Translation of 'stand up'
+   * French Translation of 'stretch arms to the top'
    * cross arms to put hands on elbow, pull with the hand on top of the elbow to the
 opposite side (invert)
-   * pull up shoulders
+   * French Translation of 'pull up shoulders'
    * join hands at the back on in front of your hips then extend left side of your
 neck then right
 
-## Mokusō
+## French Translation of 'Mokusō'
 
-## Greeting
+## French Translation of 'Greeting'
 
 * The cyberjutsuka after practicing with someone gree him with physical bow
 called Ritsu [Rei](./glossary.md#rei) or "Domo arigato" sentence

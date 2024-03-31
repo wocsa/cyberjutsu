@@ -1,1 +1,1 @@
-# Forms or Kata (形)
+# French Translation of 'Forms or Kata (形)'

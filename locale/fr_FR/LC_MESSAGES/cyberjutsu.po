@@ -4,11 +4,11 @@ msgstr ""
 
 #: ./grades.md:block 1 (header)
 msgid "Cyberjūtsu Grades (段位)"
-msgstr ""
+msgstr "Grades de Cyberjūtsu (段位)"
 
 #: ./moral-code.md:block 1 (header)
 msgid "Cyber Moral Code (Saibā-dō) サイバー道"
-msgstr ""
+msgstr "Code Moral Cyber (Saibā-dō) サイバー道"
 
 #: ./moral-code.md:block 2 (paragraph)
 msgid ""
@@ -18,51 +18,51 @@ msgstr ""
 
 #: ./moral-code.md:block 4 (header)
 msgid "Courage (Yuki) 勇気"
-msgstr ""
+msgstr "Courage (Yuki) 勇気"
 
 #: ./moral-code.md:block 6 (header)
 msgid "Sincerity (Makato) 誠"
-msgstr ""
+msgstr "Sincérité (Makato) 誠"
 
 #: ./moral-code.md:block 8 (header)
 msgid "Etiquette (Reigi) 礼儀"
-msgstr ""
+msgstr "Étiquette (Reigi) 礼儀"
 
 #: ./moral-code.md:block 10 (header)
 msgid "Honor (Meiyo) 名誉"
-msgstr ""
+msgstr "Honneur (Meiyo) 名誉"
 
 #: ./moral-code.md:block 12 (header)
 msgid "Humility ([Kenkyo](https://interculturalwordsensei.org/kenkyo/)) 謙虚"
-msgstr ""
+msgstr "Humilité ([Kenkyo](https://interculturalwordsensei.org/kenkyo/)) 謙虚"
 
 #: ./moral-code.md:block 14 (header)
 msgid "Self-control (Shisei) 自制"
-msgstr ""
+msgstr "Auto-contrôle (Shisei) 自制"
 
 #: ./moral-code.md:block 16 (header)
 msgid "Mutual Aid (Gojo) 互助"
-msgstr ""
+msgstr "Aide Mutuelle (Gojo) 互助"
 
 #: ./moral-code.md:block 18 (header)
 msgid "Perseverance (Nintai) 忍耐"
-msgstr ""
+msgstr "Persévérance (Nintai) 忍耐"
 
 #: ./moral-code.md:block 20 (header)
 msgid "Integrity (Sessō) 節操"
-msgstr ""
+msgstr "Intégrité (Sessō) 節操"
 
 #: ./moral-code.md:block 22 (header)
 msgid "Kindness (Kojo) 厚情"
-msgstr ""
+msgstr "Gentillesse (Kojo) 厚情"
 
 #: ./courses/thcon-2024/short-discovery.md:block 1 (header)
 msgid "Cyberjūtsu short discovery course for http://thcon.party 2024"
-msgstr ""
+msgstr "Cours de découverte courte de Cyberjūtsu pour http://thcon.party 2024"
 
 #: ./courses/thcon-2024/short-discovery.md:block 2 (header)
 msgid "Greeting"
-msgstr ""
+msgstr "French Translation of 'Greeting'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 3 (unordered list)
 msgid ""
@@ -72,31 +72,35 @@ msgstr ""
 
 #: ./courses/thcon-2024/short-discovery.md:block 4 (header)
 msgid "Warmup"
-msgstr ""
+msgstr "French Translation of 'Warmup'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 5 (header)
 msgid "Eyes"
-msgstr ""
+msgstr "French Translation of 'Eyes'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 6 (unordered list)
 msgid "look at top right, bottom left, bottom right, top left (x5)"
 msgstr ""
+"French Translation of 'look at top right, bottom left, bottom right, top "
+"left (x5)'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 6 (unordered list)
 msgid "draw a circle with your Eyes both sens (x5)"
-msgstr ""
+msgstr "French Translation of 'draw a circle with your Eyes both sens (x5)'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 6 (unordered list)
 msgid "draw an infinity sign with your eyes (∞) (x5)"
-msgstr ""
+msgstr "French Translation of 'draw an infinity sign with your eyes (∞) (x5)'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 7 (header)
 msgid "Hands"
-msgstr ""
+msgstr "French Translation of 'Hands'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 8 (unordered list)
 msgid "Roll your fingers one by one foreward and backward both hands (x5)"
 msgstr ""
+"French Translation of 'Roll your fingers one by one foreward and backward "
+"both hands (x5)'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 8 (unordered list)
 msgid ""
@@ -112,22 +116,26 @@ msgstr ""
 #: ./courses/thcon-2024/short-discovery.md:block 8 (unordered list)
 msgid "listen to Sensei number (1 to 5) and dismiss related fingers"
 msgstr ""
+"French Translation of 'listen to Sensei number (1 to 5) and dismiss related "
+"fingers'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 9 (header)
 msgid "Combined"
-msgstr ""
+msgstr "French Translation of 'Combined'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 10 (unordered list)
 msgid "with partner tori move fingers, uke must follow with the eyes"
 msgstr ""
+"French Translation of 'with partner tori move fingers, uke must follow with "
+"the eyes'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 11 (header)
 msgid "Yomi Waza"
-msgstr ""
+msgstr "French Translation of 'Yomi Waza'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 12 (header)
 msgid "Yakusoku geiko"
-msgstr ""
+msgstr "French Translation of 'Yakusoku geiko'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 13 (paragraph)
 msgid ""
@@ -137,11 +145,11 @@ msgstr ""
 
 #: ./courses/thcon-2024/short-discovery.md:block 14 (header)
 msgid "Log Monitoring"
-msgstr ""
+msgstr "French Translation of 'Log Monitoring'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 15 (paragraph)
 msgid "Tori and Uke split screen with two cli."
-msgstr ""
+msgstr "French Translation of 'Tori and Uke split screen with two cli.'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 17 (paragraph)
 msgid ""
@@ -152,11 +160,12 @@ msgstr ""
 
 #: ./courses/thcon-2024/short-discovery.md:block 18 (paragraph)
 msgid "Launch Yomi Waza Log Monitoring."
-msgstr ""
+msgstr "French Translation of 'Launch Yomi Waza Log Monitoring.'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 20 (paragraph)
 msgid "*Ctrl+a* then *Tab* to return to available cli."
 msgstr ""
+"French Translation of '*Ctrl+a* then *Tab* to return to available cli.'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 21 (header)
 msgid ""
@@ -166,27 +175,29 @@ msgstr ""
 
 #: ./courses/thcon-2024/short-discovery.md:block 22 (header)
 msgid "Uke"
-msgstr ""
+msgstr "French Translation of 'Uke'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 23 (paragraph)
 msgid "*Uke* scan port to *Tori* cyberdeck to identify ssh port"
 msgstr ""
+"French Translation of '*Uke* scan port to *Tori* cyberdeck to identify ssh "
+"port'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 25 (paragraph)
 msgid "*Uke* connect via ssh to *Tori* cyberdeck"
-msgstr ""
+msgstr "French Translation of '*Uke* connect via ssh to *Tori* cyberdeck'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 27 (paragraph)
 msgid "then run commands during *Tori* practice."
-msgstr ""
+msgstr "French Translation of 'then run commands during *Tori* practice.'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 28 (paragraph)
 msgid "examples:"
-msgstr ""
+msgstr "French Translation of 'examples:'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 30 (header)
 msgid "Tori"
-msgstr ""
+msgstr "French Translation of 'Tori'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 31 (paragraph)
 msgid ""
@@ -225,11 +236,12 @@ msgstr ""
 
 #: ./courses/thcon-2024/short-discovery.md:block 50 (paragraph)
 msgid "Uke performs connection"
-msgstr ""
+msgstr "French Translation of 'Uke performs connection'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 52 (ordered list)
 msgid "Tori performs connection at the same time as Uke"
 msgstr ""
+"French Translation of 'Tori performs connection at the same time as Uke'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 52 (ordered list)
 msgid ""
@@ -239,19 +251,21 @@ msgstr ""
 
 #: ./courses/thcon-2024/short-discovery.md:block 53 (header)
 msgid "Nagekomi (x10 by exercise by partner)"
-msgstr ""
+msgstr "French Translation of 'Nagekomi (x10 by exercise by partner)'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 54 (paragraph)
 msgid "kill local session of the uke"
-msgstr ""
+msgstr "French Translation of 'kill local session of the uke'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 55 (header)
 msgid "Fake service listening"
-msgstr ""
+msgstr "French Translation of 'Fake service listening'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 57 (paragraph)
 msgid "*Tori* open a port to fake a service available for *Uke*"
 msgstr ""
+"French Translation of '*Tori* open a port to fake a service available for "
+"*Uke*'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 62 (paragraph)
 msgid ""
@@ -260,55 +274,59 @@ msgstr ""
 
 #: ./courses/thcon-2024/short-discovery.md:block 64 (paragraph)
 msgid "*Uke* disconnect with CTRL+c"
-msgstr ""
+msgstr "French Translation of '*Uke* disconnect with CTRL+c'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 66 (header)
 msgid "Uchikomi (x10 by exercise by partner)"
-msgstr ""
+msgstr "French Translation of 'Uchikomi (x10 by exercise by partner)'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 67 (paragraph)
 msgid "*Uke* open a port, *Tori* must find the port and connect on it."
 msgstr ""
+"French Translation of '*Uke* open a port, *Tori* must find the port and "
+"connect on it.'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 68 (header)
 msgid "Randori"
-msgstr ""
+msgstr "French Translation of 'Randori'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 69 (paragraph)
 msgid "Try to disconnect partner from all his sessions (local and remote)."
 msgstr ""
+"French Translation of 'Try to disconnect partner from all his sessions "
+"(local and remote).'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 70 (header)
 msgid "Cooldown"
-msgstr ""
+msgstr "French Translation of 'Cooldown'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 72 (unordered list)
 msgid "blinking"
-msgstr ""
+msgstr "French Translation of 'blinking'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 72 (unordered list)
 msgid "hands on"
-msgstr ""
+msgstr "French Translation of 'hands on'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 74 (unordered list)
 msgid "strech your fingers in and out of your hands"
-msgstr ""
+msgstr "French Translation of 'strech your fingers in and out of your hands'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 74 (unordered list)
 msgid "drop your hands and shake them"
-msgstr ""
+msgstr "French Translation of 'drop your hands and shake them'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 75 (header)
 msgid "body"
-msgstr ""
+msgstr "French Translation of 'body'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 76 (unordered list)
 msgid "seated"
-msgstr ""
+msgstr "French Translation of 'seated'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 76 (unordered list)
 msgid "strech arms forward"
-msgstr ""
+msgstr "French Translation of 'strech arms forward'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 76 (unordered list)
 msgid ""
@@ -324,11 +342,11 @@ msgstr ""
 
 #: ./courses/thcon-2024/short-discovery.md:block 76 (unordered list)
 msgid "stand up"
-msgstr ""
+msgstr "French Translation of 'stand up'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 76 (unordered list)
 msgid "stretch arms to the top"
-msgstr ""
+msgstr "French Translation of 'stretch arms to the top'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 76 (unordered list)
 msgid ""
@@ -338,7 +356,7 @@ msgstr ""
 
 #: ./courses/thcon-2024/short-discovery.md:block 76 (unordered list)
 msgid "pull up shoulders"
-msgstr ""
+msgstr "French Translation of 'pull up shoulders'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 76 (unordered list)
 msgid ""
@@ -348,7 +366,7 @@ msgstr ""
 
 #: ./courses/thcon-2024/short-discovery.md:block 77 (header)
 msgid "Mokusō"
-msgstr ""
+msgstr "French Translation of 'Mokusō'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 79 (unordered list)
 msgid ""
@@ -358,11 +376,11 @@ msgstr ""
 
 #: ./courses/summer-2023/day2.md:block 1 (header)
 msgid "Cyberjūtsu v1.0 Summer 2023 Day 2"
-msgstr ""
+msgstr "French Translation of 'Cyberjūtsu v1.0 Summer 2023 Day 2'"
 
 #: ./courses/summer-2023/day2.md:block 2 (header)
 msgid "Background"
-msgstr ""
+msgstr "French Translation of 'Background'"
 
 #: ./courses/summer-2023/day2.md:block 3 (paragraph)
 msgid ""
@@ -374,10 +392,12 @@ msgstr ""
 #: ./courses/summer-2023/day2.md:block 8 (unordered list)
 msgid "listen to teacher number (1 to 5) and dismiss related fingers"
 msgstr ""
+"French Translation of 'listen to teacher number (1 to 5) and dismiss related"
+" fingers'"
 
 #: ./courses/summer-2023/day2.md:block 11 (header)
 msgid "Typing"
-msgstr ""
+msgstr "French Translation of 'Typing'"
 
 #: ./courses/summer-2023/day2.md:block 12 (unordered list)
 msgid ""
@@ -402,26 +422,30 @@ msgstr ""
 #: ./courses/summer-2023/day2.md:block 12 (unordered list)
 msgid "w, ls, cd, ps, dir, clear, echo, history, env, who, fortune , find"
 msgstr ""
+"French Translation of 'w, ls, cd, ps, dir, clear, echo, history, env, who, "
+"fortune , find'"
 
 #: ./courses/summer-2023/day2.md:block 12 (unordered list)
 msgid "ps -aux, ls -lai, cd .., dir /*, htop"
-msgstr ""
+msgstr "French Translation of 'ps -aux, ls -lai, cd .., dir /*, htop'"
 
 #: ./courses/summer-2023/day2.md:block 15 (paragraph)
 msgid "Everyone split screen with two command line interface."
 msgstr ""
+"French Translation of 'Everyone split screen with two command line "
+"interface.'"
 
 #: ./courses/summer-2023/day2.md:block 18 (paragraph)
 msgid "Launch Yomi Waza Log."
-msgstr ""
+msgstr "French Translation of 'Launch Yomi Waza Log.'"
 
 #: ./courses/summer-2023/day2.md:block 21 (header)
 msgid "Sen"
-msgstr ""
+msgstr "French Translation of 'Sen'"
 
 #: ./courses/summer-2023/day2.md:block 22 (header)
 msgid "Kōgeki Waza"
-msgstr ""
+msgstr "French Translation of 'Kōgeki Waza'"
 
 #: ./courses/summer-2023/day2.md:block 23 (header)
 msgid ""
@@ -438,39 +462,45 @@ msgstr ""
 
 #: ./courses/summer-2023/day2.md:block 26 (header)
 msgid "ssh connection"
-msgstr ""
+msgstr "French Translation of 'ssh connection'"
 
 #: ./courses/summer-2023/day2.md:block 27 (paragraph)
 msgid "`ssh -p $UKE_PORT $UKE_LOGIN@$UKE_IP_ADDRESS`"
-msgstr ""
+msgstr "French Translation of '`ssh -p $UKE_PORT $UKE_LOGIN@$UKE_IP_ADDRESS`'"
 
 #: ./courses/summer-2023/day2.md:block 28 (header)
 msgid "ftp connection"
-msgstr ""
+msgstr "French Translation of 'ftp connection'"
 
 #: ./courses/summer-2023/day2.md:block 29 (paragraph)
 msgid "`ftp $UKE_IP_ADDRESS $UKE_PORT` then enter login then password"
 msgstr ""
+"French Translation of '`ftp $UKE_IP_ADDRESS $UKE_PORT` then enter login then"
+" password'"
 
 #: ./courses/summer-2023/day2.md:block 30 (header)
 msgid "telnet connection"
-msgstr ""
+msgstr "French Translation of 'telnet connection'"
 
 #: ./courses/summer-2023/day2.md:block 31 (paragraph)
 msgid "`telnet $UKE_IP_ADDRESS $UKE_PORT` then enter login then password"
 msgstr ""
+"French Translation of '`telnet $UKE_IP_ADDRESS $UKE_PORT` then enter login "
+"then password'"
 
 #: ./courses/summer-2023/day2.md:block 33 (paragraph)
 msgid "Uke use Yomi Waza Log Monitoring to identify Tori connections."
 msgstr ""
+"French Translation of 'Uke use Yomi Waza Log Monitoring to identify Tori "
+"connections.'"
 
 #: ./courses/summer-2023/day2.md:block 34 (header)
 msgid "pattern filtering"
-msgstr ""
+msgstr "French Translation of 'pattern filtering'"
 
 #: ./courses/summer-2023/day2.md:block 36 (paragraph)
 msgid "circle ssh 2 rebound"
-msgstr ""
+msgstr "French Translation of 'circle ssh 2 rebound'"
 
 #: ./courses/summer-2023/day2.md:block 38 (paragraph)
 msgid ""
@@ -481,11 +511,11 @@ msgstr ""
 
 #: ./courses/summer-2023/day2.md:block 39 (header)
 msgid "Uke Waza"
-msgstr ""
+msgstr "French Translation of 'Uke Waza'"
 
 #: ./courses/summer-2023/day2.md:block 42 (paragraph)
 msgid "*Uke* connect via ssh or ftp or http"
-msgstr ""
+msgstr "French Translation of '*Uke* connect via ssh or ftp or http'"
 
 #: ./courses/summer-2023/day2.md:block 45 (paragraph)
 msgid ""
@@ -501,7 +531,7 @@ msgstr ""
 
 #: ./courses/summer-2023/day2.md:block 47 (header)
 msgid "ssh"
-msgstr ""
+msgstr "French Translation of 'ssh'"
 
 #: ./courses/summer-2023/day2.md:block 48 (paragraph)
 msgid ""
@@ -512,11 +542,11 @@ msgstr ""
 
 #: ./courses/summer-2023/day2.md:block 49 (header)
 msgid "ftp"
-msgstr ""
+msgstr "French Translation of 'ftp'"
 
 #: ./courses/summer-2023/day2.md:block 51 (header)
 msgid "telnet"
-msgstr ""
+msgstr "French Translation of 'telnet'"
 
 #: ./courses/summer-2023/day2.md:block 52 (paragraph)
 msgid ""
@@ -533,6 +563,7 @@ msgstr ""
 #: ./courses/summer-2023/day2.md:block 56 (paragraph)
 msgid "Uke connect to one of 3 ports (ssh or telnet or ftp)"
 msgstr ""
+"French Translation of 'Uke connect to one of 3 ports (ssh or telnet or ftp)'"
 
 #: ./courses/summer-2023/day2.md:block 58 (paragraph)
 msgid ""
@@ -541,7 +572,7 @@ msgstr ""
 
 #: ./courses/summer-2023/day2.md:block 61 (header)
 msgid "Connection Termination"
-msgstr ""
+msgstr "French Translation of 'Connection Termination'"
 
 #: ./courses/summer-2023/day2.md:block 64 (paragraph)
 msgid ""
@@ -550,7 +581,7 @@ msgstr ""
 
 #: ./courses/summer-2023/day2.md:block 70 (header)
 msgid "tournament"
-msgstr ""
+msgstr "French Translation of 'tournament'"
 
 #: ./courses/summer-2023/day2.md:block 71 (paragraph)
 msgid ""
@@ -567,19 +598,19 @@ msgstr ""
 
 #: ./courses/summer-2023/day2.md:block 75 (header)
 msgid "Read file content"
-msgstr ""
+msgstr "French Translation of 'Read file content'"
 
 #: ./courses/summer-2023/day2.md:block 77 (header)
 msgid "Write file content"
-msgstr ""
+msgstr "French Translation of 'Write file content'"
 
 #: ./courses/summer-2023/day2.md:block 79 (header)
 msgid "Change default port"
-msgstr ""
+msgstr "French Translation of 'Change default port'"
 
 #: ./courses/summer-2023/day2.md:block 85 (header)
 msgid "bash history"
-msgstr ""
+msgstr "French Translation of 'bash history'"
 
 #: ./courses/summer-2023/day2.md:block 86 (paragraph)
 msgid ""
@@ -590,6 +621,8 @@ msgstr ""
 #: ./courses/summer-2023/day2.md:block 89 (paragraph)
 msgid "first that success to reboot cyberdeck of the other with the command"
 msgstr ""
+"French Translation of 'first that success to reboot cyberdeck of the other "
+"with the command'"
 
 #: ./courses/summer-2023/day2.md:block 97 (unordered list)
 msgid ""
@@ -605,7 +638,7 @@ msgstr ""
 
 #: ./courses/summer-2023/day2.md:block 99 (header)
 msgid "References"
-msgstr ""
+msgstr "French Translation of 'References'"
 
 #: ./courses/summer-2023/day2.md:block 100 (paragraph)
 msgid ""
@@ -615,7 +648,7 @@ msgstr ""
 
 #: ./courses/summer-2023/day3.md:block 1 (header)
 msgid "Cyberjūtsu v1.0 Summer 2023 Day 3"
-msgstr ""
+msgstr "French Translation of 'Cyberjūtsu v1.0 Summer 2023 Day 3'"
 
 #: ./courses/summer-2023/day3.md:block 3 (paragraph)
 msgid ""
@@ -626,43 +659,43 @@ msgstr ""
 
 #: ./courses/summer-2023/day3.md:block 13 (header)
 msgid "Tsukuri"
-msgstr ""
+msgstr "French Translation of 'Tsukuri'"
 
 #: ./courses/summer-2023/day3.md:block 14 (header)
 msgid "loop"
-msgstr ""
+msgstr "French Translation of 'loop'"
 
 #: ./courses/summer-2023/day3.md:block 15 (header)
 msgid "http port change"
-msgstr ""
+msgstr "French Translation of 'http port change'"
 
 #: ./courses/summer-2023/day3.md:block 17 (paragraph)
 msgid "Uke change ports numbers of services."
-msgstr ""
+msgstr "French Translation of 'Uke change ports numbers of services.'"
 
 #: ./courses/summer-2023/day3.md:block 18 (ordered list)
 msgid "edit config file for http"
-msgstr ""
+msgstr "French Translation of 'edit config file for http'"
 
 #: ./courses/summer-2023/day3.md:block 20 (ordered list)
 msgid "add a line to listen new port"
-msgstr ""
+msgstr "French Translation of 'add a line to listen new port'"
 
 #: ./courses/summer-2023/day3.md:block 22 (ordered list)
 msgid "save the file with *ctrl+x* then press *y*"
-msgstr ""
+msgstr "French Translation of 'save the file with *ctrl+x* then press *y*'"
 
 #: ./courses/summer-2023/day3.md:block 22 (ordered list)
 msgid "edit website config file"
-msgstr ""
+msgstr "French Translation of 'edit website config file'"
 
 #: ./courses/summer-2023/day3.md:block 25 (header)
 msgid "Batoru Rowaiaru バトル・ロワイアル"
-msgstr ""
+msgstr "French Translation of 'Batoru Rowaiaru バトル・ロワイアル'"
 
 #: ./courses/summer-2023/day1.md:block 1 (header)
 msgid "Cyberjūtsu v1.0 Summer 2023 Day 1"
-msgstr ""
+msgstr "French Translation of 'Cyberjūtsu v1.0 Summer 2023 Day 1'"
 
 #: ./courses/summer-2023/day1.md:block 3 (paragraph)
 msgid ""
@@ -685,23 +718,25 @@ msgstr ""
 
 #: ./courses/summer-2023/day1.md:block 15 (header)
 msgid "uke"
-msgstr ""
+msgstr "French Translation of 'uke'"
 
 #: ./courses/summer-2023/day1.md:block 16 (paragraph)
 msgid "uke provide his cyberdeck ip address to tori"
-msgstr ""
+msgstr "French Translation of 'uke provide his cyberdeck ip address to tori'"
 
 #: ./courses/summer-2023/day1.md:block 18 (header)
 msgid "tori"
-msgstr ""
+msgstr "French Translation of 'tori'"
 
 #: ./courses/summer-2023/day1.md:block 19 (paragraph)
 msgid "*tori* try to find open ports on cyberdeck of *uke*."
 msgstr ""
+"French Translation of '*tori* try to find open ports on cyberdeck of *uke*.'"
 
 #: ./courses/summer-2023/day1.md:block 21 (paragraph)
 msgid "tori identify service keywords en port numbers."
 msgstr ""
+"French Translation of 'tori identify service keywords en port numbers.'"
 
 #: ./courses/summer-2023/day1.md:block 24 (header)
 msgid ""
@@ -712,10 +747,12 @@ msgstr ""
 #: ./courses/summer-2023/day1.md:block 26 (paragraph)
 msgid "*tori* try to find when *uke* is performing scan"
 msgstr ""
+"French Translation of '*tori* try to find when *uke* is performing scan'"
 
 #: ./courses/summer-2023/day1.md:block 29 (paragraph)
 msgid "*uke* try to find open ports on cyberdeck of *tori*."
 msgstr ""
+"French Translation of '*uke* try to find open ports on cyberdeck of *tori*.'"
 
 #: ./courses/summer-2023/day1.md:block 32 (paragraph)
 msgid ""
@@ -725,7 +762,7 @@ msgstr ""
 
 #: ./courses/summer-2023/day1.md:block 55 (header)
 msgid "Session Shoulder Surfing"
-msgstr ""
+msgstr "French Translation of 'Session Shoulder Surfing'"
 
 #: ./courses/summer-2023/day1.md:block 68 (paragraph)
 msgid ""
@@ -741,6 +778,8 @@ msgstr ""
 #: ./courses/summer-2023/day1.md:block 96 (paragraph)
 msgid "*Tori* try to connect and kill local session of the Uke"
 msgstr ""
+"French Translation of '*Tori* try to connect and kill local session of the "
+"Uke'"
 
 #: ./courses/summer-2023/day1.md:block 98 (paragraph)
 msgid ""
@@ -751,7 +790,7 @@ msgstr ""
 
 #: ./principle.md:block 1 (header)
 msgid "Principle of Cyberjūtsu"
-msgstr ""
+msgstr "French Translation of 'Principle of Cyberjūtsu'"
 
 #: ./principle.md:block 2 (paragraph)
 msgid ""
@@ -825,34 +864,35 @@ msgstr ""
 #: ./principle.md:block 9 (header)
 msgid "Japanese Martial Precepts embedded in Cyberjūtsu"
 msgstr ""
+"French Translation of 'Japanese Martial Precepts embedded in Cyberjūtsu'"
 
 #: ./principle.md:block 10 (header)
 msgid "From the Karate Shōtōkan nijū kun"
-msgstr ""
+msgstr "French Translation of 'From the Karate Shōtōkan nijū kun'"
 
 #: ./principle.md:block 11 (quote)
 msgid "技術より心術"
-msgstr ""
+msgstr "French Translation of '技術より心術'"
 
 #: ./principle.md:block 11 (quote)
 msgid "Spirit first, technique second."
-msgstr ""
+msgstr "French Translation of 'Spirit first, technique second.'"
 
 #: ./principle.md:block 11 (quote)
 msgid "-- <cite>Gichin Funakoshi</cite>"
-msgstr ""
+msgstr "French Translation of '-- <cite>Gichin Funakoshi</cite>'"
 
 #: ./principle.md:block 12 (quote)
 msgid "先づ自己を知れ而して他を知れ"
-msgstr ""
+msgstr "French Translation of '先づ自己を知れ而して他を知れ'"
 
 #: ./principle.md:block 12 (quote)
 msgid "Know yourself first, and then others"
-msgstr ""
+msgstr "French Translation of 'Know yourself first, and then others'"
 
 #: ./principle.md:block 13 (quote)
 msgid "敵に因って轉化せよ"
-msgstr ""
+msgstr "French Translation of '敵に因って轉化せよ'"
 
 #: ./principle.md:block 13 (quote)
 msgid ""
@@ -862,7 +902,7 @@ msgstr ""
 
 #: ./principle.md:block 14 (quote)
 msgid "戦は虚実の操縦如何に在り"
-msgstr ""
+msgstr "French Translation of '戦は虚実の操縦如何に在り'"
 
 #: ./principle.md:block 14 (quote)
 msgid ""
@@ -872,31 +912,36 @@ msgstr ""
 
 #: ./principle.md:block 15 (quote)
 msgid "常に思念工夫せよ"
-msgstr ""
+msgstr "French Translation of '常に思念工夫せよ'"
 
 #: ./principle.md:block 15 (quote)
 msgid "Always think and devise ways to live the precepts every day"
 msgstr ""
+"French Translation of 'Always think and devise ways to live the precepts "
+"every day'"
 
 #: ./principle.md:block 16 (quote)
 msgid "道場のみの空手と思ふな"
-msgstr ""
+msgstr "French Translation of '道場のみの空手と思ふな'"
 
 #: ./principle.md:block 16 (quote)
 msgid "Do not think that karate training is only in the dojo"
 msgstr ""
+"French Translation of 'Do not think that karate training is only in the "
+"dojo'"
 
 #: ./principle.md:block 17 (header)
 msgid "From Jūdō"
-msgstr ""
+msgstr "French Translation of 'From Jūdō'"
 
 #: ./principle.md:block 18 (quote)
 msgid "Enter by the technique, progress to the principle."
 msgstr ""
+"French Translation of 'Enter by the technique, progress to the principle.'"
 
 #: ./principle.md:block 18 (quote)
 msgid "-- <cite>Jigorō Kanō</cite>"
-msgstr ""
+msgstr "French Translation of '-- <cite>Jigorō Kanō</cite>'"
 
 #: ./principle.md:block 19 (quote)
 msgid ""
@@ -907,6 +952,7 @@ msgstr ""
 #: ./principle.md:block 20 (quote)
 msgid "Conduct kata and randori with your best effort."
 msgstr ""
+"French Translation of 'Conduct kata and randori with your best effort.'"
 
 #: ./principle.md:block 21 (quote)
 msgid ""
@@ -916,7 +962,7 @@ msgstr ""
 
 #: ./principle.md:block 22 (quote)
 msgid "Jūdō practice is not limited to the dōjō."
-msgstr ""
+msgstr "French Translation of 'Jūdō practice is not limited to the dōjō.'"
 
 #: ./principle.md:block 23 (quote)
 msgid ""
@@ -926,11 +972,11 @@ msgstr ""
 
 #: ./principle.md:block 24 (header)
 msgid "From Aïkido"
-msgstr ""
+msgstr "French Translation of 'From Aïkido'"
 
 #: ./principle.md:block 25 (header)
 msgid "Sources"
-msgstr ""
+msgstr "French Translation of 'Sources'"
 
 #: ./principle.md:block 26 (paragraph)
 msgid ""
@@ -946,19 +992,19 @@ msgstr ""
 
 #: ./forms.md:block 1 (header)
 msgid "Forms or Kata (形)"
-msgstr ""
+msgstr "French Translation of 'Forms or Kata (形)'"
 
 #: ./rules.md:block 1 (header)
 msgid "Fight rules"
-msgstr ""
+msgstr "French Translation of 'Fight rules'"
 
 #: ./rules.md:block 2 (header)
 msgid "Environment"
-msgstr ""
+msgstr "French Translation of 'Environment'"
 
 #: ./rules.md:block 3 (header)
 msgid "Place of the combat"
-msgstr ""
+msgstr "French Translation of 'Place of the combat'"
 
 #: ./rules.md:block 4 (paragraph)
 msgid ""
@@ -973,7 +1019,7 @@ msgstr ""
 
 #: ./rules.md:block 5 (header)
 msgid "Arbiter"
-msgstr ""
+msgstr "French Translation of 'Arbiter'"
 
 #: ./rules.md:block 6 (paragraph)
 msgid ""
@@ -988,11 +1034,11 @@ msgstr ""
 
 #: ./rules.md:block 7 (header)
 msgid "Etiquette"
-msgstr ""
+msgstr "French Translation of 'Etiquette'"
 
 #: ./rules.md:block 8 (header)
 msgid "General Greetings"
-msgstr ""
+msgstr "French Translation of 'General Greetings'"
 
 #: ./rules.md:block 9 (ordered list)
 msgid ""
@@ -1004,11 +1050,11 @@ msgstr ""
 
 #: ./rules.md:block 10 (header)
 msgid "Training etiquette"
-msgstr ""
+msgstr "French Translation of 'Training etiquette'"
 
 #: ./rules.md:block 11 (header)
 msgid "General training etiquette"
-msgstr ""
+msgstr "French Translation of 'General training etiquette'"
 
 #: ./rules.md:block 12 (ordered list)
 msgid ""
@@ -1025,6 +1071,8 @@ msgstr ""
 #: ./rules.md:block 12 (ordered list)
 msgid "Cyberjutsuka asks the Sensei to enter the dojo, during the training."
 msgstr ""
+"French Translation of 'Cyberjutsuka asks the Sensei to enter the dojo, "
+"during the training.'"
 
 #: ./rules.md:block 12 (ordered list)
 msgid ""
@@ -1040,11 +1088,11 @@ msgstr ""
 
 #: ./rules.md:block 12 (ordered list)
 msgid "Cyberjutsuka execute orders from the Sensei."
-msgstr ""
+msgstr "French Translation of 'Cyberjutsuka execute orders from the Sensei.'"
 
 #: ./rules.md:block 13 (header)
 msgid "Greeting before the training"
-msgstr ""
+msgstr "French Translation of 'Greeting before the training'"
 
 #: ./rules.md:block 14 (ordered list)
 msgid ""
@@ -1071,7 +1119,7 @@ msgstr ""
 
 #: ./rules.md:block 15 (header)
 msgid "Greeting after the training"
-msgstr ""
+msgstr "French Translation of 'Greeting after the training'"
 
 #: ./rules.md:block 16 (ordered list)
 msgid ""
@@ -1096,11 +1144,11 @@ msgstr ""
 
 #: ./rules.md:block 17 (header)
 msgid "Sparring rules"
-msgstr ""
+msgstr "French Translation of 'Sparring rules'"
 
 #: ./rules.md:block 19 (header)
 msgid "Before the sparring"
-msgstr ""
+msgstr "French Translation of 'Before the sparring'"
 
 #: ./rules.md:block 20 (ordered list)
 msgid ""
@@ -1111,10 +1159,14 @@ msgstr ""
 #: ./rules.md:block 20 (ordered list)
 msgid "first called partner will be called \"aka\"(赤) during the sparring"
 msgstr ""
+"French Translation of 'first called partner will be called \"aka\"(赤) during"
+" the sparring'"
 
 #: ./rules.md:block 20 (ordered list)
 msgid "second called partner will be called \"shiro\" (白) during the sparring"
 msgstr ""
+"French Translation of 'second called partner will be called \"shiro\" (白) "
+"during the sparring'"
 
 #: ./rules.md:block 21 (ordered list)
 msgid ""
@@ -1124,15 +1176,17 @@ msgstr ""
 
 #: ./rules.md:block 21 (ordered list)
 msgid "Cyberjutsuka greeting the dojo"
-msgstr ""
+msgstr "French Translation of 'Cyberjutsuka greeting the dojo'"
 
 #: ./rules.md:block 21 (ordered list)
 msgid "Cyberjutsuka greeting the arbiter"
-msgstr ""
+msgstr "French Translation of 'Cyberjutsuka greeting the arbiter'"
 
 #: ./rules.md:block 21 (ordered list)
 msgid "Cyberjutuska stand behind his cyberdeck facing the sparring partner"
 msgstr ""
+"French Translation of 'Cyberjutuska stand behind his cyberdeck facing the "
+"sparring partner'"
 
 #: ./rules.md:block 21 (ordered list)
 msgid ""
@@ -1148,7 +1202,7 @@ msgstr ""
 
 #: ./rules.md:block 22 (header)
 msgid "After the sparring"
-msgstr ""
+msgstr "French Translation of 'After the sparring'"
 
 #: ./rules.md:block 23 (ordered list)
 msgid ""
@@ -1177,7 +1231,7 @@ msgstr ""
 
 #: ./rules.md:block 24 (header)
 msgid "During the sparring"
-msgstr ""
+msgstr "French Translation of 'During the sparring'"
 
 #: ./rules.md:block 25 (ordered list)
 msgid ""
@@ -1194,6 +1248,8 @@ msgstr ""
 #: ./rules.md:block 25 (ordered list)
 msgid "When arbiter communicate \"hajime\" partners resume the fight."
 msgstr ""
+"French Translation of 'When arbiter communicate \"hajime\" partners resume "
+"the fight.'"
 
 #: ./rules.md:block 25 (ordered list)
 msgid ""
@@ -1204,10 +1260,13 @@ msgstr ""
 #: ./rules.md:block 25 (ordered list)
 msgid "cyberjutsuka must permit the fight to be performed"
 msgstr ""
+"French Translation of 'cyberjutsuka must permit the fight to be performed'"
 
 #: ./rules.md:block 25 (ordered list)
 msgid "cyberdeck must be ready for the sparring during all the fight"
 msgstr ""
+"French Translation of 'cyberdeck must be ready for the sparring during all "
+"the fight'"
 
 #: ./rules.md:block 25 (ordered list)
 msgid ""
@@ -1218,6 +1277,8 @@ msgstr ""
 #: ./rules.md:block 25 (ordered list)
 msgid "services on cyberdeck must be available on ports and fully functional"
 msgstr ""
+"French Translation of 'services on cyberdeck must be available on ports and "
+"fully functional'"
 
 #: ./rules.md:block 25 (ordered list)
 msgid ""
@@ -1249,14 +1310,17 @@ msgstr ""
 #: ./rules.md:block 26 (ordered list)
 msgid "cyberjutsuka can not have only defensive posture"
 msgstr ""
+"French Translation of 'cyberjutsuka can not have only defensive posture'"
 
 #: ./rules.md:block 26 (ordered list)
 msgid "cyberjutsuka can not perform only fake attacks as offensive actions"
 msgstr ""
+"French Translation of 'cyberjutsuka can not perform only fake attacks as "
+"offensive actions'"
 
 #: ./glossary.md:block 1 (header)
 msgid "Glossary of Terms"
-msgstr ""
+msgstr "French Translation of 'Glossary of Terms'"
 
 #: ./glossary.md:block 2 (paragraph)
 msgid ""
@@ -1272,11 +1336,11 @@ msgstr ""
 
 #: ./glossary.md:block 4 (header)
 msgid "Martial Arts Terms used in Cyberjūtsu"
-msgstr ""
+msgstr "French Translation of 'Martial Arts Terms used in Cyberjūtsu'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid "<a name=\"dojo\">Dojo</a> 道場 (Practice space)"
-msgstr ""
+msgstr "French Translation of '<a name=\"dojo\">Dojo</a> 道場 (Practice space)'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid ""
@@ -1287,74 +1351,88 @@ msgstr ""
 #: ./glossary.md:block 5 (unordered list)
 msgid "<a name=\"cyberjutsuka\">Cyberjutsuka</a> サイバー術家 (Practitioner)"
 msgstr ""
+"French Translation of '<a name=\"cyberjutsuka\">Cyberjutsuka</a> サイバー術家 "
+"(Practitioner)'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid "A Cyberjūtsu practitioner"
-msgstr ""
+msgstr "French Translation of 'A Cyberjūtsu practitioner'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid "<a name=\"sensei\">Sensei</a> 先生 (instructor)"
-msgstr ""
+msgstr "French Translation of '<a name=\"sensei\">Sensei</a> 先生 (instructor)'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid "Master of cyberjutsu. Instructor of the course."
 msgstr ""
+"French Translation of 'Master of cyberjutsu. Instructor of the course.'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid "<a name=\"waza\">Waza</a> 技 (technique)"
-msgstr ""
+msgstr "French Translation of '<a name=\"waza\">Waza</a> 技 (technique)'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid "A Cyberjūtsu technique"
-msgstr ""
+msgstr "French Translation of 'A Cyberjūtsu technique'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid "<a name=\"uke\">Uke</a> 受け (defender,receiver)"
-msgstr ""
+msgstr "French Translation of '<a name=\"uke\">Uke</a> 受け (defender,receiver)'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid "The Cyberjūtsuka who receive or defend against the action"
 msgstr ""
+"French Translation of 'The Cyberjūtsuka who receive or defend against the "
+"action'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid "<a name=\"tori\">Tori</a> 取り (attacker,taker)"
-msgstr ""
+msgstr "French Translation of '<a name=\"tori\">Tori</a> 取り (attacker,taker)'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid "The Cyberjūtsuka who lead or perform the objective."
 msgstr ""
+"French Translation of 'The Cyberjūtsuka who lead or perform the objective.'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid "<a name=\"uke-waza\">Uke Waza</a> 受け技 (defense technique)"
 msgstr ""
+"French Translation of '<a name=\"uke-waza\">Uke Waza</a> 受け技 (defense "
+"technique)'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid "Category of Cyberjūtsu techniques to defend"
-msgstr ""
+msgstr "French Translation of 'Category of Cyberjūtsu techniques to defend'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid "<a name=\"kogeki-waza\">Kōgeki Waza</a> 攻撃技 (attack technique)"
 msgstr ""
+"French Translation of '<a name=\"kogeki-waza\">Kōgeki Waza</a> 攻撃技 (attack "
+"technique)'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid "Category of Cyberjūtsu techniques to attack"
-msgstr ""
+msgstr "French Translation of 'Category of Cyberjūtsu techniques to attack'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid "<a name=\"suki\">Suki</a> 隙技 (weakness,opening)"
-msgstr ""
+msgstr "French Translation of '<a name=\"suki\">Suki</a> 隙技 (weakness,opening)'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid "Opening or a Weakness in one's technique or posture"
 msgstr ""
+"French Translation of 'Opening or a Weakness in one's technique or posture'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid "<a name=\"yomi-waza\">Yomi Waza</a> 読み技 (monitoring technique)"
 msgstr ""
+"French Translation of '<a name=\"yomi-waza\">Yomi Waza</a> 読み技 (monitoring "
+"technique)'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid "Category of Cyberjūtsu technique to monitor activity"
 msgstr ""
+"French Translation of 'Category of Cyberjūtsu technique to monitor activity'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid ""
@@ -1371,11 +1449,11 @@ msgstr ""
 
 #: ./glossary.md:block 5 (unordered list)
 msgid "Where Cyberjūtsu is practiced by Cyberjūtsuka"
-msgstr ""
+msgstr "French Translation of 'Where Cyberjūtsu is practiced by Cyberjūtsuka'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid "<a name=\"rei\">Rei</a> 礼 (welcome,respect)"
-msgstr ""
+msgstr "French Translation of '<a name=\"rei\">Rei</a> 礼 (welcome,respect)'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid ""
@@ -1385,39 +1463,40 @@ msgstr ""
 
 #: ./glossary.md:block 5 (unordered list)
 msgid "<a name=\"hadjime\">Hadjime</a> はじめ (Beginning)"
-msgstr ""
+msgstr "French Translation of '<a name=\"hadjime\">Hadjime</a> はじめ (Beginning)'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid "Beginning of the activity"
-msgstr ""
+msgstr "French Translation of 'Beginning of the activity'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid "<a name=\"matte\">Matte</a> 待て (Stop,Break)"
-msgstr ""
+msgstr "French Translation of '<a name=\"matte\">Matte</a> 待て (Stop,Break)'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid "Stop, break of the activity"
-msgstr ""
+msgstr "French Translation of 'Stop, break of the activity'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid "<a name=\"sono-mama\">Sono mama</a> 其のまま (Freeze"
-msgstr ""
+msgstr "French Translation of '<a name=\"sono-mama\">Sono mama</a> 其のまま (Freeze'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid "Freeze the situation. No action. Hold the position."
 msgstr ""
+"French Translation of 'Freeze the situation. No action. Hold the position.'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid "<a name=\"sore-made\">Sore made</a> 其れ迄に (End)"
-msgstr ""
+msgstr "French Translation of '<a name=\"sore-made\">Sore made</a> 其れ迄に (End)'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid "End of the activity"
-msgstr ""
+msgstr "French Translation of 'End of the activity'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid "<a name=\"ippon\">Ippon</a> 一本 (Knockout)"
-msgstr ""
+msgstr "French Translation of '<a name=\"ippon\">Ippon</a> 一本 (Knockout)'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid ""
@@ -1428,6 +1507,8 @@ msgstr ""
 #: ./glossary.md:block 5 (unordered list)
 msgid "<a name=\"oasaekomi\">Osae Komi</a> 押さえ()込み (Full control)"
 msgstr ""
+"French Translation of '<a name=\"oasaekomi\">Osae Komi</a> 押さえ()込み (Full "
+"control)'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid ""
@@ -1437,7 +1518,7 @@ msgstr ""
 
 #: ./glossary.md:block 5 (unordered list)
 msgid "<a name=\"kata\">Kata</a> 形 (Forms)"
-msgstr ""
+msgstr "French Translation of '<a name=\"kata\">Kata</a> 形 (Forms)'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid ""
@@ -1450,6 +1531,8 @@ msgstr ""
 #: ./glossary.md:block 5 (unordered list)
 msgid "<a name=\"randori\">Randori</a> 乱取り (free practice or sparring)"
 msgstr ""
+"French Translation of '<a name=\"randori\">Randori</a> 乱取り (free practice or"
+" sparring)'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid ""
@@ -1464,14 +1547,19 @@ msgstr ""
 #: ./glossary.md:block 5 (unordered list)
 msgid "<a name=\"uchikomi\">Uchikomi</a> 打ち込み (Repetition training)"
 msgstr ""
+"French Translation of '<a name=\"uchikomi\">Uchikomi</a> 打ち込み (Repetition "
+"training)'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid "Repeated [waza](#waza) practice with a partner"
 msgstr ""
+"French Translation of 'Repeated [waza](#waza) practice with a partner'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid "<a name=\"nagekomi\">Nagekomi</a> 打ち込み (Repetition training)"
 msgstr ""
+"French Translation of '<a name=\"nagekomi\">Nagekomi</a> 打ち込み (Repetition "
+"training)'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid ""
@@ -1482,6 +1570,8 @@ msgstr ""
 #: ./glossary.md:block 5 (unordered list)
 msgid "<a name=\"yakusoku-geiko\">Yakusoku geiko</a> 約束稽古 (agreed-upon practice)"
 msgstr ""
+"French Translation of '<a name=\"yakusoku-geiko\">Yakusoku geiko</a> 約束稽古 "
+"(agreed-upon practice)'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid ""
@@ -1492,6 +1582,8 @@ msgstr ""
 #: ./glossary.md:block 5 (unordered list)
 msgid "<a name=\"seiryoku-zen-yo\">Seiryoku zen yo</a> 精力最活用 (Maximum efficiency)"
 msgstr ""
+"French Translation of '<a name=\"seiryoku-zen-yo\">Seiryoku zen yo</a> 精力最活用"
+" (Maximum efficiency)'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid ""
@@ -1503,6 +1595,8 @@ msgstr ""
 #: ./glossary.md:block 5 (unordered list)
 msgid "<a name=\"jita-koei\">Jita Kyôei</a> 自他共栄 (Mutual aid)"
 msgstr ""
+"French Translation of '<a name=\"jita-koei\">Jita Kyôei</a> 自他共栄 (Mutual "
+"aid)'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid ""
@@ -1513,6 +1607,8 @@ msgstr ""
 #: ./glossary.md:block 5 (unordered list)
 msgid "<a name=\"\"></a> 単独練習 (practising his scales and mastering)"
 msgstr ""
+"French Translation of '<a name=\"\"></a> 単独練習 (practising his scales and "
+"mastering)'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid ""
@@ -1522,7 +1618,7 @@ msgstr ""
 
 #: ./glossary.md:block 5 (unordered list)
 msgid "<a name=\"tsune\">Tsune</a> 常 (training habits)"
-msgstr ""
+msgstr "French Translation of '<a name=\"tsune\">Tsune</a> 常 (training habits)'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid ""
@@ -1534,10 +1630,14 @@ msgstr ""
 #: ./glossary.md:block 5 (unordered list)
 msgid "<a name=\"shuhari\">Shuhari</a> 守破離 (apply,detach,transcend)"
 msgstr ""
+"French Translation of '<a name=\"shuhari\">Shuhari</a> 守破離 "
+"(apply,detach,transcend)'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid "shu (守) \"obey\" learning fundamentals, techniques, heuristics, proverbs"
 msgstr ""
+"French Translation of 'shu (守) \"obey\" learning fundamentals, techniques, "
+"heuristics, proverbs'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid ""
@@ -1555,6 +1655,8 @@ msgstr ""
 #: ./glossary.md:block 5 (unordered list)
 msgid "<a name=\"shin-gi-tai\">Shin Gi Tai</a> 心技体 (mind,technique,fitness)"
 msgstr ""
+"French Translation of '<a name=\"shin-gi-tai\">Shin Gi Tai</a> 心技体 "
+"(mind,technique,fitness)'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid ""
@@ -1573,6 +1675,8 @@ msgstr ""
 #: ./glossary.md:block 5 (unordered list)
 msgid "Tsukuri means prepare or construct Kuzushi and Kake to reach your goal"
 msgstr ""
+"French Translation of 'Tsukuri means prepare or construct Kuzushi and Kake "
+"to reach your goal'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid ""
@@ -1587,7 +1691,7 @@ msgstr ""
 
 #: ./glossary.md:block 5 (unordered list)
 msgid "<a name=\"mikiri\">Mikiri</a> 見切る (perception)"
-msgstr ""
+msgstr "French Translation of '<a name=\"mikiri\">Mikiri</a> 見切る (perception)'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid ""
@@ -1598,6 +1702,8 @@ msgstr ""
 #: ./glossary.md:block 5 (unordered list)
 msgid "<a name=\"go-no-sen\">Go No Sen</a> 後の先 (post-initiative)"
 msgstr ""
+"French Translation of '<a name=\"go-no-sen\">Go No Sen</a> 後の先 (post-"
+"initiative)'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid ""
@@ -1608,6 +1714,8 @@ msgstr ""
 #: ./glossary.md:block 5 (unordered list)
 msgid "<a name=\"sen-no-sen\">Sen No Sen</a> 先の先 (initiative)"
 msgstr ""
+"French Translation of '<a name=\"sen-no-sen\">Sen No Sen</a> 先の先 "
+"(initiative)'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid ""
@@ -1618,6 +1726,8 @@ msgstr ""
 #: ./glossary.md:block 5 (unordered list)
 msgid "<a name=\"sen-sen-no-sen\">Sen sen no sen</a> 先先の先 (superior initiative)"
 msgstr ""
+"French Translation of '<a name=\"sen-sen-no-sen\">Sen sen no sen</a> 先先の先 "
+"(superior initiative)'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid ""
@@ -1629,6 +1739,8 @@ msgstr ""
 #: ./glossary.md:block 5 (unordered list)
 msgid "<a name=\"mokuso\">Mokusō</a> 黙想 (meditation,mind training)"
 msgstr ""
+"French Translation of '<a name=\"mokuso\">Mokusō</a> 黙想 (meditation,mind "
+"training)'"
 
 #: ./glossary.md:block 5 (unordered list)
 msgid ""
@@ -1638,11 +1750,13 @@ msgstr ""
 
 #: ./glossary.md:block 6 (header)
 msgid "Cyber terms"
-msgstr ""
+msgstr "French Translation of 'Cyber terms'"
 
 #: ./glossary.md:block 7 (unordered list)
 msgid "<a name=\"cyberdeck\">Cyberdeck</a> (practitioner material)"
 msgstr ""
+"French Translation of '<a name=\"cyberdeck\">Cyberdeck</a> (practitioner "
+"material)'"
 
 #: ./glossary.md:block 7 (unordered list)
 msgid ""
@@ -1655,6 +1769,8 @@ msgstr ""
 #: ./glossary.md:block 7 (unordered list)
 msgid "<a name=\"port\">Port</a> (network connection number)"
 msgstr ""
+"French Translation of '<a name=\"port\">Port</a> (network connection "
+"number)'"
 
 #: ./glossary.md:block 7 (unordered list)
 msgid ""
@@ -1663,7 +1779,7 @@ msgstr ""
 
 #: ./glossary.md:block 7 (unordered list)
 msgid "<a name=\"cli\">Command Line Interface</a> (cli)"
-msgstr ""
+msgstr "French Translation of '<a name=\"cli\">Command Line Interface</a> (cli)'"
 
 #: ./glossary.md:block 7 (unordered list)
 msgid ""
@@ -1673,7 +1789,7 @@ msgstr ""
 
 #: ./glossary.md:block 7 (unordered list)
 msgid "<a name=\"command\">Command</a>"
-msgstr ""
+msgstr "French Translation of '<a name=\"command\">Command</a>'"
 
 #: ./glossary.md:block 7 (unordered list)
 msgid ""
@@ -1683,7 +1799,7 @@ msgstr ""
 
 #: ./glossary.md:block 7 (unordered list)
 msgid "<a name=\"log\">Log</a>"
-msgstr ""
+msgstr "French Translation of '<a name=\"log\">Log</a>'"
 
 #: ./glossary.md:block 7 (unordered list)
 msgid ""
@@ -1693,15 +1809,19 @@ msgstr ""
 
 #: ./glossary.md:block 8 (header)
 msgid "External links"
-msgstr ""
+msgstr "French Translation of 'External links'"
 
 #: ./glossary.md:block 9 (paragraph)
 msgid "[Kodokan Glossary](http://kodokanjudoinstitute.org/en/doctrine/word/)"
 msgstr ""
+"French Translation of '[Kodokan "
+"Glossary](http://kodokanjudoinstitute.org/en/doctrine/word/)'"
 
 #: ./glossary.md:block 10 (paragraph)
 msgid "[Judo](https://en.wikipedia.org/wiki/Judo#Pedagogy) -- Wikipedia"
 msgstr ""
+"French Translation of '[Judo](https://en.wikipedia.org/wiki/Judo#Pedagogy) "
+"-- Wikipedia'"
 
 #: ./glossary.md:block 11 (paragraph)
 msgid ""
@@ -1767,10 +1887,12 @@ msgstr ""
 #: ./README.md:block 1 (paragraph)
 msgid "[English](/) | [French](/langs/fr_FR/) | [Japanese](/langs/ja_JP/)"
 msgstr ""
+"French Translation of '[English](/) | [French](/langs/fr_FR/) | "
+"[Japanese](/langs/ja_JP/)'"
 
 #: ./README.md:block 2 (header)
 msgid "Cyberjūtsu サイバー術"
-msgstr ""
+msgstr "French Translation of 'Cyberjūtsu サイバー術'"
 
 #: ./README.md:block 3 (paragraph)
 msgid ""
@@ -1781,10 +1903,12 @@ msgstr ""
 #: ./README.md:block 4 (paragraph)
 msgid "Register to http://cyberjutsu.education for bootcamps or stages."
 msgstr ""
+"French Translation of 'Register to http://cyberjutsu.education for bootcamps"
+" or stages.'"
 
 #: ./README.md:block 6 (header)
 msgid "What is cyberjūtsu ?"
-msgstr ""
+msgstr "French Translation of 'What is cyberjūtsu ?'"
 
 #: ./README.md:block 7 (paragraph)
 msgid ""
@@ -1800,118 +1924,125 @@ msgstr ""
 #: ./README.md:block 8 (header)
 msgid "Why do we apply martial arts to cybersecurity?"
 msgstr ""
+"French Translation of 'Why do we apply martial arts to cybersecurity?'"
 
 #: ./README.md:block 9 (paragraph)
 msgid "Martial Arts known benefits:"
-msgstr ""
+msgstr "French Translation of 'Martial Arts known benefits:'"
 
 #: ./README.md:block 10 (unordered list)
 msgid "Improve coordination between mind and movements."
 msgstr ""
+"French Translation of 'Improve coordination between mind and movements.'"
 
 #: ./README.md:block 10 (unordered list)
 msgid "Train to act in stressing situations."
-msgstr ""
+msgstr "French Translation of 'Train to act in stressing situations.'"
 
 #: ./README.md:block 10 (unordered list)
 msgid "Develop fast and accurate reflexes."
-msgstr ""
+msgstr "French Translation of 'Develop fast and accurate reflexes.'"
 
 #: ./README.md:block 10 (unordered list)
 msgid "Learn to improvise in unfamiliar events."
-msgstr ""
+msgstr "French Translation of 'Learn to improvise in unfamiliar events.'"
 
 #: ./README.md:block 10 (unordered list)
 msgid "Teach a code of conduct. Learn to respect others."
 msgstr ""
+"French Translation of 'Teach a code of conduct. Learn to respect others.'"
 
 #: ./README.md:block 11 (paragraph)
 msgid "There are plenty of other reasons."
-msgstr ""
+msgstr "French Translation of 'There are plenty of other reasons.'"
 
 #: ./techniques.md:block 1 (header)
 msgid "Waza 技 (technique)"
-msgstr ""
+msgstr "French Translation of 'Waza 技 (technique)'"
 
 #: ./techniques.md:block 2 (header)
 msgid "Yomi Waza 読み技 (monitoring technique)"
-msgstr ""
+msgstr "French Translation of 'Yomi Waza 読み技 (monitoring technique)'"
 
 #: ./techniques.md:block 3 (ordered list)
 msgid "read the manual"
-msgstr ""
+msgstr "French Translation of 'read the manual'"
 
 #: ./techniques.md:block 3 (ordered list)
 msgid "get documentation about a command"
-msgstr ""
+msgstr "French Translation of 'get documentation about a command'"
 
 #: ./techniques.md:block 5 (ordered list)
 msgid "know services name and their ports"
-msgstr ""
+msgstr "French Translation of 'know services name and their ports'"
 
 #: ./techniques.md:block 7 (paragraph)
 msgid "sessions (who is doing what)"
-msgstr ""
+msgstr "French Translation of 'sessions (who is doing what)'"
 
 #: ./techniques.md:block 8 (ordered list)
 msgid "<a href=\"who\">who</a>"
-msgstr ""
+msgstr "French Translation of '<a href=\"who\">who</a>'"
 
 #: ./techniques.md:block 10 (ordered list)
 msgid "observe session"
-msgstr ""
+msgstr "French Translation of 'observe session'"
 
 #: ./techniques.md:block 12 (ordered list)
 msgid "ports"
-msgstr ""
+msgstr "French Translation of 'ports'"
 
 #: ./techniques.md:block 12 (ordered list)
 msgid "what port is doing what"
-msgstr ""
+msgstr "French Translation of 'what port is doing what'"
 
 #: ./techniques.md:block 15 (paragraph)
 msgid "processes"
-msgstr ""
+msgstr "French Translation of 'processes'"
 
 #: ./techniques.md:block 16 (ordered list)
 msgid "list processes"
-msgstr ""
+msgstr "French Translation of 'list processes'"
 
 #: ./techniques.md:block 18 (ordered list)
 msgid "watch activity"
-msgstr ""
+msgstr "French Translation of 'watch activity'"
 
 #: ./techniques.md:block 21 (ordered list)
 msgid "filter & search"
-msgstr ""
+msgstr "French Translation of 'filter & search'"
 
 #: ./techniques.md:block 21 (ordered list)
 msgid "browse"
-msgstr ""
+msgstr "French Translation of 'browse'"
 
 #: ./techniques.md:block 22 (paragraph)
 msgid "display content of a file"
-msgstr ""
+msgstr "French Translation of 'display content of a file'"
 
 #: ./techniques.md:block 24 (paragraph)
 msgid "browse file content then press 'q' to quit use '/' to search keyword"
 msgstr ""
+"French Translation of 'browse file content then press 'q' to quit use '/' to"
+" search keyword'"
 
 #: ./techniques.md:block 27 (paragraph)
 msgid "read each newline coming into the file then press 'q' to quit"
 msgstr ""
+"French Translation of 'read each newline coming into the file then press 'q'"
+" to quit'"
 
 #: ./techniques.md:block 29 (ordered list)
 msgid "filter"
-msgstr ""
+msgstr "French Translation of 'filter'"
 
 #: ./techniques.md:block 30 (paragraph)
 msgid "catch lines in a file with a given keyword"
-msgstr ""
+msgstr "French Translation of 'catch lines in a file with a given keyword'"
 
 #: ./techniques.md:block 32 (ordered list)
 msgid "pipe chain"
-msgstr ""
+msgstr "French Translation of 'pipe chain'"
 
 #: ./techniques.md:block 33 (paragraph)
 msgid ""
@@ -1920,56 +2051,57 @@ msgstr ""
 
 #: ./techniques.md:block 35 (ordered list)
 msgid "events"
-msgstr ""
+msgstr "French Translation of 'events'"
 
 #: ./techniques.md:block 35 (ordered list)
 msgid "logs"
-msgstr ""
+msgstr "French Translation of 'logs'"
 
 #: ./techniques.md:block 37 (ordered list)
 msgid "communications"
-msgstr ""
+msgstr "French Translation of 'communications'"
 
 #: ./techniques.md:block 37 (ordered list)
 msgid "firewall Logging"
-msgstr ""
+msgstr "French Translation of 'firewall Logging'"
 
 #: ./techniques.md:block 38 (paragraph)
 msgid "record in syslog new connection incoming"
-msgstr ""
+msgstr "French Translation of 'record in syslog new connection incoming'"
 
 #: ./techniques.md:block 40 (paragraph)
 msgid "record in syslog new connection outgoing"
-msgstr ""
+msgstr "French Translation of 'record in syslog new connection outgoing'"
 
 #: ./techniques.md:block 42 (ordered list)
 msgid "content listening"
-msgstr ""
+msgstr "French Translation of 'content listening'"
 
 #: ./techniques.md:block 44 (header)
 msgid "Tori Waza 取り技 (attack technique)"
-msgstr ""
+msgstr "French Translation of 'Tori Waza 取り技 (attack technique)'"
 
 #: ./techniques.md:block 45 (ordered list)
 msgid "discovery"
-msgstr ""
+msgstr "French Translation of 'discovery'"
 
 #: ./techniques.md:block 45 (ordered list)
 msgid "network scan"
-msgstr ""
+msgstr "French Translation of 'network scan'"
 
 #: ./techniques.md:block 48 (header)
 msgid "Uke Waza</a> 受け技 (defense technique)"
-msgstr ""
+msgstr "French Translation of 'Uke Waza</a> 受け技 (defense technique)'"
 
 #: ./techniques.md:block 49 (ordered list)
 msgid "sessions"
-msgstr ""
+msgstr "French Translation of 'sessions'"
 
 #: ./techniques.md:block 49 (ordered list)
 msgid "kill session get tty with [who](yomi waza who) then"
 msgstr ""
+"French Translation of 'kill session get tty with [who](yomi waza who) then'"
 
 #: ./training.md:block 1 (header)
 msgid "Training methods"
-msgstr ""
+msgstr "French Translation of 'Training methods'"

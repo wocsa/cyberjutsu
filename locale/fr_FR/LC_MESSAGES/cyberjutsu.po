@@ -2112,3 +2112,39 @@ msgid ""
 msgstr ""
 "La voie du guerrier cyber est celle de l'apprentissage constant, de la "
 "réflexion éthique et du respect du domaine numérique."
+
+#: ./advanced-techniques.md:block 1 (header)
+msgid "Advanced Cyber Techniques"
+msgstr "Techniques Cyber Avancées"
+
+#: ./advanced-techniques.md:block 2 (paragraph)
+msgid ""
+"Network penetration testing is an essential skill for identifying "
+"vulnerabilities."
+msgstr ""
+"Le test de pénétration réseau est une compétence essentielle pour identifier"
+" les vulnérabilités."
+
+#: ./ethics.md:block 1 (header)
+msgid "Cyber Ethics and Responsibility"
+msgstr "Éthique et Responsabilité Cyber"
+
+#: ./ethics.md:block 2 (paragraph)
+msgid ""
+"A cyber practitioner must always use their skills for the greater good, "
+"adhering to a strict moral code."
+msgstr ""
+"Un praticien cyber doit toujours utiliser ses compétences pour le bien "
+"commun, en adhérant à un code moral strict."
+
+#: ./conclusion.md:block 1 (header)
+msgid "The Cyberjūtsu Journey"
+msgstr "Le Parcours Cyberjūtsu"
+
+#: ./conclusion.md:block 2 (paragraph)
+msgid ""
+"Cyberjūtsu is a lifelong path of learning, growth, and contribution to a "
+"safer digital world."
+msgstr ""
+"Le Cyberjūtsu est un chemin de vie d'apprentissage, de croissance et de "
+"contribution à un monde numérique plus sûr."

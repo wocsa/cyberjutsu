@@ -1,0 +1,9 @@
+# ignore build folder
+.build/
+
+# ignore tmp folder
+tmp/
+
+# ignor temp files
+*.*~
+

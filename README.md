@@ -1,3 +1,7 @@
+
+
+[English](/) | [French](/langs/fr_FR/) | [Japanese](/langs/ja_JP/)
+
 # Cyberjūtsu サイバー術
 Cyberjūtsu is a new way to teach cybersecurity inspired from modern japanese martial arts way 武道 (Budō).
 

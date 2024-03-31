@@ -1,1 +1,1 @@
-# Grades de Cyberjūtsu (段位)
+# Cyberjūtsu Grades (段位)

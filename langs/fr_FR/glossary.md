@@ -107,8 +107,8 @@ expect
    - Evaluate opponent and identify opportunities and weaknesses. Observe moves and
 posture.
 - <a name="go-no-sen">Go No Sen</a> 後の先 (post-initiative)
-   - Le combattant prend l'initiative dans un combat après que l'adversaire a déjà
-commencé une attaque.
+   - Combatant takes the initiative in a fight after the opponent has already
+started an attack.
 - <a name="sen-no-sen">Sen No Sen</a> 先の先 (initiative)
    - Start action in defense the moment you have an inkling of the offensive of your
 opponent

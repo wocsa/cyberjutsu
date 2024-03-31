@@ -1,7 +1,7 @@
-# Code moral cyber (Saibā-dō) サイバー道
+# Cyber Moral Code (Saibā-dō) サイバー道
 
-Le Code Moral décrit comment le praticien (Saibā-jūtsu-ka) サイバー述家 se comporte et
-forme son état intérieur pour pratiquer le Cyberjūtsu (Saibā-jūtsu)サイバー述.
+Moral Code describe how practitioner (Saibā-jūtsu-ka) サイバー述家 behave and shape his
+inner state for practicing Cyberjūtsu (Saibā-jūtsu)サイバー述.
 
 <img align="left" width="50%" src="./img/moral-code.jpeg"  style="vertical-align:middle;margin:0px 20px">
 

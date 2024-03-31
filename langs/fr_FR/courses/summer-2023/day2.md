@@ -37,7 +37,7 @@ en avant [voir l'image ici Chapitre 1, Sous-chapitre
 * avec la méthode ci-dessus, tapez aussi rapidement que possible la commande dite
 par l'enseignant puis appuyez sur entrée pour lire le premier mot du résultat
 affiché (x10)
-   * w, ls, cd, ps, dir, clear, echo, history, env, who, fortune , find
+   * w, ls, cd, ps, dir, clear, echo, history, env, who, fortune, find
    * ps -aux, ls -lai, cd .., dir /*, htop
 
 ## Yomi Waza

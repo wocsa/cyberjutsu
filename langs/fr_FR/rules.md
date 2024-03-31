@@ -1,8 +1,8 @@
-# French Translation of 'Fight rules'
+# Fight rules
 
-## French Translation of 'Environment'
+## Environment
 
-### French Translation of 'Place of the combat'
+### Place of the combat
 
 The [Dojo](./glossary.md#dojo) is a closed network disconnected from other
 networks where only [cyberjutsuka](./glossary.md#cyberjutsuka) are connected
@@ -12,7 +12,7 @@ equal meanings and conditions. Arbiter must be able to control conditions and
 meaning of each [cyberjutsuka](./glossary.md#cyberjutsuka) to ensure equality in
 the practice.
 
-### French Translation of 'Arbiter'
+### Arbiter
 
 Arbiter is in charge to ensure safety and integrity of systems that are not
 engaged in the fight in and out of the dojo. Only cyberdeck of
@@ -22,9 +22,9 @@ and impacted. Arbiter must ensure equality of chance, condition, meaning between
 ensure that [cyberjutsuka](./glossary.md#cyberjutsuka) allow sparring to fight
 properly.
 
-## French Translation of 'Etiquette'
+## Etiquette
 
-### French Translation of 'General Greetings'
+### General Greetings
 
 1. When entering in the space (physical or digital) of the dojo, the
 [cyberjutsuka](./glossary.md#cyberjutsuka) greet the space(s) by physical bow
@@ -34,23 +34,22 @@ called Ritsu [Rei](./glossary.md#rei) or "Onegaishimasu" sentence
 1. The cyberjutsuka after practicing with someone gree him with physical bow
 called Ritsu [Rei](./glossary.md#rei) or "Domo arigato" sentence
 
-### French Translation of 'Training etiquette'
+### Training etiquette
 
-#### French Translation of 'General training etiquette'
+#### General training etiquette
 
 1. Cyberjutsuka listens to the Sensei and wait him to finish before interrupting
 or asking question
 1. Cyberjutsuka asks the Sensei to be away from the dojo, before leaving it
 during the training (even temporarily)
-1. French Translation of 'Cyberjutsuka asks the Sensei to enter the dojo, during
-the training.'
+1. Cyberjutsuka asks the Sensei to enter the dojo, during the training.
 1. Cyberjutsuka wait for the order of the Sensei to enter in the dojo or use the
 cyberdeck before entering in.
 1. Cyberjutsuka wait for the order of the Sensei to leave the dojo before leaving
 it or shutdown the cyberdeck.
-1. French Translation of 'Cyberjutsuka execute orders from the Sensei.'
+1. Cyberjutsuka execute orders from the Sensei.
 
-#### French Translation of 'Greeting before the training'
+#### Greeting before the training
 
 1. Everyone stand formally (arms close to the body, feet close, head straight)
 behind his cyberdeck facing the Sensei or if it's not physical everyone
@@ -62,7 +61,7 @@ answer with [Rei](./glossary.md#rei) word together.
 cyberjutsuka perform physical bow called Ritsu [Rei](./glossary.md#rei) or
 answer with [Rei](./glossary.md#rei) word together.
 
-#### French Translation of 'Greeting after the training'
+#### Greeting after the training
 
 1. When Sensei communicates "[Sore made](./glossary.md#sore-made)" cyberjutsuka
 stand formally (arms close to the body, feet close, head straight) behind his
@@ -80,29 +79,26 @@ answer with [Rei](./glossary.md#rei) word together.
 cyberjutsuka perform physical bow called Ritsu [Rei](./glossary.md#rei) or
 answer with [Rei](./glossary.md#rei) word together.
 
-## French Translation of 'Sparring rules'
+## Sparring rules
 
-### French Translation of 'Etiquette'
+### Etiquette
 
-#### French Translation of 'Before the sparring'
+#### Before the sparring
 
 1. Arbiter call first sparring by showing him with hand or giving his name or
 nickname, then the second one (same way)
-   1. French Translation of 'first called partner will be called "aka"(赤) during the
-sparring'
-   1. French Translation of 'second called partner will be called "shiro" (白) during
-the sparring'
+   1. first called partner will be called "aka"(赤) during the sparring
+   1. second called partner will be called "shiro" (白) during the sparring
 1. Cyberjutsuka perform general geetings
    1. Cyberjutsuka connect to the dojo or switch on their cyberdeck together
-   1. French Translation of 'Cyberjutsuka greeting the dojo'
-   1. French Translation of 'Cyberjutsuka greeting the arbiter'
-      1. French Translation of 'Cyberjutuska stand behind his cyberdeck facing the
-sparring partner'
+   1. Cyberjutsuka greeting the dojo
+   1. Cyberjutsuka greeting the arbiter
+      1. Cyberjutuska stand behind his cyberdeck facing the sparring partner
 1. Arbiter communicate [Rei](./glossary.md#rei) then partners bow facing each
 other or answer [Rei](./glossary.md#rei)
 1. Arbiter communicate [Hajime](./gloassry.md#hajime) then partners start to fight
 
-#### French Translation of 'After the sparring'
+#### After the sparring
 
 1. Arbiter communicate [Soremade](./gloassry.md#sore-made) for the end of the
 sparring then partners stop to fight (no more actions on the cyberdeck) then
@@ -114,23 +110,20 @@ other or answer [Rei](./glossary.md#rei)
 1. Cyberjutsuka [Rei](./glossary.md#rei) for the dojo a second time then leave
 the dojo (disconnect or shutdown the cyberdeck)
 
-#### French Translation of 'During the sparring'
+#### During the sparring
 
 1. When arbiter communicate "mate" partners stop actions and come back to
 beginning position (clear prompt no running commands/actions remaining)
 1. When arbiter communicate "sonomama" partners must keep the current situation
 without performing new actions.
-1. French Translation of 'When arbiter communicate "hajime" partners resume the
-fight.'
+1. When arbiter communicate "hajime" partners resume the fight.
 1. Arbiter can provide penalties to the cyberjutsuka if rules are broken by
 communicating "shido" and showing the partner or giving his color.
-1. French Translation of 'cyberjutsuka must permit the fight to be performed'
-   1. French Translation of 'cyberdeck must be ready for the sparring during all the
-fight'
+1. cyberjutsuka must permit the fight to be performed
+   1. cyberdeck must be ready for the sparring during all the fight
       1. cyberdeck must have identical hardware, software and configuration at the
 beginning of the fight
-      1. French Translation of 'services on cyberdeck must be available on ports and
-fully functional'
+      1. services on cyberdeck must be available on ports and fully functional
       1. credentials on cyberdeck (e.g:login/password) must be the one allowed only
       1. cyberdeck must respect rules of the dojo (network rules in terms of
 addressing, communication standards,...)
@@ -139,6 +132,5 @@ addressing, communication standards,...)
 perform attacks
 1. cyberjutsuka must fight
    1. cyberjutsuka can not avoid intentionally the fight
-   1. French Translation of 'cyberjutsuka can not have only defensive posture'
-   1. French Translation of 'cyberjutsuka can not perform only fake attacks as
-offensive actions'
+   1. cyberjutsuka can not have only defensive posture
+   1. cyberjutsuka can not perform only fake attacks as offensive actions

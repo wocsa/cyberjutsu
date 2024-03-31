@@ -1,1 +1,1 @@
-# French Translation of 'Cyberjūtsu Grades (段位)'
+# Grades de Cyberjūtsu (段位)

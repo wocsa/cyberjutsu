@@ -1,1 +1,1 @@
-# French Translation of 'Training methods'
+# Training methods

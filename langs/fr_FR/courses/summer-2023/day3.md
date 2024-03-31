@@ -1,36 +1,32 @@
-# French Translation of 'Cyberjūtsu v1.0 Summer 2023 Day 3'
+# Cyberjūtsu v1.0 Summer 2023 Day 3
 
-## French Translation of 'Background'
+## Background
 
 Morning Jujitsu course with [Jean-Louis
 Mourlan](https://fr.linkedin.com/in/jean-louis-mourlan-30454986) about [Tsukuri
 Kuzushi Kake](../../glossary.md#tsukuri-kusushi-kake) concept.
 
-## French Translation of 'Warmup'
+## Warmup
 
-### French Translation of 'Eyes'
+### Eyes
 
-* French Translation of 'look at top right, bottom left, bottom right, top left
-(x5)'
-* French Translation of 'draw a circle with your Eyes both sens (x5)'
-* French Translation of 'draw an infinity sign with your eyes (∞) (x5)'
+* look at top right, bottom left, bottom right, top left (x5)
+* draw a circle with your Eyes both sens (x5)
+* draw an infinity sign with your eyes (∞) (x5)
 
-### French Translation of 'Hands'
+### Hands
 
-* French Translation of 'Roll your fingers one by one foreward and backward both
-hands (x5)'
+* Roll your fingers one by one foreward and backward both hands (x5)
 * touch with thumb each of your fingers both hands foreward and backward (x2)
 * join same finger of each hand with the other, then dismiss couple one by one
 foreward and ackward (x2)
-* French Translation of 'listen to teacher number (1 to 5) and dismiss related
-fingers'
+* listen to teacher number (1 to 5) and dismiss related fingers
 
-### French Translation of 'Combined'
+### Combined
 
-* French Translation of 'with partner tori move fingers, uke must follow with the
-eyes'
+* with partner tori move fingers, uke must follow with the eyes
 
-### French Translation of 'Typing'
+### Typing
 
 * put your fingers on each zone of the keyboard [see picture here Chapter 1, Sub
 Chapter 1](https://www.wikihow.com/Type#Learning-to-Type)
@@ -39,69 +35,68 @@ for one finger then move to next) backward and forward [see picture here
 Chapter 1, Sub Chapter 4](https://www.wikihow.com/Type#Learning-to-Type) (x10)
 * with above method type as fast as possible command said by the teacher then
 press enter read the first word on the prompted result (x10)
-   * French Translation of 'w, ls, cd, ps, dir, clear, echo, history, env, who,
-fortune , find'
-   * French Translation of 'ps -aux, ls -lai, cd .., dir /*, htop'
+   * w, ls, cd, ps, dir, clear, echo, history, env, who, fortune , find
+   * ps -aux, ls -lai, cd .., dir /*, htop
 
-## French Translation of 'Tsukuri'
+## Tsukuri
 
-### French Translation of 'loop'
+### loop
 
-### French Translation of 'http port change'
+### http port change
 
-### French Translation of 'Tori'
+### Tori
 
-French Translation of 'Uke change ports numbers of services.'
+Uke change ports numbers of services.
 
-1. French Translation of 'edit config file for http'
+1. edit config file for http
 
 ```
 sudo nano /etc/apache2/ports.conf
 ```
 
-1. French Translation of 'add a line to listen new port'
+1. add a line to listen new port
 
 ```
 Listen $PORT_NUMBER
 ```
 
-1. French Translation of 'save the file with *ctrl+x* then press *y*'
-1. French Translation of 'edit website config file'
+1. save the file with *ctrl+x* then press *y*
+1. edit website config file
 
 ```
 sudo nano /etc/apache2/sites-enabled/001-cyberjutsu.conf
 ```
 
-## French Translation of 'Randori'
+## Randori
 
-## French Translation of 'Batoru Rowaiaru バトル・ロワイアル'
+## Batoru Rowaiaru バトル・ロワイアル
 
-## French Translation of 'Cooldown'
+## Cooldown
 
-### French Translation of 'Eyes'
+### Eyes
 
-* French Translation of 'blinking'
-* French Translation of 'hands on'
+* blinking
+* hands on
 
-### French Translation of 'Hands'
+### Hands
 
-* French Translation of 'strech your fingers in and out of your hands'
-* French Translation of 'drop your hands and shake them'
+* strech your fingers in and out of your hands
+* drop your hands and shake them
 
-### French Translation of 'body'
+### body
 
-* French Translation of 'seated'
-   * French Translation of 'strech arms forward'
+* seated
+   * strech arms forward
    * cross legs, put opposite hand on the leg, turn head on upper knee side, twist
 knee opposit to the head then invert
    * move to the beginning of the chair, bend your back and put your hands on your
 hips then stretch
-* French Translation of 'stand up'
-   * French Translation of 'stretch arms to the top'
+* stand up
+   * stretch arms to the top
    * cross arms to put hands on elbow, pull with the hand on top of the elbow to the
 opposit side (invert)
-   * French Translation of 'pull up shoulders'
+   * pull up shoulders
    * join hands at the back on in front of your hips then extend left side of your
 neck then right
 
-## French Translation of 'Mokusō'
+## Mokusō

@@ -1,4 +1,4 @@
-# French Translation of 'Principle of Cyberjūtsu'
+# Principle of Cyberjūtsu
 
 Cyberjūtsu is a Digital Martial Art designed for Sport and Educational Purpose in
 the Cyberspace.
@@ -42,80 +42,79 @@ art of attack and defense. It is a way of life.</b>
 >
 > -- <cite>Chapter 1 Jujutsu Become Judo, Kodokan Judo Book, Jigoro Kano</cite>
 
-## French Translation of 'Japanese Martial Precepts embedded in Cyberjūtsu'
+## Japanese Martial Precepts embedded in Cyberjūtsu
 
-### French Translation of 'From the Karate Shōtōkan nijū kun'
+### From the Karate Shōtōkan nijū kun
 
-> French Translation of '技術より心術'
+> 技術より心術
 >
-> French Translation of 'Spirit first, technique second.'
+> Spirit first, technique second.
 >
-> French Translation of '-- <cite>Gichin Funakoshi</cite>'
+> -- <cite>Gichin Funakoshi</cite>
 
-> French Translation of '先づ自己を知れ而して他を知れ'
+> 先づ自己を知れ而して他を知れ
 >
-> French Translation of 'Know yourself first, and then others'
+> Know yourself first, and then others
 >
-> French Translation of '-- <cite>Gichin Funakoshi</cite>'
+> -- <cite>Gichin Funakoshi</cite>
 
-> French Translation of '敵に因って轉化せよ'
+> 敵に因って轉化せよ
 >
 > Victory depends on your ability to distinguish vulnerable points from
 invulnerable ones
 >
-> French Translation of '-- <cite>Gichin Funakoshi</cite>'
+> -- <cite>Gichin Funakoshi</cite>
 
-> French Translation of '戦は虚実の操縦如何に在り'
+> 戦は虚実の操縦如何に在り
 >
 > The battle is according to how you maneuver guarded, unguarded Move according
 to your opponent
 >
-> French Translation of '-- <cite>Gichin Funakoshi</cite>'
+> -- <cite>Gichin Funakoshi</cite>
 
-> French Translation of '常に思念工夫せよ'
+> 常に思念工夫せよ
 >
-> French Translation of 'Always think and devise ways to live the precepts every
-day'
+> Always think and devise ways to live the precepts every day
 >
-> French Translation of '-- <cite>Gichin Funakoshi</cite>'
+> -- <cite>Gichin Funakoshi</cite>
 
-> French Translation of '道場のみの空手と思ふな'
+> 道場のみの空手と思ふな
 >
-> French Translation of 'Do not think that karate training is only in the dojo'
+> Do not think that karate training is only in the dojo
 >
-> French Translation of '-- <cite>Gichin Funakoshi</cite>'
+> -- <cite>Gichin Funakoshi</cite>
 
-### French Translation of 'From Jūdō'
+### From Jūdō
 
-> French Translation of 'Enter by the technique, progress to the principle.'
+> Enter by the technique, progress to the principle.
 >
-> French Translation of '-- <cite>Jigorō Kanō</cite>'
+> -- <cite>Jigorō Kanō</cite>
 
 > It is not important to be better than someone else, but to be better than
 yesterday.
 >
-> French Translation of '-- <cite>Jigorō Kanō</cite>'
+> -- <cite>Jigorō Kanō</cite>
 
-> French Translation of 'Conduct kata and randori with your best effort.'
+> Conduct kata and randori with your best effort.
 >
-> French Translation of '-- <cite>Jigorō Kanō</cite>'
+> -- <cite>Jigorō Kanō</cite>
 
 > Do not forget that the objective of jūdō study is to improve every day, not to
 win or lose.
 >
-> French Translation of '-- <cite>Jigorō Kanō</cite>'
+> -- <cite>Jigorō Kanō</cite>
 
-> French Translation of 'Jūdō practice is not limited to the dōjō.'
+> Jūdō practice is not limited to the dōjō.
 >
-> French Translation of '-- <cite>Jigorō Kanō</cite>'
+> -- <cite>Jigorō Kanō</cite>
 
 > It is necessary to consider others’ reactions to you in your self-reflection.
 >
-> French Translation of '-- <cite>Jigorō Kanō</cite>'
+> -- <cite>Jigorō Kanō</cite>
 
-### French Translation of 'From Aïkido'
+### From Aïkido
 
-## French Translation of 'Sources'
+## Sources
 
 [Niju Kun](https://fska.com/?page_id=186) -- Funakoshi Shotokan Karate Association
 

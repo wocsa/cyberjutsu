@@ -20,19 +20,20 @@ sen](../../glossary.md#go-no-sen) concept.
 * touch with thumb each of your fingers both hands foreward and backward (x2)
 * join same finger of each hand with the other, then dismiss couple one by one
 foreward and ackward (x2)
-* listen to teacher number (1 to 5) and dismiss related fingers
+* écouter le numéro de l'enseignant (de 1 à 5) et écarter les doigts concernés
 
 ### Combined
 
 * with partner tori move fingers, uke must follow with the eyes
 
-### Typing
+### Dactylographie
 
-* put your fingers on each zone of the keyboard [see picture here Chapter 1, Sub
-Chapter 1](https://www.wikihow.com/Type#Learning-to-Type)
-* type all alphabet letter one by one zone by zone from left to right (all key
-for one finger then move to next) backward and forward [see picture here
-Chapter 1, Sub Chapter 4](https://www.wikihow.com/Type#Learning-to-Type) (x10)
+* placez vos doigts sur chaque zone du clavier [voir l'image ici Chapitre 1,
+Sous-chapitre 1](https://www.wikihow.com/Type#Learning-to-Type)
+* tapez toutes les lettres de l'alphabet une par une zone par zone de gauche à
+droite (toutes les touches pour un doigt puis passez au suivant) en arrière et
+en avant [voir l'image ici Chapitre 1, Sous-chapitre
+4](https://www.wikihow.com/Type#Learning-to-Type) (x10)
 * with above method type as fast as possible command said by the teacher then
 press enter read the first word on the prompted result (x10)
    * w, ls, cd, ps, dir, clear, echo, history, env, who, fortune , find

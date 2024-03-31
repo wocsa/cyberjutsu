@@ -1974,3 +1974,13 @@ msgstr ""
 #: ./training.md:block 1 (header)
 msgid "Training methods"
 msgstr ""
+
+msgstr ""
+
+#: ./courses/summer-2023/day2.md:block 12 (unordered list)
+msgid "w, ls, cd, ps, dir, clear, echo, history, env, who, fortune , find"
+msgstr "w, ls, cd, ps, dir, clear, echo, history, env, who, fortune, find"
+
+#: ./courses/summer-2023/day2.md:block 12 (unordered list)
+msgid "ps -aux, ls -lai, cd .., dir /*, htop"
+msgstr "ps -aux, ls -lai, cd .., dir /*, htop"

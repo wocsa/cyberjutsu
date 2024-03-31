@@ -20,11 +20,11 @@ define LANG_template
 $(1): $$($(1)_OBJS) locale/$(DOMAIN).pot
 	echo "$1"
 	@test -d locale/$(1)/LC_MESSAGES || mkdir -p locale/$(1)/LC_MESSAGES
-	find ./ -name "*.md"  ! -path "./tmp*" ! -path "./locale*" ! -path "./.git*" ! -path "./.vscode*" ! -path "./langs*" ! -path "./img*"  ! -path "./.build*" -exec md2po -sqm -p locale/$(1)/LC_MESSAGES/$(DOMAIN).po --md-encoding "$(ENCODING)" --po-encoding "$(ENCODING)" -l "$(1)" -d "Project-Id-Version: $(DOMAIN)"  -d "Language-Team: $(1)" -d "Language: $(1)" -d "Content-Type: text/plain; charset=UTF-8" -d "MIME-Version: 1.0" {} \;
+	find ./ -name "*.md"  ! -path "./tmp*" ! -path "./locale*" ! -path "./.git*" ! -path "./.vscode*" ! -path "./langs*" ! -path "./img*"  ! -path "./.build*" -exec md2po {} -sqm -p locale/$(1)/LC_MESSAGES/$(DOMAIN).po --md-encoding "$(ENCODING)" --po-encoding "$(ENCODING)" -l "$(1)" -d "Project-Id-Version: $(DOMAIN)"  -d "Language-Team: $(1)" -d "Language: $(1)" -d "Content-Type: text/plain; charset=UTF-8" -d "MIME-Version: 1.0"  \;
 	@test -d langs/$(1) || mkdir langs/$(1)
 	$(foreach var,$(DIRS),mkdir -p "langs/$(1)/$(var)";)
 	cp -Rf img langs/$(1)/
-	find ./ -name "*.md"  ! -path "./tmp*" ! -path "./locale*" ! -path "./.git*" ! -path "./.vscode*" ! -path "./langs*" ! -path "./img*" ! -path "./.build*" -exec po2md {} -p ./locale/$(1)/LC_MESSAGES/$(DOMAIN).po --save "langs/$(1)/{}" \;
+	find ./ -name "*.md"  ! -path "./tmp*" ! -path "./locale*" ! -path "./.git*" ! -path "./.vscode*" ! -path "./langs*" ! -path "./img*" ! -path "./.build*" -exec po2md -p ./locale/$(1)/LC_MESSAGES/$(DOMAIN).po --save "langs/$(1)/{}" {} \;
 	#find ./ -name "*.md"  ! -path "./tmp*" ! -path "./locale*" ! -path "./.git*" ! -path "./.vscode*" ! -path "./langs*" ! -path "./.build*" -exec md2po2md {} -o "locale/{lang}" -sqm --md-encoding $(ENCODING) --po-encoding $(ENCODING) -l $(1) \;
 endef
 

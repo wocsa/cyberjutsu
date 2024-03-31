@@ -1,7 +1,7 @@
-# Code Moral Cyber (Saibā-dō) サイバー道
+# Cyber Moral Code (Saibā-dō) サイバー道
 
-Le Code Moral décrit comment le praticien (Saibā-jūtsu-ka) サイバー述家 se comporte et
-forme son état intérieur pour pratiquer le Cyberjūtsu (Saibā-jūtsu)サイバー述.
+Moral Code describe how practitioner (Saibā-jūtsu-ka) サイバー述家 behave and shape his
+inner state for practicing Cyberjūtsu (Saibā-jūtsu)サイバー述.
 
 <img align="left" width="50%" src="./img/moral-code.jpeg"  style="vertical-align:middle;margin:0px 20px">
 
@@ -12,13 +12,13 @@ forme son état intérieur pour pratiquer le Cyberjūtsu (Saibā-jūtsu)サイ�
     
     To be in the mood of bravery.
 
-## Sincérité (Makato) 誠
+## Sincerity (Makato) 誠
 
     誠 “Makato” means “truth” or “reality”
     
     To be in the reality and the truth of the moment.
 
-## Étiquette (Reigi) 礼儀
+## Etiquette (Reigi) 礼儀
 
     “Rei” means “ceremony” or “salute”
     “Gi” means “rule", "affair”
@@ -27,49 +27,49 @@ forme son état intérieur pour pratiquer le Cyberjūtsu (Saibā-jūtsu)サイ�
     Rules that encourage good behavior during the practice with the others and for yourself.
     It's a framework of rituals for the practice of cyberjutsu.
 
-## Honneur (Meiyo) 名誉
+## Honor (Meiyo) 名誉
 
     “Mei” means “name” or “title”
     “Yo” means “honor", "glory”
     
     Honor under the name
 
-## Humilité ([Kenkyo](https://interculturalwordsensei.org/kenkyo/)) 謙虚
+## Humility ([Kenkyo](https://interculturalwordsensei.org/kenkyo/)) 謙虚
 
     “Ken” means “humble" or “humility”
     “Kyo” means “void", "empty"
     
     Put your ego aside to get along with the others.
 
-## Maîtrise de soi (Shisei) 自制
+## Self-control (Shisei) 自制
 
     “Shi” means “self" or “oneself”
     “Sei” means “control”, "rule"
     
     Control yourself, drive yourself to the moral code
 
-## Entraide (Gojo) 互助
+## Mutual Aid (Gojo) 互助
 
     “Go” means “mutual” or “reciprocal”
     “Jo” means “help”, "assist", "rescue"
     
     To progress in the way (do) 道 you must help each others in a partnership.
 
-## Persévérance (Nintai) 忍耐
+## Perseverance (Nintai) 忍耐
 
     “Nin” means “endure", “tolerate”
     “Tai” means “enduring” or "withstand"
     
     To progress in the way (do) 道  you must endure difficulties, tolerate efforts and resist to despair.
 
-## Intégrité (Sessō) 節操
+## Integrity (Sessō) 節操
 
     “Sechi” means “honor” or "melody"
     “So” means “fidelity” or "virginity"
     
     Remaining true to yourself.
 
-## Gentillesse (Kojo) 厚情
+## Kindness (Kojo) 厚情
 
     “Ko” means “kind”
     “Jo” means “emotion”, "feeling", "mercy", "sympathy"

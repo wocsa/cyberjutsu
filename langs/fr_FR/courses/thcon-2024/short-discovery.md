@@ -1,6 +1,6 @@
-# Cours de découverte rapide de Cyberjūtsu pour http://thcon.party 2024
+# Cyberjūtsu short discovery course for http://thcon.party 2024
 
-## Salutation
+## Greeting
 
 * The cyberjutsuka before practicing with someone greet him with physical bow
 called Ritsu [Rei](./glossary.md#rei) or "Onegaishimasu" sentence
@@ -223,7 +223,7 @@ neck then right
 
 ## Mokusō
 
-## Salutation
+## Greeting
 
 * The cyberjutsuka after practicing with someone gree him with physical bow
 called Ritsu [Rei](./glossary.md#rei) or "Domo arigato" sentence

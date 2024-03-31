@@ -6,6 +6,56 @@ msgstr ""
 msgid "Cyberjūtsu Grades (段位)"
 msgstr ""
 
+#: ./moral-code.md:block 1 (header)
+msgid "Cyber Moral Code (Saibā-dō) サイバー道"
+msgstr ""
+
+#: ./moral-code.md:block 2 (paragraph)
+msgid ""
+"Moral Code describe how practitioner (Saibā-jūtsu-ka) サイバー述家 behave and "
+"shape his inner state for practicing Cyberjūtsu (Saibā-jūtsu)サイバー述."
+msgstr ""
+
+#: ./moral-code.md:block 4 (header)
+msgid "Courage (Yuki) 勇気"
+msgstr ""
+
+#: ./moral-code.md:block 6 (header)
+msgid "Sincerity (Makato) 誠"
+msgstr ""
+
+#: ./moral-code.md:block 8 (header)
+msgid "Etiquette (Reigi) 礼儀"
+msgstr ""
+
+#: ./moral-code.md:block 10 (header)
+msgid "Honor (Meiyo) 名誉"
+msgstr ""
+
+#: ./moral-code.md:block 12 (header)
+msgid "Humility ([Kenkyo](https://interculturalwordsensei.org/kenkyo/)) 謙虚"
+msgstr ""
+
+#: ./moral-code.md:block 14 (header)
+msgid "Self-control (Shisei) 自制"
+msgstr ""
+
+#: ./moral-code.md:block 16 (header)
+msgid "Mutual Aid (Gojo) 互助"
+msgstr ""
+
+#: ./moral-code.md:block 18 (header)
+msgid "Perseverance (Nintai) 忍耐"
+msgstr ""
+
+#: ./moral-code.md:block 20 (header)
+msgid "Integrity (Sessō) 節操"
+msgstr ""
+
+#: ./moral-code.md:block 22 (header)
+msgid "Kindness (Kojo) 厚情"
+msgstr ""
+
 #: ./courses/thcon-2024/short-discovery.md:block 1 (header)
 msgid "Cyberjūtsu short discovery course for http://thcon.party 2024"
 msgstr ""
@@ -1714,25 +1764,29 @@ msgid ""
 "with-kanji.59429/)"
 msgstr ""
 
-#: ./README.md:block 1 (header)
+#: ./README.md:block 1 (paragraph)
+msgid "[English](/) | [French](/langs/fr_FR/) | [Japanese](/langs/ja_JP/)"
+msgstr ""
+
+#: ./README.md:block 2 (header)
 msgid "Cyberjūtsu サイバー術"
 msgstr ""
 
-#: ./README.md:block 2 (paragraph)
+#: ./README.md:block 3 (paragraph)
 msgid ""
 "Cyberjūtsu is a new way to teach cybersecurity inspired from modern japanese"
 " martial arts way 武道 (Budō)."
 msgstr ""
 
-#: ./README.md:block 3 (paragraph)
+#: ./README.md:block 4 (paragraph)
 msgid "Register to http://cyberjutsu.education for bootcamps or stages."
 msgstr ""
 
-#: ./README.md:block 5 (header)
+#: ./README.md:block 6 (header)
 msgid "What is cyberjūtsu ?"
 msgstr ""
 
-#: ./README.md:block 6 (paragraph)
+#: ./README.md:block 7 (paragraph)
 msgid ""
 "Cyberjūtsu is a new way to teach cybersecurity inspired from modern japanese"
 " martial arts trainings (mostly judo, karate and jujitsu). It is an "
@@ -1743,35 +1797,35 @@ msgid ""
 "computer\" in a \"mutual benefit\" of a human confrontation."
 msgstr ""
 
-#: ./README.md:block 7 (header)
+#: ./README.md:block 8 (header)
 msgid "Why do we apply martial arts to cybersecurity?"
 msgstr ""
 
-#: ./README.md:block 8 (paragraph)
+#: ./README.md:block 9 (paragraph)
 msgid "Martial Arts known benefits:"
 msgstr ""
 
-#: ./README.md:block 9 (unordered list)
+#: ./README.md:block 10 (unordered list)
 msgid "Improve coordination between mind and movements."
 msgstr ""
 
-#: ./README.md:block 9 (unordered list)
+#: ./README.md:block 10 (unordered list)
 msgid "Train to act in stressing situations."
 msgstr ""
 
-#: ./README.md:block 9 (unordered list)
+#: ./README.md:block 10 (unordered list)
 msgid "Develop fast and accurate reflexes."
 msgstr ""
 
-#: ./README.md:block 9 (unordered list)
+#: ./README.md:block 10 (unordered list)
 msgid "Learn to improvise in unfamiliar events."
 msgstr ""
 
-#: ./README.md:block 9 (unordered list)
+#: ./README.md:block 10 (unordered list)
 msgid "Teach a code of conduct. Learn to respect others."
 msgstr ""
 
-#: ./README.md:block 10 (paragraph)
+#: ./README.md:block 11 (paragraph)
 msgid "There are plenty of other reasons."
 msgstr ""
 
@@ -1918,58 +1972,4 @@ msgstr ""
 
 #: ./training.md:block 1 (header)
 msgid "Training methods"
-msgstr ""
-
-#: ./README.md:block 1 (paragraph)
-msgid "[English](/) | [French](/langs/fr_FR/) | [Japanese](/langs/ja_JP/)"
-msgstr ""
-
-#: ./moral-code.md:block 1 (header)
-msgid "Cyber Moral Code (Saibā-dō) サイバー道"
-msgstr ""
-
-#: ./moral-code.md:block 2 (paragraph)
-msgid ""
-"Moral Code describe how practitioner (Saibā-jūtsu-ka) サイバー述家 behave and "
-"shape his inner state for practicing Cyberjūtsu (Saibā-jūtsu)サイバー述."
-msgstr ""
-
-#: ./moral-code.md:block 4 (header)
-msgid "Courage (Yuki) 勇気"
-msgstr ""
-
-#: ./moral-code.md:block 6 (header)
-msgid "Sincerity (Makato) 誠"
-msgstr ""
-
-#: ./moral-code.md:block 8 (header)
-msgid "Etiquette (Reigi) 礼儀"
-msgstr ""
-
-#: ./moral-code.md:block 10 (header)
-msgid "Honor (Meiyo) 名誉"
-msgstr ""
-
-#: ./moral-code.md:block 12 (header)
-msgid "Humility ([Kenkyo](https://interculturalwordsensei.org/kenkyo/)) 謙虚"
-msgstr ""
-
-#: ./moral-code.md:block 14 (header)
-msgid "Self-control (Shisei) 自制"
-msgstr ""
-
-#: ./moral-code.md:block 16 (header)
-msgid "Mutual Aid (Gojo) 互助"
-msgstr ""
-
-#: ./moral-code.md:block 18 (header)
-msgid "Perseverance (Nintai) 忍耐"
-msgstr ""
-
-#: ./moral-code.md:block 20 (header)
-msgid "Integrity (Sessō) 節操"
-msgstr ""
-
-#: ./moral-code.md:block 22 (header)
-msgid "Kindness (Kojo) 厚情"
 msgstr ""

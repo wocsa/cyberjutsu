@@ -4,7 +4,7 @@ ENCODING:= "UTF-8"
 LOCALIPS:= $(shell ip a | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0.1')
 LOCALIP:= $(shell echo $(LOCALIPS)  | cut -d ' ' -f1)
 ASSET_FILES = $(shell find  -type f -name "*.md")
-DIRS:=$(shell find . -type d ! -path "./tmp*" ! -path "./locale*" ! -path "./.git*" ! -path "./.vscode*" ! -path "./langs*")
+DIRS:=$(shell find . -type d ! -path "./tmp*" ! -path "./locale*" ! -path "./.git*" ! -path "./.vscode*" ! -path "./langs*" ! -path "./img*")
 
 # generate all files to have the website ready in ./
 .PHONY: all
@@ -20,10 +20,11 @@ define LANG_template
 $(1): $$($(1)_OBJS) locale/$(DOMAIN).pot
 	echo "$1"
 	@test -d locale/$(1)/LC_MESSAGES || mkdir -p locale/$(1)/LC_MESSAGES
-	find ./ -name "*.md"  ! -path "./tmp*" ! -path "./locale*" ! -path "./.git*" ! -path "./.vscode*" ! -path "./langs*" -exec md2po {} -p locale/$(1)/LC_MESSAGES/$(DOMAIN).po -sqm --md-encoding $(ENCODING) --po-encoding $(ENCODING) -l $(1) \;
+	find ./ -name "*.md"  ! -path "./tmp*" ! -path "./locale*" ! -path "./.git*" ! -path "./.vscode*" ! -path "./langs*" ! -path "./img*" -exec md2po {} -p locale/$(1)/LC_MESSAGES/$(DOMAIN).po -sqm --md-encoding $(ENCODING) --po-encoding $(ENCODING) -l $(1) \;
 	@test -d langs/$(1) || mkdir langs/$(1)
 	$(foreach var,$(DIRS),mkdir -p "langs/$(1)/$(var)";)
-	find ./ -name "*.md"  ! -path "./tmp*" ! -path "./locale*" ! -path "./.git*" ! -path "./.vscode*" ! -path "./langs*" -exec po2md {} -p ./locale/$(1)/LC_MESSAGES/$(DOMAIN).po --save "langs/$(1)/{}" \;
+	cd langs/$(1)/ && ln -s ../../img
+	find ./ -name "*.md"  ! -path "./tmp*" ! -path "./locale*" ! -path "./.git*" ! -path "./.vscode*" ! -path "./langs*" ! -path "./img*" -exec po2md {} -p ./locale/$(1)/LC_MESSAGES/$(DOMAIN).po --save "langs/$(1)/{}" \;
 	#find ./ -name "*.md"  ! -path "./tmp*" ! -path "./locale*" ! -path "./.git*" ! -path "./.vscode*" ! -path "./langs*" -exec md2po2md {} -o "locale/{lang}" -sqm --md-encoding $(ENCODING) --po-encoding $(ENCODING) -l $(1) \;
 endef
 

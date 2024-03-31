@@ -1,4 +1,5 @@
-# Cours de découverte courte de Cyberjūtsu pour http://thcon.party 2024
+# French Translation of 'Cyberjūtsu short discovery course for http://thcon.party
+2024'
 
 ## French Translation of 'Greeting'
 

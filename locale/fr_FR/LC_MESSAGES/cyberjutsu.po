@@ -4,11 +4,11 @@ msgstr ""
 
 #: ./grades.md:block 1 (header)
 msgid "Cyberjūtsu Grades (段位)"
-msgstr "Grades de Cyberjūtsu (段位)"
+msgstr "French Translation of 'Cyberjūtsu Grades (段位)'"
 
 #: ./moral-code.md:block 1 (header)
 msgid "Cyber Moral Code (Saibā-dō) サイバー道"
-msgstr "Code Moral Cyber (Saibā-dō) サイバー道"
+msgstr "French Translation of 'Cyber Moral Code (Saibā-dō) サイバー道'"
 
 #: ./moral-code.md:block 2 (paragraph)
 msgid ""
@@ -18,47 +18,51 @@ msgstr ""
 
 #: ./moral-code.md:block 4 (header)
 msgid "Courage (Yuki) 勇気"
-msgstr "Courage (Yuki) 勇気"
+msgstr "French Translation of 'Courage (Yuki) 勇気'"
 
 #: ./moral-code.md:block 6 (header)
 msgid "Sincerity (Makato) 誠"
-msgstr "Sincérité (Makato) 誠"
+msgstr "French Translation of 'Sincerity (Makato) 誠'"
 
 #: ./moral-code.md:block 8 (header)
 msgid "Etiquette (Reigi) 礼儀"
-msgstr "Étiquette (Reigi) 礼儀"
+msgstr "French Translation of 'Etiquette (Reigi) 礼儀'"
 
 #: ./moral-code.md:block 10 (header)
 msgid "Honor (Meiyo) 名誉"
-msgstr "Honneur (Meiyo) 名誉"
+msgstr "French Translation of 'Honor (Meiyo) 名誉'"
 
 #: ./moral-code.md:block 12 (header)
 msgid "Humility ([Kenkyo](https://interculturalwordsensei.org/kenkyo/)) 謙虚"
-msgstr "Humilité ([Kenkyo](https://interculturalwordsensei.org/kenkyo/)) 謙虚"
+msgstr ""
+"French Translation of 'Humility "
+"([Kenkyo](https://interculturalwordsensei.org/kenkyo/)) 謙虚'"
 
 #: ./moral-code.md:block 14 (header)
 msgid "Self-control (Shisei) 自制"
-msgstr "Auto-contrôle (Shisei) 自制"
+msgstr "French Translation of 'Self-control (Shisei) 自制'"
 
 #: ./moral-code.md:block 16 (header)
 msgid "Mutual Aid (Gojo) 互助"
-msgstr "Aide Mutuelle (Gojo) 互助"
+msgstr "French Translation of 'Mutual Aid (Gojo) 互助'"
 
 #: ./moral-code.md:block 18 (header)
 msgid "Perseverance (Nintai) 忍耐"
-msgstr "Persévérance (Nintai) 忍耐"
+msgstr "French Translation of 'Perseverance (Nintai) 忍耐'"
 
 #: ./moral-code.md:block 20 (header)
 msgid "Integrity (Sessō) 節操"
-msgstr "Intégrité (Sessō) 節操"
+msgstr "French Translation of 'Integrity (Sessō) 節操'"
 
 #: ./moral-code.md:block 22 (header)
 msgid "Kindness (Kojo) 厚情"
-msgstr "Gentillesse (Kojo) 厚情"
+msgstr "French Translation of 'Kindness (Kojo) 厚情'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 1 (header)
 msgid "Cyberjūtsu short discovery course for http://thcon.party 2024"
-msgstr "Cours de découverte courte de Cyberjūtsu pour http://thcon.party 2024"
+msgstr ""
+"French Translation of 'Cyberjūtsu short discovery course for "
+"http://thcon.party 2024'"
 
 #: ./courses/thcon-2024/short-discovery.md:block 2 (header)
 msgid "Greeting"

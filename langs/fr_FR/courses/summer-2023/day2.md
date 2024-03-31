@@ -34,16 +34,17 @@ Sous-chapitre 1](https://www.wikihow.com/Type#Learning-to-Type)
 droite (toutes les touches pour un doigt puis passez au suivant) en arrière et
 en avant [voir l'image ici Chapitre 1, Sous-chapitre
 4](https://www.wikihow.com/Type#Learning-to-Type) (x10)
-* with above method type as fast as possible command said by the teacher then
-press enter read the first word on the prompted result (x10)
-   * w, ls, cd, ps, dir, clear, echo, history, env, who, fortune , find
+* avec la méthode ci-dessus, tapez aussi vite que possible la commande dite par
+l'enseignant puis appuyez sur entrée pour lire le premier mot du résultat
+affiché (x10)
+   * w, ls, cd, ps, dir, clear, echo, history, env, who, fortune, find
    * ps -aux, ls -lai, cd .., dir /*, htop
 
 ## Yomi Waza
 
 ### Log Monitoring
 
-Everyone split screen with two command line interface.
+Tout le monde partage l'écran avec deux interfaces de ligne de commande.
 
 ```bash
 screen
@@ -53,7 +54,7 @@ Press return if paragraph is prompted. *Ctrl+a* then *Ctrl+|* #split screen in
 two part. *Ctrl+a* then *Tab* to switch to next part of the screen. *Ctrl+a*
 then *Ctrl+c* to create bash cli in black part of the screen.
 
-Launch Yomi Waza Log.
+Lancer le journal Yomi Waza.
 
 ```bash
 tail -f /var/log/syslog
@@ -65,21 +66,21 @@ tail -f /var/log/syslog
 
 ### Kōgeki Waza
 
-#### Credential Stuffing (T1110.004)[https://attack.mitre.org/techniques/T1110/004/]
+#### Stuffing de Credential (T1110.004)[https://attack.mitre.org/techniques/T1110/004/]
 
 ##### Tori
 
-Tori perform (network service discovery)
-[./day1.md#network-service-discovery-t1046] on service discovered listed below.
-Then connect to each services with known credentials.
+Tori effectue (la découverte de service réseau)
+[./day1.md#network-service-discovery-t1046] sur le service découvert listé
+ci-dessous. Puis se connecte à chaque service avec des identifiants connus.
 
-##### ssh connection
+##### connexion ssh
 
 `ssh -p $UKE_PORT $UKE_LOGIN@$UKE_IP_ADDRESS`
 
-##### ftp connection
+##### connexion ftp
 
-`ftp $UKE_IP_ADDRESS $UKE_PORT` then enter login then password
+`ftp $UKE_IP_ADDRESS $UKE_PORT` puis entrez le login puis le mot de passe
 
 ##### telnet connection
 

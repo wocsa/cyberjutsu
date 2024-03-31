@@ -1,25 +1,27 @@
 # Principle of Cyberjūtsu
 
-Cyberjūtsu is a Digital Martial Art designed for Sport and Educational Purpose in
-the Cyberspace.
+Le Cyberjūtsu est un Art Martial Numérique conçu pour le sport et les objectifs
+éducatifs dans le Cyberespace.
 
-[WOCSA](http://wocsa.org) started Cyberjūtsu project in 2020 as a new way to
-bring to people capability to protect themselves and live better in cyberspace.
+[WOCSA](http://wocsa.org) a lancé le projet Cyberjūtsu en 2020 comme une nouvelle
+manière de donner aux gens la capacité de se protéger et de vivre mieux dans le
+cyberespace.
 
-Cyberjūtsu aims to become an educational method of digital growth, mental growth,
-and moral growth at the same time.
+Le Cyberjūtsu vise à devenir une méthode éducative de croissance numérique,
+mentale et morale en même temps.
 
-Cyberjūtsu is a way to train physical and mental discipline whose aim to educate
-everyone to have a better daily life with computer and internet. The fundamental
-principle of Cyberjūtsu, one that governs all the techniques of attack and
-defense, is that whatever the objective, it is best attained by the
-maximum-efficient use of mind and body for that purpose in cyberspace. To reach
-this maximum-efficient use we need to practice in a mutual aid. The same
-principle applied to our everyday activities leads to the highest and most
-rational digital life. Training in the techniques of Cyberjūtsu is not the only
-way to grasp this universal principle, but it is how we arrive at an
-understanding of it, and it is the means by which we attempt to make others
-understand it.
+Le Cyberjūtsu est une manière de former une discipline physique et mentale dont
+le but est d'éduquer tout le monde à avoir une meilleure vie quotidienne avec
+l'ordinateur et internet. Le principe fondamental du Cyberjūtsu, celui qui régit
+toutes les techniques d'attaque et de défense, est que quel que soit l'objectif,
+il est mieux atteint par l'utilisation la plus efficace possible de l'esprit et
+du corps à cette fin dans le cyberespace. Pour atteindre cette utilisation
+maximale efficace, nous devons pratiquer dans une entraide. Le même principe
+appliqué à nos activités quotidiennes conduit à la vie numérique la plus élevée
+et la plus rationnelle. S'entraîner dans les techniques du Cyberjūtsu n'est pas
+la seule manière de comprendre ce principe universel, mais c'est la manière dont
+nous parvenons à le comprendre, et c'est le moyen par lequel nous tentons de
+faire comprendre aux autres.
 
 The principle of maximum efficiency , whether applied to the art of attack and
 defense or to refining and perfecting daily digital life, demands above all that

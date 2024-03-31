@@ -34,9 +34,10 @@ Sous-chapitre 1](https://www.wikihow.com/Type#Learning-to-Type)
 droite (toutes les touches pour un doigt puis passez au suivant) en arrière et
 en avant [voir l'image ici Chapitre 1, Sous-chapitre
 4](https://www.wikihow.com/Type#Learning-to-Type) (x10)
-* with above method type as fast as possible command said by the teacher then
-press enter read the first word on the prompted result (x10)
-   * w, ls, cd, ps, dir, clear, echo, history, env, who, fortune , find
+* avec la méthode ci-dessus, tapez aussi vite que possible la commande dite par
+l'enseignant puis appuyez sur entrée pour lire le premier mot du résultat
+affiché (x10)
+   * w, ls, cd, ps, dir, clear, echo, history, env, who, fortune, find
    * ps -aux, ls -lai, cd .., dir /*, htop
 
 ## Tsukuri

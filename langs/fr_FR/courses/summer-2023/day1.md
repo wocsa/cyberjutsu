@@ -36,7 +36,7 @@ en avant [voir l'image ici Chapitre 1, Sous-chapitre
 4](https://www.wikihow.com/Type#Learning-to-Type) (x10)
 * with above method type as fast as possible command said by the Sensei then
 press enter read the first word on the prompted result (x10)
-   * w, ls, cd, ps, dir, clear, echo, history, env, who, fortune , find
+   * w, ls, cd, ps, dir, clear, echo, history, env, who, fortune, find
    * ps -aux, ls -lai, cd .., dir /*, htop
 
 ## Kōgeki Waza

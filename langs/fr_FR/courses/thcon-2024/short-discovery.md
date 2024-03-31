@@ -1,72 +1,77 @@
-# Cyberjūtsu cours de découverte rapide pour http://thcon.party 2024
+# Cyberjūtsu short discovery course for http://thcon.party 2024
 
-## Salutation
+## Greeting
 
-* Yakusoku geiko
+* The cyberjutsuka before practicing with someone greet him with physical bow
+called Ritsu [Rei](./glossary.md#rei) or "Onegaishimasu" sentence
 
-## Échauffement
+## Warmup
 
-### Yeux
+### Eyes
 
-* Regardez en haut à droite, en bas à gauche, en bas à droite, en haut à gauche
-(x5)
-* Dessinez un cercle avec vos yeux dans les deux sens (x5)
-* Dessinez un signe infini avec vos yeux (∞) (x5)
+* look at top right, bottom left, bottom right, top left (x5)
+* draw a circle with your Eyes both sens (x5)
+* draw an infinity sign with your eyes (∞) (x5)
 
-### Mains
+### Hands
 
-* Roulez vos doigts un par un vers l'avant et vers l'arrière, les deux mains (x5)
-* Surveillance des journaux
-* Ecran partagé entre Tori et Uke avec deux clis.
-* Écoutez Sensei numéro (1 à 5) et bougez les doigts correspondants
+* Roll your fingers one by one foreward and backward both hands (x5)
+* touch with thumb each of your fingers both hands foreward and backward (x2)
+* join same finger of each hand with the other, then dismiss couple one by one
+foreward and ackward (x2)
+* listen to Sensei number (1 to 5) and dismiss related fingers
 
-### Combiné
+### Combined
 
-* Avec un partenaire tori bougez les doigts, uke doit suivre avec les yeux
+* with partner tori move fingers, uke must follow with the eyes
 
 ## Yomi Waza
 
 ### Yakusoku geiko
 
-Lancer la surveillance des journaux Yomi Waza.
+*Tori* try to scan ports one by one randomly and *Uke* try to guess the number.
+After a while roles are exchanged.
 
-### Surveillance des journaux (Log Monitoring)
+### Log Monitoring
 
-Écran partagé Tori et Uke avec deux interfaces en ligne de commande
+Tori and Uke split screen with two cli.
 
 ```bash
 screen
 ```
 
-*Ctrl+a* puis *Tab* pour revenir à la cli disponible.
+Press return if paragraph is prompted. *Ctrl+a* then *Ctrl+|* #split screen in
+two part. *Ctrl+a* then *Tab* to switch to next part of the screen. *Ctrl+a*
+then *Ctrl+c* to create bash cli in black part of the screen.
 
-Lancer Yomi Waza Log Monitoring.
+Launch Yomi Waza Log Monitoring.
 
 ```bash
 tail -f /var/log/syslog
 ```
 
-*Ctrl+a* puis *Tab* pour revenir à l'interface en ligne de commande disponible.
+*Ctrl+a* then *Tab* to return to available cli.
 
-### Uke
+### Remote Terminal Session Detection
+[D3-RTSD](https://d3fend.mitre.org/technique/d3f:RemoteTerminalSessionDetection)
 
 #### Uke
 
-*Uke* scanne le port du cyberdeck de *Tori* pour identifier le port ssh
+*Uke* scan port to *Tori* cyberdeck to identify ssh port
 
 ```bash
 nmap -A $UKE_IP_ADRESS
 ```
 
-*Uke* se connecte via ssh au cyberdeck de *Tori*
+*Uke* connect via ssh to *Tori* cyberdeck
 
 ```bash
 ssh $TORI_USERNAME@$TORI_IP_ADDRESS
 ```
 
-puis exécute des commandes pendant l'entraînement de *Tori*.
+then run commands during *Tori* practice.
 
-exemples:
+examples:
 
 ```bash
 ls
@@ -79,27 +84,29 @@ htop
 
 #### Tori
 
-*Uke* scanne le port du cyberdeck de *Tori* pour identifier le port ssh
+*Tori* look at Yomi Waza Log Monitoring to catch *Uke* ssh connection (from right
+side of the screen).
 
-*Uke* se connecte via ssh au cyberdeck de *Tori*
+*Tori* list active sessions to identify TTY related to *Uke* ssh connection.
 
 ```bash
 w
 ```
 
-### puis exécute des commandes pendant la pratique de *Tori*.
+### Process Termination
+[D3-PT](https://d3fend.mitre.org/technique/d3f:ProcessTermination/)
 
 #### Uke
 
-*Uke* se connecte via ssh au cyberdeck de *Tori*
+*Uke* connect via ssh to *Tori* cyberdeck
 
 ```bash
 ssh $TORI_USERNAME@$TORI_IP_ADDRESS
 ```
 
-puis exécute des commandes pendant l'entraînement de *Tori*.
+then run commands during *Tori* practice.
 
-exemples:
+examples:
 
 ```bash
 ls
@@ -111,21 +118,24 @@ fortune
 
 #### Tori
 
-exemples:
+*Tori* look at Yomi Waza Log to catch *Uke* ssh connection (from right side of
+the screen).
 
-*Uke* se connecte via ssh au cyberdeck de *Tori*
+*Tori* list active sessions to identify TTY related to *Uke* ssh connection.
 
 ```bash
 w
 ```
 
-Tori
+*Tori* list processes to identify PID related to TTY with STAT value starting
+with `Ss`.
 
 ```bash
 ps -fat
 ```
 
-Uke effectue la connexion
+*Tori* kill the processus by it reference identifier (PID), so the session, so
+disconnect *Uke* from his cyberdeck.
 
 ```bash
 kill -9 $PID
@@ -133,22 +143,23 @@ kill -9 $PID
 
 ### Uke
 
-Uke effectue la connexion
+Uke performs connection
 
 ### Tori
 
-1. Tori effectue la connexion en même temps que Uke
-1. Tori effectue la connexion en même temps que Uke
+1. Tori performs connection at the same time as Uke
+1. Tori performs (Process Termination)[day1.md#process-termination-d3-pt] on
+local session of *Uke*
 
-### Nagekomi (x10 par exercice en partenariat)
+### Nagekomi (x10 by exercise by partner)
 
-Arrêter la session locale de l'uke
+kill local session of the uke
 
-#### Écoute de faux service
+#### Fake service listening
 
 ##### Tori
 
-*Tori* ouvre un port pour simuler un service disponible pour *Uke*
+*Tori* open a port to fake a service available for *Uke*
 
 ```bash
 sudo nc -k -l -p $PORT
@@ -156,59 +167,63 @@ sudo nc -k -l -p $PORT
 
 ##### Uke
 
-*Uke* scanne le port du cyberdeck de *Tori* pour identifier le port ssh
+*Uke* scan port to *Tori* cyberdeck to identify ssh port
 
 ```bash
 nmap -A $UKE_IP_ADRESS
 ```
 
-Nagekomi (x10 par exercice avec partenaire)
+*Uke* perform a connection with a fake client to the fake service of *Tori*
 
 ```bash
 nc $TORI_IP_ADDRESS $TORI_PORT
 ```
 
-*Uke* se déconnecte avec CTRL+c
+*Uke* disconnect with CTRL+c
 
 ```bash
 nc $TORI_IP_ADDRESS $TORI_PORT
 ```
 
-### Uchikomi (x10 par exercice en partenariat)
+### Uchikomi (x10 by exercise by partner)
 
-*Uke* ouvre un port, *Tori* doit trouver le port et s'y connecter.
+*Uke* open a port, *Tori* must find the port and connect on it.
 
 ## Randori
 
-Essayez de déconnecter le partenaire de toutes ses sessions (locales et à
-distance).
+Try to disconnect partner from all his sessions (local and remote).
 
-## Retour au calme
+## Cooldown
 
-### Yeux
+### Eyes
 
-* Clignotement
-* Mains sur
+* blinking
+* hands on
 
-### Mains
+### Hands
 
-* Étirez vos doigts à l'intérieur et à l'extérieur de vos mains
-* Laissez tomber vos mains et secouez-les
+* strech your fingers in and out of your hands
+* drop your hands and shake them
 
-### Corps
+### body
 
-* Assis
-   * Étirez les bras vers l'avant
-   * tue la session locale de l'uke
-   * Fausse écoute de service
-* Levez-vous
-   * Étirez les bras vers le haut
-   * *Tori* ouvre un port pour simuler un service disponible pour *Uke*
-   * Relevez les épaules
-   * *Uke* se déconnecte avec CTRL+c
+* seated
+   * strech arms forward
+   * cross legs, put opposite hand on the leg, turn head on upper knee side, twist
+knee opposite to the head then invert
+   * move to the beginning of the chair, bend your back and put your hands on your
+hips then stretch
+* stand up
+   * stretch arms to the top
+   * cross arms to put hands on elbow, pull with the hand on top of the elbow to the
+opposite side (invert)
+   * pull up shoulders
+   * join hands at the back on in front of your hips then extend left side of your
+neck then right
 
-## Persévérance (Nintai) 忍耐
+## Mokusō
 
-## Salutation
+## Greeting
 
-* Uchikomi (x10 par exercice avec partenaire)
+* The cyberjutsuka after practicing with someone gree him with physical bow
+called Ritsu [Rei](./glossary.md#rei) or "Domo arigato" sentence

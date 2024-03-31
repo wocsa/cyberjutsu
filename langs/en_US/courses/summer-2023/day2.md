@@ -1,9 +1,10 @@
-# *Tori* try to scan ports one by one randomly and *Uke* try to guess the number.
-After a while roles are exchanged.
+# Cyberjūtsu v1.0 Summer 2023 Day 2
 
-## Log Monitoring
+## Background
 
-Tori and Uke split screen with two cli.
+Morning Judo course with [Dr Yves
+Cadot](http://budo2008.nifs-k.ac.jp/en/guest/cadot.html) about [Go no
+sen](../../glossary.md#go-no-sen) concept.
 
 ## Warmup
 
@@ -19,27 +20,29 @@ Tori and Uke split screen with two cli.
 * touch with thumb each of your fingers both hands foreward and backward (x2)
 * join same finger of each hand with the other, then dismiss couple one by one
 foreward and ackward (x2)
-* Press return if paragraph is prompted. *Ctrl+a* then *Ctrl+|* #split screen in
-two part. *Ctrl+a* then *Tab* to switch to next part of the screen. *Ctrl+a*
-then *Ctrl+c* to create bash cli in black part of the screen.
+* listen to teacher number (1 to 5) and dismiss related fingers
 
 ### Combined
 
 * with partner tori move fingers, uke must follow with the eyes
 
-### Launch Yomi Waza Log Monitoring.
+### Typing
 
-* *Ctrl+a* then *Tab* to return to available cli.
-* Remote Terminal Session Detection [D3-RTSD]
-* Uke
-   * *Uke* scan port to *Tori* cyberdeck to identify ssh port
-   * *Uke* connect via ssh to *Tori* cyberdeck
+* put your fingers on each zone of the keyboard [see picture here Chapter 1, Sub
+Chapter 1](https://www.wikihow.com/Type#Learning-to-Type)
+* type all alphabet letter one by one zone by zone from left to right (all key
+for one finger then move to next) backward and forward [see picture here
+Chapter 1, Sub Chapter 4](https://www.wikihow.com/Type#Learning-to-Type) (x10)
+* with above method type as fast as possible command said by the teacher then
+press enter read the first word on the prompted result (x10)
+   * w, ls, cd, ps, dir, clear, echo, history, env, who, fortune , find
+   * ps -aux, ls -lai, cd .., dir /*, htop
 
 ## Yomi Waza
 
 ### Log Monitoring
 
-then run commands during *Tori* practice.
+Everyone split screen with two command line interface.
 
 ```bash
 screen
@@ -49,7 +52,7 @@ Press return if paragraph is prompted. *Ctrl+a* then *Ctrl+|* #split screen in
 two part. *Ctrl+a* then *Tab* to switch to next part of the screen. *Ctrl+a*
 then *Ctrl+c* to create bash cli in black part of the screen.
 
-examples:
+Launch Yomi Waza Log.
 
 ```bash
 tail -f /var/log/syslog
@@ -57,38 +60,35 @@ tail -f /var/log/syslog
 
 *Ctrl+a* then *Tab* to return to available cli.
 
-## Tori
+## Sen
 
-### *Tori* look at Yomi Waza Log Monitoring to catch *Uke* ssh connection (from right
-side of the screen).
+### Kōgeki Waza
 
-#### *Tori* list active sessions to identify TTY related to *Uke* ssh connection.
+#### Credential Stuffing (T1110.004)[https://attack.mitre.org/techniques/T1110/004/]
 
 ##### Tori
 
-Process Termination [D3-PT]
+Tori perform (network service discovery)
+[./day1.md#network-service-discovery-t1046] on service discovered listed below.
+Then connect to each services with known credentials.
 
-##### *Tori* look at Yomi Waza Log to catch *Uke* ssh connection (from right side of
-the screen).
+##### ssh connection
 
-*Tori* list processes to identify PID related to TTY with STAT value starting
-with `Ss`.
+`ssh -p $UKE_PORT $UKE_LOGIN@$UKE_IP_ADDRESS`
 
-##### *Tori* kill the processus by it reference identifier (PID), so the session, so
-disconnect *Uke* from his cyberdeck.
+##### ftp connection
 
-Uke performs connection
+`ftp $UKE_IP_ADDRESS $UKE_PORT` then enter login then password
 
-##### Tori performs connection at the same time as Uke
+##### telnet connection
 
-Moral Code describes how practitioners (Saibā-jūtsu-ka) サイバー述家 behave and shape
-their inner state for practicing Cyberjūtsu (Saibā-jūtsu) サイバー述.
+`telnet $UKE_IP_ADDRESS $UKE_PORT` then enter login then password
 
 ##### Uke
 
-Courage (Yuki) 勇気
+Uke use Yomi Waza Log Monitoring to identify Tori connections.
 
-##### Sincerity (Makato) 誠
+##### pattern filtering
 
 ```bash
 tail -f /var/log/syslog | grep -i $CATCH_STRING
@@ -96,75 +96,82 @@ tail -f /var/log/syslog | grep -i $CATCH_STRING
 #example grep DTP=22 or grep $IP_ADDRESS
 ```
 
-Etiquette (Reigi) 礼儀
+circle ssh 2 rebound
 
-##### Mutual Aid (Gojo)
+##### Uchikomi (x10 by exercise by partner)
 
-Honor (Meiyo) 名誉
+Tori perform one connection, Uke identify connection by Yomi Waza, Uke set
+pattern filtering, Tori run the same connection, Uke must see only messages
+(log) related to the connection. First IP, then port, then service name
 
-### Humility (Kenkyo) 謙虚
+### Uke Waza
 
-#### Process Termination D3-PT
+#### Process Termination
+[D3-PT](https://d3fend.mitre.org/technique/d3f:ProcessTermination/)
 
 ##### Uke
 
-Self-control (Shisei) 自制
+*Uke* connect via ssh or ftp or http
 
 then run commands during *Tori* practice.
 
 ##### Tori
 
-Mutual Aid (Gojo) 互助
+*Tori* look at Yomi Waza Log to catch *Uke* connection (from right side of the
+screen).
 
-Perseverance (Nintai) 忍耐
+*Tori* list active sessions to identify process to *Uke* connection and try to
+kill related process.
 
-###### Integrity (Sessō) 節操
+###### ssh
 
-Kindness (Kojo) 厚情
+For ssh see (Day 1 - Process Termination)
+[https://github.com/wocsa/cyberjutsu/blob/main/courses/summer-2023/day1.md#process-termination-d3-pt]
 
-###### Cyberjūtsu short discovery course for http://thcon.party 2024
+###### ftp
 
 ```bash
 pure-ftpwho
 kill -9 $PID
 ```
 
-###### Greeting
+###### telnet
 
-The cyberjutsuka before practicing with someone greets them with a physical bow
-called Ritsu (Rei) or says "Onegaishimasu."
+it is not possible to find telnet session related process with *w* command or
+*pure-ftpwho* command netstat can help to identify connection
 
 ```bash
 netstat -tupc
 ```
 
-#### Warmup
+#### Connections Attempt Analysis (D3-CAA)
+[https://d3fend.mitre.org/technique/d3f:ConnectionAttemptAnalysis/]
 
 ##### Uke
 
-Eyes
+Uke connect to one of 3 ports (ssh or telnet or ftp)
 
 ##### Tori
 
-Look at the top right, bottom left, bottom right, and top left (x5)
+Tori try to identify connection of Uke and related port on *Uke* cyberdeck.
 
 ```bash
 netstat -tupc
 ```
 
-### Humility (Kenkyo) 謙虚
+### Uke Waza
 
-#### Draw a circle with your eyes in both senses (x5)
+#### Connection Termination
 
 ```bash
 tcpkill -9 port $UKE_PORT
 ```
 
-### Mutual Aid (Gojo)
+### Uchikomi (x10 by exercise by partner)
 
-Draw an infinity sign with your eyes (∞) (x5)
+Uke connect to a random service then tori perform connection termination.
 
-#### Etiquette (Reigi)
+#### Fake service listening
 
 ##### Tori
 
@@ -178,32 +185,33 @@ sudo nc -k -l -p $PORT
 nc $TORI_IP_ADDRESS $TORI_PORT
 ```
 
-#### Hands
+#### tournament
 
-Roll your fingers one by one forward and backward with both hands (x5)
+multi screen each winner take other winners establish 3 remote sessions before
+kill the local session of the partner ip a
 
-### Mutual Aid (Gojo)
+### Uchikomi (x10 by exercise by partner)
 
-Touch each of your fingers with your thumb, both forward and backward (x2)
+Uke choose a random port, tori find it and connect to it then send "hello". Tori
+must use (Network Service Discovery)[./day1.md#network-service-discovery-t1046]
 
 ## Yomi Waza
 
-#### Join the same finger of each hand with the other, then dismiss each couple one by
-one, forward and backward (x2)
+#### Read file content
 
 ```bash
 cat $FILE_PATH
 ```
 
-#### Listen to Sensei's numbers (1 to 5) and dismiss the related fingers
+#### Write file content
 
 ```bash
 echo "$CONTENT" > $FILE_PATH
 ```
 
-#### Combined
+#### Change default port
 
-##### Greeting
+##### telnet
 
 ```bash
 cat /etc/services |grep -i telnet|sed 's/\(telnet\t\t\)23\/tcp/\12323/g'
@@ -211,7 +219,7 @@ sed 's/\(telnet\t\t\)23\/tcp/\12323/g' /etc/services
 sudo systemctl restart inetd
 ```
 
-##### Integrity (Sessō) 節操
+##### ssh
 
 ```bash
 cat /etc/ssh/ssh_config
@@ -223,53 +231,54 @@ sed -i 's/#\(   Port \)22/\12222/g' /etc/ssh/ssh_config
 sudo systemctl restart ssh
 ```
 
-##### Mutual Aid (Gojo)
+##### Uchikomi (x10 by exercise by partner)
 
-##### With a partner, tori moves fingers and uke must follow with the eyes
+##### bash history
 
-Yomi Waza
+Ctrl+r search keyword Ctrl+o past the command !! previous command !N the N
+command from the beginning !-N N command before last one
 
-##### Mutual Aid (Gojo)
+##### Uchikomi (x10 by exercise by partner)
 
-## Integrity (Sessō)
+## Randori
 
-Yakusoku geiko
+first that success to reboot cyberdeck of the other with the command
 
 ```bash
 reboot
 ```
 
-## Cyberjūtsu short discovery course for http://thcon.party 2024
+## Cooldown
 
 ### Eyes
 
-* Greeting
-* The cyberjutsuka before practicing with someone greet him with physical bow
-called Ritsu Rei or "Onegaishimasu" sentence
+* blinking
+* hands on
 
 ### Hands
 
-* Warmup
-* Eyes
+* strech your fingers in and out of your hands
+* drop your hands and shake them
 
-### look at top right, bottom left, bottom right, top left (x5)
+### body
 
-* draw a circle with your Eyes both sens (x5)
-   * draw an infinity sign with your eyes (∞) (x5)
-   * *Tori* tries to scan ports one by one randomly and *Uke* tries to guess the
-number. After a while, roles are exchanged.
-   * Roll your fingers one by one foreward and backward both hands (x5)
-* touch with thumb each of your fingers both hands foreward and backward (x2)
-   * join same finger of each hand with the other, then dismiss couple one by one
-foreward and ackward (x2)
-   * Log Monitoring
-   * Combined
-   * with partner tori move fingers, uke must follow with the eyes
+* seated
+   * strech arms forward
+   * cross legs, put opposite hand on the leg, turn head on upper knee side, twist
+knee opposit to the head then invert
+   * move to the beginning of the chair, bend your back and put your hands on your
+hips then stretch
+* stand up
+   * stretch arms to the top
+   * cross arms to put hands on elbow, pull with the hand on top of the elbow to the
+opposit side (invert)
+   * pull up shoulders
+   * join hands at the back on in front of your hips then extend left side of your
+neck then right
 
-## Yomi Waza
+## Mokusō
 
-## Tori and Uke split the screen with two cli.
+## References
 
-Press return if a paragraph is prompted. *Ctrl+a* then *Ctrl+|* #split screen
-into two parts. *Ctrl+a* then *Tab* to switch to the next part of the screen.
-*Ctrl+a* then *Ctrl+c* to create a bash cli in the black part of the screen.
+[FR: Sen no sen - tai no sen - go no sen - KARATE](https://www.youtube.com/watch?
+v=w1ov5XkDqBg)

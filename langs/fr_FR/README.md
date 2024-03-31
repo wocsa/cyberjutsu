@@ -1,25 +1,32 @@
-Surveillance des journaux
+[English](/) | [French](/langs/fr_FR/) | [Japanese](/langs/ja_JP/)
 
-# Écran divisé Tori et Uke avec deux CLI.
+# Cyberjūtsu サイバー術
 
-Frappe
+Cyberjūtsu is a new way to teach cybersecurity inspired from modern japanese
+martial arts way 武道 (Budō).
 
-Lancer la surveillance des journaux Yomi Waza.
+Register to http://cyberjutsu.education for bootcamps or stages.
 
 <img align="left" width="30%" height="30%" src="./img/cyberjutsu_banner.jpeg"  style="vertical-align:middle;margin:0px 20px">
 
-## *Ctrl+a* puis *Tab* pour revenir au CLI disponible.
+## What is cyberjūtsu ?
 
-w, ls, cd, ps, dir, clear, echo, history, env, who, fortune , find
+Cyberjūtsu is a new way to teach cybersecurity inspired from modern japanese
+martial arts trainings (mostly judo, karate and jujitsu). It is an educational
+way which allows everyone (novice to expert) to practice together and improve
+themselves in cybersecurity through sparring. It follows budō 武道 (judo, jujitsu,
+karate...) principles and moral code similar to them. The goal is to reach
+"maximum-efficient use of body, mind and computer" in a "mutual benefit" of a
+human confrontation.
 
-## Uke
+## Why do we apply martial arts to cybersecurity?
 
-*Uke* scanner le port du cyberdeck de *Tori* pour identifier le port ssh
+Martial Arts known benefits:
 
-* *Uke* se connecter via ssh au cyberdeck de *Tori*
-* puis exécuter des commandes pendant la pratique de *Tori*.
-* exemples:
-* Tori
-* Uke effectue une connexion
+* Improve coordination between mind and movements.
+* Train to act in stressing situations.
+* Develop fast and accurate reflexes.
+* Learn to improvise in unfamiliar events.
+* Teach a code of conduct. Learn to respect others.
 
-Tori effectue une connexion en même temps que Uke
+There are plenty of other reasons.

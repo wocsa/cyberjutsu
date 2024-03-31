@@ -1,85 +1,94 @@
-# Intégrité (Sessō) 節操
+# Cyberjūtsu v1.0 Summer 2023 Day 2
 
-## Gentillesse (Kojo) 厚情
+## Background
 
-*Uke* ouvre un port, *Tori* doit trouver le port et s'y connecter.
+Morning Judo course with [Dr Yves
+Cadot](http://budo2008.nifs-k.ac.jp/en/guest/cadot.html) about [Go no
+sen](../../glossary.md#go-no-sen) concept.
 
-## Échauffement
+## Warmup
 
-### Yeux
+### Eyes
 
-* Regardez en haut à droite, en bas à gauche, en bas à droite, en haut à gauche
-(x5)
-* Dessinez un cercle avec vos yeux dans les deux sens (x5)
-* Dessinez un signe infini avec vos yeux (∞) (x5)
+* look at top right, bottom left, bottom right, top left (x5)
+* draw a circle with your Eyes both sens (x5)
+* draw an infinity sign with your eyes (∞) (x5)
 
-### Mains
+### Hands
 
-* Roulez vos doigts un par un vers l'avant et vers l'arrière, les deux mains (x5)
-* Surveillance des journaux
-* Ecran partagé entre Tori et Uke avec deux clis.
-* Cours découverte court de Cyberjūtsu pour http://thcon.party 2024
+* Roll your fingers one by one foreward and backward both hands (x5)
+* touch with thumb each of your fingers both hands foreward and backward (x2)
+* join same finger of each hand with the other, then dismiss couple one by one
+foreward and ackward (x2)
+* listen to teacher number (1 to 5) and dismiss related fingers
 
-### Combiné
+### Combined
 
-* Avec un partenaire tori bougez les doigts, uke doit suivre avec les yeux
+* with partner tori move fingers, uke must follow with the eyes
 
-### Salutation
+### Typing
 
-* Randori
-* Essayez de déconnecter le partenaire de toutes ses sessions (locales et à
-distance).
-* Retour au calme
-   * Échauffement
-   * Yeux
+* put your fingers on each zone of the keyboard [see picture here Chapter 1, Sub
+Chapter 1](https://www.wikihow.com/Type#Learning-to-Type)
+* type all alphabet letter one by one zone by zone from left to right (all key
+for one finger then move to next) backward and forward [see picture here
+Chapter 1, Sub Chapter 4](https://www.wikihow.com/Type#Learning-to-Type) (x10)
+* with above method type as fast as possible command said by the teacher then
+press enter read the first word on the prompted result (x10)
+   * w, ls, cd, ps, dir, clear, echo, history, env, who, fortune , find
+   * ps -aux, ls -lai, cd .., dir /*, htop
 
 ## Yomi Waza
 
-### Surveillance des journaux (Log Monitoring)
+### Log Monitoring
 
-Regardez en haut à droite, en bas à gauche, en bas à droite, en haut à gauche (x5)
+Everyone split screen with two command line interface.
 
 ```bash
 screen
 ```
 
-*Ctrl+a* puis *Tab* pour revenir à la cli disponible.
+Press return if paragraph is prompted. *Ctrl+a* then *Ctrl+|* #split screen in
+two part. *Ctrl+a* then *Tab* to switch to next part of the screen. *Ctrl+a*
+then *Ctrl+c* to create bash cli in black part of the screen.
 
-Dessinez un cercle avec vos yeux dans les deux sens (x5)
+Launch Yomi Waza Log.
 
 ```bash
 tail -f /var/log/syslog
 ```
 
-*Ctrl+a* puis *Tab* pour revenir à l'interface en ligne de commande disponible.
+*Ctrl+a* then *Tab* to return to available cli.
 
-## Dessinez un signe d'infini avec vos yeux (∞) (x5)
+## Sen
 
-### Mains
+### Kōgeki Waza
 
-#### Clignotement
+#### Credential Stuffing (T1110.004)[https://attack.mitre.org/techniques/T1110/004/]
 
 ##### Tori
 
-Mains sur
+Tori perform (network service discovery)
+[./day1.md#network-service-discovery-t1046] on service discovered listed below.
+Then connect to each services with known credentials.
 
-##### Roulez vos doigts un par un vers l'avant et vers l'arrière des deux mains (x5)
+##### ssh connection
 
-Écoutez le Sensei numéro (1 à 5) et bougez les doigts correspondants
+`ssh -p $UKE_PORT $UKE_LOGIN@$UKE_IP_ADDRESS`
 
-##### Combiné
+##### ftp connection
 
-Avec le partenaire tori, bougez les doigts, uke doit suivre du regard
+`ftp $UKE_IP_ADDRESS $UKE_PORT` then enter login then password
 
-##### Yomi Waza
+##### telnet connection
 
-Yakusoku geiko
+`telnet $UKE_IP_ADDRESS $UKE_PORT` then enter login then password
 
 ##### Uke
 
-Surveillance des journaux
+Uke use Yomi Waza Log Monitoring to identify Tori connections.
 
-##### Écran partagé Tori et Uke avec deux cli.
+##### pattern filtering
 
 ```bash
 tail -f /var/log/syslog | grep -i $CATCH_STRING
@@ -87,74 +96,82 @@ tail -f /var/log/syslog | grep -i $CATCH_STRING
 #example grep DTP=22 or grep $IP_ADDRESS
 ```
 
-Lancer la surveillance des journaux Yomi Waza.
+circle ssh 2 rebound
 
-##### Uchikomi (x10 par exercice en partenariat)
+##### Uchikomi (x10 by exercise by partner)
 
-Étirez vos doigts à l'intérieur et à l'extérieur de vos mains
+Tori perform one connection, Uke identify connection by Yomi Waza, Uke set
+pattern filtering, Tori run the same connection, Uke must see only messages
+(log) related to the connection. First IP, then port, then service name
 
-### *Ctrl+a* puis *Tab* pour revenir à la cli disponible.
+### Uke Waza
 
-#### puis exécute des commandes pendant la pratique de *Tori*.
+#### Process Termination
+[D3-PT](https://d3fend.mitre.org/technique/d3f:ProcessTermination/)
 
 ##### Uke
 
-Uke
+*Uke* connect via ssh or ftp or http
 
-puis exécute des commandes pendant l'entraînement de *Tori*.
+then run commands during *Tori* practice.
 
 ##### Tori
 
-Laissez tomber vos mains et secouez-les
+*Tori* look at Yomi Waza Log to catch *Uke* connection (from right side of the
+screen).
 
-Corps
+*Tori* list active sessions to identify process to *Uke* connection and try to
+kill related process.
 
-###### *Uke* scanne le port du cyberdeck de *Tori* pour identifier le port ssh
+###### ssh
 
-Assis
+For ssh see (Day 1 - Process Termination)
+[https://github.com/wocsa/cyberjutsu/blob/main/courses/summer-2023/day1.md#process-termination-d3-pt]
 
-###### *Uke* se connecte via ssh au cyberdeck de *Tori*
+###### ftp
 
 ```bash
 pure-ftpwho
 kill -9 $PID
 ```
 
-###### puis exécute des commandes pendant la pratique de *Tori*.
+###### telnet
 
-Étirez les bras vers l'avant
+it is not possible to find telnet session related process with *w* command or
+*pure-ftpwho* command netstat can help to identify connection
 
 ```bash
 netstat -tupc
 ```
 
-#### Levez-vous
+#### Connections Attempt Analysis (D3-CAA)
+[https://d3fend.mitre.org/technique/d3f:ConnectionAttemptAnalysis/]
 
 ##### Uke
 
-exemples :
+Uke connect to one of 3 ports (ssh or telnet or ftp)
 
 ##### Tori
 
-Étirez les bras vers le haut
+Tori try to identify connection of Uke and related port on *Uke* cyberdeck.
 
 ```bash
 netstat -tupc
 ```
 
-### *Ctrl+a* puis *Tab* pour revenir à la cli disponible.
+### Uke Waza
 
-#### Tori
+#### Connection Termination
 
 ```bash
 tcpkill -9 port $UKE_PORT
 ```
 
-### Uchikomi (x10 par exercice en partenariat)
+### Uchikomi (x10 by exercise by partner)
 
-Remontez les épaules
+Uke connect to a random service then tori perform connection termination.
 
-#### Écoute de faux service
+#### Fake service listening
 
 ##### Tori
 
@@ -168,31 +185,33 @@ sudo nc -k -l -p $PORT
 nc $TORI_IP_ADDRESS $TORI_PORT
 ```
 
-#### Uke effectue la connexion
+#### tournament
 
-Mokusō
+multi screen each winner take other winners establish 3 remote sessions before
+kill the local session of the partner ip a
 
-### Uchikomi (x10 par exercice en partenariat)
+### Uchikomi (x10 by exercise by partner)
 
-Cyberjūtsu v1.0 Été 2023 Jour 2
+Uke choose a random port, tori find it and connect to it then send "hello". Tori
+must use (Network Service Discovery)[./day1.md#network-service-discovery-t1046]
 
 ## Yomi Waza
 
-#### Tori effectue la connexion en même temps qu'Uke
+#### Read file content
 
 ```bash
 cat $FILE_PATH
 ```
 
-#### Nagekomi (x10 par exercice avec le partenaire)
+#### Write file content
 
 ```bash
 echo "$CONTENT" > $FILE_PATH
 ```
 
-#### arrêter la session locale de l'uke
+#### Change default port
 
-##### puis exécute des commandes pendant la pratique de *Tori*.
+##### telnet
 
 ```bash
 cat /etc/services |grep -i telnet|sed 's/\(telnet\t\t\)23\/tcp/\12323/g'
@@ -200,7 +219,7 @@ sed 's/\(telnet\t\t\)23\/tcp/\12323/g' /etc/services
 sudo systemctl restart inetd
 ```
 
-##### *Uke* scanne le port du cyberdeck de *Tori* pour identifier le port ssh
+##### ssh
 
 ```bash
 cat /etc/ssh/ssh_config
@@ -212,48 +231,54 @@ sed -i 's/#\(   Port \)22/\12222/g' /etc/ssh/ssh_config
 sudo systemctl restart ssh
 ```
 
-##### Uchikomi (x10 par exercice en partenariat)
+##### Uchikomi (x10 by exercise by partner)
 
-##### Écoute de faux service
+##### bash history
 
-Contexte
+Ctrl+r search keyword Ctrl+o past the command !! previous command !N the N
+command from the beginning !-N N command before last one
 
-##### Uchikomi (x10 par exercice en partenariat)
+##### Uchikomi (x10 by exercise by partner)
 
 ## Randori
 
-*Tori* ouvre un port pour simuler un service disponible pour *Uke*
+first that success to reboot cyberdeck of the other with the command
 
 ```bash
 reboot
 ```
 
-## Retour au calme
+## Cooldown
 
-### Yeux
+### Eyes
 
-* Clignotement
-* Mains sur
+* blinking
+* hands on
 
-### Mains
+### Hands
 
-* Étirez vos doigts à l'intérieur et à l'extérieur de vos mains
-* Laissez tomber vos mains et secouez-les
+* strech your fingers in and out of your hands
+* drop your hands and shake them
 
-### Corps
+### body
 
-* Assis
-   * Étirez les bras vers l'avant
-   * Écoutez le numéro de l'enseignant (1 à 5) et dismiss des doigts associés
-   * Fausse écoute de service
-* Levez-vous
-   * Étirez les bras vers le haut
-   * Frappe au clavier
-   * Relevez les épaules
-   * *Uke* se déconnecte avec CTRL+c
+* seated
+   * strech arms forward
+   * cross legs, put opposite hand on the leg, turn head on upper knee side, twist
+knee opposit to the head then invert
+   * move to the beginning of the chair, bend your back and put your hands on your
+hips then stretch
+* stand up
+   * stretch arms to the top
+   * cross arms to put hands on elbow, pull with the hand on top of the elbow to the
+opposit side (invert)
+   * pull up shoulders
+   * join hands at the back on in front of your hips then extend left side of your
+neck then right
 
-## Persévérance (Nintai) 忍耐
+## Mokusō
 
-## *Uke* se déconnecte avec CTRL+c
+## References
 
-Échauffement
+[FR: Sen no sen - tai no sen - go no sen - KARATE](https://www.youtube.com/watch?
+v=w1ov5XkDqBg)

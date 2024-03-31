@@ -1,1 +1,1 @@
-# サイバー術位（段位）
+# Cyberjūtsu Grades (段位)

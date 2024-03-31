@@ -1,88 +1,136 @@
-# ToriはUkeのローカルセッションに対してプロセス終了を行う
+# Fight rules
 
-## 投げ込み（パートナーとの運動による、×10）
+## Environment
 
-### 誠
+### Place of the combat
 
-礼儀
+The [Dojo](./glossary.md#dojo) is a closed network disconnected from other
+networks where only [cyberjutsuka](./glossary.md#cyberjutsuka) are connected
+through their [cyberdeck](./glossary.md#cyberdeck). It is recommended but not
+mandatory that practitioners are facing in the same physical room to ensure
+equal meanings and conditions. Arbiter must be able to control conditions and
+meaning of each [cyberjutsuka](./glossary.md#cyberjutsuka) to ensure equality in
+the practice.
 
-### 名誉
+### Arbiter
 
-謙虚
+Arbiter is in charge to ensure safety and integrity of systems that are not
+engaged in the fight in and out of the dojo. Only cyberdeck of
+[cyberjutsuka](./glossary.md#cyberjutsuka) engaged in the fight can be attacked
+and impacted. Arbiter must ensure equality of chance, condition, meaning between
+[cyberjutsuka](./glossary.md#cyberjutsuka) engaged in the fight. Arbiter must
+ensure that [cyberjutsuka](./glossary.md#cyberjutsuka) allow sparring to fight
+properly.
 
-## 自制
+## Etiquette
 
-### 互助
+### General Greetings
 
-1. 忍耐
-1. 他の人とサイバー術を行う前に、サイバー術家はリツ礼または「お願いします」という言葉とともに、物理的なおじぎをします
-1. 約束稽古
+1. When entering in the space (physical or digital) of the dojo, the
+[cyberjutsuka](./glossary.md#cyberjutsuka) greet the space(s) by physical bow
+called Ritsu [Rei](./glossary.md#rei) or written [rei](./glossary.md#rei).
+1. The cyberjutsuka before practicing with someone greet him with physical bow
+called Ritsu [Rei](./glossary.md#rei) or "Onegaishimasu" sentence
+1. The cyberjutsuka after practicing with someone gree him with physical bow
+called Ritsu [Rei](./glossary.md#rei) or "Domo arigato" sentence
 
-### 節操
+### Training etiquette
 
-#### 厚情
+#### General training etiquette
 
-1. 2024年のhttp://thcon.partyのためのサイバー術短期発見コース
-1. 挨拶
-1. 自分のサイバー術家が誰かと練習する前に、立ち合いに行う挨拶は、立礼または「お願いします」という言葉です。
-1. ウォームアップ
-1. 目
-1. 右上、左下、右下、左上を見る（×5）
+1. Cyberjutsuka listens to the Sensei and wait him to finish before interrupting
+or asking question
+1. Cyberjutsuka asks the Sensei to be away from the dojo, before leaving it
+during the training (even temporarily)
+1. Cyberjutsuka asks the Sensei to enter the dojo, during the training.
+1. Cyberjutsuka wait for the order of the Sensei to enter in the dojo or use the
+cyberdeck before entering in.
+1. Cyberjutsuka wait for the order of the Sensei to leave the dojo before leaving
+it or shutdown the cyberdeck.
+1. Cyberjutsuka execute orders from the Sensei.
 
-#### 両目で円を描く（×5）
+#### Greeting before the training
 
-1. 目で∞を描く（×5）
-1. 手
-1. 両手の指を前後に一本ずつ転がす（×5）
+1. Everyone stand formally (arms close to the body, feet close, head straight)
+behind his cyberdeck facing the Sensei or if it's not physical everyone
+communicate "Onegaishimasu" to the Sensei
+1. When Sensei communicates "Otagai Ni [Rei](./glossary.md#rei)" to the audience,
+cyberjutsuka perform physical bow called Ritsu [Rei](./glossary.md#rei) or
+answer with [Rei](./glossary.md#rei) word together.
+1. When Sensei communicates "Sensei Ni [Rei](./glossary.md#rei)" to the audience,
+cyberjutsuka perform physical bow called Ritsu [Rei](./glossary.md#rei) or
+answer with [Rei](./glossary.md#rei) word together.
 
-#### 両手の親指で指全体に触れる（前後2回）
+#### Greeting after the training
 
-1. 両手の同じ指を結び、1つずつ前後に外し（×2）
-1. 先生の番号（1から5）を聞いて関連する指を外す
-1. 組み合わせ
-1. 両手の指を前後に一本ずつ転がす（×5）
-1. 手
+1. When Sensei communicates "[Sore made](./glossary.md#sore-made)" cyberjutsuka
+stand formally (arms close to the body, feet close, head straight) behind his
+cyberdeck facing the Sensei or if it's not physical everyone communicate "Domo
+arigato" to the Sensei.
+1. When Sensei communicates "[Mokuso](./glossary.md#mokuso)" cyberjutsuka close
+eyes and perform introspect moment to integrate experience and knowledge
+acquired during the training.
+1. When Sensei communicates "[Mokuso](./glossary.md#mokuso) yame" cyberjutsuka
+open eyes and prepare for [Rei](./gloassy.md#rei).
+1. When Sensei communicates "Sensei Ni [Rei](./glossary.md#rei)" to the audience,
+cyberjutsuka perform physical bow called Ritsu [Rei](./glossary.md#rei) or
+answer with [Rei](./glossary.md#rei) word together.
+1. When Sensei communicates "Otagai Ni [Rei](./glossary.md#rei)" to the audience,
+cyberjutsuka perform physical bow called Ritsu [Rei](./glossary.md#rei) or
+answer with [Rei](./glossary.md#rei) word together.
 
-## パートナーのとりが指を動かし、受けが目で追う
+## Sparring rules
 
-### 自制
+### Etiquette
 
-#### 読み技
+#### Before the sparring
 
-1. 約束稽古
-   1. とりがランダムにポートをスキャンし、受けが番号を推測する。しばらくしてから役割を交換する。
-   1. ログモニタリング
+1. Arbiter call first sparring by showing him with hand or giving his name or
+nickname, then the second one (same way)
+   1. first called partner will be called "aka"(赤) during the sparring
+   1. second called partner will be called "shiro" (白) during the sparring
 1. Cyberjutsuka perform general geetings
    1. Cyberjutsuka connect to the dojo or switch on their cyberdeck together
-   1. 段落が提示された場合はリターンを押す。2つの部分に画面を分割するためには*Ctrl+a*、*Ctrl+|*を押す。次の画面に切り替えるためには
-*Ctrl+a*、*Tab*を押す。黒い部分のbash cliを作成するためには*Ctrl+a*、*Ctrl+c*を押す。
-   1. 読み技ログを監視する
-      1. *Ctrl+a*、*Tab*で利用可能なcliに戻る
-1. リモート端末セッション検出
-1. 受け
+   1. Cyberjutsuka greeting the dojo
+   1. Cyberjutsuka greeting the arbiter
+      1. Cyberjutuska stand behind his cyberdeck facing the sparring partner
+1. Arbiter communicate [Rei](./glossary.md#rei) then partners bow facing each
+other or answer [Rei](./glossary.md#rei)
+1. Arbiter communicate [Hajime](./gloassry.md#hajime) then partners start to fight
 
-#### 受けはとりのサイバーデッキをスキャンし、sshポートを特定する
+#### After the sparring
 
-1. 受けはsshを介してとりのサイバーデッキに接続する
-1. そして、とりの練習中にコマンドを実行する
-1. 例：
-1. とり
+1. Arbiter communicate [Soremade](./gloassry.md#sore-made) for the end of the
+sparring then partners stop to fight (no more actions on the cyberdeck) then
+stand in formal way in front of each other
+1. Arbiter communicate the winner by raising hand in direction of the winner or
+communicate "aka" (赤) or "shiro"(白) "shōsha" (勝者)
+1. Arbiter communicate [Rei](./glossary.md#rei) and partners bow facing each
+other or answer [Rei](./glossary.md#rei)
+1. Cyberjutsuka [Rei](./glossary.md#rei) for the dojo a second time then leave
+the dojo (disconnect or shutdown the cyberdeck)
 
-#### とりは読み技ログを見て、受けのssh接続をキャッチする（画面の右側から）
+#### During the sparring
 
-1. とりはアクティブなセッションをリストして、受けのssh接続に関連するTTYを特定する
-1. プロセス終了
-1. とりは読み技ログで、受けのssh接続をキャッチする（画面の右側から）
-1. とりはプロセスをリストし、STAT値が`Ss`で始まるTTYに関連するPIDを特定する
-1. とりはプロセスの参照識別子（PID）でプロセスを終了し、受けをサイバーデッキから切断する
-   1. 受けが接続を行う
-      1. とりが受けと同時に接続を行う
-      1. とりが（プロセス終了）をローカルセッションで実行する（day1.md#process-termination-d3-pt）
-      1. 投げ込み（パートナーによる運動×10）
-      1. 受けのローカルセッションを終了する
-   1. エチケット（礼儀）
-   1. 名誉（Meiyo）
+1. When arbiter communicate "mate" partners stop actions and come back to
+beginning position (clear prompt no running commands/actions remaining)
+1. When arbiter communicate "sonomama" partners must keep the current situation
+without performing new actions.
+1. When arbiter communicate "hajime" partners resume the fight.
+1. Arbiter can provide penalties to the cyberjutsuka if rules are broken by
+communicating "shido" and showing the partner or giving his color.
+1. cyberjutsuka must permit the fight to be performed
+   1. cyberdeck must be ready for the sparring during all the fight
+      1. cyberdeck must have identical hardware, software and configuration at the
+beginning of the fight
+      1. services on cyberdeck must be available on ports and fully functional
+      1. credentials on cyberdeck (e.g:login/password) must be the one allowed only
+      1. cyberdeck must respect rules of the dojo (network rules in terms of
+addressing, communication standards,...)
+   1. partner can not be blocked during a period only one time block are allowed
+   1. cyberjutsuka can not perform action in the time that prevent partner to
+perform attacks
 1. cyberjutsuka must fight
    1. cyberjutsuka can not avoid intentionally the fight
-   1. 自制（Shisei）
-   1. 互助（Gojo）
+   1. cyberjutsuka can not have only defensive posture
+   1. cyberjutsuka can not perform only fake attacks as offensive actions

@@ -1,84 +1,94 @@
-# *トリ*はランダムに1つずつポートをスキャンし、*ウケ*は数を推測します。しばらくすると役割が交代します。
+# Cyberjūtsu v1.0 Summer 2023 Day 2
 
-## ログ監視
+## Background
 
-トリとウケは、2つのcliで画面を分割します。
+Morning Judo course with [Dr Yves
+Cadot](http://budo2008.nifs-k.ac.jp/en/guest/cadot.html) about [Go no
+sen](../../glossary.md#go-no-sen) concept.
 
-## ウォームアップ
+## Warmup
 
-### 目
+### Eyes
 
-* 右上、左下、右下、左上を見る（5回）
-* 両目で円を描く（5回）
-* 目で∞印を描く（5回）
+* look at top right, bottom left, bottom right, top left (x5)
+* draw a circle with your Eyes both sens (x5)
+* draw an infinity sign with your eyes (∞) (x5)
 
-### 手
+### Hands
 
-* 両手の指を前後に5回、1本ずつ回す
-* 両手の指毎に親指で触る（前後）（2回）
-* 同じ指同士をくっつけてから、前後に1つずつ離す（2回）
-* パラグラフを促された場合はEnterキーを押します。 * Ctrl+a *、* Ctrl+| *を押して画面を分割します。 * Ctrl+a *、* Tab *
-を押して画面の次の部分に切り替えます。 * Ctrl+a *、* Ctrl+c *を押して、画面の黒い部分でbash cliを作成します。
+* Roll your fingers one by one foreward and backward both hands (x5)
+* touch with thumb each of your fingers both hands foreward and backward (x2)
+* join same finger of each hand with the other, then dismiss couple one by one
+foreward and ackward (x2)
+* listen to teacher number (1 to 5) and dismiss related fingers
 
-### まとめ
+### Combined
 
-* パートナーと一緒に、とり指を動かし、受けは目で追う
+* with partner tori move fingers, uke must follow with the eyes
 
-### 読み技ログ監視を開始します。
+### Typing
 
-* 利用可能なcliに戻るには、* Ctrl+a *、* Tab *を押します。
-* リモートターミナルセッション検出（D3-RTSD）
-* *ウケ*は、*トリ*のサイバーデッキにsshポートを特定するためにポートをスキャンします
-   * *ウケ*は、sshを使って*トリ*のサイバーデッキに接続します
-   * その後、*トリ*の練習中にコマンドを実行します。
+* put your fingers on each zone of the keyboard [see picture here Chapter 1, Sub
+Chapter 1](https://www.wikihow.com/Type#Learning-to-Type)
+* type all alphabet letter one by one zone by zone from left to right (all key
+for one finger then move to next) backward and forward [see picture here
+Chapter 1, Sub Chapter 4](https://www.wikihow.com/Type#Learning-to-Type) (x10)
+* with above method type as fast as possible command said by the teacher then
+press enter read the first word on the prompted result (x10)
+   * w, ls, cd, ps, dir, clear, echo, history, env, who, fortune , find
+   * ps -aux, ls -lai, cd .., dir /*, htop
 
-## 読み技
+## Yomi Waza
 
-### ログ監視
+### Log Monitoring
 
-例：
+Everyone split screen with two command line interface.
 
 ```bash
 screen
 ```
 
-パラグラフが提示されたらリターンキーを押してください。*Ctrl+a*、*Ctrl+|*を押して画面を2つに分割します。
+Press return if paragraph is prompted. *Ctrl+a* then *Ctrl+|* #split screen in
+two part. *Ctrl+a* then *Tab* to switch to next part of the screen. *Ctrl+a*
+then *Ctrl+c* to create bash cli in black part of the screen.
 
-トリ
+Launch Yomi Waza Log.
 
 ```bash
 tail -f /var/log/syslog
 ```
 
-*Ctrl+a*、*Tab*を押して利用可能なcliに戻ります。
+*Ctrl+a* then *Tab* to return to available cli.
 
-## *トリ*は読み技ログ監視を見て、*ウケ*のssh接続をキャッチします（画面の右側）。
+## Sen
 
-### *トリ*はアクティブなセッションをリストし、*ウケ*のssh接続に関連するTTYを識別します。
+### Kōgeki Waza
 
-#### プロセスの終了（D3-PT）
+#### Credential Stuffing (T1110.004)[https://attack.mitre.org/techniques/T1110/004/]
 
-##### *とり*
+##### Tori
 
-*トリ*は読み技ログを見て、*ウケ*のssh接続をキャッチします（画面の右側）。
+Tori perform (network service discovery)
+[./day1.md#network-service-discovery-t1046] on service discovered listed below.
+Then connect to each services with known credentials.
 
-##### *トリ*はプロセスをリストし、`Ss`で始まるSTAT値に関連するPIDを識別します。
+##### ssh connection
 
-*トリ*はプロセスの参照識別子（PID）でそのセッションを終了させ、*ウケ*をサイバーデッキから切断します。
+`ssh -p $UKE_PORT $UKE_LOGIN@$UKE_IP_ADDRESS`
 
 ##### ftp connection
 
-ウケは接続を行います
+`ftp $UKE_IP_ADDRESS $UKE_PORT` then enter login then password
 
-##### トリはウケと同時に接続を行います
+##### telnet connection
 
-倫理規範は、実践者（サイバー述家）の振る舞いと内面状態を記述し、サイバー述の実践のために形作ります。
+`telnet $UKE_IP_ADDRESS $UKE_PORT` then enter login then password
 
-##### *受け*
+##### Uke
 
-勇気
+Uke use Yomi Waza Log Monitoring to identify Tori connections.
 
-##### 誠
+##### pattern filtering
 
 ```bash
 tail -f /var/log/syslog | grep -i $CATCH_STRING
@@ -86,112 +96,122 @@ tail -f /var/log/syslog | grep -i $CATCH_STRING
 #example grep DTP=22 or grep $IP_ADDRESS
 ```
 
-礼儀
+circle ssh 2 rebound
 
-##### 互助
+##### Uchikomi (x10 by exercise by partner)
 
-名誉
+Tori perform one connection, Uke identify connection by Yomi Waza, Uke set
+pattern filtering, Tori run the same connection, Uke must see only messages
+(log) related to the connection. First IP, then port, then service name
 
-### 謙虚
+### Uke Waza
 
-#### プロセスの終了（https://d3fend.mitre.org/technique/d3f:ProcessTermination/）
+#### Process Termination
+[D3-PT](https://d3fend.mitre.org/technique/d3f:ProcessTermination/)
 
-##### *受け*
+##### Uke
 
-自制
+*Uke* connect via ssh or ftp or http
 
-その後、*とり*の練習中にコマンドを実行する
+then run commands during *Tori* practice.
 
-##### *とり*
+##### Tori
 
-互助
+*Tori* look at Yomi Waza Log to catch *Uke* connection (from right side of the
+screen).
 
-忍耐
+*Tori* list active sessions to identify process to *Uke* connection and try to
+kill related process.
 
-###### 節操
+###### ssh
 
-厚情
+For ssh see (Day 1 - Process Termination)
+[https://github.com/wocsa/cyberjutsu/blob/main/courses/summer-2023/day1.md#process-termination-d3-pt]
 
-###### 2024年のhttp://thcon.party用のCyberjūtsuの短い発見コース
+###### ftp
 
 ```bash
 pure-ftpwho
 kill -9 $PID
 ```
 
-###### 挨拶
+###### telnet
 
-実践者は、他の人と実践する前に、立礼（礼）または「お願いします」というフレーズで物理的なお辞儀で挨拶します
-
-```bash
-netstat -tupc
-```
-
-#### ウォームアップ
-
-##### *受け*
-
-目
-
-##### *とり*
-
-右上、左下、右下、左上を見る（5回）
+it is not possible to find telnet session related process with *w* command or
+*pure-ftpwho* command netstat can help to identify connection
 
 ```bash
 netstat -tupc
 ```
 
-### 謙虚
+#### Connections Attempt Analysis (D3-CAA)
+[https://d3fend.mitre.org/technique/d3f:ConnectionAttemptAnalysis/]
 
-#### 両方の目で円を描く（5回）
+##### Uke
+
+Uke connect to one of 3 ports (ssh or telnet or ftp)
+
+##### Tori
+
+Tori try to identify connection of Uke and related port on *Uke* cyberdeck.
+
+```bash
+netstat -tupc
+```
+
+### Uke Waza
+
+#### Connection Termination
 
 ```bash
 tcpkill -9 port $UKE_PORT
 ```
 
-### 互助
+### Uchikomi (x10 by exercise by partner)
 
-目で無限記号（∞）を描く（5回）
+Uke connect to a random service then tori perform connection termination.
 
-#### 礼儀
+#### Fake service listening
 
-##### *とり*
+##### Tori
 
 ```bash
 sudo nc -k -l -p $PORT
 ```
 
-##### *受け*
+##### Uke
 
 ```bash
 nc $TORI_IP_ADDRESS $TORI_PORT
 ```
 
-#### 手
+#### tournament
 
-両手の指を一つずつ前後に転がす（5回）
+multi screen each winner take other winners establish 3 remote sessions before
+kill the local session of the partner ip a
 
-### 互助
+### Uchikomi (x10 by exercise by partner)
 
-両手の親指でそれぞれの指に触れ、前後に動かす（2回）
+Uke choose a random port, tori find it and connect to it then send "hello". Tori
+must use (Network Service Discovery)[./day1.md#network-service-discovery-t1046]
 
-## 読み技
+## Yomi Waza
 
-#### それぞれの手で同じ指をくっつけ、前後に離す（2回）
+#### Read file content
 
 ```bash
 cat $FILE_PATH
 ```
 
-#### 先生の指示に従って指を動かす
+#### Write file content
 
 ```bash
 echo "$CONTENT" > $FILE_PATH
 ```
 
-#### パートナーと指を動かし、相手は目で追随しなければならない
+#### Change default port
 
-##### 挨拶
+##### telnet
 
 ```bash
 cat /etc/services |grep -i telnet|sed 's/\(telnet\t\t\)23\/tcp/\12323/g'
@@ -199,7 +219,7 @@ sed 's/\(telnet\t\t\)23\/tcp/\12323/g' /etc/services
 sudo systemctl restart inetd
 ```
 
-##### 節操
+##### ssh
 
 ```bash
 cat /etc/ssh/ssh_config
@@ -211,50 +231,54 @@ sed -i 's/#\(   Port \)22/\12222/g' /etc/ssh/ssh_config
 sudo systemctl restart ssh
 ```
 
-##### 互助
+##### Uchikomi (x10 by exercise by partner)
 
-##### 読み技
+##### bash history
 
-約束稽古
+Ctrl+r search keyword Ctrl+o past the command !! previous command !N the N
+command from the beginning !-N N command before last one
 
-##### 互助
+##### Uchikomi (x10 by exercise by partner)
 
-## 節操
+## Randori
 
-*Tori*はランダムにポートをスキャンする試み、*Uke*はその番号を推測する。しばらくしてから役割を交換します。
+first that success to reboot cyberdeck of the other with the command
 
 ```bash
 reboot
 ```
 
-## 2024年のhttp://thcon.party向けのサイバー述の簡易発見コース
+## Cooldown
 
-### 目
+### Eyes
 
-* 挨拶
-* 物理的なお辞儀であるリッツ（礼）または「お願いします」という文を使って、サイバー述家は他の人と共に練習する前に挨拶します。
+* blinking
+* hands on
 
-### 手
+### Hands
 
-* ウォームアップ
-* 目
+* strech your fingers in and out of your hands
+* drop your hands and shake them
 
-### 上右、下左、下右、上左を見ます（5回）
+### body
 
-* 両目で円を描きます（5回）
-   * 目で∞の形を描きます（5回）
-   * ログの監視
-   * 両手を前後に指を一本ずつ転がします（5回）
-* 両手の指に親指を使って前後に触れます（2回）
-   * 両手の同じ指同士を結合し、前後に片方ずつ離します（2回）
-   * ToriとUkeは2つのCLIで画面を分割します。
-   * 組み合わせ
-   * パートナーと一緒に指を動かし、受け手は目で追いかけます
+* seated
+   * strech arms forward
+   * cross legs, put opposite hand on the leg, turn head on upper knee side, twist
+knee opposit to the head then invert
+   * move to the beginning of the chair, bend your back and put your hands on your
+hips then stretch
+* stand up
+   * stretch arms to the top
+   * cross arms to put hands on elbow, pull with the hand on top of the elbow to the
+opposit side (invert)
+   * pull up shoulders
+   * join hands at the back on in front of your hips then extend left side of your
+neck then right
 
-## 読み技
+## Mokusō
 
-## 段落が求められたらリターンキーを押してください。 # 画面を2つに分割するには*Ctrl+a*、*Ctrl+|*で2つ目の画面に切り替えるには*Ctrl+a*、
-*Tab*、黒い部分にbash CLIを作成するには*Ctrl+a*、*Ctrl+c*を押してください。
+## References
 
 [FR: Sen no sen - tai no sen - go no sen - KARATE](https://www.youtube.com/watch?
 v=w1ov5XkDqBg)

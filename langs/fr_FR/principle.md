@@ -1,91 +1,122 @@
-# Échauffement
+# Principle of Cyberjūtsu
 
-Yomi Waza
+Cyberjūtsu is a Digital Martial Art designed for Sport and Educational Purpose in
+the Cyberspace.
 
-Yakusoku geiko
+[WOCSA](http://wocsa.org) started Cyberjūtsu project in 2020 as a new way to
+bring to people capability to protect themselves and live better in cyberspace.
 
-Surveillance des journaux
+Cyberjūtsu aims to become an educational method of digital growth, mental growth,
+and moral growth at the same time.
 
-Tori et Uke écran séparé avec deux cli.
+Cyberjūtsu is a way to train physical and mental discipline whose aim to educate
+everyone to have a better daily life with computer and internet. The fundamental
+principle of Cyberjūtsu, one that governs all the techniques of attack and
+defense, is that whatever the objective, it is best attained by the
+maximum-efficient use of mind and body for that purpose in cyberspace. To reach
+this maximum-efficient use we need to practice in a mutual aid. The same
+principle applied to our everyday activities leads to the highest and most
+rational digital life. Training in the techniques of Cyberjūtsu is not the only
+way to grasp this universal principle, but it is how we arrive at an
+understanding of it, and it is the means by which we attempt to make others
+understand it.
 
-Lancer la surveillance des journaux Yomi Waza.
+The principle of maximum efficiency , whether applied to the art of attack and
+defense or to refining and perfecting daily digital life, demands above all that
+there be order and harmony among people. This can be realized only through
+mutual aid and concession. The result is mutual welfare and benefit.
 
-*Ctrl+a* puis *Tab* pour revenir à la cli disponible.
+The final aim of Cyberjūtsu practice is to to educate each of us for a better
+life in the cyberspace.
 
-> Uke
+> At that time, <b>each man presented his art as a collection of techniques</b>.
+<b>None perceived the guiding principle behind</b> jujutsu. This led me to
+look for an underlying principle in jujutsu, one that applied when one hit an
+opponent as well as when one threw him. I discerned an <b>all-pervasive
+principle</b>: to <b>make the most efficient use of mental and physical
+energy</b>. With this principle in mind, I reviewed all the methods of attack
+and defense I had learned, retaining only those that were in accordance with
+this principle. Those not in accord I rejected, and in their place I substituted
+techniques in which the principle was correctly applied. Judo <b>is more than an
+art of attack and defense. It is a way of life.</b>
 >
-> *Uke* balayer le port du cyberdeck de *Tori* pour identifier le port ssh
+> -- <cite>Chapter 1 Jujutsu Become Judo, Kodokan Judo Book, Jigoro Kano</cite>
 
-## Yeux
+## Japanese Martial Precepts embedded in Cyberjūtsu
 
-### Regardez en haut à droite, en bas à gauche, en bas à droite, en haut à gauche (x5)
+### From the Karate Shōtōkan nijū kun
 
-> Dessinez un cercle avec vos yeux dans les deux sens (x5)
+> 技術より心術
 >
-> Dessinez un signe infini avec vos yeux (∞) (x5)
+> Spirit first, technique second.
 >
-> Mains
+> -- <cite>Gichin Funakoshi</cite>
 
-> Roulez vos doigts un par un vers l'avant et vers l'arrière des deux mains (x5)
+> 先づ自己を知れ而して他を知れ
 >
-> Écoutez le sensei et laissez tomber les doigts correspondants (1 à 5)
+> Know yourself first, and then others
 >
-> Mains
+> -- <cite>Gichin Funakoshi</cite>
 
-> Combiné
+> 敵に因って轉化せよ
 >
-> *Uke* se connecter via ssh au cyberdeck de *Tori*
+> Victory depends on your ability to distinguish vulnerable points from
+invulnerable ones
 >
-> Mains
+> -- <cite>Gichin Funakoshi</cite>
 
-> Avec le partenaire tori faites bouger les doigts, uke doit suivre avec les yeux
+> 戦は虚実の操縦如何に在り
 >
-> puis exécuter des commandes pendant la pratique de *Tori*.
+> The battle is according to how you maneuver guarded, unguarded Move according
+to your opponent
 >
-> Mains
+> -- <cite>Gichin Funakoshi</cite>
 
-> Yomi Waza
+> 常に思念工夫せよ
 >
-> Yakusoku geiko
+> Always think and devise ways to live the precepts every day
 >
-> Mains
+> -- <cite>Gichin Funakoshi</cite>
 
-> Surveillance des journaux
+> 道場のみの空手と思ふな
 >
-> Tori et Uke écran partagé avec deux cli.
+> Do not think that karate training is only in the dojo
 >
-> Mains
+> -- <cite>Gichin Funakoshi</cite>
 
-### Lancer la surveillance des journaux Yomi Waza.
+### From Jūdō
 
-> *Ctrl+a* puis *Tab* pour revenir à la cli. disponible.
+> Enter by the technique, progress to the principle.
 >
-> Uke
+> -- <cite>Jigorō Kanō</cite>
 
-> exemples:
+> It is not important to be better than someone else, but to be better than
+yesterday.
 >
-> Uke
+> -- <cite>Jigorō Kanō</cite>
 
-> *Uke* analyse le port du cyberdeck *Tori* pour identifier le port ssh
+> Conduct kata and randori with your best effort.
 >
-> Uke
+> -- <cite>Jigorō Kanō</cite>
 
-> Tori
+> Do not forget that the objective of jūdō study is to improve every day, not to
+win or lose.
 >
-> Uke
+> -- <cite>Jigorō Kanō</cite>
 
-> *Uke* se connecte via ssh au cyberdeck *Tori*
+> Jūdō practice is not limited to the dōjō.
 >
-> Uke
+> -- <cite>Jigorō Kanō</cite>
 
-> Uke effectue la connexion
+> It is necessary to consider others’ reactions to you in your self-reflection.
 >
-> Uke
+> -- <cite>Jigorō Kanō</cite>
 
-### puis exécute des commandes pendant l'entraînement *Tori*.
+### From Aïkido
 
-## exemples:
+## Sources
 
-Tori effectue la connexion en même temps que Uke
+[Niju Kun](https://fska.com/?page_id=186) -- Funakoshi Shotokan Karate Association
 
-Nagekomi (x10 par exercice par partenaire)
+[The Untold History of Modern Japan and Japanese Martial
+Arts](https://kanochronicles.com/author/lgatling77/) -- Lance Gatling

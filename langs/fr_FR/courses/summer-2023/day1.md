@@ -1,129 +1,139 @@
-# Assis
+# Cyberjūtsu v1.0 Summer 2023 Day 1
 
-## Gentillesse (Kojo) 厚情
+## Background
 
-Regardez en haut à droite, en bas à gauche, en bas à droite, en haut à gauche (x5)
+Introduction from WOCSA on [principle](../../principle.md). Morning Karate course
+with [Lionel Froidure](https://www.lionelfroidure.com/a-propos/) about
+[Mikiri](../../glossary.md#mikiri) concept.
 
-## Échauffement
+## Warmup
 
-### Yeux
+### Eyes
 
-* Regardez en haut à droite, en bas à gauche, en bas à droite, en haut à gauche
-(x5)
-* Dessinez un cercle avec vos yeux dans les deux sens (x5)
-* Dessinez un signe infini avec vos yeux (∞) (x5)
+* look at top right, bottom left, bottom right, top left (x5)
+* draw a circle with your Eyes both sens (x5)
+* draw an infinity sign with your eyes (∞) (x5)
 
-### Mains
+### Hands
 
-* Roulez vos doigts un par un vers l'avant et vers l'arrière, les deux mains (x5)
-* Surveillance des journaux
-* Ecran partagé entre Tori et Uke avec deux clis.
-* Écoutez Sensei numéro (1 à 5) et bougez les doigts correspondants
+* Roll your fingers one by one foreward and backward both hands (x5)
+* touch with thumb each of your fingers both hands foreward and backward (x2)
+* join same finger of each hand with the other, then dismiss couple one by one
+foreward and ackward (x2)
+* listen to Sensei number (1 to 5) and dismiss related fingers
 
-### Combiné
+### Combined
 
-* Avec un partenaire tori bougez les doigts, uke doit suivre avec les yeux
+* with partner tori move fingers, uke must follow with the eyes
 
-### Salutation
+### Typing
 
-* Randori
-* Essayez de déconnecter le partenaire de toutes ses sessions (locales et à
-distance).
-* Dessinez un cercle avec vos yeux dans les deux sens (x5)
-   * Échauffement
-   * Yeux
+* put your fingers on each zone of the keyboard [see picture here Chapter 1, Sub
+Chapter 1](https://www.wikihow.com/Type#Learning-to-Type)
+* type all alphabet letter one by one zone by zone from left to right (all key
+for one finger then move to next) backward and forward [see picture here
+Chapter 1, Sub Chapter 4](https://www.wikihow.com/Type#Learning-to-Type) (x10)
+* with above method type as fast as possible command said by the Sensei then
+press enter read the first word on the prompted result (x10)
+   * w, ls, cd, ps, dir, clear, echo, history, env, who, fortune , find
+   * ps -aux, ls -lai, cd .., dir /*, htop
 
-## Mains
+## Kōgeki Waza
 
-### Dessinez un signe infini avec vos yeux (∞) (x5)
+### Network Service Discovery [T1046](https://attack.mitre.org/techniques/T1046/)
 
-#### Étirez les bras vers l'avant
+#### uke
 
-Levez-vous
+uke provide his cyberdeck ip address to tori
 
 ```bash
 ip -color=auto addr # or ip a
 ```
 
-#### Étirez les bras vers le haut
+#### tori
 
-Remontez les épaules
+*tori* try to find open ports on cyberdeck of *uke*.
 
 ```bash
 nmap $UKE_IP_ADRESS
 ```
 
-Mokusō
+tori identify service keywords en port numbers.
 
-### Uchikomi (x10 par exercice en partenariat)
+### Uchikomi (x10 by exercise by partner)
 
 ## Yomi Waza
 
-### Mains
+### Connection Attempt Analysis
+[D3-CAA](https://d3fend.mitre.org/technique/d3f:ConnectionAttemptAnalysis)
 
-#### Étirez les bras vers le haut
+#### tori
 
-Intégrité (Sessō) 節操
+*tori* try to find when *uke* is performing scan
 
 ```bash
 tail -f /var/log/syslog
 ```
 
-#### Étirez les bras vers l'avant
+#### uke
 
-Bienveillance (Kojo) 厚情
+*uke* try to find open ports on cyberdeck of *tori*.
 
 ```bash
 nmap $TORI_IP_ADDRESS
 ```
 
-#### Étirez les bras vers le haut
+#### tori
 
-Faites rouler vos doigts un par un vers l'avant et vers l'arrière des deux mains
-(x5)
+*tori* try to find ip adress of *uke* in logs that are displayed on cyberdeck
+screen
 
 ```bash
 un 23 13:03:30 cyberjutsu1 kernel: [ 3108.070285] INCOMING connection IN=wlan0 OUT= MAC=b8:27:eb:c5:65:83:b8:27:eb:d7:b4:0f:08:00 SRC=192.168.2.240 DST=192.168.2.145 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=58603 DF PROTO=TCP SPT=54858 DPT=1131 WINDOW=64240 RES=0x00 SYN URGP=0 
 Jun 23 13:03:30 cyberjutsu1 kernel: [ 3108.070333] INCOMING connection IN=wlan0 OUT= MAC=b8:27:eb:c5:65:83:b8:27:eb:d7:b4:0f:08:00 SRC=192.168.2.240 DST=192.168.2.145 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=17630 DF PROTO=TCP SPT=60518 DPT=6668 WINDOW=64240 RES=0x00 SYN URGP=0
 ```
 
-### Uchikomi (x10 par exercice en partenariat)
+### Uchikomi (x10 by exercise by partner)
 
 ### Yakusoku geiko
 
-Lancer la surveillance des journaux Yomi Waza.
+*Tori* try to scan ports one by one randomly and *Uke* try to guess the number.
+After a while roles are exchanged.
 
-### Surveillance des journaux (Log Monitoring)
+### Log Monitoring
 
-Écran partagé Tori et Uke avec deux interfaces en ligne de commande
+Tori and Uke split screen with two cli.
 
 ```bash
 screen
 ```
 
-*Ctrl+a* puis *Tab* pour revenir à la cli disponible.
+Press return if paragraph is prompted. *Ctrl+a* then *Ctrl+|* #split screen in
+two part. *Ctrl+a* then *Tab* to switch to next part of the screen. *Ctrl+a*
+then *Ctrl+c* to create bash cli in black part of the screen.
 
-Lancer Yomi Waza Log Monitoring.
+Launch Yomi Waza Log Monitoring.
 
 ```bash
 tail -f /var/log/syslog
 ```
 
-*Ctrl+a* puis *Tab* pour revenir à l'interface en ligne de commande disponible.
+*Ctrl+a* then *Tab* to return to available cli.
 
-### Uke
+### Remote Terminal Session Detection
+[D3-RTSD](https://d3fend.mitre.org/technique/d3f:RemoteTerminalSessionDetection)
 
 #### Uke
 
-*Uke* se connecte via ssh au cyberdeck de *Tori*
+*Uke* connect via ssh to *Tori* cyberdeck
 
 ```bash
 ssh $TORI_USERNAME@$TORI_IP_ADDRESS
 ```
 
-puis exécute des commandes pendant l'entraînement de *Tori*.
+then run commands during *Tori* practice.
 
-exemples:
+examples:
 
 ```bash
 ls
@@ -136,27 +146,28 @@ htop
 
 #### Tori
 
-*Uke* scanne le port du cyberdeck de *Tori* pour identifier le port ssh
+*Tori* look at Yomi Waza Log Monitoring to catch *Uke* ssh connection (from right
+side of the screen).
 
-*Uke* se connecte via ssh au cyberdeck de *Tori*
+*Tori* list active sessions to identify TTY related to *Uke* ssh connection.
 
 ```bash
 w
 ```
 
-### Cyberjūtsu cours de découverte courte pour http://thcon.party 2024
+### Session Shoulder Surfing
 
 #### Uke
 
-*Uke* se connecte via ssh au cyberdeck de *Tori*
+*Uke* connect via ssh to *Tori* cyberdeck
 
 ```bash
 ssh $TORI_USERNAME@$TORI_IP_ADDRESS
 ```
 
-puis exécute des commandes pendant l'entraînement de *Tori*.
+then run commands during *Tori* practice.
 
-exemples:
+examples:
 
 ```bash
 ls
@@ -169,45 +180,49 @@ htop
 
 #### Tori
 
-*Uke* scanne le port du cyberdeck de *Tori* pour identifier le port ssh
+*Tori* look at Yomi Waza Log Monitoring to catch *Uke* ssh connection (from right
+side of the screen).
 
-*Uke* se connecte via ssh au cyberdeck de *Tori*
+*Tori* list active sessions to identify TTY related to *Uke* ssh connection.
 
 ```bash
 w
 ```
 
-Tori
+*Tori* list processes to identify PID related to TTY with STAT value starting
+with `Ss`.
 
 ```bash
 ps -fat
 ```
 
-Écoutez Sensei numéro (1 à 5) et bougez les doigts associés
+*Tori* watch what *Uke* is doing in his own session using PID as reference.
 
 ```bash
 peekfd -8cnd $PID 0 1 2
 ```
 
-### Uchikomi (x10 par exercice en partenariat)
+### Uchikomi (x10 by exercise by partner)
 
 ### Yakusoku geiko
 
-Combiné
+*Tori* try to connect run the commands given by Sensei then disconnect without
+been observed by *Uke* After a while roles are exchanged.
 
-### puis exécute des commandes pendant la pratique de *Tori*.
+### Process Termination
+[D3-PT](https://d3fend.mitre.org/technique/d3f:ProcessTermination/)
 
 #### Uke
 
-*Uke* se connecte via ssh au cyberdeck de *Tori*
+*Uke* connect via ssh to *Tori* cyberdeck
 
 ```bash
 ssh $TORI_USERNAME@$TORI_IP_ADDRESS
 ```
 
-puis exécute des commandes pendant l'entraînement de *Tori*.
+then run commands during *Tori* practice.
 
-exemples:
+examples:
 
 ```bash
 ls
@@ -219,21 +234,24 @@ fortune
 
 #### Tori
 
-exemples:
+*Tori* look at Yomi Waza Log to catch *Uke* ssh connection (from right side of
+the screen).
 
-*Uke* se connecte via ssh au cyberdeck de *Tori*
+*Tori* list active sessions to identify TTY related to *Uke* ssh connection.
 
 ```bash
 w
 ```
 
-Tori
+*Tori* list processes to identify PID related to TTY with STAT value starting
+with `Ss`.
 
 ```bash
 ps -fat
 ```
 
-Uke effectue la connexion
+*Tori* kill the processus by it reference identifier (PID), so the session, so
+disconnect *Uke* from his cyberdeck.
 
 ```bash
 kill -9 $PID
@@ -241,49 +259,56 @@ kill -9 $PID
 
 ### Uke
 
-Uke effectue la connexion
+Uke performs connection
 
 ### Tori
 
-1. Tori effectue la connexion en même temps que Uke
-1. Tori effectue la connexion en même temps que Uke
+1. Tori performs connection at the same time as Uke
+1. Tori performs (Process Termination)[day1.md#process-termination-d3-pt] on
+local session of *Uke*
 
-### Uchikomi (x10 par exercice en partenariat)
+### Uchikomi (x10 by exercise by partner)
 
-### Nagekomi (x10 par exercice en partenariat)
+### Nagekomi (x10 by exercise by partner)
 
-Arrêter la session locale de l'uke
+kill local session of the uke
 
 ### Yakusoku geiko
 
-Salutation
+*Tori* try to connect and kill local session of the Uke
 
 ## Randori
 
-Avec le partenaire tori, bougez les doigts, uke doit suivre avec les yeux
+Try to disconnect partner from all his sessions (local and remote). Try to
+disconnect partner two times from your cyberdeck then kill local session of the
+partner on his cyberdeck.
 
-## Retour au calme
+## Cooldown
 
-### Yeux
+### Eyes
 
-* Clignotement
-* Mains sur
+* blinking
+* hands on
 
-### Mains
+### Hands
 
-* Étirez vos doigts à l'intérieur et à l'extérieur de vos mains
-* Laissez tomber vos mains et secouez-les
+* strech your fingers in and out of your hands
+* drop your hands and shake them
 
-### Corps
+### body
 
-* Assis
-   * Étirez les bras vers l'avant
-   * tue la session locale de l'uke
-   * Fausse écoute de service
-* Levez-vous
-   * Étirez les bras vers le haut
-   * *Tori* ouvre un port pour simuler un service disponible pour *Uke*
-   * Relevez les épaules
-   * *Uke* se déconnecte avec CTRL+c
+* seated
+   * strech arms forward
+   * cross legs, put opposite hand on the leg, turn head on upper knee side, twist
+knee opposite to the head then invert
+   * move to the beginning of the chair, bend your back and put your hands on your
+hips then stretch
+* stand up
+   * stretch arms to the top
+   * cross arms to put hands on elbow, pull with the hand on top of the elbow to the
+opposite side (invert)
+   * pull up shoulders
+   * join hands at the back on in front of your hips then extend left side of your
+neck then right
 
-## Persévérance (Nintai) 忍耐
+## Mokusō

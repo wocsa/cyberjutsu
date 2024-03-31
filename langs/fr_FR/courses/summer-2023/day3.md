@@ -1,63 +1,67 @@
-# Uchikomi (x10 par exercice avec le partenaire)
+# Cyberjūtsu v1.0 Summer 2023 Day 3
 
-## Gentillesse (Kojo) 厚情
+## Background
 
-Yeux
+Morning Jujitsu course with [Jean-Louis
+Mourlan](https://fr.linkedin.com/in/jean-louis-mourlan-30454986) about [Tsukuri
+Kuzushi Kake](../../glossary.md#tsukuri-kusushi-kake) concept.
 
-## Échauffement
+## Warmup
 
-### Yeux
+### Eyes
 
-* Regardez en haut à droite, en bas à gauche, en bas à droite, en haut à gauche
-(x5)
-* Dessinez un cercle avec vos yeux dans les deux sens (x5)
-* Dessinez un signe infini avec vos yeux (∞) (x5)
+* look at top right, bottom left, bottom right, top left (x5)
+* draw a circle with your Eyes both sens (x5)
+* draw an infinity sign with your eyes (∞) (x5)
 
-### Mains
+### Hands
 
-* Roulez vos doigts un par un vers l'avant et vers l'arrière, les deux mains (x5)
-* Surveillance des journaux
-* Ecran partagé entre Tori et Uke avec deux clis.
-* Cours découverte court de Cyberjūtsu pour http://thcon.party 2024
+* Roll your fingers one by one foreward and backward both hands (x5)
+* touch with thumb each of your fingers both hands foreward and backward (x2)
+* join same finger of each hand with the other, then dismiss couple one by one
+foreward and ackward (x2)
+* listen to teacher number (1 to 5) and dismiss related fingers
 
-### Combiné
+### Combined
 
-* Avec un partenaire tori bougez les doigts, uke doit suivre avec les yeux
+* with partner tori move fingers, uke must follow with the eyes
 
-### Salutation
+### Typing
 
-* Randori
-* Essayez de déconnecter le partenaire de toutes ses sessions (locales et à
-distance).
-* Retour au calme
-   * Échauffement
-   * Yeux
+* put your fingers on each zone of the keyboard [see picture here Chapter 1, Sub
+Chapter 1](https://www.wikihow.com/Type#Learning-to-Type)
+* type all alphabet letter one by one zone by zone from left to right (all key
+for one finger then move to next) backward and forward [see picture here
+Chapter 1, Sub Chapter 4](https://www.wikihow.com/Type#Learning-to-Type) (x10)
+* with above method type as fast as possible command said by the teacher then
+press enter read the first word on the prompted result (x10)
+   * w, ls, cd, ps, dir, clear, echo, history, env, who, fortune , find
+   * ps -aux, ls -lai, cd .., dir /*, htop
 
-## *Uke* ouvre un port, *Tori* doit trouver le port et s'y connecter.
+## Tsukuri
 
-### Randori
+### loop
 
-### Essayer de déconnecter le partenaire de toutes ses sessions (locales et à
-distance).
+### http port change
 
 ### Tori
 
-Retour au calme
+Uke change ports numbers of services.
 
-1. Clignement des yeux
+1. edit config file for http
 
 ```
 sudo nano /etc/apache2/ports.conf
 ```
 
-1. Mains dessus
+1. add a line to listen new port
 
 ```
 Listen $PORT_NUMBER
 ```
 
-1. Étirez vos doigts vers l'intérieur et l'extérieur de vos mains
-1. Abaissez vos mains et secouez-les
+1. save the file with *ctrl+x* then press *y*
+1. edit website config file
 
 ```
 sudo nano /etc/apache2/sites-enabled/001-cyberjutsu.conf
@@ -65,30 +69,34 @@ sudo nano /etc/apache2/sites-enabled/001-cyberjutsu.conf
 
 ## Randori
 
-## Corps
+## Batoru Rowaiaru バトル・ロワイアル
 
-## Retour au calme
+## Cooldown
 
-### Yeux
+### Eyes
 
-* Clignotement
-* Mains sur
+* blinking
+* hands on
 
-### Mains
+### Hands
 
-* Étirez vos doigts à l'intérieur et à l'extérieur de vos mains
-* Laissez tomber vos mains et secouez-les
+* strech your fingers in and out of your hands
+* drop your hands and shake them
 
-### Corps
+### body
 
-* Assis
-   * Étirez les bras vers l'avant
-   * Écoutez le numéro de l'enseignant (1 à 5) et dismiss des doigts associés
-   * Fausse écoute de service
-* Levez-vous
-   * Étirez les bras vers le haut
-   * Frappe au clavier
-   * Relevez les épaules
-   * *Uke* se déconnecte avec CTRL+c
+* seated
+   * strech arms forward
+   * cross legs, put opposite hand on the leg, turn head on upper knee side, twist
+knee opposit to the head then invert
+   * move to the beginning of the chair, bend your back and put your hands on your
+hips then stretch
+* stand up
+   * stretch arms to the top
+   * cross arms to put hands on elbow, pull with the hand on top of the elbow to the
+opposit side (invert)
+   * pull up shoulders
+   * join hands at the back on in front of your hips then extend left side of your
+neck then right
 
-## Persévérance (Nintai) 忍耐
+## Mokusō

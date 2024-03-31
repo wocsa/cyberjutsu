@@ -1,72 +1,77 @@
-# http://thcon.party 2024のためのサイバー術短期発見コース
+# Cyberjūtsu short discovery course for http://thcon.party 2024
 
-## 挨拶
+## Greeting
 
-* 他の人とサイバー術を行う前に、サイバー術家はリツ礼または「お願いします」という言葉とともに、物理的なおじぎをします
+* The cyberjutsuka before practicing with someone greet him with physical bow
+called Ritsu [Rei](./glossary.md#rei) or "Onegaishimasu" sentence
 
-## ウォームアップ
+## Warmup
 
-### 目
+### Eyes
 
-* 右上、左下、右下、左上を見る（5回）
-* 両目で円を描く（5回）
-* 目で∞印を描く（5回）
+* look at top right, bottom left, bottom right, top left (x5)
+* draw a circle with your Eyes both sens (x5)
+* draw an infinity sign with your eyes (∞) (x5)
 
-### 手
+### Hands
 
-* 両手の指を前後に5回、1本ずつ回す
-* 両手の指毎に親指で触る（前後）（2回）
-* 同じ指同士をくっつけてから、前後に1つずつ離す（2回）
-* 先生の数字（1から5）に関連した指を覚えて片手を離す
+* Roll your fingers one by one foreward and backward both hands (x5)
+* touch with thumb each of your fingers both hands foreward and backward (x2)
+* join same finger of each hand with the other, then dismiss couple one by one
+foreward and ackward (x2)
+* listen to Sensei number (1 to 5) and dismiss related fingers
 
-### まとめ
+### Combined
 
-* パートナーと一緒に、とり指を動かし、受けは目で追う
+* with partner tori move fingers, uke must follow with the eyes
 
-## 読み技
+## Yomi Waza
 
-### 約束稽古
+### Yakusoku geiko
 
-*とり*はランダムに1つずつポートをスキャンし、*受け*はその数字を当てる。しばらくしてから役割が交代する
+*Tori* try to scan ports one by one randomly and *Uke* try to guess the number.
+After a while roles are exchanged.
 
-### ログ監視
+### Log Monitoring
 
-トリとウケが2つのcli画面を分割する
+Tori and Uke split screen with two cli.
 
 ```bash
 screen
 ```
 
-パラグラフが提示されたらリターンキーを押してください。*Ctrl+a*、*Ctrl+|*を押して画面を2つに分割します。
+Press return if paragraph is prompted. *Ctrl+a* then *Ctrl+|* #split screen in
+two part. *Ctrl+a* then *Tab* to switch to next part of the screen. *Ctrl+a*
+then *Ctrl+c* to create bash cli in black part of the screen.
 
-読み技ログ監視を開始してください。
+Launch Yomi Waza Log Monitoring.
 
 ```bash
 tail -f /var/log/syslog
 ```
 
-*Ctrl+a*、*Tab*を押して利用可能なcliに戻ります。
+*Ctrl+a* then *Tab* to return to available cli.
 
-### リモートターミナルセッション検出
-（https://d3fend.mitre.org/technique/d3f:RemoteTerminalSessionDetection）
+### Remote Terminal Session Detection
+[D3-RTSD](https://d3fend.mitre.org/technique/d3f:RemoteTerminalSessionDetection)
 
-#### *受け*
+#### Uke
 
-*受け*は*とり*のサイバーデッキのsshポートをスキャンして特定する
+*Uke* scan port to *Tori* cyberdeck to identify ssh port
 
 ```bash
 nmap -A $UKE_IP_ADRESS
 ```
 
-*受け*はssh経由で*とり*のサイバーデッキに接続
+*Uke* connect via ssh to *Tori* cyberdeck
 
 ```bash
 ssh $TORI_USERNAME@$TORI_IP_ADDRESS
 ```
 
-その後、*とり*の練習中にコマンドを実行する
+then run commands during *Tori* practice.
 
-例：
+examples:
 
 ```bash
 ls
@@ -77,29 +82,31 @@ netstat
 htop
 ```
 
-#### *とり*
+#### Tori
 
-*とり*は右側の画面で*受け*のssh接続をキャッチするために読み技ログ監視を見る。
+*Tori* look at Yomi Waza Log Monitoring to catch *Uke* ssh connection (from right
+side of the screen).
 
-*とり*はアクティブなセッションをリストし、*受け*のssh接続に関連するTTYを識別します。
+*Tori* list active sessions to identify TTY related to *Uke* ssh connection.
 
 ```bash
 w
 ```
 
-### プロセスの終了（https://d3fend.mitre.org/technique/d3f:ProcessTermination/）
+### Process Termination
+[D3-PT](https://d3fend.mitre.org/technique/d3f:ProcessTermination/)
 
-#### *受け*
+#### Uke
 
-*受け*はssh経由で*とり*のサイバーデッキに接続
+*Uke* connect via ssh to *Tori* cyberdeck
 
 ```bash
 ssh $TORI_USERNAME@$TORI_IP_ADDRESS
 ```
 
-その後、*とり*の練習中にコマンドを実行する
+then run commands during *Tori* practice.
 
-例：
+examples:
 
 ```bash
 ls
@@ -109,105 +116,114 @@ pwd
 fortune
 ```
 
-#### *とり*
+#### Tori
 
-*とり*は右側の画面で*受け*のssh接続をキャッチするために読み技ログを見ます。
+*Tori* look at Yomi Waza Log to catch *Uke* ssh connection (from right side of
+the screen).
 
-*とり*はアクティブなセッションをリストし、*受け*のssh接続に関連するTTYを識別します。
+*Tori* list active sessions to identify TTY related to *Uke* ssh connection.
 
 ```bash
 w
 ```
 
-*とり*はプロセスをリストし、STAT値が`Ss`で始まるTTYに関連するPIDを識別します。
+*Tori* list processes to identify PID related to TTY with STAT value starting
+with `Ss`.
 
 ```bash
 ps -fat
 ```
 
-照会識別コード（PID）によりプロセスを終了し、それによりセッションを切断し、*受け*をサイバーデッキから切断します。
+*Tori* kill the processus by it reference identifier (PID), so the session, so
+disconnect *Uke* from his cyberdeck.
 
 ```bash
 kill -9 $PID
 ```
 
-### *受け*
+### Uke
 
-受けの接続を実行します
+Uke performs connection
 
-### *とり*
+### Tori
 
-1. サイバー道
-1. 道徳規範は、サイバー述家がサイバー述を実践するためにどのようにふるまい、内面状態を整えるかを述べています。
+1. Tori performs connection at the same time as Uke
+1. Tori performs (Process Termination)[day1.md#process-termination-d3-pt] on
+local session of *Uke*
 
-### 勇気
+### Nagekomi (x10 by exercise by partner)
 
-誠
+kill local session of the uke
 
-#### 礼儀
+#### Fake service listening
 
-##### *とり*
+##### Tori
 
-名誉
+*Tori* open a port to fake a service available for *Uke*
 
 ```bash
 sudo nc -k -l -p $PORT
 ```
 
-##### *受け*
+##### Uke
 
-*受け*は*とり*のサイバーデッキのsshポートをスキャンして特定する
+*Uke* scan port to *Tori* cyberdeck to identify ssh port
 
 ```bash
 nmap -A $UKE_IP_ADRESS
 ```
 
-謙虚
+*Uke* perform a connection with a fake client to the fake service of *Tori*
 
 ```bash
 nc $TORI_IP_ADDRESS $TORI_PORT
 ```
 
-自制
+*Uke* disconnect with CTRL+c
 
 ```bash
 nc $TORI_IP_ADDRESS $TORI_PORT
 ```
 
-### 互助
+### Uchikomi (x10 by exercise by partner)
 
-忍耐
+*Uke* open a port, *Tori* must find the port and connect on it.
 
-## 節操
+## Randori
 
-厚情
+Try to disconnect partner from all his sessions (local and remote).
 
-## 2024年のhttp://thcon.party向けのサイバー述の簡易発見コース
+## Cooldown
 
-### 目
+### Eyes
 
-* 挨拶
-* 物理的なお辞儀であるリッツ（礼）または「お願いします」という文を使って、サイバー述家は他の人と共に練習する前に挨拶します。
+* blinking
+* hands on
 
-### 手
+### Hands
 
-* ウォームアップ
-* 目
+* strech your fingers in and out of your hands
+* drop your hands and shake them
 
-### 上右、下左、下右、上左を見ます（5回）
+### body
 
-* 両目で円を描きます（5回）
-   * 目で∞の形を描きます（5回）
-   * 手
-   * 両手を前後に指を一本ずつ転がします（5回）
-* 両手の指に親指を使って前後に触れます（2回）
-   * 両手の同じ指同士を結合し、前後に片方ずつ離します（2回）
-   * 先生の数字（1から5）に従って関連する指を離します
-   * 組み合わせ
-   * パートナーと一緒に指を動かし、受け手は目で追いかけます
+* seated
+   * strech arms forward
+   * cross legs, put opposite hand on the leg, turn head on upper knee side, twist
+knee opposite to the head then invert
+   * move to the beginning of the chair, bend your back and put your hands on your
+hips then stretch
+* stand up
+   * stretch arms to the top
+   * cross arms to put hands on elbow, pull with the hand on top of the elbow to the
+opposite side (invert)
+   * pull up shoulders
+   * join hands at the back on in front of your hips then extend left side of your
+neck then right
 
-## 読み技
+## Mokusō
 
-## 挨拶
+## Greeting
 
-* 約束稽古
+* The cyberjutsuka after practicing with someone gree him with physical bow
+called Ritsu [Rei](./glossary.md#rei) or "Domo arigato" sentence

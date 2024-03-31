@@ -1,1 +1,1 @@
-# Tori
+# Forms or Kata (形)

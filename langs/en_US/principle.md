@@ -1,103 +1,122 @@
-# Greeting
+# Principle of Cyberjūtsu
 
-The cyberjutsuka before practicing with someone greet him with a physical bow
-called Ritsu Rei or "Onegaishimasu" sentence
+Cyberjūtsu is a Digital Martial Art designed for Sport and Educational Purpose in
+the Cyberspace.
 
-Warmup
+[WOCSA](http://wocsa.org) started Cyberjūtsu project in 2020 as a new way to
+bring to people capability to protect themselves and live better in cyberspace.
 
-Eyes
+Cyberjūtsu aims to become an educational method of digital growth, mental growth,
+and moral growth at the same time.
 
-Look at the top right, bottom left, bottom right, top left (x5)
+Cyberjūtsu is a way to train physical and mental discipline whose aim to educate
+everyone to have a better daily life with computer and internet. The fundamental
+principle of Cyberjūtsu, one that governs all the techniques of attack and
+defense, is that whatever the objective, it is best attained by the
+maximum-efficient use of mind and body for that purpose in cyberspace. To reach
+this maximum-efficient use we need to practice in a mutual aid. The same
+principle applied to our everyday activities leads to the highest and most
+rational digital life. Training in the techniques of Cyberjūtsu is not the only
+way to grasp this universal principle, but it is how we arrive at an
+understanding of it, and it is the means by which we attempt to make others
+understand it.
 
-Draw a circle with your eyes both senses (x5)
+The principle of maximum efficiency , whether applied to the art of attack and
+defense or to refining and perfecting daily digital life, demands above all that
+there be order and harmony among people. This can be realized only through
+mutual aid and concession. The result is mutual welfare and benefit.
 
-Draw an infinity sign with your eyes (∞) (x5)
+The final aim of Cyberjūtsu practice is to to educate each of us for a better
+life in the cyberspace.
 
-> Hands
+> At that time, <b>each man presented his art as a collection of techniques</b>.
+<b>None perceived the guiding principle behind</b> jujutsu. This led me to
+look for an underlying principle in jujutsu, one that applied when one hit an
+opponent as well as when one threw him. I discerned an <b>all-pervasive
+principle</b>: to <b>make the most efficient use of mental and physical
+energy</b>. With this principle in mind, I reviewed all the methods of attack
+and defense I had learned, retaining only those that were in accordance with
+this principle. Those not in accord I rejected, and in their place I substituted
+techniques in which the principle was correctly applied. Judo <b>is more than an
+art of attack and defense. It is a way of life.</b>
 >
-> Roll your fingers one by one forward and backward both hands (x5)
+> -- <cite>Chapter 1 Jujutsu Become Judo, Kodokan Judo Book, Jigoro Kano</cite>
 
-## Touch with your thumb each of your fingers both hands forward and backward (x2)
+## Japanese Martial Precepts embedded in Cyberjūtsu
 
-### Join the same finger of each hand with the other, then dismiss a couple one by
-one forward and backward (x2)
+### From the Karate Shōtōkan nijū kun
 
-> Listen to Sensei number (1 to 5) and dismiss related fingers
+> 技術より心術
 >
-> Combined
+> Spirit first, technique second.
 >
-> With a partner, tori moves fingers, uke must follow with the eyes
+> -- <cite>Gichin Funakoshi</cite>
 
-> Yomi Waza
+> 先づ自己を知れ而して他を知れ
 >
-> Yakusoku geiko
+> Know yourself first, and then others
 >
-> With a partner, tori moves fingers, uke must follow with the eyes
+> -- <cite>Gichin Funakoshi</cite>
 
-> *Tori* try to scan ports one by one randomly and *Uke* try to guess the number.
-After a while, roles are exchanged.
+> 敵に因って轉化せよ
 >
-> Log Monitoring
+> Victory depends on your ability to distinguish vulnerable points from
+invulnerable ones
 >
-> With a partner, tori moves fingers, uke must follow with the eyes
+> -- <cite>Gichin Funakoshi</cite>
 
-> Tori and Uke split the screen with two cli.
+> 戦は虚実の操縦如何に在り
 >
-> Press return if a paragraph is prompted. *Ctrl+a* then *Ctrl+|* to split the
-screen into two parts. *Ctrl+a* then *Tab* to switch to the next part of the
-screen. *Ctrl+a* then *Ctrl+c* to create a bash cli in the black part of the
-screen.
+> The battle is according to how you maneuver guarded, unguarded Move according
+to your opponent
 >
-> With a partner, tori moves fingers, uke must follow with the eyes
+> -- <cite>Gichin Funakoshi</cite>
 
-> Launch Yomi Waza Log Monitoring.
+> 常に思念工夫せよ
 >
-> *Ctrl+a* then *Tab* to return to available cli.
+> Always think and devise ways to live the precepts every day
 >
-> With a partner, tori moves fingers, uke must follow with the eyes
+> -- <cite>Gichin Funakoshi</cite>
 
-> Remote Terminal Session Detection
-[D3-RTSD](https://d3fend.mitre.org/technique/d3f:RemoteTerminalSessionDetection)
+> 道場のみの空手と思ふな
 >
-> Uke
+> Do not think that karate training is only in the dojo
 >
-> With a partner, tori moves fingers, uke must follow with the eyes
+> -- <cite>Gichin Funakoshi</cite>
 
-### *Uke* scans port to *Tori's* cyberdeck to identify the SSH port.
+### From Jūdō
 
-> *Uke* connects via SSH to *Tori's* cyberdeck
+> Enter by the technique, progress to the principle.
 >
-> Then run commands during *Tori's* practice.
+> -- <cite>Jigorō Kanō</cite>
 
-> Examples:
+> It is not important to be better than someone else, but to be better than
+yesterday.
 >
-> Then run commands during *Tori's* practice.
+> -- <cite>Jigorō Kanō</cite>
 
-> Tori
+> Conduct kata and randori with your best effort.
 >
-> Then run commands during *Tori's* practice.
+> -- <cite>Jigorō Kanō</cite>
 
-> *Tori* looks at Yomi Waza Log Monitoring to catch *Uke's* SSH connection (from
-the right side of the screen).
+> Do not forget that the objective of jūdō study is to improve every day, not to
+win or lose.
 >
-> Then run commands during *Tori's* practice.
+> -- <cite>Jigorō Kanō</cite>
 
-> *Tori* lists active sessions to identify TTY related to *Uke's* SSH connection.
+> Jūdō practice is not limited to the dōjō.
 >
-> Then run commands during *Tori's* practice.
+> -- <cite>Jigorō Kanō</cite>
 
-> Process Termination
-[D3-PT](https://d3fend.mitre.org/technique/d3f:ProcessTermination/)
+> It is necessary to consider others’ reactions to you in your self-reflection.
 >
-> Then run commands during *Tori's* practice.
+> -- <cite>Jigorō Kanō</cite>
 
-### *Tori* looks at Yomi Waza Log to catch *Uke's* SSH connection (from the right
-side of the screen).
+### From Aïkido
 
-## *Tori* lists processes to identify PID related to TTY with STAT value starting
-with `Ss`.
+## Sources
 
-*Tori* kills the processes by its reference identifier (PID), so disconnect *Uke*
-from his cyberdeck.
+[Niju Kun](https://fska.com/?page_id=186) -- Funakoshi Shotokan Karate Association
 
-Uke performs connection
+[The Untold History of Modern Japan and Japanese Martial
+Arts](https://kanochronicles.com/author/lgatling77/) -- Lance Gatling

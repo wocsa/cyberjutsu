@@ -34,7 +34,7 @@ inner state for practicing Cyberjūtsu (Saibā-jūtsu)サイバー述.
     
     Honor under the name
 
-## Humility (Kenkyo) 謙虚
+## Humility ([Kenkyo](https://interculturalwordsensei.org/kenkyo/)) 謙虚
 
     “Ken” means “humble" or “humility”
     “Kyo” means “void", "empty"

@@ -12,13 +12,13 @@ inner state for practicing Cyberjūtsu (Saibā-jūtsu)サイバー述.
     
     To be in the mood of bravery.
 
-## Sincerity (Makato) 誠
+## Sincérité (Makato) 誠
 
     誠 “Makato” means “truth” or “reality”
     
     To be in the reality and the truth of the moment.
 
-## Etiquette (Reigi) 礼儀
+## Étiquette (Reigi) 礼儀
 
     “Rei” means “ceremony” or “salute”
     “Gi” means “rule", "affair”
@@ -27,21 +27,21 @@ inner state for practicing Cyberjūtsu (Saibā-jūtsu)サイバー述.
     Rules that encourage good behavior during the practice with the others and for yourself.
     It's a framework of rituals for the practice of cyberjutsu.
 
-## Honor (Meiyo) 名誉
+## Honneur (Meiyo) 名誉
 
     “Mei” means “name” or “title”
     “Yo” means “honor", "glory”
     
     Honor under the name
 
-## Humility ([Kenkyo](https://interculturalwordsensei.org/kenkyo/)) 謙虚
+## Humilité ([Kenkyo](https://interculturalwordsensei.org/kenkyo/)) 謙虚
 
     “Ken” means “humble" or “humility”
     “Kyo” means “void", "empty"
     
     Put your ego aside to get along with the others.
 
-## Self-control (Shisei) 自制
+## Autocontrôle (Shisei) 自制
 
     “Shi” means “self" or “oneself”
     “Sei” means “control”, "rule"

@@ -16,23 +16,23 @@ msgstr "Courage (Yuki) 勇気"
 
 #: ./moral-code.md:block 6 (header)
 msgid "Sincerity (Makato) 誠"
-msgstr ""
+msgstr "Sincérité (Makato) 誠"
 
 #: ./moral-code.md:block 8 (header)
 msgid "Etiquette (Reigi) 礼儀"
-msgstr ""
+msgstr "Étiquette (Reigi) 礼儀"
 
 #: ./moral-code.md:block 10 (header)
 msgid "Honor (Meiyo) 名誉"
-msgstr ""
+msgstr "Honneur (Meiyo) 名誉"
 
 #: ./moral-code.md:block 12 (header)
 msgid "Humility ([Kenkyo](https://interculturalwordsensei.org/kenkyo/)) 謙虚"
-msgstr ""
+msgstr "Humilité ([Kenkyo](https://interculturalwordsensei.org/kenkyo/)) 謙虚"
 
 #: ./moral-code.md:block 14 (header)
 msgid "Self-control (Shisei) 自制"
-msgstr ""
+msgstr "Autocontrôle (Shisei) 自制"
 
 #: ./moral-code.md:block 16 (header)
 msgid "Mutual Aid (Gojo) 互助"

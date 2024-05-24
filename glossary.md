@@ -70,9 +70,11 @@ Most of terms related to methods, way of work, mindset, rules are get from japan
   - ri (離) transcend, become the way, there are no techniques or proverbs, all moves are natural, becoming one with spirit alone without clinging to forms;
 - <a name="shin-gi-tai">Shin Gi Tai</a> 心技体 (mind,technique,fitness)
   - Shin represents mind, heart and good spirit. Gi represents skill, knowledge and experience. Tai represents the body and physical effort. Those 3 elements must be trained together in order to reach [Maximum efficiency](#seiryoku-zen-yo)
-- <a name="tsukuri-kusushi-kake">Tsukuri Kuzushi Kake</a> 作り 崩し 懸け (construct/prepare, destroy/orient, exploit/execute)
+- <a name="tsukuri">Tsukuri</a> 作り (construct/prepare)
   - Tsukuri means prepare or construct Kuzushi and Kake to reach your goal
+- <a name="kusushi">Kuzushi</a> 崩し (destroy/orient)
   - Kuzushi means to destroy your opponent's posture to obtain the situation you expect
+- <a name="kake">Kake</a> 懸け (exploit/execute)
   - Kake means exploit Kuzushi to execute your technique to reach your goal.
 - <a name="mikiri">Mikiri</a> 見切る (perception)
   - Evaluate opponent and identify opportunities and weaknesses. Observe moves and posture.

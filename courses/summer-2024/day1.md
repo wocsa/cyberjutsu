@@ -26,17 +26,25 @@ Morning Karate course with [Lionel Froidure](https://www.lionelfroidure.com/a-pr
   * ps -aux, ls -lai, cd .., dir /*, htop
 
 
-## Waza
+## Uchikomi
+
+## Nagekomi
 
 
-### Uchikomi (x10 by exercise by partner)
+
+## Yakusukugeiko
+Keep your partner for each sequence
+
+### Sequence
+#### Block
+1 min to prepare
+3 min to fight
+Repeat the block 3 times
+Debrief
+Change partner or keep the same
+Repeat the sequence 3 times
 
 
-### Nagekomi (x10 by exercise by partner)
-
-### Yakusoku geiko
-
-## Randori
 
 ## Cooldown
 

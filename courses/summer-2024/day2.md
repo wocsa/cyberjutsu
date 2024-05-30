@@ -22,8 +22,17 @@ Morning Judo course with [Dr Yves Cadot](http://budo2008.nifs-k.ac.jp/en/guest/c
   * w, ls, cd, ps, dir, clear, echo, history, env, who, fortune , find 
   * ps -aux, ls -lai, cd .., dir /*, htop
 
-## Waza
+## Yakusukukeiko
+Use iptable to change exposed ports of services, services must always be accessible.
 
+Several tactics to perform kusushi:
+1) shuffle all exposed ports numbers (at one time or one bi one)
+2) change uke exposed port after tori connection then kill the session
+3) connect to uke port one by one then all at the same time to inject an attack in the Middle
+4) connect to uke system then mirror a port before been ejected
+
+
+## Randori
 
 ## Cooldown
 

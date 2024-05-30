@@ -37,14 +37,22 @@ Keep your partner for each sequence
 
 ### Sequence
 #### Block
+
 1 min to prepare
+
 3 min to fight
+
 Repeat the block 3 times
+
 Debrief
+
 Change partner or keep the same
+
 Repeat the sequence 3 times
 
+## Randori
 
+3 min randori without preparation and switch partner each time.
 
 ## Cooldown
 

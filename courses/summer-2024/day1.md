@@ -26,16 +26,192 @@ Morning Karate course with [Lionel Froidure](https://www.lionelfroidure.com/a-pr
   * ps -aux, ls -lai, cd .., dir /*, htop
 
 
-## Uchikomi
+## Uchikomi 打込 (hit in a bulk)
 
-## Nagekomi
+### Kōgeki Waza 攻撃技 (Attack Technique)
+
+#### Network Service Discovery [T1046](https://attack.mitre.org/techniques/T1046/)
+##### uke
+uke provide his cyberdeck ip address to tori
+```bash
+ip -color=auto addr # or ip a
+```
+##### tori
+*tori* try to find open ports on cyberdeck of *uke*.
+```bash
+nmap $UKE_IP_ADRESS 
+```
+tori identify service keywords en port numbers.
 
 
+### Yomi Waza  読技 (Read technique)
 
-## Yakusukugeiko
-Keep your partner for each sequence
+#### 
+#### Connection Attempt Analysis [D3-CAA](https://d3fend.mitre.org/technique/d3f:ConnectionAttemptAnalysis)
+##### tori
+*tori* try to find when *uke* is performing scan
+```bash
+tail -f /var/log/syslog
+```
 
-### Sequence
+##### uke
+*uke* try to find open ports on cyberdeck of *tori*.
+```bash
+nmap $TORI_IP_ADDRESS 
+```
+
+##### tori
+*tori* try to find ip adress of *uke* in logs that are displayed on cyberdeck screen
+```bash
+un 23 13:03:30 cyberjutsu1 kernel: [ 3108.070285] INCOMING connection IN=wlan0 OUT= MAC=b8:27:eb:c5:65:83:b8:27:eb:d7:b4:0f:08:00 SRC=192.168.2.240 DST=192.168.2.145 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=58603 DF PROTO=TCP SPT=54858 DPT=1131 WINDOW=64240 RES=0x00 SYN URGP=0 
+Jun 23 13:03:30 cyberjutsu1 kernel: [ 3108.070333] INCOMING connection IN=wlan0 OUT= MAC=b8:27:eb:c5:65:83:b8:27:eb:d7:b4:0f:08:00 SRC=192.168.2.240 DST=192.168.2.145 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=17630 DF PROTO=TCP SPT=60518 DPT=6668 WINDOW=64240 RES=0x00 SYN URGP=0
+```
+
+Uchikomi (repeat ten times the exercise)
+
+
+*Tori* try to scan ports one by one randomly and *Uke* try to guess the number. 
+After a while roles are exchanged.
+
+###  Administrative Network Activity Analysis [D3-ANAA](https://d3fend.mitre.org/technique/d3f:AdministrativeNetworkActivityAnalysis/)
+Tori and Uke split screen with two cli.
+```bash
+screen
+```
+Press return if paragraph is prompted.
+*Ctrl+a* then *Ctrl+|* #split screen in two part.
+*Ctrl+a* then *Tab* to switch to next part of the screen.
+*Ctrl+a* then *Ctrl+c* to create bash cli in black part of the screen.
+
+Launch Yomi Waza Log Monitoring.
+```bash
+tail -f /var/log/syslog
+```
+*Ctrl+a* then *Tab* to return to available cli.
+
+### Remote Terminal Session Detection [D3-RTSD](https://d3fend.mitre.org/technique/d3f:RemoteTerminalSessionDetection)
+
+#### Uke
+
+*Uke* connect via ssh to *Tori* cyberdeck
+```bash
+ssh $TORI_USERNAME@$TORI_IP_ADDRESS
+```
+then run commands during *Tori* practice.
+
+examples:
+```bash
+ls
+pwd
+uptime
+uname
+netstat
+htop
+```
+#### Tori
+
+*Tori* look at Yomi Waza Log Monitoring to catch *Uke* ssh connection (from right side of the screen).
+
+*Tori* list active sessions to identify TTY related to *Uke* ssh connection.
+```bash
+w
+```
+
+Uchikomi (repeat ten times the exercise)
+
+### Miru Waza  	見る技 (Look technique)
+
+### Session Shoulder Surfing
+
+#### Uke
+
+*Uke* connect via ssh to *Tori* cyberdeck
+```bash
+ssh $TORI_USERNAME@$TORI_IP_ADDRESS
+```
+then run commands during *Tori* practice.
+
+examples:
+```bash
+ls
+pwd
+uptime
+uname
+netstat
+htop
+```
+#### Tori
+
+*Tori* look at Yomi Waza Log Monitoring to catch *Uke* ssh connection (from right side of the screen).
+
+*Tori* list active sessions to identify TTY related to *Uke* ssh connection.
+```bash
+w
+```
+*Tori* list processes to identify PID related to TTY with STAT value starting with ```Ss```.
+```bash
+ps -fat
+```
+
+*Tori* watch what *Uke* is doing in his own session using PID as reference.
+```bash
+peekfd -8cnd $PID 0 1 2
+```
+Uchikomi (repeat ten times the exercise)
+
+
+### Bōgyo Waza 防御技 (Defense technique) 
+
+*Tori* try to connect run the commands given by Sensei then disconnect without been observed by *Uke*
+After a while roles are exchanged.
+
+### Process Termination [D3-PT](https://d3fend.mitre.org/technique/d3f:ProcessTermination/)
+
+#### Uke
+
+*Uke* connect via ssh to *Tori* cyberdeck
+```bash
+ssh $TORI_USERNAME@$TORI_IP_ADDRESS
+```
+then run commands during *Tori* practice.
+
+examples:
+```bash
+ls
+dir
+ps
+pwd
+fortune
+```
+#### Tori
+
+*Tori* look at Yomi Waza Log to catch *Uke* ssh connection (from right side of the screen).
+
+*Tori* list active sessions to identify TTY related to *Uke* ssh connection.
+```bash
+w
+```
+*Tori* list processes to identify PID related to TTY with STAT value starting with ```Ss```.
+```bash
+ps -fat
+```
+
+*Tori* kill the processus by it reference identifier (PID), so the session, so disconnect *Uke* from his cyberdeck.
+```bash
+kill -9 $PID
+```
+
+Uchikomi (repeat ten times the exercise)
+
+## Yakusukugeiko Tsukuri
+
+#### Discovery
+Establish 3 connection on partner cyberdeck before kill his local session.
+Practice to 3 victories with the same partner.
+Try to understand practice of your partner then try to win after learning from him.
+Swap partners with two other cyberjutsuka then provide advice to the opponent of your precedent partner.
+
+### Sequenced fight
 #### Block
 
 1 min to prepare

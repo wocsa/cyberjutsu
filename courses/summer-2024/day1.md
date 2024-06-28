@@ -82,12 +82,14 @@ Press return if paragraph is prompted.
 *Ctrl+a* then *Ctrl+|* #split screen in two part.
 *Ctrl+a* then *Tab* to switch to next part of the screen.
 *Ctrl+a* then *Ctrl+c* to create bash cli in black part of the screen.
+*Ctrl+a* then *Shift+S* (uppercase S) #split screen horizontally in two part.
+*Ctrl+a* then *Shift+X* (uppercase X) #kill a window (a splitted part).
 
 Launch Yomi Waza Log Monitoring.
 ```bash
 tail -f /var/log/syslog
 ```
-*Ctrl+a* then *Tab* to return to available cli.
+*Ctrl+a* then *Tab* switch between cli.
 
 ### Remote Terminal Session Detection [D3-RTSD](https://d3fend.mitre.org/technique/d3f:RemoteTerminalSessionDetection)
 
@@ -98,6 +100,7 @@ tail -f /var/log/syslog
 ssh $TORI_USERNAME@$TORI_IP_ADDRESS
 ```
 then run commands during *Tori* practice.
+For example *Uke* can run the same command to another IP_ADRESS and so use the *Uke* computer to connect to another computer doing this he can impersonate *Uke* identity.
 
 examples:
 ```bash
@@ -119,51 +122,9 @@ w
 
 Uchikomi (repeat ten times the exercise)
 
-### Miru Waza  	見る技 (Look technique)
-
-### Session Shoulder Surfing
-
-#### Uke
-
-*Uke* connect via ssh to *Tori* cyberdeck
-```bash
-ssh $TORI_USERNAME@$TORI_IP_ADDRESS
-```
-then run commands during *Tori* practice.
-
-examples:
-```bash
-ls
-pwd
-uptime
-uname
-netstat
-htop
-```
-#### Tori
-
-*Tori* look at Yomi Waza Log Monitoring to catch *Uke* ssh connection (from right side of the screen).
-
-*Tori* list active sessions to identify TTY related to *Uke* ssh connection.
-```bash
-w
-```
-*Tori* list processes to identify PID related to TTY with STAT value starting with ```Ss```.
-```bash
-ps -fat
-```
-
-*Tori* watch what *Uke* is doing in his own session using PID as reference.
-```bash
-peekfd -8cnd $PID 0 1 2
-```
-Uchikomi (repeat ten times the exercise)
 
 
 ### Bōgyo Waza 防御技 (Defense technique) 
-
-*Tori* try to connect run the commands given by Sensei then disconnect without been observed by *Uke*
-After a while roles are exchanged.
 
 ### Process Termination [D3-PT](https://d3fend.mitre.org/technique/d3f:ProcessTermination/)
 

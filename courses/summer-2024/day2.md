@@ -22,14 +22,74 @@ Morning Judo course with [Dr Yves Cadot](http://budo2008.nifs-k.ac.jp/en/guest/c
   * w, ls, cd, ps, dir, clear, echo, history, env, who, fortune , find 
   * ps -aux, ls -lai, cd .., dir /*, htop
 
+### Yomi Waza
+
+###  Administrative Network Activity Analysis [D3-ANAA](https://d3fend.mitre.org/technique/d3f:AdministrativeNetworkActivityAnalysis/)
+Tori and Uke split screen with two cli.
+```bash
+screen
+```
+Press return if paragraph is prompted.
+*Ctrl+a* then *Ctrl+|* #split screen in two part.
+*Ctrl+a* then *Tab* to switch to next part of the screen.
+*Ctrl+a* then *Ctrl+c* to create bash cli in black part of the screen.
+*Ctrl+a* then *Shift+S* (uppercase S) #split screen horizontally in two part.
+*Ctrl+a* then *Shift+X* (uppercase X) #kill a window (a splitted part).
+
+##### pattern filtering
+```bash
+tail -f /var/log/syslog | grep -i $CATCH_STRING
+
+#example CATCH_STRING=`grep DTP=22 or grep $IP_ADDRESS`
+#example CATCH_STRING=`grep 192.168.1.`
+```
+
+#### Connections Attempt Analysis (D3-CAA)[https://d3fend.mitre.org/technique/d3f:ConnectionAttemptAnalysis/]
+
+##### Uke
+Uke connect to one of 2 ports (ssh or telnet)
+
+##### Tori
+Tori try to identify connection of Uke and related port on *Uke* cyberdeck.
+
+```bash
+watch -n 2 'ss -tnp'
+```
+### Uke Waza
+
+#### Connection Termination
+```bash
+tcpkill -9 port $UKE_PORT
+```
+
+### Kōgeki Waza
+##### ssh connection
+```ssh -p $UKE_PORT $UKE_LOGIN@$UKE_IP_ADDRESS```
+then enter login then password
+##### telnet connection
+```telnet $UKE_IP_ADDRESS $UKE_PORT```
+then enter login then password
+Automate connection:
+```(sleep 3;echo cyberjutsuka;sleep 3;echo hajime; bash) | telnet $UKE_IP_ADRESS```
+```while [ 1 -eq 1 ]; do `(sleep 3;echo cyberjutsuka;sleep 3;echo hajime; bash) | telnet $UKE_IP_ADRESS`& done```
+
+### Bōgyo Waza 防御技 (Defense technique) 
+
+
+
 ## Yakusukukeiko
 Use iptable to change exposed ports of services, services must always be accessible.
 
 Several tactics to perform kusushi:
 1) shuffle all exposed ports numbers (at one time or one bi one)
-2) change uke exposed port after tori connection then kill the session
-3) connect to uke port one by one then all at the same time to inject an attack in the Middle
-4) connect to uke system then mirror a port before been ejected
+```sudo iptables -L --line-numbers```
+```sudo iptables -D INPUT [line_number]```
+```sudo iptables -t nat -A PREROUTING -p tcp --dport 2222 -j REDIRECT --to-port 22```
+```sudo iptables -A INPUT -p tcp ! -s 127.0.0.1 --dport 22 -j DROP```
+```sudo iptables -A INPUT -p tcp  --dport 2222 -j ACCEPT```
+1) change uke exposed port after tori connection then kill the session
+2) connect to uke port one by one then all at the same time to inject an attack in the Middle
+3) connect to uke system then mirror a port before been ejected
 
 
 ## Randori

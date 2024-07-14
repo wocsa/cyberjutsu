@@ -5,6 +5,10 @@ https://adversaryvillage.org/adversary-events/DEFCON-32/
 
 ## Abstract DEFCON32 Adversary Village
 
+No matter your technical background—from 10-year-olds to technical experts like pentesters and red/blue teamers—this workshop is designed for you. The only prerequisite is basic reading, writing, and counting knowledge. Experience real live adversary sparring and see how even those with less knowledge can outmaneuver more experienced participants.
+
+Join us for an interactive session with 14 players participating and others welcome to watch. Enhance your cybersecurity skills through collaborative and practical exercises.
+
 ### Cyberjutsu Hands-On Workshop Abstract
 
 **Abstract Part 1: Martial Arts Components**
@@ -17,7 +21,7 @@ This workshop integrates traditional martial arts principles with cybersecurity 
 
 **Abstract Part 2: Technical Details**
 
-No matter your technical background—from 10-year-olds to technical experts like pentesters and red/blue teamers—this workshop is designed for you. The only prerequisite is basic reading, writing, and counting knowledge. Experience real live adversary sparring and see how even those with less knowledge can outmaneuver more experienced participants. The workshop will feature:
+ The workshop will feature:
 
 - **MITRE ATT&CK Techniques:**
   - **Network Service Discovery (T1046):** Conducting network scans using tools like Nmap.
@@ -30,8 +34,6 @@ No matter your technical background—from 10-year-olds to technical experts lik
   - **Administrative Network Activity Analysis (D3-ANAA):** Monitoring network activities for administrative actions.
   - **Remote Terminal Session Detection (D3-RTSD):** Identifying remote terminal sessions.
   - **Process Termination (D3-PT):** Identifying and terminating malicious processes.
-
-Join us for an interactive session with 14 players participating and others welcome to watch. Enhance your cybersecurity skills through collaborative and practical exercises.
 
 For more information, visit the [DEF CON](https://defcon.org) and [Adversary Village](https://adversaryvillage.org/) websites.
 

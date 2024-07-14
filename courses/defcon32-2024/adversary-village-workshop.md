@@ -1,5 +1,40 @@
 # Defcon 32 Adversary Village Cyberjutsu Workshop
 
+Session has been scheduled for 16:00-18:00 PDT, August 10th (Saturday).
+https://adversaryvillage.org/adversary-events/DEFCON-32/
+
+## Abstract DEFCON32 Adversary Village
+
+### Cyberjutsu Hands-On Workshop Abstract
+
+**Abstract Part 1: Martial Arts Components**
+
+This workshop integrates traditional martial arts principles with cybersecurity techniques. Participants will explore:
+- **Kihon (Basics):** Fundamental concepts of Cyberjutsu, including digital discipline and ethical behavior.
+- **Uchikomi (Repetitive Drilling):** Structured sequences focusing on repetitive cyber attack and defense drills to build proficiency.
+- **Randori (Free Practice):** Practice through controlled, live cyber engagement exercises.
+- **Moral Philosophy:** Applying mutual aid and respect in digital interactions.
+
+**Abstract Part 2: Technical Details**
+
+No matter your technical background—from 10-year-olds to technical experts like pentesters and red/blue teamers—this workshop is designed for you. The only prerequisite is basic reading, writing, and counting knowledge. Experience real live adversary sparring and see how even those with less knowledge can outmaneuver more experienced participants. The workshop will feature:
+
+- **MITRE ATT&CK Techniques:**
+  - **Network Service Discovery (T1046):** Conducting network scans using tools like Nmap.
+  - **Command and Scripting Interpreter (T1059):** Using scripting environments for automating tasks.
+  - **Privilege Escalation (T1068):** Gaining higher-level permissions on target systems.
+  - **Lateral Movement (T1078):** Simulating techniques for moving across networks.
+
+- **MITRE D3FEND Techniques:**
+  - **Connection Attempt Analysis (D3-CAA):** Analyzing connection attempts to detect scanning activities.
+  - **Administrative Network Activity Analysis (D3-ANAA):** Monitoring network activities for administrative actions.
+  - **Remote Terminal Session Detection (D3-RTSD):** Identifying remote terminal sessions.
+  - **Process Termination (D3-PT):** Identifying and terminating malicious processes.
+
+Join us for an interactive session with 14 players participating and others welcome to watch. Enhance your cybersecurity skills through collaborative and practical exercises.
+
+For more information, visit the [DEF CON](https://defcon.org) and [Adversary Village](https://adversaryvillage.org/) websites.
+
 ## Background
 Introduction from WOCSA on [principle](../../principle.md).
 

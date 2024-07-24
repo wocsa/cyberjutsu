@@ -40,10 +40,7 @@ For more information, visit the [DEF CON](https://defcon.org) and [Adversary Vil
 ## Background
 Introduction from WOCSA on [principle](../../principle.md).
 
-## Presentation of Cyberjutsu (15min)
-
-
-## Jujitsu Demo (15min)
+## Presentation of Cyberjutsu
 
 ### Why do we apply martial arts to cybersecurity ?
 - Improve coordination between mind and movements​
@@ -61,8 +58,24 @@ Teachers of budō should always encourage others to also strive to better themse
 - Moral code
 - Reigi
 - Tori / Uke
+- Techniques
+- Practice
+- Repetitions
 
-## Greetings
+## Jujitsu Demo (10 min)
+
+1) Reigi
+2) Yomi waza
+3) Kogeki Waza
+4) Bogyo Waza
+5) Education Exercice
+5) Uchikomi
+6) Nagekomi
+7) Randori
+8) Mokuso
+9) Reigi
+
+## Reigi (Greetings)
 People stand up in front of each others in line and bend over when sensei say Rei 
 
 ## Warmup (5min)
@@ -90,10 +103,7 @@ People stand up in front of each others in line and bend over when sensei say Re
 
 ## Uchikomi 打込 [hit in a bulk] (20min)
 
-### Kōgeki Waza 攻撃技 (Attack Technique)
-
-
-### Yomi Waza  読技 (Read technique)
+### Yomi Waza  読技 (Read technique) (10 min)
 
 ##### uke
 uke provide his cyberdeck ip address to tori
@@ -101,7 +111,6 @@ uke provide his cyberdeck ip address to tori
 ip r s
 ```
 
-#### 
 #### Connection Attempt Analysis [D3-CAA](https://d3fend.mitre.org/technique/d3f:ConnectionAttemptAnalysis)
 
 
@@ -193,7 +202,9 @@ ps -fat
 sudo kill -9 $PID
 ```
 
-Uchikomi (repeat ten times the exercise)
+Nagekomi (repeat ten times the exercise)
+
+## Kōgeki Waza 攻撃技 (Attack Technique)
 
 ### Process Termination [D3-PT](https://d3fend.mitre.org/technique/d3f:ProcessTermination/)
 
@@ -215,7 +226,7 @@ ps -fat
 sudo kill -9 $PID
 ```
 
-Uchikomi (repeat ten times the exercise)
+Nagekomi (repeat ten times the exercise)
 
 
 ## Yakusukugeiko Tsukuri (10 min)
@@ -228,18 +239,11 @@ Swap partners with two other cyberjutsuka then provide advice to the opponent of
 
 ### Sequenced fight
 #### Block
-
-1 min to prepare
-
+30 sec to prepare
 3 min to fight
 
-Repeat the block 3 times
+shift to left seat to rotate all partners.
 
-Debrief
-
-Change partner or keep the same
-
-Repeat the sequence 3 times
 
 ## Randori (10min)
 

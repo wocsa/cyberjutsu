@@ -96,7 +96,7 @@ People stand up in front of each others in line and bend over when sensei say Re
 ##### uke
 uke provide his cyberdeck ip address to tori
 ```bash
-ip -color=auto addr # or ip a
+ip r s
 ```
 ##### tori
 *tori* try to find open ports on cyberdeck of *uke*.

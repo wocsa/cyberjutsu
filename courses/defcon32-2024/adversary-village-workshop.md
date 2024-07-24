@@ -92,48 +92,18 @@ People stand up in front of each others in line and bend over when sensei say Re
 
 ### Kōgeki Waza 攻撃技 (Attack Technique)
 
-#### Network Service Discovery [T1046](https://attack.mitre.org/techniques/T1046/)
+
+### Yomi Waza  読技 (Read technique)
+
 ##### uke
 uke provide his cyberdeck ip address to tori
 ```bash
 ip r s
 ```
-##### tori
-*tori* try to find open ports on cyberdeck of *uke*.
-```bash
-nmap $UKE_IP_ADRESS 
-```
-tori identify service keywords en port numbers.
-
-
-### Yomi Waza  読技 (Read technique)
 
 #### 
 #### Connection Attempt Analysis [D3-CAA](https://d3fend.mitre.org/technique/d3f:ConnectionAttemptAnalysis)
-##### tori
-*tori* try to find when *uke* is performing scan
-```bash
-tail -f /var/log/syslog
-```
 
-##### uke
-*uke* try to find open ports on cyberdeck of *tori*.
-```bash
-nmap $TORI_IP_ADDRESS 
-```
-
-##### tori
-*tori* try to find ip adress of *uke* in logs that are displayed on cyberdeck screen
-```bash
-un 23 13:03:30 cyberjutsu1 kernel: [ 3108.070285] INCOMING connection IN=wlan0 OUT= MAC=b8:27:eb:c5:65:83:b8:27:eb:d7:b4:0f:08:00 SRC=192.168.2.240 DST=192.168.2.145 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=58603 DF PROTO=TCP SPT=54858 DPT=1131 WINDOW=64240 RES=0x00 SYN URGP=0 
-Jun 23 13:03:30 cyberjutsu1 kernel: [ 3108.070333] INCOMING connection IN=wlan0 OUT= MAC=b8:27:eb:c5:65:83:b8:27:eb:d7:b4:0f:08:00 SRC=192.168.2.240 DST=192.168.2.145 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=17630 DF PROTO=TCP SPT=60518 DPT=6668 WINDOW=64240 RES=0x00 SYN URGP=0
-```
-
-Uchikomi (repeat ten times the exercise)
-
-
-*Tori* try to scan ports one by one randomly and *Uke* try to guess the number. 
-After a while roles are exchanged.
 
 ###  Administrative Network Activity Analysis [D3-ANAA](https://d3fend.mitre.org/technique/d3f:AdministrativeNetworkActivityAnalysis/)
 Tori and Uke split screen with two cli.
@@ -185,6 +155,17 @@ w
 Uchikomi (repeat ten times the exercise)
 
 #### Lateral movement
+
+#### Network Service Discovery [T1046](https://attack.mitre.org/techniques/T1046/)
+
+##### tori
+*tori* try to find open ports on cyberdeck of *uke*.
+```bash
+nmap $UKE_IP_ADRESS 
+```
+tori identify service keywords en port numbers.
+
+
 
 ### Bōgyo Waza 防御技 (Defense technique) 
 

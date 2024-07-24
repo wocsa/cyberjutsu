@@ -145,7 +145,7 @@ htop
 ```
 #### Tori
 
-*Tori* look at Yomi Waza Log Monitoring to catch *Uke* ssh connection (from right side of the screen).
+*Tori* look at Yomi Waza Administrative Network Activity Analysis to catch *Uke* ssh connection (from right side of the screen).
 
 *Tori* list active sessions to identify TTY related to *Uke* ssh connection.
 ```bash
@@ -153,18 +153,6 @@ w
 ```
 
 Uchikomi (repeat ten times the exercise)
-
-#### Lateral movement
-
-#### Network Service Discovery [T1046](https://attack.mitre.org/techniques/T1046/)
-
-##### tori
-*tori* try to find open ports on cyberdeck of *uke*.
-```bash
-nmap $UKE_IP_ADRESS 
-```
-tori identify service keywords en port numbers.
-
 
 
 ### Bōgyo Waza 防御技 (Defense technique) 

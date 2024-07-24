@@ -195,6 +195,29 @@ sudo kill -9 $PID
 
 Uchikomi (repeat ten times the exercise)
 
+### Process Termination [D3-PT](https://d3fend.mitre.org/technique/d3f:ProcessTermination/)
+
+#### Tori
+
+*Tori* look at Yomi Waza network traffic to catch his local session.
+
+*Tori* list active sessions to identify TTY without an IP address on the line (related to his local session) .
+```bash
+w
+```
+*Tori* list processes to identify PID related to TTY with STAT value starting with ```Ss```.
+```bash
+ps -fat
+```
+
+*Tori* kill the processus by its process identifier (PID), so the session. This disconnects *Uke* from his cyberdeck.
+```bash
+sudo kill -9 $PID
+```
+
+Uchikomi (repeat ten times the exercise)
+
+
 ## Yakusukugeiko Tsukuri (10 min)
 
 #### Discovery

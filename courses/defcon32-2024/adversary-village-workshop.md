@@ -120,11 +120,15 @@ Tori and Uke split screen with two cli.
 screen
 ```
 Press return if paragraph is prompted.
-*Ctrl+a* then *Ctrl+|* #split screen in two part.
+*Ctrl+a* then *|* #split screen in two part.
+
 *Ctrl+a* then *Tab* to switch to next part of the screen.
+
 *Ctrl+a* then *Ctrl+c* to create bash cli in black part of the screen.
-*Ctrl+a* then *Shift+S* (uppercase S) #split screen horizontally in two part.
-*Ctrl+a* then *Shift+X* (uppercase X) #kill a window (a splitted part).
+
+*Ctrl+a* then *Shift+s* (uppercase S) #split screen horizontally in two part.
+
+*Ctrl+a* then *Shift+x* (uppercase X) #kill a window (a splitted part).
 
 Launch Yomi Waza Network Session Monitoring.
 ```bash

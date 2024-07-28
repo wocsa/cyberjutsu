@@ -120,6 +120,7 @@ Tori and Uke split screen with two cli.
 screen
 ```
 Press return if paragraph is prompted.
+
 *Ctrl+a* then *|* #split screen in two part.
 
 *Ctrl+a* then *Tab* to switch to next part of the screen.

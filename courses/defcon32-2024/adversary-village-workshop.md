@@ -271,7 +271,7 @@ tail -f /var/log/syslog
 more difficult version of technique with scripting :
 Connection Attempt Analysis ([D3-CAA](https://d3fend.mitre.org/technique/d3f:ConnectionAttemptAnalysis/))
 ```bash
-tail -f /var/log/syslog |grep -e 'SRC=[^ ]\+'
+tail -f /var/log/syslog |grep -oe 'SRC=[^ ]\+'|uniq
 ```
 
 

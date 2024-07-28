@@ -27,7 +27,7 @@ This workshop integrates traditional martial arts principles with cybersecurity 
   - **Network Service Discovery (T1046):** Conducting network scans using tools like Nmap.
   - **Command and Scripting Interpreter (T1059):** Using scripting environments for automating tasks.
   - **Privilege Escalation (T1068):** Gaining higher-level permissions on target systems.
-  - **Lateral Movement (T1078):** Simulating techniques for moving across networks.
+  - **Lateral Movement (T1563.001):** Remote Service Session Hijacking: SSH Hijacking.
 
 - **MITRE D3FEND Techniques:**
   - **Connection Attempt Analysis (D3-CAA):** Analyzing connection attempts to detect scanning activities.
@@ -254,7 +254,79 @@ shift to left seat to rotate all partners.
 
 3 min randori without preparation and switch partner each time.
 
+## Yomi Waza
+### uke
+Network Service Discovery ([T1046](https://attack.mitre.org/techniques/T1046/))
+```bash
+nmap 192.168.1.2-254
+```
+
+### tori
+Connection Attempt Analysis ([D3-CAA](https://d3fend.mitre.org/technique/d3f:ConnectionAttemptAnalysis/))
+```bash
+tail -f /var/log/syslog
+```
+
+
+more difficult version of technique with scripting :
+Connection Attempt Analysis ([D3-CAA](https://d3fend.mitre.org/technique/d3f:ConnectionAttemptAnalysis/))
+```bash
+tail -f /var/log/syslog |grep -e 'SRC=[^ ]\+'
+```
+
+
+Uchikomi (repeat ten times the exercise)
+
+## Kōgeki Waza 攻撃技 (Attack Technique)
+SSH Hijacking ([T1563.001](https://attack.mitre.org/techniques/T1563/001/))
+```bash
+ssh uke_ip_address
+```
+then 
+```bash
+ssh another_uke_address
+```
+the 2nd uke will se the ip address of the first uke and not the ip address of tori
+
 ## Battle Royal (5min)
+
+## Yomi Waza (Bonus Stage)
+### Session Shoulder Surfing
+
+#### Uke
+
+*Uke* connect via ssh to *Tori* cyberdeck
+```bash
+ssh $TORI_USERNAME@$TORI_IP_ADDRESS
+```
+then run commands during *Tori* practice.
+
+examples:
+```bash
+ls
+pwd
+uptime
+uname
+netstat
+htop
+```
+#### Tori
+
+*Tori* look at Yomi Waza Log Monitoring to catch *Uke* ssh connection (from right side of the screen).
+
+*Tori* list active sessions to identify TTY related to *Uke* ssh connection.
+```bash
+w
+```
+*Tori* list processes to identify PID related to TTY with STAT value starting with ```Ss```.
+```bash
+ps -fat
+```
+
+*Tori* watch what *Uke* is doing in his own session using PID as reference.
+```bash
+peekfd -8cnd $PID 0 1 2
+```
 
 ## Cooldown (5min)
 

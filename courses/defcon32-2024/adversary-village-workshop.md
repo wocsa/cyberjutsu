@@ -204,7 +204,7 @@ ps -fat
 
 *Tori* kill the processus by it reference identifier (PID), so the session, so disconnect *Uke* from his cyberdeck.
 ```bash
-sudo kill -9 $PID
+kill -9 $PID
 ```
 
 Nagekomi (repeat ten times the exercise)

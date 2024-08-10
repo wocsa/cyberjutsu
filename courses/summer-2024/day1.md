@@ -122,7 +122,7 @@ w
 
 Uchikomi (repeat ten times the exercise)
 
-
+#### Lateral movement
 
 ### Bōgyo Waza 防御技 (Defense technique) 
 
@@ -159,7 +159,7 @@ ps -fat
 
 *Tori* kill the processus by it reference identifier (PID), so the session, so disconnect *Uke* from his cyberdeck.
 ```bash
-kill -9 $PID
+sudo kill -9 $PID
 ```
 
 Uchikomi (repeat ten times the exercise)

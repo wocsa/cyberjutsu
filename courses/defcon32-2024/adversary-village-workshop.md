@@ -258,7 +258,7 @@ shift to left seat to rotate all partners.
 ### uke
 Network Service Discovery ([T1046](https://attack.mitre.org/techniques/T1046/))
 ```bash
-nmap 192.168.1.2-254
+nmap -sn 192.168.1.2-254
 ```
 
 ### tori
@@ -267,13 +267,14 @@ Connection Attempt Analysis ([D3-CAA](https://d3fend.mitre.org/technique/d3f:Con
 tail -f /var/log/syslog
 ```
 
-
 more difficult version of technique with scripting :
 Connection Attempt Analysis ([D3-CAA](https://d3fend.mitre.org/technique/d3f:ConnectionAttemptAnalysis/))
 ```bash
+tail -f /var/log/syslog |grep SRC=
+```
+```bash
 tail -f /var/log/syslog |grep -oe 'SRC=[^ ]\+'|uniq
 ```
-
 
 Uchikomi (repeat ten times the exercise)
 

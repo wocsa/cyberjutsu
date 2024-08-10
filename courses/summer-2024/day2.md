@@ -59,7 +59,7 @@ watch -n 2 'ss -tnp'
 
 #### Connection Termination
 ```bash
-tcpkill -9 port $UKE_PORT
+sudo tcpkill -9 port $UKE_PORT
 ```
 
 ### Kōgeki Waza
@@ -74,10 +74,6 @@ Automate connection:
 ```while [ 1 -eq 1 ]; do `(sleep 3;echo cyberjutsuka;sleep 3;echo hajime; bash) | telnet $UKE_IP_ADRESS`& done```
 
 ### Bōgyo Waza 防御技 (Defense technique) 
-
-
-
-## Yakusukukeiko
 Use iptable to change exposed ports of services, services must always be accessible.
 
 Several tactics to perform kusushi:
@@ -90,6 +86,10 @@ Several tactics to perform kusushi:
 1) change uke exposed port after tori connection then kill the session
 2) connect to uke port one by one then all at the same time to inject an attack in the Middle
 3) connect to uke system then mirror a port before been ejected
+
+
+## Yakusukukeiko
+
 
 
 ## Randori

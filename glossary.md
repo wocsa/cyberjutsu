@@ -84,6 +84,8 @@ Most of terms related to methods, way of work, mindset, rules are get from japan
   - Start action in defense the moment you have an inkling of the offensive of your opponent
 - <a name="sen-sen-no-sen">Sen sen no sen</a> 先先の先 (superior initiative)
   - Superior initiative is given play in a delicate situation where one confronts an opponent who intends to attack and gains mastery over them by subtly guessing their mentality and forestalling their actions.
+- <a name="kaeshi">Kaeshi</a> 返 (counterattack return-favour)
+  - Provide a return of the favour, counterattack the partner, reverse the situation. A counterattack is a combination of attack and defense that involves predicting the opponent's attack and launching a counterattack.
 - <a name="mokuso">Mokusō</a> 黙想 (meditation,mind training)
   - Introspect moment to train mind and fix knowledge from experience practiced earlier or projection
 

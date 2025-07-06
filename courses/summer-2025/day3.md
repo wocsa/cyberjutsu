@@ -23,9 +23,9 @@ Morning Jujitsu course with [Jean-Louis MOURLAN](https://fr.linkedin.com/in/jean
   * ps -aux, ls -lai, cd .., dir /*, htop
 
 ## Waza
-### Byogo Waza
+### Bogyo Waza
+#### Port changing
 ##### tori
-Several tactics to perform kusushi:
 1) change ssh port
    ```bash
    echo "Port 2222" | sudo tee -a /etc/ssh/sshd_config && sudo systemctl restart ssh
@@ -42,6 +42,33 @@ Several tactics to perform kusushi:
 *uke* try to find open ports on cyberdeck of *tori*.
 ```bash
 nmap $TORI_IP_ADDRESS 
+```
+#### Useless port opening
+##### tori
+Tori open a port with a processus that provide no prompt to uke
+```bash
+nc -lvnp 4444
+```
+
+##### uke
+uke try to connect to the port with ssh the telnet
+```bash
+ssh 192.168.1.xxx:4444
+```
+
+```bash
+telnet 192.168.1.xxx 4444
+```
+
+#### Fake connection
+##### tori
+Tori will use a command without any prompt to an port ssh then telnet
+```bash
+nc 192.168.1.xxx 22
+```
+
+```bash
+nc 192.168.1.xxx 22
 ```
 
 ## Yakusukukeiko

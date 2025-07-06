@@ -66,7 +66,7 @@ Tori try to identify connection of Uke and related port on *Uke* cyberdeck.
 ```bash
 watch -n 2 'ss -tnp'
 ```
-### Uke Waza
+### Bogyo Waza
 
 #### Connection Termination
 Uke must send command to terminate the connection

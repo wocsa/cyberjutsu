@@ -22,6 +22,8 @@ Most of terms related to methods, way of work, mindset, rules are get from japan
   - Category of Cyberjūtsu techniques to defend
 - <a name="kogeki-waza">Kōgeki Waza</a> 攻撃技 (attack technique)
   - Category of Cyberjūtsu techniques to attack
+- <a name="bogyo-waza">Bogyo Waza</a> 攻撃技 (defend technique)
+  - Category of Cyberjūtsu techniques to defend
 - <a name="suki">Suki</a> 隙技 (weakness,opening)
   - Opening or a Weakness in one's technique or posture
 - <a name="yomi-waza">Yomi Waza</a> 読み技 (monitoring technique)

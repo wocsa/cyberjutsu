@@ -28,11 +28,11 @@ Morning Jujitsu course with [Jean-Louis MOURLAN](https://fr.linkedin.com/in/jean
 ##### tori
 1) change ssh port
    ```bash
-   echo "Port 2222" | sudo tee -a /etc/ssh/sshd_config && sudo systemctl restart ssh
+   sudo sed -i 's/Port .*/Port 222/' /etc/ssh/sshd_config && sudo systemctl restart ssh
    ```
    1. change telnet port
    ```bash
-   echo -e "telnet\t4444/tcp" | sudo tee -a /etc/services && sudo systemctl restart xinetd
+   sudo sed -i 's/telnet\s\+\s\+/telnet 444/' /etc/services && sudo systemctl restart inetd
    ```
 2) change uke exposed port after tori connection then kill the session
 3) connect to uke port one by one then all at the same time to inject an attack in the Middle
@@ -41,23 +41,41 @@ Morning Jujitsu course with [Jean-Louis MOURLAN](https://fr.linkedin.com/in/jean
 ##### uke
 *uke* try to find open ports on cyberdeck of *tori*.
 ```bash
-nmap $TORI_IP_ADDRESS 
+nmap - Sv $TORI_IP_ADDRESS 
 ```
 #### Useless port opening
 ##### tori
 Tori open a port with a processus that provide no prompt to uke
 ```bash
-nc -lvnp 4444
+nc -lvnp 222
 ```
 
 ##### uke
 uke try to connect to the port with ssh the telnet
 ```bash
-ssh 192.168.1.xxx:4444
+ssh 192.168.1.xxx -p 222
 ```
 
 ```bash
-telnet 192.168.1.xxx 4444
+telnet 192.168.1.xxx 222
+```
+### Kogeki Waza
+#### Lateral movement
+##### tori 
+tori connect to uke1 
+```bash
+ssh $uke1_ip_address:$uke1_port
+```
+tori connect to uke2 from uk2 computer using prompt on uke1
+```bash
+ssh $uke2_ip_address:$uk2
+```
+
+##### uke
+
+uke1 watch connection of tori and uke2 watch connection of tori with same yomi waza (syslog)
+```bash
+tail -f /var/log/syslog |grep 192.168.1
 ```
 
 #### Fake connection

@@ -76,7 +76,7 @@ Teachers of budō should always encourage others to also strive to better themse
 9) Reigi
 
 # Cyberjutsu Workshop
-This year we will approach the concept of [Kaeshi](../glossary.md#kaeshi); Counterattack is a combination of attack and defense that involves predicting the opponent's attack and launching a counterattack.
+This year we will approach the concept of [Kaeshi](../../glossary.md#kaeshi); Counterattack is a combination of attack and defense that involves predicting the opponent's attack and launching a counterattack.
 
 ## Reigi (Greetings)
 People stand up in front of each others in line and bend over when sensei say Rei 

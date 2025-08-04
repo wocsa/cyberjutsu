@@ -7,7 +7,7 @@ https://adversaryvillage.org/adversary-events/DEFCON-33/
 
 No matter your technical background—from 10-year-olds to technical experts like pentesters and red/blue teamers—this workshop is designed for you. The only prerequisite is basic reading, writing, and counting knowledge. Experience real live adversary sparring and see how even those with less knowledge can outmaneuver more experienced participants.
 
-Join us for an interactive session with 14 players participating and others welcome to watch. Enhance your cybersecurity skills through collaborative and practical exercises.
+Join us for an interactive session with 12 players participating and others welcome to watch. Enhance your cybersecurity skills through collaborative and practical exercises.
 
 ## Cyberjutsu Hands-On Workshop Abstract
 

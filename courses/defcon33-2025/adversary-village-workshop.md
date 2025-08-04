@@ -1,4 +1,4 @@
-# Defcon 32 Adversary Village Cyberjutsu Workshop
+# Defcon 33 Adversary Village Cyberjutsu Workshop
 
 Session has been scheduled for 15:00-17:00 PDT, August 08th (Friday).
 https://adversaryvillage.org/adversary-events/DEFCON-33/

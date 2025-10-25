@@ -76,7 +76,7 @@ Teachers of budō should always encourage others to also strive to better themse
 9) Reigi
 
 # Cyberjutsu Workshop
-This year we will approach the concept of [Kaeshi](../../glossary.md#kaeshi); Counterattack is a combination of attack and defense that involves predicting the opponent's attack and launching a counterattack.
+This year we will approach the concept of [Kaeshi](../../$glossary.md#kaeshi); Counterattack is a combination of attack and defense that involves predicting the opponent's attack and launching a counterattack.
 
 ## Reigi (Greetings)
 People stand up in front of each others in line and bend over when sensei say Rei 
@@ -207,7 +207,7 @@ ps -fat
 
 *Tori* kill the processus by it reference identifier (PID), so the session, so disconnect *Uke* from his cyberdeck.
 ```bash
-kill -9 $PID
+sudo kill -9 $PID
 ```
 
 Nagekomi (repeat ten times the exercise)

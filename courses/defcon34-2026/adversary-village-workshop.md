@@ -38,6 +38,34 @@ This workshop integrates traditional martial arts principles with cybersecurity 
 
 For more information, visit the [DEF CON](https://defcon.org) and [Adversary Village](https://adversaryvillage.org/) websites.
 
+## Detailed Workshop Outline
+
+This is a two-hour, hands-on workshop built around paired cyber sparring. Participants work in rotating *tori* and *uke* roles so they practice both attack and defense under time pressure while keeping the format approachable for beginners.
+
+1. Introduction and framing (10 min)
+Participants are introduced to Cyberjutsu, the workshop rules, the ethical framing, and the core martial concepts that structure the session: *reigi*, *yomi waza*, *kōgeki waza*, *bōgyo waza*, *yakusokugeiko*, and *randori*. The 2026 workshop theme, [Tsukuri](../../glossary.md#tsukuri), is explained as construction and preparation: creating the right conditions before executing the next action.
+
+2. Warmup and coordination drills (5 min)
+Participants perform eye, hand, and typing warmups to prepare attention, dexterity, and keyboard coordination. This phase also helps normalize the learning pace across mixed-experience attendees.
+
+3. SSH uchikomi: read, detect, and interrupt remote sessions (20 min)
+Working in pairs, participants monitor active connections, identify remote SSH activity, and learn how to distinguish local and remote sessions. They then practice defensive response by locating the relevant process and terminating the malicious session.
+
+4. Yakusokugeiko Tsukuri sequence after SSH drills (10 min)
+Pairs move into asymmetric rounds: *tori* performs three rounds of *kōgeki waza* while *uke* defends. A short "mate" pause of roughly 30 seconds to 1 minute is called in the middle of each round so participants can prepare the next sequence and explicitly practice *Tsukuri* before resuming. Roles then switch.
+
+5. Telnet uchikomi: detect and break simpler remote sessions (20 min)
+Participants repeat the paired training format with telnet to compare a different remote access pattern. They observe how connection behavior differs, monitor it live, and practice connection termination with the corresponding defensive tooling.
+
+6. Yakusokugeiko Tsukuri sequence after telnet drills (10 min)
+Participants repeat the asymmetric *tori*/*uke* format with the same mid-round "mate" break. This reinforces preparation, anticipation, and adaptation across a second technical context.
+
+7. Randori: controlled free practice (10 min)
+Participants engage in short live rounds where they apply the techniques learned during the workshop with less scripting and more improvisation. A mid-round "mate" pause of roughly 30 seconds to 1 minute is used to let players prepare the next sequence, adjust their approach, and continue with clearer intent.
+
+8. Observation, reflection, and progression (throughout, with final wrap-up)
+Observers can follow the sparring live, and facilitators provide short coaching interventions between rotations. The workshop closes with a recap of what participants learned about preparation, timing, reading an opponent, and defending under pressure, along with pointers for continuing Cyberjutsu practice after DEF CON.
+
 ## Background
 Introduction from WOCSA on [principle](../../principle.md).
 

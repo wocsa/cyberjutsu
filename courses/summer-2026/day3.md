@@ -1,0 +1,132 @@
+# Cyberjūtsu v1.0 Summer 2026 Day 3
+## Background
+Sunday, June 28, 2026 morning Jujitsu course with [Jean-Louis Mourlan](https://fr.linkedin.com/in/jean-louis-mourlan-30454986) about the [Tsukuri](../../glossary.md#tsukuri) concept in the sense of construction and preparation.
+## Warmup
+
+### Eyes
+* look at top right, bottom left, bottom right, top left (x5)
+* draw a circle with your Eyes both sens (x5)
+* draw an infinity sign with your eyes (∞) (x5)
+### Hands
+* Roll your fingers one by one foreward and backward both hands (x5)
+* touch with thumb each of your fingers both hands foreward and backward (x2)
+* join same finger of each hand with the other, then dismiss couple one by one foreward and ackward (x2)
+* listen to teacher number (1 to 5) and dismiss related fingers
+### Combined 
+* with partner tori move fingers, uke must follow with the eyes
+
+### Typing
+* put your fingers on each zone of the keyboard [see picture here Chapter 1, Sub Chapter 1](https://www.wikihow.com/Type#Learning-to-Type)
+* type all alphabet letter one by one zone by zone from left to right (all key for one finger then move to next) backward and forward [see picture here Chapter 1, Sub Chapter 4](https://www.wikihow.com/Type#Learning-to-Type) (x10)
+* with above method type as fast as possible command said by the teacher then press enter read the first word on the prompted result (x10)
+  * w, ls, cd, ps, dir, clear, echo, history, env, who, fortune , find 
+  * ps -aux, ls -lai, cd .., dir /*, htop
+
+## Waza
+### Bogyo Waza
+#### Port changing
+##### tori
+1) change ssh port
+   ```bash
+   sudo sed -i 's/Port .*/Port 222/' /etc/ssh/sshd_config && sudo systemctl restart ssh
+   ```
+   1. change telnet port
+   ```bash
+   sudo sed -i 's/telnet\s\+\s\+/telnet 444/' /etc/services && sudo systemctl restart inetd
+   ```
+2) change uke exposed port after tori connection then kill the session
+3) connect to uke port one by one then all at the same time to inject an attack in the Middle
+4) connect to uke system then mirror a port before been ejected
+
+##### uke
+*uke* try to find open ports on cyberdeck of *tori*.
+```bash
+nmap - Sv $TORI_IP_ADDRESS 
+```
+#### Useless port opening
+##### tori
+Tori open a port with a processus that provide no prompt to uke
+```bash
+nc -lvnp 222
+```
+
+##### uke
+uke try to connect to the port with ssh the telnet
+```bash
+ssh 192.168.1.xxx -p 222
+```
+
+```bash
+telnet 192.168.1.xxx 222
+```
+### Kogeki Waza
+#### Lateral movement
+##### tori 
+tori connect to uke1 
+```bash
+ssh $uke1_ip_address:$uke1_port
+```
+tori connect to uke2 from uk2 computer using prompt on uke1
+```bash
+ssh $uke2_ip_address:$uk2
+```
+
+##### uke
+
+uke1 watch connection of tori and uke2 watch connection of tori with same yomi waza (syslog)
+```bash
+tail -f /var/log/syslog |grep 192.168.1
+```
+
+#### Fake connection
+##### tori
+Tori will use a command without any prompt to an port ssh then telnet
+```bash
+nc 192.168.1.xxx 22
+```
+
+```bash
+nc 192.168.1.xxx 22
+```
+
+## Yakusukukeiko
+### Asymmetric rounds
+Uke and tori work in asymmetric rounds.
+
+Tori performs 3 rounds of Kōgeki Waza and uke must defend.
+
+Call "mate" in the middle of each round to practice [Tsukuri](../../glossary.md#tsukuri), then resume the sequence.
+
+After the 3 rounds, uke and tori switch roles.
+
+1. uke change ports
+2. tori find the ports then connect
+3. uke kill connections
+
+## Randori
+
+3 min randori.
+
+Call "mate" in the middle of the randori for about 30 seconds to 1 minute to let people prepare the next sequence.
+
+## Batoru Rowaiaru バトル・ロワイアル
+
+## Cooldown
+
+### Eyes
+* blinking
+* hands on
+### Hands
+* strech your fingers in and out of your hands 
+* drop your hands and shake them
+### body
+* seated
+  * strech arms forward
+  * cross legs, put opposite hand on the leg, turn head on upper knee side, twist knee opposit to the head then invert
+  * move to the beginning of the chair, bend your back and put your hands on your hips then stretch
+* stand up
+  * stretch arms to the top
+  * cross arms to put hands on elbow, pull with the hand on top of the elbow to the opposit side (invert)
+  * pull up shoulders
+  * join hands at the back on in front of your hips then extend left side of your neck then right
+## Mokusō

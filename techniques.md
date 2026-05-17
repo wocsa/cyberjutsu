@@ -1,5 +1,7 @@
 # Waza 技 (technique)
 
+A Cyberjūtsu technique is a command line or a short sequence of command lines that can be executed on most standard operating systems. For convenience, Linux is used as the main reference system because it is open source and widely deployed across many kinds of digital systems. A valid Cyberjūtsu technique must be easy to learn, memorize, teach by spelling, and type by hand on a keyboard. It must be useful for performing a cyberattack or cyberdefense principle. It may be a similar version of a MITRE ATT&CK or CAPEC technique, or an easy-to-handle implementation of a MITRE D3FEND technique. It must also reflect a martial art technique or principle related to Kakutō 格闘 (combat), and express the principle of maximum efficiency for minimum human effort. As an art, it should represent the right action at the right time, with the most accurate and effective result possible.
+
 ## Yomi Waza 読み技 (monitoring technique)
 
 1. read the manual

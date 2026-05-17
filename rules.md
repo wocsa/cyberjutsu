@@ -40,7 +40,7 @@ Arbiter must ensure that [cyberjutsuka](./glossary.md#cyberjutsuka) allow sparri
 #### Greeting after the training
 1. When Sensei communicates "[Sore made](./glossary.md#sore-made)" cyberjutsuka stand formally (arms close to the body, feet close, head straight) behind his cyberdeck facing the Sensei  or if it's not physical everyone communicate "Domo arigato" to the Sensei.
 2. When Sensei communicates "[Mokuso](./glossary.md#mokuso)" cyberjutsuka close eyes and perform introspect moment to integrate experience and knowledge acquired during the training.
-3. When Sensei communicates "[Mokuso](./glossary.md#mokuso) yame" cyberjutsuka open eyes and prepare for [Rei](./gloassy.md#rei).
+3. When Sensei communicates "[Mokuso](./glossary.md#mokuso) yame" cyberjutsuka open eyes and prepare for [Rei](./glossary.md#rei).
 4. When Sensei communicates "Sensei Ni [Rei](./glossary.md#rei)" to the audience, cyberjutsuka perform physical bow called Ritsu [Rei](./glossary.md#rei) or answer with [Rei](./glossary.md#rei) word together.
 5. When Sensei communicates "Otagai Ni [Rei](./glossary.md#rei)" to the audience, cyberjutsuka perform physical bow called Ritsu [Rei](./glossary.md#rei) or answer with [Rei](./glossary.md#rei) word together.
 
@@ -57,10 +57,10 @@ Arbiter must ensure that [cyberjutsuka](./glossary.md#cyberjutsuka) allow sparri
    3. Cyberjutsuka greeting the arbiter
       1. Cyberjutuska stand behind his cyberdeck facing the sparring partner 
 3. Arbiter communicate [Rei](./glossary.md#rei) then partners bow facing each other or answer [Rei](./glossary.md#rei)
-4. Arbiter communicate [Hajime](./gloassry.md#hajime) then partners start to fight
+4. Arbiter communicate [Hajime](./glossary.md#hajime) then partners start to fight
 
 ####  After the sparring
-1. Arbiter communicate [Soremade](./gloassry.md#sore-made) for the end of the sparring then partners stop to fight (no more actions on the cyberdeck) then stand in formal way in front of each other
+1. Arbiter communicate [Soremade](./glossary.md#sore-made) for the end of the sparring then partners stop to fight (no more actions on the cyberdeck) then stand in formal way in front of each other
 2. Arbiter communicate the winner by raising hand in direction of the winner or communicate "aka" (赤) or "shiro"(白) "shōsha" (勝者)
 3. Arbiter communicate [Rei](./glossary.md#rei) and partners bow facing each other or answer [Rei](./glossary.md#rei)
 4. Cyberjutsuka [Rei](./glossary.md#rei) for the dojo a second time then leave the dojo (disconnect or shutdown the cyberdeck)

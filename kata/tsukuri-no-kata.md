@@ -39,38 +39,55 @@ Tori constructs a short offensive chain while uke detects the chain and breaks i
 
 ## Sequence
 
-1. Both practitioners perform `rei` and define a round limit.
-2. Uke reveals a reachable host.
+Both practitioners perform `rei` and define a round limit.
+
+#### Uke
+
+*Uke* reveals a reachable host.
 ```bash
 ip a
 ```
-3. Tori performs discovery.
+
+#### Tori
+
+*Tori* performs discovery.
 ```bash
 nmap $UKE_IP_ADDRESS
 ```
-4. Tori chooses one discovered service and attempts connection.
+
+*Tori* chooses one discovered service and attempts connection.
 ```bash
 ssh -p $UKE_PORT $UKE_LOGIN@$UKE_IP_ADDRESS
 ```
-5. Uke monitors the log stream while the entry attempt happens.
+
+#### Uke
+
+*Uke* monitors the log stream while the entry attempt happens.
 ```bash
 tail -f /var/log/syslog
 ```
-6. On `mate`, both practitioners stop and state:
-   - what tori is trying to build
-   - what uke has recognized
-   - what the next likely move is
-7. Resume.
-8. If tori establishes access, uke identifies the session.
+
+On `mate`, both practitioners stop and state:
+- what tori is trying to build
+- what uke has recognized
+- what the next likely move is
+
+Resume.
+
+If *tori* establishes access, *uke* identifies the session.
 ```bash
 w
 ps -fat
 ```
-9. Uke breaks the chain by terminating the session.
+
+*Uke* breaks the chain by terminating the session.
 ```bash
 kill -9 $PID
 ```
-10. Debrief and switch roles.
+
+#### Result
+
+Debrief and switch roles.
 
 ## Success criteria
 

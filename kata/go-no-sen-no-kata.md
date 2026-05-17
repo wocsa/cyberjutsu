@@ -39,30 +39,53 @@ Tori detects uke's remote shell or ssh session and terminates it with the minimu
 
 ## Sequence
 
-1. Both practitioners perform `rei`.
-2. Tori starts live monitoring.
-```bash
-tail -f /var/log/syslog
-```
-3. Uke opens a remote session to tori.
+Both practitioners perform `rei`.
+
+#### Uke
+
+*Uke* opens a remote session to tori.
 ```bash
 ssh $TORI_USERNAME@$TORI_IP_ADDRESS
 ```
-4. Tori confirms that a remote connection has begun.
-5. Tori identifies the active TTY.
+
+Then *uke* runs commands during *tori* practice.
+Examples:
+```bash
+ls
+pwd
+uptime
+uname
+netstat
+htop
+```
+
+#### Tori
+
+*Tori* starts live monitoring before the attack is fully established.
+```bash
+tail -f /var/log/syslog
+```
+
+*Tori* confirms that a remote connection has begun.
+
+*Tori* identifies the active TTY.
 ```bash
 w
 ```
-6. Tori identifies the controlling process related to that TTY.
+
+*Tori* identifies the controlling process related to that TTY.
 ```bash
 ps -fat
 ```
-7. Tori terminates the session process.
+
+*Tori* terminates the session process.
 ```bash
 kill -9 $PID
 ```
-8. Uke confirms the disconnection.
-9. Roles switch.
+
+#### Result
+
+*Uke* is disconnected from tori's cyberdeck.
 
 ## Success criteria
 

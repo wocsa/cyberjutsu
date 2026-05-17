@@ -38,24 +38,126 @@ Uke discovers a fake exposed service, connects to it in a controlled manner, and
 
 ## Sequence
 
-1. Both practitioners perform `rei`.
-2. Tori opens a fake listening service.
+Both practitioners perform `rei`.
+
+#### Tori
+
+*Tori* opens a fake listening service.
 ```bash
 sudo nc -k -l -p $PORT
 ```
-3. Uke performs discovery against tori.
+
+#### Uke
+
+*Uke* performs discovery against tori.
 ```bash
 nmap -A $TORI_IP_ADDRESS
 ```
-4. Uke identifies the suspicious or interesting port.
-5. Uke connects carefully to validate the service.
+
+*Uke* identifies the suspicious or interesting port.
+
+*Uke* connects carefully to validate the service.
 ```bash
 nc $TORI_IP_ADDRESS $TORI_PORT
 ```
-6. Tori responds with simple text or silence to emphasize ambiguity.
-7. Uke states whether the service appears real, fake, or insufficiently verified.
-8. Uke disconnects cleanly.
-9. Roles switch.
+
+#### Tori
+
+*Tori* responds with simple text or silence to emphasize ambiguity.
+
+#### Result
+
+*Uke* states whether the service appears real, fake, or insufficiently verified, then disconnects cleanly.
+
+## Variant 1: Return Through The Existing Session
+
+This version uses an already established cleartext session to present false information and shape uke's perception without launching a separate return attack.
+
+#### Uke
+
+*Uke* connects to tori on port `4444`.
+```bash
+nc $TORI_IP 4444
+```
+
+#### Tori
+
+*Tori* listens on TCP port `4444` and confirms the established connection.
+```bash
+nc -lvnp 4444
+ss -tnp | grep 4444
+```
+
+*Tori* injects false information into the live session.
+```bash
+echo "authentication failed for root" > /proc/$(pgrep -n nc)/fd/1
+echo "retry with backup account" > /proc/$(pgrep -n nc)/fd/1
+```
+
+#### Result
+
+*Uke* sees the fake messages in the same session and closes the connection.
+
+## Variant 2: Return To A Real Listening Port On Uke
+
+This version adds a separate listener on uke so that tori can send false information to a real service exposed by uke.
+
+#### Uke
+
+*Uke* opens a real listening service on TCP port `5555`, then connects to tori on port `4444`.
+```bash
+nc -lvnp 5555
+nc $TORI_IP 4444
+```
+
+#### Tori
+
+*Tori* opens a listening service on TCP port `4444`, confirms uke's listener, and connects back to it.
+```bash
+nc -lvnp 4444
+nmap -p 5555 $UKE_IP
+nc $UKE_IP 5555
+```
+
+*Tori* sends false operational messages to uke's listener.
+```bash
+echo "system update channel ready"
+echo "send diagnostic report"
+```
+
+#### Result
+
+*Uke* sees the deceptive messages arrive on the `5555` listener session.
+
+## Variant 3: Telnet Stream Injection At Connection Time
+
+This version uses telnet because the protocol is cleartext and easy to observe in a lab. The purpose is not to counter-attack inside the attack, but to insert misleading information into the exchange and shape uke's perception.
+
+#### Uke
+
+*Uke* connects to tori with a telnet client and waits inside the cleartext session.
+```bash
+telnet $TORI_IP 2323
+```
+
+#### Tori
+
+*Tori* opens a simple cleartext service on TCP port `2323` and identifies the established telnet connection.
+```bash
+nc -lvnp 2323
+ss -tnp | grep 2323
+```
+
+*Tori* injects misleading information into the live telnet stream.
+```bash
+printf 'NOTICE: password expired\r\n' > /proc/$(pgrep -n nc)/fd/1
+printf 'login with backup operator account\r\n' > /proc/$(pgrep -n nc)/fd/1
+printf 'service maintenance window active\r\n' > /proc/$(pgrep -n nc)/fd/1
+```
+
+#### Result
+
+*Uke* sees the injected messages, then exits the telnet session.
 
 ## Success criteria
 

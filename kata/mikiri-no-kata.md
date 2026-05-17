@@ -38,22 +38,32 @@ Tori identifies the open services of uke and names the relevant ports and servic
 
 ## Sequence
 
-1. Both practitioners perform `rei` and confirm the authorized scope.
-2. Uke reveals the host address.
+Both practitioners perform `rei` and confirm the authorized scope.
+
+#### Uke
+
+*Uke* reveals the host address.
 ```bash
 ip a
 ```
-3. Tori observes the address and states the target before acting.
-4. Tori performs service discovery.
+
+#### Tori
+
+*Tori* observes the address and states the target before acting.
+
+*Tori* performs service discovery.
 ```bash
 nmap $UKE_IP_ADDRESS
 ```
-5. Tori reads the result aloud and identifies:
-   - open ports
-   - probable service names
-   - which service appears to be the preferred entry point
-6. Uke confirms or corrects the reading.
-7. Roles switch and the sequence is repeated.
+
+*Tori* reads the result aloud and identifies:
+- open ports
+- probable service names
+- which service appears to be the preferred entry point
+
+#### Result
+
+*Uke* confirms or corrects the reading.
 
 ## Success criteria
 

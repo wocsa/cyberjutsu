@@ -40,30 +40,41 @@ Tori identifies uke's active session, cuts it, then immediately applies counter-
 
 ## Sequence
 
-1. Both practitioners perform `rei`.
-2. Uke opens a remote session toward tori.
+Both practitioners perform `rei`.
+
+#### Uke
+
+*Uke* opens a remote session toward tori.
 ```bash
 ssh $TORI_USERNAME@$TORI_IP_ADDRESS
 ```
-3. Tori monitors and confirms the hostile session.
+
+#### Tori
+
+*Tori* monitors and confirms the hostile session.
 ```bash
 w
 ps -fat
 ```
-4. Tori interrupts the active attack.
+
+*Tori* interrupts the active attack.
 ```bash
 kill -9 $PID
 ```
-5. Without losing rhythm, tori launches the counteraction through a known reachable service on uke.
+
+Without losing rhythm, *tori* launches the counteraction through a known reachable service on uke.
 ```bash
 ssh -p $UKE_PORT $UKE_LOGIN@$UKE_IP_ADDRESS
 ```
-6. If the drill is performed in the local-session version, tori instead removes uke's local foothold on uke's own host after gaining access.
+
+If the drill is performed in the local-session version, *tori* instead removes uke's local foothold on uke's own host after gaining access.
 ```bash
 kill -9 $PID
 ```
-7. Uke confirms whether tori successfully reversed initiative.
-8. Roles switch.
+
+#### Result
+
+*Uke* confirms whether *tori* successfully reversed initiative.
 
 ## Success criteria
 

@@ -14,6 +14,7 @@ Each kata is a formalized sequence built from recurring material in:
 - [Kaeshi no Kata](./kaeshi-no-kata.md)
 - [Kuzushi no Kata](./kuzushi-no-kata.md)
 - [Mikiri no Kata](./mikiri-no-kata.md)
+- [Sen no Sen no Kata](./sen-no-sen-no-kata.md)
 - [Yomi no Kata](./yomi-no-kata.md)
 - [Go no Sen no Kata](./go-no-sen-no-kata.md)
 - [Tsukuri no Kata](./tsukuri-no-kata.md)

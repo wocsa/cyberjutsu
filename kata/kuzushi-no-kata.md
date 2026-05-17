@@ -40,30 +40,50 @@ Tori breaks uke's connection plan by changing or redirecting the exposed service
 
 ## Sequence
 
-1. Both practitioners perform `rei`.
-2. Tori exposes a known reachable service.
-3. Uke discovers the service.
+Both practitioners perform `rei`.
+
+#### Tori
+
+*Tori* exposes a known reachable service.
+
+#### Uke
+
+*Uke* discovers the service.
 ```bash
 nmap $TORI_IP_ADDRESS
 ```
-4. Uke attempts a normal connection.
+
+*Uke* attempts a normal connection.
 ```bash
 ssh -p $TORI_PORT $TORI_LOGIN@$TORI_IP_ADDRESS
 ```
-5. Tori performs `kuzushi` by changing or redirecting the surface.
+
+#### Tori
+
+*Tori* performs `kuzushi` by changing or redirecting the surface.
 ```bash
 sudo iptables -t nat -A PREROUTING -p tcp --dport 2222 -j REDIRECT --to-port 22
 ```
-6. If the training setup uses direct service editing instead, tori changes the service port and restarts the service.
+
+If the training setup uses direct service editing instead, *tori* changes the service port and restarts the service.
 ```bash
 sudo sed -i 's/Port .*/Port 222/' /etc/ssh/sshd_config && sudo systemctl restart ssh
 ```
-7. Uke re-runs discovery and states what changed.
-8. If uke is already connected, tori interrupts the old communication.
+
+#### Uke
+
+*Uke* re-runs discovery and states what changed.
+
+#### Tori
+
+If *uke* is already connected, *tori* interrupts the old communication.
 ```bash
 sudo tcpkill -9 port $UKE_PORT
 ```
-9. Roles switch.
+
+#### Result
+
+Both practitioners can describe the moment where uke's expected line was broken and the surface had to be re-read.
 
 ## Success criteria
 
@@ -77,3 +97,59 @@ sudo tcpkill -9 port $UKE_PORT
 - Beginner: one service changes to one new port.
 - Intermediate: one port is redirected while another decoy port is exposed.
 - Advanced: tori combines service mutation with useless port opening or timed connection interruption.
+
+## Sequence Variant: Visible SSH Pressure, Hidden Telnet Finish
+
+This variant applies `kuzushi` through attention overload. Tori creates three visible SSH connections that uke can detect and focus on, while a less-visible telnet connection is used as the decisive line. The purpose is to break uke's reading posture and force uke to commit attention to the wrong threat.
+
+#### Uke
+
+*Uke* uses a `yomi waza` that exposes active SSH-style remote sessions but does not reliably reveal the telnet line.
+```bash
+w
+```
+
+*Uke* lists processes to identify the PIDs related to the visible SSH sessions.
+```bash
+ps -fat
+```
+
+*Uke* starts killing the visible SSH sessions and stays focused on the SSH threat.
+```bash
+kill -9 $SSH_PID
+```
+
+#### Tori
+
+*Tori* establishes three SSH connections to uke in order to create a visible and repeated pressure line.
+```bash
+ssh $UKE_USERNAME@$UKE_IP_ADDRESS
+ssh $UKE_USERNAME@$UKE_IP_ADDRESS
+ssh $UKE_USERNAME@$UKE_IP_ADDRESS
+```
+
+While uke is focused on the SSH sessions, *Tori* opens a telnet connection that is less visible in uke's current `yomi waza` focus.
+```bash
+telnet $UKE_IP_ADDRESS $UKE_TELNET_PORT
+```
+
+From the telnet session on uke, *Tori* identifies uke's local TTY, usually the one without a remote IP address.
+```bash
+w
+```
+
+*Tori* lists processes to identify the PID attached to uke's local session by matching the local TTY and `Ss` state.
+```bash
+ps -fat
+```
+
+*Tori* kills uke's local session from the telnet line while uke is still focused on the SSH pressure.
+```bash
+kill -9 $LOCAL_UKE_PID
+```
+
+#### Result
+
+*Uke* is ejected from uke's own local session before completing the SSH cleanup.
+
+This variant fits `kuzushi` because the decisive effect is not created by brute force alone, but by breaking uke's structure of attention and defensive orientation.

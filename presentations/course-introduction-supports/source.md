@@ -2,7 +2,7 @@
 
 ## Purpose and use
 
-This is the shared, self-contained editorial source for an introduction shown at the beginning of any Cyberjutsu course. It supplies the content, narrative, participant guidance, vocabulary, visual direction, and source provenance needed to generate a presentation, video, or infographic. It replaces the former practitioner-foundations note and retains the foundations relevant to a course introduction.
+This is the shared, self-contained editorial source for an introduction shown at the beginning of any Cyberjutsu course. It supplies the content, narrative, participant guidance, vocabulary, and factual provenance needed to generate a presentation, video, or infographic. The two Markdown style guides below define appearance. This source replaces the former practitioner-foundations note and retains the foundations relevant to a course introduction.
 
 Add this file to the NotebookLM notebook as a source. Use the corresponding prompt for the output you want:
 
@@ -10,7 +10,9 @@ Add this file to the NotebookLM notebook as a source. Use the corresponding prom
 - [Video prompt](./video-prompt.md)
 - [Infographic prompt](./infographic-prompt.md)
 
-The content below is sufficient for generation without opening repository links. For faithful reproduction of logos and artwork, also add the original WOCSA decks and Cyberjutsu poster listed in the source register. A Markdown description supplies design direction; it does not embed those original visual assets. The three prompt files are generation instructions, not additional factual sources.
+Add and select [presentations/wocsa-style.md](../wocsa-style.md) and [presentations/cyberjutsu-style.md](../cyberjutsu-style.md) alongside this file. Keep those filenames recognizable in NotebookLM. Import the files themselves: mentioning a repository path in a prompt does not make it available as a source. This file supplies facts and course copy; the guides supply visual definitions. Original PDFs and websites are not required as style sources. Optional authentic logo/image assets can be supplied separately for exact artwork; the guides describe but do not embed them. The three prompt files are generation instructions, not additional factual sources.
+
+Copy only each prompt's fenced text into its designated field. Main prompt blocks stay below a 2,000-character project budget; the video has a separate Custom visual style block below 500 characters. Counts include spaces and line breaks, excluding the fences and a trailing newline, and are recorded in each prompt file. These are compact editing budgets, not verified NotebookLM product limits. Keep detailed requirements in the sources rather than pasting whole style guides into limited fields.
 
 All audience-facing text and narration must be in English. Retain proper names such as WOCSA and Cité des sciences et de l'industrie. Pair customary Japanese writing with rōmaji and a short English meaning. Cyberjutsu is also written Cyberjūtsu, サイバー術 (Saibā-jutsu); retain the established Cyberjutsu brand spelling in headlines and URLs.
 
@@ -148,7 +150,7 @@ Keep this heading. Preserve all four requirements from slide 10 of the 2024 DEF 
 3. **Practise with a mutual-aid mindset.** We are here to become better together.
 4. **Follow the teacher's instructions carefully.**
 
-These rules are textual content from the deck. Their visual treatment must follow the 2026 poster, as requested. The poster itself does not contain these two sections.
+These rules are textual content from the deck. Their visual treatment must follow [presentations/cyberjutsu-style.md](../cyberjutsu-style.md), because they are Cyberjutsu content even though their wording originated in a WOCSA deck.
 
 ### Supporting dojo etiquette
 
@@ -186,31 +188,33 @@ Use **Hajime!!!** as the large closing call if a more energetic treatment fits. 
 
 ## Visual and branding direction
 
+The authoritative style definitions for this package are the two selected Markdown guides. Route style by the subject being presented, not by the document that originally supplied a quotation. This course brief governs content, reuse, and English output; the guides govern appearance. The Cyberjutsu guide's default French copy and event-specific layout examples do not override this brief. Their long paste-ready example prompts are general references, not replacements for the compact course prompts.
+
 ### WOCSA sections: organisation and invitation
 
-Use the WOCSA website and 2024/2026 decks as the references. The inspected decks use a strong orange identity, white backgrounds, black body text, grey structural lines, and orange headings. Their opening slide uses a white WOCSA wordmark with the shield-shaped C, an orange field, and a subtle connected globe. Content slides use generous margins and a restrained logo/footer.
+Use [presentations/wocsa-style.md](../wocsa-style.md) for all WOCSA organisation, mission, projects, chapter, and joining content: slides 1–4 of the suggested sequence and the corresponding video scenes or infographic sections. Its palette, Roboto hierarchy, orange/white/near-black surfaces, grey frame rules, and faint globe/shield identity define these portions.
 
 Translate that identity into readable slides: one main idea, a short headline, a few concise statements, and a purposeful diagram or image. Use the authentic WOCSA logo asset when supplied; preserve its shape and colours. Present the organisation as a clear diagram and the projects as compact labelled examples.
 
 ### Cyberjutsu sections: discovery, participant guidance, and Hajime
 
-Follow **Cyberjutsu Affiche 2026 (1).pdf**. Its inspected design combines:
+Use [presentations/cyberjutsu-style.md](../cyberjutsu-style.md) for all Cyberjutsu content: slides 5–12 and the corresponding video scenes or infographic sections, including goals, rules, etiquette, signals, and Hajime. Its detailed specifications define:
 
 - A warm ivory background with a faint repeating Japanese wave pattern.
-- Bold black headings, rounded white information panels, and a dark navy/charcoal footer.
+- Aptos typography, bold black headings, rounded white information panels, and a dark navy footer.
 - Red accents, white and black martial arts imagery, and the red/navy Cyberjutsu logo.
-- A central red, white, and black braided belt motif that becomes computer cables and connectors.
+- A central red-and-white cable double helix with black outlines and electronic connectors.
 - Martial artists, a digital shield, a tatami, a keyboard, and subtle circuit traces.
 
-Use the belt-to-cable motif as the visual link between martial practice and digital practice. Adapt the poster composition to each format instead of shrinking the entire poster onto a slide. Keep the background pattern subtle and text highly legible. The colours above are observed descriptions, not an official set of measured colour codes or font specifications.
+Use the cable-braid motif as the visual link between martial practice and digital practice. Follow the guide's format adaptations instead of shrinking a portrait composition onto a slide. Keep the background pattern subtle and text highly legible. Use the guide's measured and sampled values, respecting its distinction between observations and recommendations. Switch styles when the subject changes; keep each section's identity distinct.
 
-Translate relevant poster copy into English. Use its visual language for the goals and rules even though their wording comes from the 2024 deck. Treat the poster's partner logo, age range, price, meals, equipment offer, timetable, registration QR code, and venue fields as event-specific content, not promises about every Cyberjutsu course. Do not carry over the decks' old sponsor panels, version labels, auto-generated dates, or statements that a new output has already been approved.
+Use the English course copy already provided here. Apply the Cyberjutsu guide to goals and rules even though their wording comes from the 2024 deck. Treat style-guide examples of partner logos, age ranges, prices, meals, equipment offers, timetables, registration codes, and venue fields as event-specific content, not promises about every course. Do not carry over old sponsor panels, version labels, auto-generated dates, or statements that a new output has already been approved.
 
 ### Assets and typography
 
-The repository provides [rectangle logo](../../img/cyberjutsu_logo_rectangle.png), [square logo](../../img/cyberjutsu_logo_square.png), [banner](../../img/cyberjutsu_banner.jpeg), and [moral-code image](../../img/moral-code.jpeg). These are supplementary assets; the supplied poster remains the design reference for the Cyberjutsu section. Linked images must be supplied separately if the generation tool cannot read repository paths.
+The repository provides [rectangle logo](../../img/cyberjutsu_logo_rectangle.png), [square logo](../../img/cyberjutsu_logo_square.png), [banner](../../img/cyberjutsu_banner.jpeg), and [moral-code image](../../img/moral-code.jpeg). These are supplementary assets; [presentations/cyberjutsu-style.md](../cyberjutsu-style.md) remains the style definition for Cyberjutsu content. Linked images must be supplied separately if the generation tool cannot read repository paths.
 
-Use a clear sans-serif typeface with Japanese glyph support. Pair Japanese terms with readable rōmaji rather than using Japanese writing as texture. Preserve logo artwork when available. When exact assets are unavailable, use plain-text names rather than fabricating a logo. Use visible URLs for contact actions; include a QR code only if its destination is verified.
+Use Roboto for WOCSA and Aptos for Cyberjutsu as specified in the guides, with a compatible Japanese-glyph fallback when needed. Pair Japanese terms with readable rōmaji rather than using Japanese writing as texture. Preserve logo artwork when available. When exact assets are unavailable, use plain-text names rather than fabricating a logo. Use visible URLs for contact actions; include a QR code only if its destination is verified.
 
 ## Suggested presentation sequence
 
@@ -222,11 +226,11 @@ A default of 12 slides provides an approximately 6–8 minute introduction; shor
 | 2 | Meet WOCSA | Identity, purpose, and values, section 1 | White field, orange headings |
 | 3 | International projects, local action | Organisation and project examples, section 1 | Organisation diagram and compact project labels |
 | 4 | You can contribute | Invitation and concrete joining route, section 2 | WOCSA identity and clear contact action |
-| 5 | Cyberjutsu: the digital martial art | Definition and accessible invitation, section 3 | Transition to ivory, red, and braided belt/cable |
+| 5 | Cyberjutsu: the digital martial art | Definition and accessible invitation, section 3 | Cyberjutsu guide: ivory, red, cable braid |
 | 6 | Why martial arts? | Five reasons and two guiding principles, section 3 | Martial practice paired with digital practice |
 | 7 | A practice shared with the world | DEF CON and Paris examples, section 3 | Three labelled historical examples |
 | 8 | Learn through practice | Roles and training journey, section 3 | Short sequence with paired practitioners |
-| 9 | Cyberjutsuka Goal | Five goals, section 4 | Poster-inspired goal panel |
+| 9 | Cyberjutsuka Goal | Five goals, section 4 | Cyberjutsu guide: rounded light goal panel |
 | 10 | Hands-on Cyberjutsu rules to ensure success of the human experience | All four workshop requirements, section 4 | Four numbered, legible rules |
 | 11 | Respect the dojo. Read the signals. | Environment, etiquette, and stop/start signals, section 4 | Simple signal cards |
 | 12 | 始め — Hajime! | Closing invitation, section 5 | Large energetic title, minimal supporting text |
@@ -249,10 +253,12 @@ Sources: [techniques](../../techniques.md), [glossary](../../glossary.md), [kata
 
 ## Source register and editorial precedence
 
-Prepared from the following materials on 17 September 2026. PDF page numbers below are one-based. Original office/PDF files were inspected locally and are not copied into this four-file Markdown package.
+Prepared from the following materials on 17 September 2026. PDF page numbers below are one-based. The original office/PDF references retain factual and historical provenance; they are not the active style definitions. The source package uses this editorial source plus two Markdown style sources, with three separate generation-prompt files.
 
 | Reference | Material inspected | Contribution |
 | --- | --- | --- |
+| [presentations/wocsa-style.md](../wocsa-style.md) | Extracted visual and editorial guide | Authoritative appearance definition for WOCSA organisation and joining content. |
+| [presentations/cyberjutsu-style.md](../cyberjutsu-style.md) | Extracted visual and editorial guide, with format adaptations | Authoritative appearance definition for Cyberjutsu content, including goals, rules, and Hajime. |
 | 2024-WOCSA-CYBERJUTSU-EN | Original `.pptx`; `2024-WOCSA-CYBERJUTSU-EN - DEFCON32.pdf` | Original slide 4: WOCSA identity. DEF CON edition pp. 1, 5–10: branding, definition, benefits, goals, and four rules. |
 | 2026-WOCSA-CYBERJUTSU-EN | `2026-WOCSA-CYBERJUTSU-EN.pdf` | Pp. 1, 4–5, 8–10: WOCSA identity, French Office roles, Cyberjutsu definition and benefits. Other pages describe a specific summer event. |
 | Cyberjutsu Affiche 2026 (1).pdf | Single-page French poster, text and rendered artwork | Cyberjutsu visual identity, digital martial art message, accessible invitation, belt/cable composition. |
@@ -262,4 +268,4 @@ Prepared from the following materials on 17 September 2026. PDF page numbers bel
 
 For maintenance, the PDFs were found in the author's Downloads directory; the original 2024 `.pptx` was in the author's WOCSA Cyberjutsu documents. Those machine-specific locations are not dependencies of this source.
 
-Use the WOCSA website for the organisation/project information consulted here; use the named decks for their presentation language, with clear English copy edits. Use the poster for the Cyberjutsu design and translated messaging. The explicit dojo rules govern practice. Distinguish historical examples from current offers and original source facts from the proposed invitation, closing copy, and storyboard in this document. The names of source documents do not establish dates of delivery: the decks contain date fields rendered as September 2026 even in the 2024 edition.
+Use this document's sourced WOCSA information, deck-derived wording, and translated messaging for course content. Use only the two Markdown guides as the style definitions: WOCSA guide for WOCSA subjects, Cyberjutsu guide for Cyberjutsu subjects. The explicit dojo rules govern practice. Distinguish historical examples from current offers and original source facts from the proposed invitation, closing copy, and storyboard in this document. The names of source documents do not establish dates of delivery: the decks contain date fields rendered as September 2026 even in the 2024 edition.

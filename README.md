@@ -9,6 +9,8 @@ Register to http://cyberjutsu.education for bootcamps or stages.
 
 [ESGI Toulouse — 18 September 2026: 90-minute introductory course (draft)](./courses/esgi-2026/short-introduction-cyberjutsu.md)
 
+[Course introduction supports for NotebookLM: source and presentation, video, and infographic prompts](./presentations/course-introduction-supports/source.md)
+
 <img align="left" width="30%" height="30%" src="./img/cyberjutsu_banner.jpeg"  style="vertical-align:middle;margin:0px 20px">
 
 ## What is cyberjūtsu ?
@@ -25,5 +27,4 @@ Martial Arts known benefits:
 * Teach a code of conduct. Learn to respect others. 
   
 There are plenty of other reasons.
-
 

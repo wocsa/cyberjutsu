@@ -41,7 +41,7 @@ Morning Jujitsu course with [Jean-Louis MOURLAN](https://fr.linkedin.com/in/jean
 ##### uke
 *uke* try to find open ports on cyberdeck of *tori*.
 ```bash
-nmap - Sv $TORI_IP_ADDRESS 
+nmap -sV $TORI_IP_ADDRESS 
 ```
 #### Useless port opening
 ##### tori

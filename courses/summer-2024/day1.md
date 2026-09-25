@@ -152,7 +152,7 @@ fortune
 ```bash
 w
 ```
-*Tori* list processes to identify PID related to TTY with STAT value starting with ```Ss```.
+*Tori* list processes to identify PID related to TTY with STAT value starting with ```Ss+```.
 ```bash
 ps -fat
 ```
